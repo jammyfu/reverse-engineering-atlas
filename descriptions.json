@@ -2413,5 +2413,19 @@
     "zh-TW": "讓 AI 代理把你擁有的遊戲反編譯成能逐位元組重建原版的 C/C++ 的桌面工具。",
     "ja": "自分が所有するゲームを、AIエージェントがバイト単位で一致するC/C++にデコンパイルするデスクトップアプリ。",
     "ko": "소유한 게임을 AI 에이전트가 바이트 단위로 원본과 같은 C/C++로 디컴파일하는 데스크톱 앱."
+  },
+  "sostenesfreitas/ocarina-recomp": {
+    "en": "Turns your own copy of the Switch 2 Ocarina of Time remake into a native Windows program with no emulator.",
+    "zh-CN": "把你自己的 Switch 2 版《塞尔达传说：时之笛》重制成原生 Windows 程序，不需要模拟器。",
+    "zh-TW": "把你自己的 Switch 2 版《薩爾達傳說：時之笛》重製成原生 Windows 程式，不需要模擬器。",
+    "ja": "自分の Switch 2 版ゼルダの伝説 時のオカリナを、エミュレータなしのネイティブ Windows プログラムに変換する。",
+    "ko": "자신의 Switch 2 버전 젤다의 전설: 시간의 오카리나를 에뮬레이터 없이 네이티브 Windows 프로그램으로 바꿉니다."
+  },
+  "qybaihe/bla": {
+    "en": "Adds decoys and noise to your software builds so AI reverse-engineering tools waste tokens, while the program still runs exactly the same.",
+    "zh-CN": "给软件构建产物加上诱饵和噪声，让 AI 逆向工具浪费大量 token，程序本身运行完全一样。",
+    "zh-TW": "給軟體建置產物加上誘餌和雜訊，讓 AI 逆向工具浪費大量 token，程式本身執行完全一樣。",
+    "ja": "ソフトウェアのビルド成果物にデコイとノイズを加えて、AI 逆解析ツールがトークンを浪費するようにし、プログラム自体は全く同じように動作させる。",
+    "ko": "소프트웨어 빌드 결과물에 미끼와 노이즈를 추가해 AI 역공학 도구가 토큰을 낭비하게 하고, 프로그램 자체는 완전히 동일하게 실행됩니다."
   }
 }

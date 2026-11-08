@@ -2758,5 +2758,21 @@
     "https://github.com/n-delic/decompdecomp",
     "No",
     "Desktop app where AI agents perform matching decompilations of games you own into byte-identical C/C++."
+  ],
+  [
+    "pc",
+    "remake",
+    "sostenesfreitas/ocarina-recomp",
+    "https://github.com/sostenesfreitas/ocarina-recomp",
+    "No",
+    "Static recompilation of the Nintendo Switch 2 Ocarina of Time remake into a native Windows program with Vulkan. Bring your own dump."
+  ],
+  [
+    "tooling",
+    "",
+    "qybaihe/bla",
+    "https://github.com/qybaihe/bla",
+    "No",
+    "Open-source MCP and CLI that hardens build artifacts with decoys and exhaustion payloads against AI reverse-engineering agents like REA, while preserving full runtime behavior."
   ]
 ]

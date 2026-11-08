@@ -882,5 +882,15 @@
     "card",
     "images/snowboard-decomp.png",
     "GitHub opengraph card for cdlewis/snowboardkidsplus-decomp"
+  ],
+  "sostenesfreitas/ocarina-recomp": [
+    "card",
+    "images/ocarina-og.png",
+    "GitHub opengraph image for the project"
+  ],
+  "qybaihe/bla": [
+    "card",
+    "images/bla-og.png",
+    "GitHub opengraph image for the project"
   ]
 }
