@@ -2726,5 +2726,37 @@
     "https://github.com/doyensec/ElectroNG",
     "Unverified",
     "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns."
+  ],
+  [
+    "pc",
+    "remake",
+    "vahokif/I26",
+    "https://github.com/vahokif/I26",
+    "No",
+    "Godot engine reimplementation of Interstate '76 (1997)."
+  ],
+  [
+    "app",
+    "remake",
+    "pingw33n/openrb-338",
+    "https://github.com/pingw33n/openrb-338",
+    "No",
+    "Bit-accurate reimplementation of ReBirth RB-338 software synthesizer."
+  ],
+  [
+    "xbox",
+    "remake",
+    "NoRain211/doaxvb-re",
+    "https://github.com/NoRain211/doaxvb-re",
+    "No",
+    "Static recompilation of Dead or Alive Xtreme Beach Volleyball (Xbox) to native Windows/macOS/Linux."
+  ],
+  [
+    "tooling",
+    "",
+    "n-delic/decompdecomp",
+    "https://github.com/n-delic/decompdecomp",
+    "No",
+    "Desktop app where AI agents perform matching decompilations of games you own into byte-identical C/C++."
   ]
 ]

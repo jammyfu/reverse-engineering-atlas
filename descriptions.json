@@ -2385,5 +2385,33 @@
     "zh-TW": "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns.",
     "ja": "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns.",
     "ko": "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns."
+  },
+  "vahokif/I26": {
+    "en": "Free open-source Godot remake of the 1997 car combat game Interstate '76, with modern graphics and multiplayer.",
+    "zh-CN": "用 Godot 从零重写的 1997 年汽车战斗游戏 Interstate '76，支持现代画面和多人联机。",
+    "zh-TW": "用 Godot 從零重寫的 1997 年汽車戰鬥遊戲 Interstate '76，支援現代畫面和多人連線。",
+    "ja": "1997年のカーコンバットゲーム『Interstate '76』をGodotで一から書き直した無料のオープンソース版。現代的なグラフィックとマルチプレイ対応。",
+    "ko": "1997년 자동차 전투 게임 Interstate '76를 Godot으로 처음부터 다시 만든 무료 오픈소스 버전. 현대적인 그래픽과 멀티플레이 지원."
+  },
+  "pingw33n/openrb-338": {
+    "en": "Free open-source reimplementation of the 1997 ReBirth RB-338 software synthesizer that sounds exactly like the original.",
+    "zh-CN": "从零重写的 1997 年 ReBirth RB-338 软件合成器，声音与原版逐字节一致。",
+    "zh-TW": "從零重寫的 1997 年 ReBirth RB-338 軟體合成器，聲音與原版逐位元組一致。",
+    "ja": "1997年のソフトウェアシンセ ReBirth RB-338 を一から書き直した無料版。音はオリジナルとバイト単位で一致。",
+    "ko": "1997년 소프트웨어 신시사이저 ReBirth RB-338을 처음부터 다시 만든 무료 버전. 소리는 원본과 바이트 단위로 동일."
+  },
+  "NoRain211/doaxvb-re": {
+    "en": "Native PC port of the Xbox game Dead or Alive Xtreme Beach Volleyball, made by static recompilation from your own disc.",
+    "zh-CN": "用静态重编译把 Xbox 游戏《Dead or Alive Xtreme Beach Volleyball》做成原生 PC 版（需要自备光盘）。",
+    "zh-TW": "用靜態重編譯把 Xbox 遊戲《Dead or Alive Xtreme Beach Volleyball》做成原生 PC 版（需要自備光碟）。",
+    "ja": "Xboxの『Dead or Alive Xtreme Beach Volleyball』を静的再コンパイルでネイティブPC版にしたポート。自分のディスクが必要。",
+    "ko": "Xbox 게임 Dead or Alive Xtreme Beach Volleyball를 정적 재컴파일로 만든 네이티브 PC 포트. 본인 디스크 필요."
+  },
+  "n-delic/decompdecomp": {
+    "en": "Desktop app that lets AI agents decompile games you own into C/C++ that rebuilds the original binary byte for byte.",
+    "zh-CN": "让 AI 代理把你拥有的游戏反编译成能逐字节重建原版的 C/C++ 的桌面工具。",
+    "zh-TW": "讓 AI 代理把你擁有的遊戲反編譯成能逐位元組重建原版的 C/C++ 的桌面工具。",
+    "ja": "自分が所有するゲームを、AIエージェントがバイト単位で一致するC/C++にデコンパイルするデスクトップアプリ。",
+    "ko": "소유한 게임을 AI 에이전트가 바이트 단위로 원본과 같은 C/C++로 디컴파일하는 데스크톱 앱."
   }
 }
