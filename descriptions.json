@@ -2427,5 +2427,33 @@
     "zh-TW": "給軟體建置產物加上誘餌和雜訊，讓 AI 逆向工具浪費大量 token，程式本身執行完全一樣。",
     "ja": "ソフトウェアのビルド成果物にデコイとノイズを加えて、AI 逆解析ツールがトークンを浪費するようにし、プログラム自体は全く同じように動作させる。",
     "ko": "소프트웨어 빌드 결과물에 미끼와 노이즈를 추가해 AI 역공학 도구가 토큰을 낭비하게 하고, 프로그램 자체는 완전히 동일하게 실행됩니다."
+  },
+  "Odrannnn/MetroidPrime2Port": {
+    "en": "A free native PC, Linux, Android and more port of the closed-source GameCube game Metroid Prime 2: Echoes, built from its decompilation so you can play it without an emulator.",
+    "zh-CN": "从零基于反编译重建的《银河战士Prime 2：回声》原生多平台移植（原闭源GameCube游戏），无需模拟器即可在PC、Linux、安卓等设备上玩。",
+    "zh-TW": "從零基於反編譯重建的《銀河戰士Prime 2：回聲》原生多平台移植（原閉源GameCube遊戲），無需模擬器即可在PC、Linux、安卓等裝置上玩。",
+    "ja": "非公開ソースのゲームキューブ版『メトロイドプライム2 エコーズ』をデコンパイルからネイティブ移植したもの。エミュレータなしでPCやAndroidなどで遊べます。",
+    "ko": "비공개 소스의 게임큐브 게임 『메트로이드 프라임 2: 에코즈』를 디컴파일로부터 네이티브 멀티플랫폼 포팅한 것. 에뮬레이터 없이 PC, 안드로이드 등에서 플레이 가능."
+  },
+  "Odrannnn/MetroidPrimePort": {
+    "en": "A free native multi-platform port of the closed-source GameCube game Metroid Prime, built from its matching decompilation so it runs without an emulator and can even load remastered models.",
+    "zh-CN": "基于匹配反编译重建的《银河战士Prime》原生多平台移植（原闭源GameCube游戏），无需模拟器，还能导入重制版模型。",
+    "zh-TW": "基於匹配反編譯重建的《銀河戰士Prime》原生多平台移植（原閉源GameCube遊戲），無需模擬器，還能匯入重製版模型。",
+    "ja": "非公開ソースのゲームキューブ版『メトロイドプライム』をマッチングデコンパイルからネイティブ移植。エミュなしで動作し、リマスター版モデルも読み込めます。",
+    "ko": "비공개 소스 게임큐브 『메트로이드 프라임』을 매칭 디컴파일로부터 네이티브 포팅. 에뮬 없이 동작하고 리마스터 모델 임포트 가능."
+  },
+  "ElKev118/ghostrecon2-recomp": {
+    "en": "A free native Windows port of the closed-source original Xbox game Tom Clancy's Ghost Recon 2, made by statically recompiling its code so it runs with a modern Vulkan renderer.",
+    "zh-CN": "通过静态重编译把原闭源Xbox游戏《幽灵行动2》做成原生Windows版，用现代Vulkan渲染器运行。",
+    "zh-TW": "透過靜態重編譯把原閉源Xbox遊戲《幽靈行動2》做成原生Windows版，用現代Vulkan渲染器運行。",
+    "ja": "非公開ソースの初代Xbox版『ゴーストリコン2』を静的リコンパイルしてネイティブWindows移植。Vulkanレンダラーで動作。",
+    "ko": "비공개 소스 오리지널 Xbox 게임 『고스트 리콘 2』를 정적 리컴파일로 네이티브 Windows 포팅. Vulkan 렌더러로 실행."
+  },
+  "ElKev118/summitstrike-recomp": {
+    "en": "A free native Windows port of the closed-source Xbox expansion Tom Clancy's Ghost Recon 2: Summit Strike, created via static recompilation of the original binary.",
+    "zh-CN": "通过静态重编译把原闭源Xbox扩展包《幽灵行动2：巅峰行动》做成原生Windows版。",
+    "zh-TW": "透過靜態重編譯把原閉源Xbox擴充包《幽靈行動2：巔峰行動》做成原生Windows版。",
+    "ja": "非公開ソースのXbox拡張『ゴーストリコン2：サミットストライク』を静的リコンパイルしたネイティブWindows移植。",
+    "ko": "비공개 소스 Xbox 확장팩 『고스트 리콘 2: 서밋 스트라이크』를 정적 리컴파일로 네이티브 Windows 포팅."
   }
 }

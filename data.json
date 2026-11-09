@@ -2774,5 +2774,37 @@
     "https://github.com/qybaihe/bla",
     "No",
     "Open-source MCP and CLI that hardens build artifacts with decoys and exhaustion payloads against AI reverse-engineering agents like REA, while preserving full runtime behavior."
+  ],
+  [
+    "gc",
+    "remake",
+    "Odrannnn/MetroidPrime2Port",
+    "https://github.com/Odrannnn/MetroidPrime2Port",
+    "No",
+    "Native multi-platform port of Metroid Prime 2: Echoes (GameCube) built from the PrimeDecomp decompilation; uses Aurora/SDL3/WebGPU. Bring your own disc image; no game assets included."
+  ],
+  [
+    "gc",
+    "remake",
+    "Odrannnn/MetroidPrimePort",
+    "https://github.com/Odrannnn/MetroidPrimePort",
+    "No",
+    "Native multi-platform port of Metroid Prime (GameCube) built from the PrimeDecomp decompilation; uses Aurora. Bring your own disc; supports remastered model import."
+  ],
+  [
+    "xbox",
+    "remake",
+    "ElKev118/ghostrecon2-recomp",
+    "https://github.com/ElKev118/ghostrecon2-recomp",
+    "No",
+    "Native Windows port of Tom Clancy's Ghost Recon 2 (original Xbox) via static recompilation with xboxrecomp; Vulkan renderer. Bring your own disc."
+  ],
+  [
+    "xbox",
+    "remake",
+    "ElKev118/summitstrike-recomp",
+    "https://github.com/ElKev118/summitstrike-recomp",
+    "No",
+    "Native Windows port of Tom Clancy's Ghost Recon 2: Summit Strike (Xbox) via static recompilation. Bring your own disc."
   ]
 ]
