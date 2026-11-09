@@ -2455,5 +2455,26 @@
     "zh-TW": "透過靜態重編譯把原閉源Xbox擴充包《幽靈行動2：巔峰行動》做成原生Windows版。",
     "ja": "非公開ソースのXbox拡張『ゴーストリコン2：サミットストライク』を静的リコンパイルしたネイティブWindows移植。",
     "ko": "비공개 소스 Xbox 확장팩 『고스트 리콘 2: 서밋 스트라이크』를 정적 리컴파일로 네이티브 Windows 포팅."
+  },
+  "TK22-26/JetForceGemini-Recomp": {
+    "en": "Play the 1999 N64 game Jet Force Gemini on Windows by turning its code into a native program. Needs your own ROM.",
+    "zh-CN": "把 1999 年的 N64 游戏《双子星英雄》的代码转成能在 Windows 上原生运行的程序。需要自己的 ROM。",
+    "zh-TW": "把 1999 年的 N64 遊戲《雙子星英雄》的程式碼轉成能在 Windows 上原生執行的程式。需要自己的 ROM。",
+    "ja": "1999年のN64ゲーム『ジェットフォースジェミニ』のコードをWindowsでネイティブに動くプログラムに変換。自分のROMが必要。",
+    "ko": "1999년 N64 게임 제트 포스 제미니의 코드를 Windows에서 네이티브로 실행되는 프로그램으로 변환. 자신의 ROM 필요."
+  },
+  "seifhassine/REasy": {
+    "en": "A free toolkit that lets you open, edit and repack the files used by Capcom’s RE Engine games like Resident Evil and Monster Hunter.",
+    "zh-CN": "一个免费工具包，可以打开、编辑并重新打包卡普空 RE 引擎游戏（如生化危机、怪物猎人）用的文件。",
+    "zh-TW": "一個免費工具包，可以開啟、編輯並重新打包卡普空 RE 引擎遊戲（如惡靈古堡、魔物獵人）用的檔案。",
+    "ja": "カプコンのREエンジンを使うゲーム（バイオハザードやモンスターハンターなど）のファイルを開いて編集・再パックできる無料ツールキット。",
+    "ko": "캡콤 RE 엔진 게임(레지던트 이블, 몬스터 헌터 등)의 파일을 열고 편집·재포장할 수 있는 무료 툴킷."
+  },
+  "andrewnakas/recompsoftware": {
+    "en": "A live website that tracks thousands of projects rebuilding old games and software from their machine code, with progress charts and releases.",
+    "zh-CN": "一个实时网站，追踪数千个从机器码重建老游戏和软件的项目，附带进度图和发布记录。",
+    "zh-TW": "一個即時網站，追蹤數千個從機器碼重建老遊戲和軟體的專案，附帶進度圖和發布記錄。",
+    "ja": "機械語から古いゲームやソフトを再構築している数千のプロジェクトをリアルタイムで追跡するサイト。進捗グラフとリリース情報付き。",
+    "ko": "기계 코드에서 오래된 게임과 소프트웨어를 재구축하는 수천 개 프로젝트를 실시간으로 추적하는 사이트. 진행 차트와 릴리스 정보 포함."
   }
 }

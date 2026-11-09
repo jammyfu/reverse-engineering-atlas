@@ -2806,5 +2806,29 @@
     "https://github.com/ElKev118/summitstrike-recomp",
     "No",
     "Native Windows port of Tom Clancy's Ghost Recon 2: Summit Strike (Xbox) via static recompilation. Bring your own disc."
+  ],
+  [
+    "n64",
+    "remake",
+    "TK22-26/JetForceGemini-Recomp",
+    "https://github.com/TK22-26/JetForceGemini-Recomp",
+    "No",
+    "Native Windows recompilation of Jet Force Gemini (N64 1999). Supports USA/PAL/Japan ROMs; requires your own dump."
+  ],
+  [
+    "tooling",
+    "",
+    "seifhassine/REasy",
+    "https://github.com/seifhassine/REasy",
+    "No",
+    "Modding toolkit for Capcom RE Engine games (RE2/RE4/MH Wilds etc.). Edit scenes, meshes, materials, PAK files."
+  ],
+  [
+    "tooling",
+    "",
+    "andrewnakas/recompsoftware",
+    "https://github.com/andrewnakas/recompsoftware",
+    "No",
+    "Live tracker for decompilation, static recompilation, clean-room and preservation projects (recompsoftware.com)."
   ]
 ]

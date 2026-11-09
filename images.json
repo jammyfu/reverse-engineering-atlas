@@ -892,5 +892,20 @@
     "card",
     "images/bla-og.png",
     "GitHub opengraph image for the project"
+  ],
+  "TK22-26/JetForceGemini-Recomp": [
+    "card",
+    "images/jfg-recomp-og.png",
+    "OpenGraph image from the project's GitHub repository"
+  ],
+  "seifhassine/REasy": [
+    "card",
+    "images/reasy-og.png",
+    "OpenGraph image from the project's GitHub repository"
+  ],
+  "andrewnakas/recompsoftware": [
+    "card",
+    "images/recompsoftware-og.png",
+    "OpenGraph image from the project's GitHub repository"
   ]
 }
