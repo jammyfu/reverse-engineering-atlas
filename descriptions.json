@@ -2497,5 +2497,40 @@
     "zh-TW": "任天堂 64 遊戲《Penny Racers》的匹配反編譯公開進度，AI 助手只保留能逐位元組重建原版的 C 程式碼。",
     "ja": "ニンテンドウ64『Penny Racers』のマッチング逆コンパイルの公開進捗。AI エージェントは元のバイトを正確に再現する C だけを残す。",
     "ko": "닌텐도 64 게임 Penny Racers의 매칭 디컴파일 공개 진행 상황. AI 에이전트는 원본 바이트를 정확히 재현하는 C만 유지합니다."
+  },
+  "RealZotto/oot2-native": {
+    "en": "Turns the Nintendo Switch 2 version of The Legend of Zelda: Ocarina of Time Remake into a native Windows program you can run on your PC. You need your own game dump.",
+    "zh-CN": "把任天堂 Switch 2 上的《塞尔达传说：时之笛》重制版变成可以在电脑上直接运行的原生程序。需要自己准备游戏文件。",
+    "zh-TW": "把任天堂 Switch 2 上的《薩爾達傳說：時之笛》重製版變成可以在電腦上直接執行的原生程式。需要自己準備遊戲檔案。",
+    "ja": "Nintendo Switch 2 版『ゼルダの伝説 時のオカリナ』リメイクを、Windows で直接動くネイティブ版に変換するプロジェクト。自分のゲームデータを用意する必要があります。",
+    "ko": "닌텐도 스위치 2의 『젤다의 전설: 시간의 오카리나』 리메이크를 Windows에서 바로 실행되는 네이티브 프로그램으로 만드는 프로젝트. 자신의 게임 덤프가 필요합니다."
+  },
+  "Dittobyte/Recompia": {
+    "en": "Turns Pokémon Pokopia (Nintendo Switch 2) into a native Windows or Linux program, with multiplayer, modding and higher resolutions. You need your own game files.",
+    "zh-CN": "把任天堂 Switch 2 上的《宝可梦 宝可乐园》变成可以在 Windows 或 Linux 上直接运行的原生程序，支持联机、模组和更高分辨率。需要自己准备游戏文件。",
+    "zh-TW": "把任天堂 Switch 2 上的《寶可夢 寶可樂園》變成可以在 Windows 或 Linux 上直接執行的原生程式，支援連線、模組和更高解析度。需要自己準備遊戲檔案。",
+    "ja": "Nintendo Switch 2 の『ポケモン ポコピア』を Windows や Linux で直接動くネイティブ版にし、マルチプレイやモッド、高解像度に対応。自分のゲームファイルが必要です。",
+    "ko": "닌텐도 스위치 2의 『포켓몬 포코피아』를 Windows나 Linux에서 바로 실행되는 네이티브 프로그램으로 만들고, 멀티플레이·모드·고해상도를 지원. 자신의 게임 파일이 필요합니다."
+  },
+  "RenanQueiroz/mcla-recomp": {
+    "en": "Turns Midnight Club: Los Angeles Complete Edition (Xbox 360) into a native PC (and PS5) program by static recompilation. You build it from your own disc image.",
+    "zh-CN": "通过静态重编译，把 Xbox 360 上的《午夜俱乐部：洛杉矶》完整版变成可以在电脑（和 PS5）上直接运行的原生程序。用自己的光盘镜像来构建。",
+    "zh-TW": "透過靜態重編譯，把 Xbox 360 上的《午夜俱樂部：洛杉磯》完整版變成可以在電腦（和 PS5）上直接執行的原生程式。用自己的光碟映像來建構。",
+    "ja": "静的再コンパイルで Xbox 360 の『ミッドナイトクラブ：ロサンゼルス』コンプリートエディションを、PC（と PS5）で直接動くネイティブ版にする。自分のディスクイメージからビルドします。",
+    "ko": "정적 재컴파일을 통해 Xbox 360의 『미드나잇 클럽: 로스앤젤레스』 완전판을 PC(와 PS5)에서 바로 실행되는 네이티브 프로그램으로 만듭니다. 자신의 디스크 이미지로 빌드합니다."
+  },
+  "comoria08/defjam_recomp": {
+    "en": "Turns Def Jam: Fight for NY (original Xbox) into a native Windows program by static recompilation. You build it from your own disc.",
+    "zh-CN": "通过静态重编译，把初代 Xbox 上的《Def Jam：纽约之战》变成可以在 Windows 上直接运行的原生程序。用自己的光盘来构建。",
+    "zh-TW": "透過靜態重編譯，把初代 Xbox 上的《Def Jam：紐約之戰》變成可以在 Windows 上直接執行的原生程式。用自己的光碟來建構。",
+    "ja": "静的再コンパイルで初代 Xbox の『Def Jam: Fight for NY』を、Windows で直接動くネイティブ版にする。自分のディスクからビルドします。",
+    "ko": "정적 재컴파일을 통해 오리지널 Xbox의 『Def Jam: Fight for NY』를 Windows에서 바로 실행되는 네이티브 프로그램으로 만듭니다. 자신의 디스크로 빌드합니다."
+  },
+  "fliperama86/cvlod_recomp": {
+    "en": "Uses N64Recomp to turn Castlevania: Legacy of Darkness (Nintendo 64) into a native PC executable. You need your own ROM.",
+    "zh-CN": "用 N64Recomp 把任天堂 64 上的《恶魔城：暗夜之光》变成可以在电脑上直接运行的原生程序。需要自己准备 ROM。",
+    "zh-TW": "用 N64Recomp 把任天堂 64 上的《惡魔城：暗夜之光》變成可以在電腦上直接執行的原生程式。需要自己準備 ROM。",
+    "ja": "N64Recomp を使って任天堂64の『悪魔城ドラキュラ 黙示録外伝』を、PCで直接動くネイティブ版にする。自分のROMが必要です。",
+    "ko": "N64Recomp를 사용해 닌텐도 64의 『캐슬바니아: 레거시 오브 다크니스』를 PC에서 바로 실행되는 네이티브 프로그램으로 만듭니다. 자신의 ROM이 필요합니다."
   }
 }

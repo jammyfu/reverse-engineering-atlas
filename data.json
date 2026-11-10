@@ -2854,5 +2854,45 @@
     "https://github.com/RetroReversing/penny-racers-decomp",
     "No",
     "Saved decompdecomp project for Penny Racers (N64): AI agents matched 222/1111 functions byte-for-byte with the original KMC GCC 2.7.2 compiler."
+  ],
+  [
+    "pc",
+    "decomp",
+    "RealZotto/oot2-native",
+    "https://github.com/RealZotto/oot2-native",
+    "No",
+    "Native Windows recompilation of The Legend of Zelda: Ocarina of Time Remake (Nintendo Switch 2). Bring your own dump."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Dittobyte/Recompia",
+    "https://github.com/Dittobyte/Recompia",
+    "No",
+    "Native Windows/Linux recompilation of Pokémon Pokopia (Nintendo Switch 2) with multiplayer, modding and higher resolutions. Bring your own game files."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "RenanQueiroz/mcla-recomp",
+    "https://github.com/RenanQueiroz/mcla-recomp",
+    "No",
+    "Static recompilation of Midnight Club: Los Angeles Complete Edition (Xbox 360) into native PC and PS5 builds. Build from your own disc image."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "comoria08/defjam_recomp",
+    "https://github.com/comoria08/defjam_recomp",
+    "No",
+    "Static recompilation of Def Jam: Fight for NY (original Xbox) into a native Windows executable. Build from your own disc."
+  ],
+  [
+    "n64",
+    "decomp",
+    "fliperama86/cvlod_recomp",
+    "https://github.com/fliperama86/cvlod_recomp",
+    "No",
+    "N64Recomp-based native recompilation of Castlevania: Legacy of Darkness (Nintendo 64). Bring your own ROM."
   ]
 ]
