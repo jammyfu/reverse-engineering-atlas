@@ -2476,5 +2476,26 @@
     "zh-TW": "一個即時網站，追蹤數千個從機器碼重建老遊戲和軟體的專案，附帶進度圖和發布記錄。",
     "ja": "機械語から古いゲームやソフトを再構築している数千のプロジェクトをリアルタイムで追跡するサイト。進捗グラフとリリース情報付き。",
     "ko": "기계 코드에서 오래된 게임과 소프트웨어를 재구축하는 수천 개 프로젝트를 실시간으로 추적하는 사이트. 진행 차트와 릴리스 정보 포함."
+  },
+  "Destinity13/TimeSplitters-2-Native-Linux-Recomp": {
+    "en": "Turns the original PlayStation 2 TimeSplitters 2 into a native Linux and Steam Deck game that runs at 60 FPS with real widescreen, using your own disc.",
+    "zh-CN": "把原版 PlayStation 2《时空分裂者2》变成能在 Linux 和 Steam Deck 上以 60 帧、真正宽屏运行的原生游戏，用你自己的光盘。",
+    "zh-TW": "把原版 PlayStation 2《時空分裂者2》變成能在 Linux 和 Steam Deck 上以 60 幀、真正寬螢幕執行的原生遊戲，用你自己的光碟。",
+    "ja": "オリジナルの PlayStation 2『TimeSplitters 2』を、自分のディスクを使って Linux と Steam Deck で 60fps・本物のワイドスクリーンで動くネイティブゲームに変える。",
+    "ko": "오리지널 PlayStation 2 TimeSplitters 2를 자신의 디스크로 Linux와 Steam Deck에서 60FPS·진짜 와이드스크린으로 실행되는 네이티브 게임으로 만듭니다."
+  },
+  "phobos665/split2-recomp": {
+    "en": "Recompiles the original Xbox TimeSplitters 2 into a native program for Windows, Mac and Linux that you build from your own disc.",
+    "zh-CN": "把原版 Xbox《时空分裂者2》重新编译成可在 Windows、Mac 和 Linux 上运行的原生程序，用你自己的光盘构建。",
+    "zh-TW": "把原版 Xbox《時空分裂者2》重新編譯成可在 Windows、Mac 和 Linux 上執行的原生程式，用你自己的光碟建置。",
+    "ja": "オリジナルの Xbox『TimeSplitters 2』を、自分のディスクから Windows・Mac・Linux 向けのネイティブプログラムに再コンパイルする。",
+    "ko": "오리지널 Xbox TimeSplitters 2를 자신의 디스크로 Windows·Mac·Linux용 네이티브 프로그램으로 재컴파일합니다."
+  },
+  "RetroReversing/penny-racers-decomp": {
+    "en": "Open progress of a matching decompilation of the Nintendo 64 game Penny Racers, where AI agents only keep C that rebuilds the original bytes exactly.",
+    "zh-CN": "任天堂 64 游戏《Penny Racers》的匹配反编译公开进度，AI 助手只保留能逐字节重建原版的 C 代码。",
+    "zh-TW": "任天堂 64 遊戲《Penny Racers》的匹配反編譯公開進度，AI 助手只保留能逐位元組重建原版的 C 程式碼。",
+    "ja": "ニンテンドウ64『Penny Racers』のマッチング逆コンパイルの公開進捗。AI エージェントは元のバイトを正確に再現する C だけを残す。",
+    "ko": "닌텐도 64 게임 Penny Racers의 매칭 디컴파일 공개 진행 상황. AI 에이전트는 원본 바이트를 정확히 재현하는 C만 유지합니다."
   }
 }

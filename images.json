@@ -907,5 +907,20 @@
     "card",
     "images/recompsoftware-og.png",
     "OpenGraph image from the project's GitHub repository"
+  ],
+  "Destinity13/TimeSplitters-2-Native-Linux-Recomp": [
+    "card",
+    "images/ts2-ps2-recomp-og.png",
+    "GitHub opengraph image for the PS2 TimeSplitters 2 native recomp project"
+  ],
+  "phobos665/split2-recomp": [
+    "card",
+    "images/ts2-xbox-recomp-og.png",
+    "GitHub opengraph image for the Xbox TimeSplitters 2 recomp project"
+  ],
+  "RetroReversing/penny-racers-decomp": [
+    "card",
+    "images/penny-racers-decomp-og.png",
+    "GitHub opengraph image for the Penny Racers N64 decompdecomp progress"
   ]
 }

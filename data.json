@@ -2830,5 +2830,29 @@
     "https://github.com/andrewnakas/recompsoftware",
     "No",
     "Live tracker for decompilation, static recompilation, clean-room and preservation projects (recompsoftware.com)."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "Destinity13/TimeSplitters-2-Native-Linux-Recomp",
+    "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
+    "No",
+    "Static recompilation of TimeSplitters 2 (PS2 NTSC-U) into a native Linux/Steam Deck executable with PCSX2 GS/SPU2 bridge, 60 FPS, true 16:9, verified against PCSX2."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "phobos665/split2-recomp",
+    "https://github.com/phobos665/split2-recomp",
+    "No",
+    "Static recompilation of TimeSplitters 2 (original Xbox) into native Windows/macOS/Linux builds using DirectXbox-Recomp; bring your own disc."
+  ],
+  [
+    "n64",
+    "decomp",
+    "RetroReversing/penny-racers-decomp",
+    "https://github.com/RetroReversing/penny-racers-decomp",
+    "No",
+    "Saved decompdecomp project for Penny Racers (N64): AI agents matched 222/1111 functions byte-for-byte with the original KMC GCC 2.7.2 compiler."
   ]
 ]
