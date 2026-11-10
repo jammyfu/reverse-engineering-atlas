@@ -2894,5 +2894,29 @@
     "https://github.com/fliperama86/cvlod_recomp",
     "No",
     "N64Recomp-based native recompilation of Castlevania: Legacy of Darkness (Nintendo 64). Bring your own ROM."
+  ],
+  [
+    "n64",
+    "remake",
+    "HarvestMoon64Recomp/HarvestMoon64Recomp",
+    "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp",
+    "No",
+    "Native PC port of Harvest Moon 64 (N64, 1999) via N64Recomp static recompilation; RT64 renderer, widescreen, mod support. Needs your own ROM."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenReliant/openreliant",
+    "https://github.com/OpenReliant/openreliant",
+    "No",
+    "Open-source engine reimplementation of StarLancer (2000) in Zig + SDL3. Needs your own game files. Adds modern resolutions, lighting, mods."
+  ],
+  [
+    "tooling",
+    "",
+    "sp00nznet/snesrecomp",
+    "https://github.com/sp00nznet/snesrecomp",
+    "No",
+    "Drop-in SNES hardware runtime (PPU, APU, DMA) for static recompilation projects. Based on LakeSnes. Alpha."
   ]
 ]

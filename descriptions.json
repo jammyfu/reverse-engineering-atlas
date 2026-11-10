@@ -2532,5 +2532,26 @@
     "zh-TW": "用 N64Recomp 把任天堂 64 上的《惡魔城：暗夜之光》變成可以在電腦上直接執行的原生程式。需要自己準備 ROM。",
     "ja": "N64Recomp を使って任天堂64の『悪魔城ドラキュラ 黙示録外伝』を、PCで直接動くネイティブ版にする。自分のROMが必要です。",
     "ko": "N64Recomp를 사용해 닌텐도 64의 『캐슬바니아: 레거시 오브 다크니스』를 PC에서 바로 실행되는 네이티브 프로그램으로 만듭니다. 자신의 ROM이 필요합니다."
+  },
+  "HarvestMoon64Recomp/HarvestMoon64Recomp": {
+    "en": "Play Harvest Moon 64 on modern PC: a native port made by statically recompiling the original N64 game, with better graphics and mods.",
+    "zh-CN": "用现代电脑玩《牧场物语64》：把原版 N64 游戏静态重编译成原生程序，画质更好，还能装模组。",
+    "zh-TW": "用現代電腦玩《牧場物語64》：把原版 N64 遊戲靜態重編譯成原生程式，畫質更好，還能裝模組。",
+    "ja": "現代PCで『牧場物語64』を遊べる：N64原作を静的再コンパイルしたネイティブ移植版。グラフィック強化とMOD対応。",
+    "ko": "현대 PC에서 『목장이야기 64』를 즐기세요: N64 원본을 정적 재컴파일한 네이티브 포트. 그래픽 향상과 모드 지원."
+  },
+  "OpenReliant/openreliant": {
+    "en": "Play the 2000 space combat game StarLancer on modern Windows, Mac and Linux: a clean-room engine rewrite that uses your own game files.",
+    "zh-CN": "用现代电脑玩 2000 年的太空战斗游戏《星际航线》：从零重写的引擎，使用你自己的游戏文件，支持高分辨率和模组。",
+    "zh-TW": "用現代電腦玩 2000 年的太空戰鬥遊戲《星際航線》：從零重寫的引擎，使用你自己的遊戲檔案，支援高解析度和模組。",
+    "ja": "2000年の宇宙戦闘ゲーム『スターランサー』を現代のPCで：クリーンルームで書き直したエンジン。自分のゲームファイルを使い、高解像度とMOD対応。",
+    "ko": "2000년 우주 전투 게임 『스타랜서』를 현대 PC에서: 클린룸으로 다시 쓴 엔진. 자신의 게임 파일을 사용하며 고해상도와 모드 지원."
+  },
+  "sp00nznet/snesrecomp": {
+    "en": "A ready-made SNES hardware library so you can turn recompiled SNES game code into a real native port with proper graphics and sound.",
+    "zh-CN": "一套现成的 SNES 硬件库，让你把重编译出来的 SNES 游戏代码直接做成带正常画面和声音的原生移植。",
+    "zh-TW": "一套現成的 SNES 硬體庫，讓你把重編譯出來的 SNES 遊戲程式碼直接做成帶正常畫面和聲音的原生移植。",
+    "ja": "再コンパイルしたSNESゲームコードを、本物の画面と音付きのネイティブ移植にするためのハードウェアライブラリ。",
+    "ko": "재컴파일한 SNES 게임 코드를 실제 그래픽과 사운드가 있는 네이티브 포트로 만들어 주는 하드웨어 라이브러리."
   }
 }

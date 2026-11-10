@@ -922,5 +922,20 @@
     "card",
     "images/penny-racers-decomp-og.png",
     "GitHub opengraph image for the Penny Racers N64 decompdecomp progress"
+  ],
+  "HarvestMoon64Recomp/HarvestMoon64Recomp": [
+    "card",
+    "https://opengraph.githubassets.com/86e2d9b8d8fe1518620b6dcb9ff3fdd3de17ad0557d3ff9640c41e53be2b8f25/HarvestMoon64Recomp/HarvestMoon64Recomp",
+    "GitHub OpenGraph image"
+  ],
+  "OpenReliant/openreliant": [
+    "card",
+    "https://opengraph.githubassets.com/fb57741559b03427ef4d7964c66f66ce6d1414f53da1d5e6ef67f667d117b20b/OpenReliant/openreliant",
+    "GitHub OpenGraph image"
+  ],
+  "sp00nznet/snesrecomp": [
+    "card",
+    "https://opengraph.githubassets.com/7d6ac1995d211cb9762cf6f1d99ffde8ed93c0c982a794314e59abdfe8699c76/sp00nznet/snesrecomp",
+    "GitHub OpenGraph image"
   ]
 }
