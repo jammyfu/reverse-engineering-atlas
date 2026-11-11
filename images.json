@@ -945,5 +945,25 @@
   "Megami-Decomps/raidou-decomp": [
     "card",
     "https://opengraph.githubassets.com/1/Megami-Decomps/raidou-decomp"
+  ],
+  "SwitchRECOMP-Dev/Switch2RECOMP": [
+    "card",
+    "https://opengraph.githubassets.com/1/SwitchRECOMP-Dev/Switch2RECOMP",
+    "GitHub OpenGraph image"
+  ],
+  "SerenityG4K/SpaceAnimalsRecomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/SerenityG4K/SpaceAnimalsRecomp",
+    "GitHub OpenGraph image"
+  ],
+  "gminustwo/RondoRecomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/gminustwo/RondoRecomp",
+    "GitHub OpenGraph image"
+  ],
+  "octavioCuatrochio/nfsu2-gcpc": [
+    "card",
+    "https://opengraph.githubassets.com/1/octavioCuatrochio/nfsu2-gcpc",
+    "GitHub OpenGraph image"
   ]
 }

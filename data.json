@@ -2990,5 +2990,37 @@
     "https://github.com/sosiman/re-code-mode",
     "No",
     "Layered reverse-engineering toolbox (radare2, binwalk etc.) for AI agents via UTCP Code Mode, filtering large outputs locally."
+  ],
+  [
+    "tooling",
+    "",
+    "SwitchRECOMP-Dev/Switch2RECOMP",
+    "https://github.com/SwitchRECOMP-Dev/Switch2RECOMP",
+    "No",
+    "Static recompiler for Nintendo Switch and Switch 2 games by MZ Labs; translates ARM64 code to native C for Windows/Linux."
+  ],
+  [
+    "pc",
+    "remake",
+    "SerenityG4K/SpaceAnimalsRecomp",
+    "https://github.com/SerenityG4K/SpaceAnimalsRecomp",
+    "No",
+    "Static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app from your own copy."
+  ],
+  [
+    "pc",
+    "remake",
+    "gminustwo/RondoRecomp",
+    "https://github.com/gminustwo/RondoRecomp",
+    "No",
+    "Static recompilation of Castlevania: Rondo of Blood (PC Engine Super CD-ROM²) into a native PC application."
+  ],
+  [
+    "gc",
+    "decomp",
+    "octavioCuatrochio/nfsu2-gcpc",
+    "https://github.com/octavioCuatrochio/nfsu2-gcpc",
+    "No",
+    "Behavior-equivalent rewrite of Need for Speed: Underground 2 using GameCube debug symbols and the PC executable."
   ]
 ]

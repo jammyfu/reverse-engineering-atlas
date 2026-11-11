@@ -2616,5 +2616,33 @@
     "zh-TW": "給 AI 智能體提供 radare2、binwalk 等逆向工具的工具箱，專門分析閉源程式，並在本地過濾大輸出以免撐爆模型上下文。",
     "ja": "AIエージェントにradare2やbinwalkなどの逆解析ツールを提供するツールボックス。クローズドソースのバイナリを分析し、大きな出力をローカルでフィルタしてモデルを溢れさせない。",
     "ko": "AI 에이전트에게 radare2, binwalk 등 리버스 엔지니어링 도구를 제공하는 툴박스. 비공개 바이너리를 분석하고 큰 출력은 로컬에서 필터링해 모델 컨텍스트를 넘치지 않게 함."
+  },
+  "SwitchRECOMP-Dev/Switch2RECOMP": {
+    "en": "A free open-source tool that turns Nintendo Switch and Switch 2 games into native Windows or Linux programs by translating their machine code once, so you can play your own copies without an emulator.",
+    "zh-CN": "一个免费开源工具，能把任天堂 Switch 和 Switch 2 游戏的机器码一次性翻译成原生 Windows 或 Linux 程序，让你用自己的游戏副本在电脑上直接玩，不用模拟器。",
+    "zh-TW": "一個免費開源工具，能把任天堂 Switch 和 Switch 2 遊戲的機器碼一次性翻譯成原生 Windows 或 Linux 程式，讓你用自己的遊戲副本在電腦上直接玩，不用模擬器。",
+    "ja": "任天堂SwitchとSwitch 2のゲームのマシンコードを一度翻訳して、ネイティブのWindowsやLinuxプログラムに変える無料のオープンソースツール。自分のコピーをエミュレータなしでPCで遊べます。",
+    "ko": "닌텐도 스위치와 스위치 2 게임의 기계 코드를 한 번 번역해 네이티브 Windows 또는 Linux 프로그램으로 만드는 무료 오픈소스 도구. 자신의 게임 복사본을 에뮬레이터 없이 PC에서 플레이할 수 있습니다."
+  },
+  "SerenityG4K/SpaceAnimalsRecomp": {
+    "en": "A static recompilation that turns the Nintendo Switch 2 version of Star Fox into a native Windows program you build from your own legally owned copy. No game files included.",
+    "zh-CN": "把任天堂 Switch 2 版的《星际火狐》静态重编译成可以在 Windows 上原生运行的程序，你需要提供自己合法拥有的游戏副本。仓库里不含游戏文件。",
+    "zh-TW": "把任天堂 Switch 2 版的《星際火狐》靜態重編譯成可以在 Windows 上原生運行的程式，你需要提供自己合法擁有的遊戲副本。倉庫裡不含遊戲檔案。",
+    "ja": "任天堂Switch 2版の『スターフォックス』を静的再コンパイルして、自分の合法的に所有するコピーからビルドするネイティブWindowsプログラムにします。ゲームファイルは含まれていません。",
+    "ko": "닌텐도 스위치 2 버전의 스타폭스를 정적 재컴파일하여 자신의 합법적으로 소유한 복사본에서 빌드하는 네이티브 Windows 프로그램으로 만듭니다. 게임 파일은 포함되지 않습니다."
+  },
+  "gminustwo/RondoRecomp": {
+    "en": "A static recompilation that turns the classic PC Engine game Castlevania: Rondo of Blood into a native Windows or Linux application, using your own disc image. Supports rewinding, saves, and RetroAchievements.",
+    "zh-CN": "把经典的 PC Engine 游戏《恶魔城：血之轮回》静态重编译成原生 Windows 或 Linux 程序，你提供自己的光盘镜像即可。支持倒带、存档和 RetroAchievements。",
+    "zh-TW": "把經典的 PC Engine 遊戲《惡魔城：血之輪迴》靜態重編譯成原生 Windows 或 Linux 程式，你提供自己的光碟映像即可。支援倒帶、存檔和 RetroAchievements。",
+    "ja": "クラシックなPCエンジンゲーム『悪魔城ドラキュラX 血の輪廻』を静的再コンパイルして、自分のディスクイメージからネイティブWindowsやLinuxアプリにします。巻き戻し、セーブ、RetroAchievementsに対応。",
+    "ko": "클래식 PC 엔진 게임 캐슬바니아: 론도의 피를 정적 재컴파일하여 자신의 디스크 이미지로 네이티브 Windows 또는 Linux 애플리케이션으로 만듭니다. 되감기, 저장, RetroAchievements 지원."
+  },
+  "octavioCuatrochio/nfsu2-gcpc": {
+    "en": "A function-by-function rewrite of Need for Speed: Underground 2 that matches the original PC game's behavior, using the GameCube version's debug symbols for names and types. Runs inside the original game via a proxy DLL.",
+    "zh-CN": "对《极品飞车：地下狂飙2》进行函数级重写，行为与原版 PC 游戏一致，借助 GameCube 版的调试符号获得原始名称和类型。通过代理 DLL 在原版游戏内运行。",
+    "zh-TW": "對《極品飛車：地下狂飆2》進行函數級重寫，行為與原版 PC 遊戲一致，借助 GameCube 版的除錯符號獲得原始名稱和類型。透過代理 DLL 在原版遊戲內運行。",
+    "ja": "『ニード・フォー・スピード アンダーグラウンド2』を関数単位で書き換え、元のPC版の動作と一致させます。ゲームキューブ版のデバッグシンボルで名前と型を取得し、プロキシDLLで元のゲーム内で動作します。",
+    "ko": "니드 포 스피드: 언더그라운드 2를 함수 단위로 재작성하여 원본 PC 게임의 동작과 일치시킵니다. 게임큐브 버전의 디버그 심볼로 이름과 유형을 얻고 프록시 DLL을 통해 원본 게임 내에서 실행합니다."
   }
 }
