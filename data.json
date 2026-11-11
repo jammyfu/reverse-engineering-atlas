@@ -2918,5 +2918,77 @@
     "https://github.com/sp00nznet/snesrecomp",
     "No",
     "Drop-in SNES hardware runtime (PPU, APU, DMA) for static recompilation projects. Based on LakeSnes. Alpha."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "Megami-Decomps/raidou-decomp",
+    "https://github.com/Megami-Decomps/raidou-decomp",
+    "No",
+    "Matching decompilation of Shin Megami Tensei: Devil Summoner Raidou Kuzunoha vs. the Soulless Army and Raidou Kuzunoha vs. King Abaddon (PS2). Builds byte-identical to retail; needs your own discs."
+  ],
+  [
+    "pc",
+    "decomp",
+    "bmbelo87/decomp-it-up-Perfect-Collection",
+    "https://github.com/bmbelo87/decomp-it-up-Perfect-Collection",
+    "No",
+    "C recompilation of Pump It Up Perfect Collection (DOS PIU.EXE from Dec 18 2000). Functional rebuild with modern ports; needs your own game data."
+  ],
+  [
+    "ps2",
+    "remake",
+    "Renzo-MGRR/Tenkaichi3Decomp",
+    "https://github.com/Renzo-MGRR/Tenkaichi3Decomp",
+    "No",
+    "PS3 port of Dragon Ball Z: Budokai Tenkaichi 3 based on an existing decompilation. Needs your own game files."
+  ],
+  [
+    "saturn",
+    "decomp",
+    "indieindie7/congo-decomp",
+    "https://github.com/indieindie7/congo-decomp",
+    "No",
+    "Names-only decompilation of Congo The Movie: The Lost City of Zinj (Sega Saturn). Ghidra function names and funcinfo; no game data included."
+  ],
+  [
+    "wii",
+    "decomp",
+    "frootloops-1/SlopSportsResort",
+    "https://github.com/frootloops-1/SlopSportsResort",
+    "No",
+    "AI-assisted decompilation of Wii Sports Resort. Work in progress; bring your own ROM."
+  ],
+  [
+    "tooling",
+    "",
+    "austinkregel/corpus_mcp",
+    "https://github.com/austinkregel/corpus_mcp",
+    "No",
+    "MCP server for semantic search over Ghidra decompilations, Lua corpora, docs and project memory to speed up reverse engineering."
+  ],
+  [
+    "protocol",
+    "",
+    "ethanntann/massage-chair-mcp",
+    "https://github.com/ethanntann/massage-chair-mcp",
+    "No",
+    "MCP server that lets an AI agent control an OSIM uDiva3 massage chair via a reverse-engineered Bluetooth LE protocol from the official app."
+  ],
+  [
+    "tooling",
+    "",
+    "romangalaxys10-spec/zcode-rea",
+    "https://github.com/romangalaxys10-spec/zcode-rea",
+    "Yes",
+    "ZCode plugin wrapping the official REA MCP so agents can reverse-engineer binaries, JS, .NET and websites with evidence."
+  ],
+  [
+    "tooling",
+    "",
+    "sosiman/re-code-mode",
+    "https://github.com/sosiman/re-code-mode",
+    "No",
+    "Layered reverse-engineering toolbox (radare2, binwalk etc.) for AI agents via UTCP Code Mode, filtering large outputs locally."
   ]
 ]

@@ -2553,5 +2553,68 @@
     "zh-TW": "一套現成的 SNES 硬體庫，讓你把重編譯出來的 SNES 遊戲程式碼直接做成帶正常畫面和聲音的原生移植。",
     "ja": "再コンパイルしたSNESゲームコードを、本物の画面と音付きのネイティブ移植にするためのハードウェアライブラリ。",
     "ko": "재컴파일한 SNES 게임 코드를 실제 그래픽과 사운드가 있는 네이티브 포트로 만들어 주는 하드웨어 라이브러리."
+  },
+  "Megami-Decomps/raidou-decomp": {
+    "en": "Matching decompilation that rebuilds the original PS2 source of Shin Megami Tensei: Devil Summoner Raidou 1 and 2 so it compiles back to the exact retail binaries.",
+    "zh-CN": "把《真·女神转生 恶魔召唤师 晓月》1和2（PS2）的闭源代码从零还原成能编译出一模一样原版程序的 C 代码。",
+    "zh-TW": "把《真·女神轉生 惡魔召喚師 曉月》1和2（PS2）的閉源程式從零還原成能編譯出一模一樣原版執行檔的 C 程式碼。",
+    "ja": "『真・女神転生 デビルサマナー 葛葉ライドウ』1と2（PS2）の閉ソースを、元のバイナリと完全一致するCコードに再構築するマッチング逆コンパイル。",
+    "ko": "『진 여신전생 데빌 서머너 쿠즈노하 라이도우』1과 2(PS2)의 비공개 소스를 원본 바이너리와 바이트 단위로 동일한 C 코드로 복원하는 매칭 디컴파일."
+  },
+  "bmbelo87/decomp-it-up-Perfect-Collection": {
+    "en": "From-scratch C recompilation of the closed-source DOS Pump It Up Perfect Collection (PIU.EXE, Dec 2000) that plays like the original.",
+    "zh-CN": "从零用 C 重写了闭源的 DOS 版《Pump It Up Perfect Collection》（2000 年 PIU.EXE），玩起来和原版一样。",
+    "zh-TW": "從零用 C 重寫了閉源的 DOS 版《Pump It Up Perfect Collection》（2000 年 PIU.EXE），玩起來和原版一樣。",
+    "ja": "クローズドソースのDOS版『Pump It Up Perfect Collection』（2000年のPIU.EXE）をCで一から再実装し、元のゲームと同じように遊べるようにしたもの。",
+    "ko": "비공개 DOS 버전 『Pump It Up Perfect Collection』(2000년 PIU.EXE)을 C로 처음부터 다시 구현해 원본처럼 플레이할 수 있게 한 프로젝트."
+  },
+  "Renzo-MGRR/Tenkaichi3Decomp": {
+    "en": "PS3 port of the closed-source Dragon Ball Z: Budokai Tenkaichi 3, built on top of an existing decompilation of the original game.",
+    "zh-CN": "基于已有的反编译成果，把闭源的《龙珠 Z 武道会 3》移植到了 PS3。",
+    "zh-TW": "基於已有的反編譯成果，把閉源的《龍珠 Z 武道會 3》移植到了 PS3。",
+    "ja": "既存の逆コンパイル成果を基に、クローズドソースの『ドラゴンボールZ 武道会3』をPS3に移植したプロジェクト。",
+    "ko": "기존 디컴파일 결과를 바탕으로 비공개 『드래곤볼 Z 부도카이 3』을 PS3로 이식한 프로젝트."
+  },
+  "indieindie7/congo-decomp": {
+    "en": "Names-only decompilation of the closed-source Sega Saturn game Congo The Movie: The Lost City of Zinj, providing Ghidra function names without including any game data.",
+    "zh-CN": "对闭源的世嘉土星游戏《刚果：失落的津吉城》做的仅命名反编译，提供 Ghidra 函数名，不含任何游戏数据。",
+    "zh-TW": "對閉源的世嘉土星遊戲《剛果：失落的津吉城》做的僅命名反編譯，提供 Ghidra 函式名，不含任何遊戲資料。",
+    "ja": "クローズドソースのセガサターンゲーム『コンゴ：失われたジンジの都』の名前のみの逆コンパイル。Ghidraの関数名を提供し、ゲームデータは含まない。",
+    "ko": "비공개 세가 새턴 게임 『콩고: 잃어버린 진지 도시』의 이름만 있는 디컴파일. Ghidra 함수 이름을 제공하며 게임 데이터는 포함하지 않음."
+  },
+  "frootloops-1/SlopSportsResort": {
+    "en": "AI-assisted decompilation project for the closed-source Wii Sports Resort, aiming to rebuild its code.",
+    "zh-CN": "用 AI 辅助对闭源的《Wii 运动 度假胜地》进行反编译，试图还原它的代码。",
+    "zh-TW": "用 AI 輔助對閉源的《Wii 運動 度假勝地》進行反編譯，試圖還原它的程式碼。",
+    "ja": "クローズドソースの『Wii Sports Resort』をAI支援で逆コンパイルし、コードを再構築しようとするプロジェクト。",
+    "ko": "비공개 『Wii 스포츠 리조트』를 AI 도움으로 디컴파일해 코드를 복원하려는 프로젝트."
+  },
+  "austinkregel/corpus_mcp": {
+    "en": "MCP server that lets AI agents search Ghidra decompilations, Lua code and project docs to make reverse-engineering closed binaries faster.",
+    "zh-CN": "一个 MCP 服务器，让 AI 智能体能搜索 Ghidra 反编译结果、Lua 代码和项目文档，加快对闭源程序的逆向。",
+    "zh-TW": "一個 MCP 伺服器，讓 AI 智能體能搜尋 Ghidra 反編譯結果、Lua 程式碼和專案文件，加快對閉源程式的逆向。",
+    "ja": "AIエージェントがGhidraの逆コンパイル結果やLuaコード、プロジェクト文書を検索できるようにするMCPサーバー。クローズドソースの逆解析を高速化。",
+    "ko": "AI 에이전트가 Ghidra 디컴파일 결과, Lua 코드, 프로젝트 문서를 검색할 수 있게 하는 MCP 서버. 비공개 바이너리 리버스 엔지니어링을 빠르게 함."
+  },
+  "ethanntann/massage-chair-mcp": {
+    "en": "MCP server that reverse-engineered the closed Bluetooth LE protocol of the OSIM uDiva3 massage chair so an AI agent can control it.",
+    "zh-CN": "逆向了闭源的 OSIM uDiva3 按摩椅蓝牙协议，做成 MCP 服务器，让 AI 智能体可以控制这把椅子。",
+    "zh-TW": "逆向了閉源的 OSIM uDiva3 按摩椅藍牙協議，做成 MCP 伺服器，讓 AI 智能體可以控制這把椅子。",
+    "ja": "クローズドソースのOSIM uDiva3マッサージチェアのBluetooth LEプロトコルを逆解析し、AIエージェントが椅子を操作できるMCPサーバーにした。",
+    "ko": "비공개 OSIM uDiva3 마사지 의자의 블루투스 LE 프로토콜을 리버스 엔지니어링해 AI 에이전트가 제어할 수 있는 MCP 서버로 만듦."
+  },
+  "romangalaxys10-spec/zcode-rea": {
+    "en": "ZCode plugin that wraps the official REA toolkit so AI agents can reverse-engineer closed binaries, apps and websites with evidence attached.",
+    "zh-CN": "ZCode 插件，封装了官方 REA 工具包，让 AI 智能体能带证据地对闭源二进制、应用和网站做逆向。",
+    "zh-TW": "ZCode 插件，封裝了官方 REA 工具包，讓 AI 智能體能帶證據地對閉源二進位、應用和網站做逆向。",
+    "ja": "公式REAツールキットをラップしたZCodeプラグイン。AIエージェントが証拠付きでクローズドソースのバイナリやアプリ、サイトを逆解析できるようにする。",
+    "ko": "공식 REA 툴킷을 감싼 ZCode 플러그인. AI 에이전트가 증거와 함께 비공개 바이너리, 앱, 웹사이트를 리버스 엔지니어링할 수 있게 함."
+  },
+  "sosiman/re-code-mode": {
+    "en": "Toolbox that gives AI agents radare2, binwalk and other reverse-engineering tools for closed binaries, with local filtering so big outputs don't flood the model.",
+    "zh-CN": "给 AI 智能体提供 radare2、binwalk 等逆向工具的工具箱，专门分析闭源程序，并在本地过滤大输出以免撑爆模型上下文。",
+    "zh-TW": "給 AI 智能體提供 radare2、binwalk 等逆向工具的工具箱，專門分析閉源程式，並在本地過濾大輸出以免撐爆模型上下文。",
+    "ja": "AIエージェントにradare2やbinwalkなどの逆解析ツールを提供するツールボックス。クローズドソースのバイナリを分析し、大きな出力をローカルでフィルタしてモデルを溢れさせない。",
+    "ko": "AI 에이전트에게 radare2, binwalk 등 리버스 엔지니어링 도구를 제공하는 툴박스. 비공개 바이너리를 분석하고 큰 출력은 로컬에서 필터링해 모델 컨텍스트를 넘치지 않게 함."
   }
 }
