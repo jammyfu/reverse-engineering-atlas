@@ -190,11 +190,11 @@ def slug(h,seen):
   return s if n==0 else f'{s}-{n}'
 def table(d,x,es,k):
   table_headers={
-    'en':('Game, preview and platform','Purpose, requirements and sources'),
-    'zh-CN':('游戏、预览与原始来源平台','项目用途、运行条件与资料来源'),
-    'zh-TW':('遊戲、預覽與原始來源平台','專案用途、執行條件與資料來源'),
-    'ja':('ゲーム・画像・元の対応機種','概要・実行条件・画像の出典'),
-    'ko':('게임·미리보기·원본 플랫폼','프로젝트 설명·실행 조건·출처')}
+    'en':('Project, preview and platform','Purpose, requirements and sources'),
+    'zh-CN':('项目、预览与原始来源平台','项目用途、运行条件与资料来源'),
+    'zh-TW':('專案、預覽與原始來源平台','專案用途、執行條件與資料來源'),
+    'ja':('対象・画像・元の対応機種','概要・実行条件・画像の出典'),
+    'ko':('프로젝트·미리보기·원본 플랫폼','프로젝트 설명·실행 조건·출처')}
   # Real compact headings supply readable intrinsic column widths in GitHub's
   # CSS-free HTML tables. Word joiners keep CJK heading phrases together without
   # visible padding; descriptions and long game names wrap normally.

@@ -99,7 +99,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/Dittobyte/Recompia"><img src="images/editorial/pokopia-official-key-visual.jpg" width="160" alt="Official game art · not project output"></a><br><b>Pokémon Pokopia</b><br><a href="https://github.com/Dittobyte/Recompia"><b>Recompia</b></a><br><sub>Dittobyte</sub><br><sub><img src="images/platforms/switch2.svg" width="20" height="20" alt="">&#160;Nintendo Switch 2</sub></td><td width="500">Pokémon Pokopia (Switch 2) recompilation. Upstream targets Windows; Linux launcher uses Proton. Requires your own 2.0.1a files. Repository screenshot SVGs are placeholders, not verified gameplay.<br><br><sub>Uses rea: No<br>Image source: <a href="images/editorial/README.md">Official game art · not project output</a></sub></td></tr>
 <tr><td width="220">—<br><b>The Legend of Zelda: Ocarina of Time</b><br><a href="https://github.com/RealZotto/oot2-native"><b>oot2-native</b></a><br><sub>RealZotto</sub><br><sub><img src="images/platforms/switch2.svg" width="20" height="20" alt="">&#160;Nintendo Switch 2</sub></td><td width="500">Developer-preview research targeting the claimed Switch 2 Ocarina of Time remake. Not playable; no release; null graphics backend. Not a working PC port.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 </table>
@@ -107,7 +107,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/NotRexed/Hookshot"><img src="https://opengraph.githubassets.com/1/NotRexed/Hookshot" width="160" alt="NotRexed/Hookshot"></a><br><b>The Legend of Zelda: Ocarina of Time</b><br><a href="https://github.com/NotRexed/Hookshot"><b>Hookshot</b></a><br><sub>NotRexed</sub><br><sub><img src="images/platforms/switch2.svg" width="20" height="20" alt="">&#160;Nintendo Switch 2</sub></td><td width="500">Experimental Ocarina of Time Switch 2 recompilation for Windows/Linux. Upstream reports a playable starting area, with other areas and GPUs still problematic. Requires your own game dump; not independently tested here.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/sostenesfreitas/ocarina-recomp"><img src="images/ocarina-og.png" width="160" alt="sostenesfreitas/ocarina-recomp"></a><br><b>The Legend of Zelda: Ocarina of Time</b><br><a href="https://github.com/sostenesfreitas/ocarina-recomp"><b>ocarina-recomp</b></a><br><sub>sostenesfreitas</sub><br><sub><img src="images/platforms/switch2.svg" width="20" height="20" alt="">&#160;Nintendo Switch 2</sub></td><td width="500">Ocarina of Time Switch 2 recompilation research, now redirecting implementation contributions to Hookshot and keeping Portuguese support/guides. Author reports only an opening-area RTX 5090 test, not full-game verification. Own game files required.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/Lucas-blip-png/dkb-pc-recomp"><img src="images/dkb-pc-recomp.png" width="160" alt="Lucas-blip-png/dkb-pc-recomp"></a><br><b>Donkey Kong Bananza</b><br><a href="https://github.com/Lucas-blip-png/dkb-pc-recomp"><b>dkb-pc-recomp</b></a><br><sub>Lucas-blip-png</sub><br><sub><img src="images/platforms/switch2.svg" width="20" height="20" alt="">&#160;Nintendo Switch 2</sub></td><td width="500">Donkey Kong Bananza (Switch 2) experimental recompilation. Upstream says not playable yet: tutorial cave movement/attacks work, but crashes and missing effects remain. Windows target; Linux/macOS preview. Own game dump required.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
@@ -120,7 +120,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220">—<br><b>Xenoblade Chronicles X: Definitive Edition</b><br><a href="https://github.com/jmars125/xcx-recomp"><b>xcx-recomp</b></a><br><sub>jmars125</sub><br><sub><img src="images/platforms/switch.svg" width="20" height="20" alt="">&#160;Nintendo Switch</sub></td><td width="500">Turns the closed-source Xenoblade Chronicles X: Definitive Edition (Switch) into a native Windows program by statically recompiling its code. You bring your own legally dumped files.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/KevinBonnoron/xc2-decomp"><img src="https://opengraph.githubassets.com/1/KevinBonnoron/xc2-decomp" width="160" alt="KevinBonnoron/xc2-decomp"></a><br><b>Xenoblade Chronicles 2</b><br><a href="https://github.com/KevinBonnoron/xc2-decomp"><b>xc2-decomp</b></a><br><sub>KevinBonnoron</sub><br><sub><img src="images/platforms/switch.svg" width="20" height="20" alt="">&#160;Nintendo Switch</sub></td><td width="500">Matching decompilation of Xenoblade Chronicles 2 on Nintendo Switch: source that rebuilds the original game binary.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 </table>
@@ -128,7 +128,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/valentderah/totk-pc-recomp"><img src="images/totk-pc-recomp-card.png" width="160" alt="valentderah/totk-pc-recomp"></a><br><b>The Legend of Zelda: Tears of the Kingdom</b><br><a href="https://github.com/valentderah/totk-pc-recomp"><b>totk-pc-recomp</b></a><br><sub>valentderah</sub><br><sub><img src="images/platforms/switch.svg" width="20" height="20" alt="">&#160;Nintendo Switch</sub></td><td width="500">Turns the Nintendo Switch version of The Legend of Zelda: Tears of the Kingdom into a native Windows program you can run without an emulator. You supply your own game files.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/peiikai/LASRecomp"><img src="https://opengraph.githubassets.com/1/peiikai/LASRecomp" width="160" alt="peiikai/LASRecomp"></a><br><b>The Legend of Zelda: Link’s Awakening</b><br><a href="https://github.com/peiikai/LASRecomp"><b>LASRecomp</b></a><br><sub>peiikai</sub><br><sub><img src="images/platforms/switch.svg" width="20" height="20" alt="">&#160;Nintendo Switch</sub></td><td width="500">Turns the 2019 Nintendo Switch version of The Legend of Zelda: Link&#x27;s Awakening into a native Windows, macOS or Linux program you run with your own game dump.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 <tr><td width="220">—<br><b>Super Mario Maker 2</b><br><a href="https://github.com/smm2recomp/smm2recomp"><b>smm2recomp</b></a><br><sub>smm2recomp</sub><br><sub><img src="images/platforms/switch.svg" width="20" height="20" alt="">&#160;Nintendo Switch</sub></td><td width="500">Static recompilation that turns the closed-source Switch Super Mario Maker 2 into a native app for PC, Mac, Linux and more; you provide your own dump.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
@@ -145,14 +145,14 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/aldonunez/zelda1-disassembly"><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png" width="160" alt="aldonunez/zelda1-disassembly"></a><br><a href="https://github.com/aldonunez/zelda1-disassembly"><b>zelda1-disassembly</b></a><br><sub>aldonunez</sub><br><sub><img src="images/platforms/nes.svg" width="20" height="20" alt="">&#160;NES / Famicom</sub></td><td width="500">The original Legend of Zelda (NES), fully disassembled<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png">Wikipedia (© owner)</a></sub></td></tr>
 </table>
 
 #### Asset extraction & tools
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/SourMesen/Mesen2"><img src="https://opengraph.githubassets.com/1/SourMesen/Mesen2" width="160" alt="SourMesen/Mesen2"></a><br><a href="https://github.com/SourMesen/Mesen2"><b>Mesen2</b></a><br><sub>SourMesen</sub><br><sub><img src="images/platforms/nes.svg" width="20" height="20" alt="">&#160;NES / Famicom</sub></td><td width="500">A multi-system emulator with deep debugging tools<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 </table>
 
@@ -161,7 +161,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/snesrev/zelda3"><img src="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg" width="160" alt="snesrev/zelda3"></a><br><a href="https://github.com/snesrev/zelda3"><b>zelda3</b></a><br><sub>snesrev</sub><br><sub><img src="images/platforms/snes.svg" width="20" height="20" alt="">&#160;Super Famicom / SNES</sub></td><td width="500">A Link to the Past rewritten in C, with widescreen (bring your own ROM)<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/snesrev/sm"><img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" width="160" alt="snesrev/sm"></a><br><a href="https://github.com/snesrev/sm"><b>sm</b></a><br><sub>snesrev</sub><br><sub><img src="images/platforms/snes.svg" width="20" height="20" alt="">&#160;Super Famicom / SNES</sub></td><td width="500">Super Metroid rewritten in C (bring your own ROM)<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg">Wikipedia (© owner)</a></sub></td></tr>
 </table>
@@ -169,7 +169,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/snesrev/smw"><img src="https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png" width="160" alt="snesrev/smw"></a><br><a href="https://github.com/snesrev/smw"><b>smw</b></a><br><sub>snesrev</sub><br><sub><img src="images/platforms/snes.svg" width="20" height="20" alt="">&#160;Super Famicom / SNES</sub></td><td width="500">Super Mario World rewritten in C (bring your own ROM)<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/MrJackSpade/SuperMetroidDecomp"><img src="images/supermetroid-decomp.png" width="160" alt="MrJackSpade/SuperMetroidDecomp"></a><br><a href="https://github.com/MrJackSpade/SuperMetroidDecomp"><b>SuperMetroidDecomp</b></a><br><sub>MrJackSpade</sub><br><sub><img src="images/platforms/snes.svg" width="20" height="20" alt="">&#160;Super Famicom / SNES</sub></td><td width="500">C# reimplementation / source port of the closed-source SNES game Super Metroid, extracting assets from your own ROM for modern Windows and Android.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 </table>
@@ -179,7 +179,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/sonicretro/s1disasm"><img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg" width="160" alt="sonicretro/s1disasm"></a><br><a href="https://github.com/sonicretro/s1disasm"><b>s1disasm</b></a><br><sub>sonicretro</sub><br><sub><img src="images/platforms/md.svg" width="20" height="20" alt="">&#160;Mega Drive / Genesis</sub></td><td width="500">Sonic the Hedgehog (Mega Drive), fully disassembled<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/sonicretro/s2disasm"><img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg" width="160" alt="sonicretro/s2disasm"></a><br><a href="https://github.com/sonicretro/s2disasm"><b>s2disasm</b></a><br><sub>sonicretro</sub><br><sub><img src="images/platforms/md.svg" width="20" height="20" alt="">&#160;Mega Drive / Genesis</sub></td><td width="500">Sonic 2 (Mega Drive), fully disassembled<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/sonicretro/skdisasm"><img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg" width="160" alt="sonicretro/skdisasm"></a><br><a href="https://github.com/sonicretro/skdisasm"><b>skdisasm</b></a><br><sub>sonicretro</sub><br><sub><img src="images/platforms/md.svg" width="20" height="20" alt="">&#160;Mega Drive / Genesis</sub></td><td width="500">Sonic 3 &amp; Knuckles, fully disassembled<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg">Wikipedia (© owner)</a></sub></td></tr>
@@ -189,7 +189,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/RSDKModding/RSDKv4-Decompilation"><img src="https://raw.githubusercontent.com/RSDKModding/RSDKv4-Decompilation/main/header.png?raw=true" width="160" alt="RSDKModding/RSDKv4-Decompilation"></a><br><a href="https://github.com/RSDKModding/RSDKv4-Decompilation"><b>RSDKv4-Decompilation</b></a><br><sub>RSDKModding</sub><br><sub><img src="images/platforms/md.svg" width="20" height="20" alt="">&#160;Mega Drive / Genesis</sub></td><td width="500">The engine behind Sonic 1 &amp; 2 (2013), decompiled<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/RSDKModding/RSDKv5-Decompilation"><img src="https://raw.githubusercontent.com/RSDKModding/RSDKv5-Decompilation/master/header.png?raw=true" width="160" alt="RSDKModding/RSDKv5-Decompilation"></a><br><a href="https://github.com/RSDKModding/RSDKv5-Decompilation"><b>RSDKv5-Decompilation</b></a><br><sub>RSDKModding</sub><br><sub><img src="images/platforms/md.svg" width="20" height="20" alt="">&#160;Mega Drive / Genesis</sub></td><td width="500">Sonic Mania&#x27;s engine, decompiled (uses your own data files)<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/YuutaTsubasa/ChaotixRecompiled"><b>ChaotixRecompiled</b></a><br><sub>YuutaTsubasa</sub><br><sub><img src="images/platforms/md.svg" width="20" height="20" alt="">&#160;Mega Drive / Genesis</sub></td><td width="500">Makes the 1995 Sega 32X game Knuckles&#x27; Chaotix run natively on Windows, Linux, macOS and Android with true widescreen, by translating its code ahead of time. Bring your own ROM.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
@@ -201,7 +201,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/yaz0r/Azel"><img src="https://github.com/user-attachments/assets/71f6a246-24cc-4d64-9673-53b9e4c3e4df" width="160" alt="yaz0r/Azel"></a><br><a href="https://github.com/yaz0r/Azel"><b>Azel</b></a><br><sub>yaz0r</sub><br><sub><img src="images/platforms/saturn.svg" width="20" height="20" alt="">&#160;Sega Saturn</sub></td><td width="500">Panzer Dragoon Saga, reverse-engineered and reimplemented<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/indieindie7/congo-decomp"><b>congo-decomp</b></a><br><sub>indieindie7</sub><br><sub><img src="images/platforms/saturn.svg" width="20" height="20" alt="">&#160;Sega Saturn</sub></td><td width="500">Names-only decompilation of the closed-source Sega Saturn game Congo The Movie: The Lost City of Zinj, providing Ghidra function names without including any game data.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 </table>
@@ -209,7 +209,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220">—<br><a href="https://github.com/mattkuhnQAAI/sfiii-native"><b>sfiii-native</b></a><br><sub>mattkuhnQAAI</sub><br><sub><img src="images/platforms/saturn.svg" width="20" height="20" alt="">&#160;Sega Saturn</sub></td><td width="500">Experimental native PC port of Sega Saturn&#x27;s Shining Force III (Scenarios 1–3) via static recompilation; widescreen preview<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 </table>
 
@@ -218,7 +218,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/pret/pokered"><img src="https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp" width="160" alt="pret/pokered"></a><br><b>Pokémon Red / Blue</b><br><a href="https://github.com/pret/pokered"><b>pokered</b></a><br><sub>pret</sub><br><sub><img src="images/platforms/gb.svg" width="20" height="20" alt="">&#160;Game Boy</sub></td><td width="500">Pokémon Red/Blue, fully disassembled<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/pret/pokecrystal"><img src="https://github.com/user-attachments/assets/c39cb860-bb9c-4204-9184-b2761ead0a74" width="160" alt="pret/pokecrystal"></a><br><b>Pokémon Crystal</b><br><a href="https://github.com/pret/pokecrystal"><b>pokecrystal</b></a><br><sub>pret</sub><br><sub><img src="images/platforms/gb.svg" width="20" height="20" alt="">&#160;Game Boy</sub></td><td width="500">Pokémon Crystal, fully disassembled<br><br><sub>Uses rea: No<br>Image source: Maintainer post</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/zladx/LADX-Disassembly"><img src="https://raw.githubusercontent.com/zladx/LADX-Disassembly/main/docs/entities.png" width="160" alt="zladx/LADX-Disassembly"></a><br><a href="https://github.com/zladx/LADX-Disassembly"><b>LADX-Disassembly</b></a><br><sub>zladx</sub><br><sub><img src="images/platforms/gb.svg" width="20" height="20" alt="">&#160;Game Boy</sub></td><td width="500">Zelda: Link&#x27;s Awakening DX, fully disassembled<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
@@ -231,7 +231,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/pret/pokeemerald"><img src="https://user-images.githubusercontent.com/35422415/226195894-bd8307ea-f6be-46cc-85ec-dd28b4f2d144.gif" width="160" alt="pret/pokeemerald"></a><br><a href="https://github.com/pret/pokeemerald"><b>pokeemerald</b></a><br><sub>pret</sub><br><sub><img src="images/platforms/gba.svg" width="20" height="20" alt="">&#160;Game Boy Advance</sub></td><td width="500">Pokémon Emerald as C source, the base of countless ROM hacks<br><br><sub>Uses rea: No<br>Image source: Maintainer post</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/pret/pokefirered"><img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg" width="160" alt="pret/pokefirered"></a><br><a href="https://github.com/pret/pokefirered"><b>pokefirered</b></a><br><sub>pret</sub><br><sub><img src="images/platforms/gba.svg" width="20" height="20" alt="">&#160;Game Boy Advance</sub></td><td width="500">Pokémon FireRed/LeafGreen as C source<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/pret/pokeruby"><img src="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" width="160" alt="pret/pokeruby"></a><br><a href="https://github.com/pret/pokeruby"><b>pokeruby</b></a><br><sub>pret</sub><br><sub><img src="images/platforms/gba.svg" width="20" height="20" alt="">&#160;Game Boy Advance</sub></td><td width="500">Pokémon Ruby/Sapphire as C source<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg">Wikipedia (© owner)</a></sub></td></tr>
@@ -245,7 +245,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/n64decomp/sm64"><img src="https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png" width="160" alt="n64decomp/sm64"></a><br><b>Super Mario 64</b><br><a href="https://github.com/n64decomp/sm64"><b>sm64</b></a><br><sub>n64decomp</sub><br><sub><img src="images/platforms/n64.svg" width="20" height="20" alt="">&#160;Nintendo 64</sub></td><td width="500">Super Mario 64 as buildable C source (ROM not included)<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/N64Recomp/N64Recomp"><img src="https://opengraph.githubassets.com/1/N64Recomp/N64Recomp" width="160" alt="N64Recomp/N64Recomp"></a><br><a href="https://github.com/N64Recomp/N64Recomp"><b>N64Recomp</b></a><br><sub>N64Recomp</sub><br><sub><img src="images/platforms/n64.svg" width="20" height="20" alt="">&#160;Nintendo 64</sub></td><td width="500">Recompile N64 games straight into native code<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/zeldaret/oot"><img src="https://github.com/user-attachments/assets/70b4a529-9a5e-4b9c-ac45-48f9f2183eed" width="160" alt="zeldaret/oot"></a><br><b>The Legend of Zelda: Ocarina of Time</b><br><a href="https://github.com/zeldaret/oot"><b>oot</b></a><br><sub>zeldaret</sub><br><sub><img src="images/platforms/n64.svg" width="20" height="20" alt="">&#160;Nintendo 64</sub></td><td width="500">Ocarina of Time, fully decompiled to C (ROM not included)<br><br><sub>Uses rea: No<br>Image source: Maintainer post</sub></td></tr>
@@ -266,7 +266,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/Zelda64Recomp/Zelda64Recomp"><img src="https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/dev/docs/deck_gyro_1.jpg" width="160" alt="Zelda64Recomp/Zelda64Recomp"></a><br><b>The Legend of Zelda: Majora’s Mask</b><br><a href="https://github.com/Zelda64Recomp/Zelda64Recomp"><b>Zelda64Recomp</b></a><br><sub>Zelda64Recomp</sub><br><sub><img src="images/platforms/n64.svg" width="20" height="20" alt="">&#160;Nintendo 64</sub></td><td width="500">Majora&#x27;s Mask, recompiled for PC with modern controls (bring your own ROM)<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/HarbourMasters/Shipwright"><img src="https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg" width="160" alt="HarbourMasters/Shipwright"></a><br><b>The Legend of Zelda: Ocarina of Time</b><br><a href="https://github.com/HarbourMasters/Shipwright"><b>Shipwright</b></a><br><sub>HarbourMasters</sub><br><sub><img src="images/platforms/n64.svg" width="20" height="20" alt="">&#160;Nintendo 64</sub></td><td width="500">Play Zelda: Ocarina of Time natively on PC (bring your own ROM)<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/2ship2harkinian/2ship2harkinian"><img src="https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg" width="160" alt="2ship2harkinian/2ship2harkinian"></a><br><a href="https://github.com/2ship2harkinian/2ship2harkinian"><b>2ship2harkinian</b></a><br><sub>2ship2harkinian</sub><br><sub><img src="images/platforms/n64.svg" width="20" height="20" alt="">&#160;Nintendo 64</sub></td><td width="500">Play Zelda: Majora&#x27;s Mask natively on PC (bring your own ROM)<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg">Wikipedia (© owner)</a></sub></td></tr>
@@ -278,7 +278,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Asset extraction & tools
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/ethteck/splat">Preview unavailable · view original project</a><br><a href="https://github.com/ethteck/splat"><b>splat</b></a><br><sub>ethteck</sub><br><sub><img src="images/platforms/n64.svg" width="20" height="20" alt="">&#160;Nintendo 64</sub></td><td width="500">Slice N64 and PS1 binaries into a decomp-ready project<br><br><sub>Uses rea: No<br>Image source: <a href="https://github.com/ethteck/splat">Repo card</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/NEstelami/ZAPD"><img src="https://raw.githubusercontent.com/NEstelami/ZAPD/master/docs/zapd_warning_example.png?raw=true" width="160" alt="NEstelami/ZAPD"></a><br><a href="https://github.com/NEstelami/ZAPD"><b>ZAPD</b></a><br><sub>NEstelami</sub><br><sub><img src="images/platforms/n64.svg" width="20" height="20" alt="">&#160;Nintendo 64</sub></td><td width="500">Turn Zelda 64 assets into editable source files<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 </table>
@@ -288,7 +288,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/doldecomp/melee"><img src="https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png" width="160" alt="doldecomp/melee"></a><br><b>Super Smash Bros. Melee</b><br><a href="https://github.com/doldecomp/melee"><b>melee</b></a><br><sub>doldecomp</sub><br><sub><img src="images/platforms/gc.svg" width="20" height="20" alt="">&#160;GameCube</sub></td><td width="500">Super Smash Bros. Melee, decompiled to C<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/zeldaret/tp"><img src="https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg" width="160" alt="zeldaret/tp"></a><br><b>The Legend of Zelda: Twilight Princess</b><br><a href="https://github.com/zeldaret/tp"><b>tp</b></a><br><sub>zeldaret</sub><br><sub><img src="images/platforms/gc.svg" width="20" height="20" alt="">&#160;GameCube</sub></td><td width="500">Zelda: Twilight Princess, decompiled to C++<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/zeldaret/tww"><img src="https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg" width="160" alt="zeldaret/tww"></a><br><b>The Legend of Zelda: The Wind Waker</b><br><a href="https://github.com/zeldaret/tww"><b>tww</b></a><br><sub>zeldaret</sub><br><sub><img src="images/platforms/gc.svg" width="20" height="20" alt="">&#160;GameCube</sub></td><td width="500">Zelda: The Wind Waker, decompiled to C<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg">Wikipedia (© owner)</a></sub></td></tr>
@@ -302,7 +302,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220">—<br><a href="https://github.com/Odrannnn/MetroidPrimePort"><b>MetroidPrimePort</b></a><br><sub>Odrannnn</sub><br><sub><img src="images/platforms/gc.svg" width="20" height="20" alt="">&#160;GameCube</sub></td><td width="500">A free native multi-platform port of the closed-source GameCube game Metroid Prime, built from its matching decompilation so it runs without an emulator and can even load remastered models.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/Odrannnn/MetroidPrime2Port"><b>MetroidPrime2Port</b></a><br><sub>Odrannnn</sub><br><sub><img src="images/platforms/gc.svg" width="20" height="20" alt="">&#160;GameCube</sub></td><td width="500">A free native PC, Linux, Android and more port of the closed-source GameCube game Metroid Prime 2: Echoes, built from its decompilation so you can play it without an emulator.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/Hero88go/melee-unlocked"><img src="images/melee-unlocked-card.png" width="160" alt="Hero88go/melee-unlocked"></a><br><a href="https://github.com/Hero88go/melee-unlocked"><b>melee-unlocked</b></a><br><sub>Hero88go</sub><br><sub><img src="images/platforms/gc.svg" width="20" height="20" alt="">&#160;GameCube</sub></td><td width="500">Super Smash Bros. Melee compiled natively for Windows from its decompiled source, with unlocked frame rate.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
@@ -312,7 +312,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Asset extraction & tools
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/encounter/objdiff"><img src="https://raw.githubusercontent.com/encounter/objdiff/main/assets/screen-symbols.png" width="160" alt="encounter/objdiff"></a><br><a href="https://github.com/encounter/objdiff"><b>objdiff</b></a><br><sub>encounter</sub><br><sub><img src="images/platforms/gc.svg" width="20" height="20" alt="">&#160;GameCube</sub></td><td width="500">See exactly where your decompiled function still differs<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/encounter/decomp-toolkit"><img src="https://opengraph.githubassets.com/1/encounter/decomp-toolkit" width="160" alt="encounter/decomp-toolkit"></a><br><a href="https://github.com/encounter/decomp-toolkit"><b>decomp-toolkit</b></a><br><sub>encounter</sub><br><sub><img src="images/platforms/gc.svg" width="20" height="20" alt="">&#160;GameCube</sub></td><td width="500">The toolkit behind many GameCube and Wii decomps<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 </table>
@@ -322,7 +322,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/zeldaret/ss"><img src="https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png" width="160" alt="zeldaret/ss"></a><br><a href="https://github.com/zeldaret/ss"><b>ss</b></a><br><sub>zeldaret</sub><br><sub><img src="images/platforms/wii.svg" width="20" height="20" alt="">&#160;Wii</sub></td><td width="500">Zelda: Skyward Sword, decompiled to C<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/DarkRTA/rb3"><img src="https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg" width="160" alt="DarkRTA/rb3"></a><br><a href="https://github.com/DarkRTA/rb3"><b>rb3</b></a><br><sub>DarkRTA</sub><br><sub><img src="images/platforms/wii.svg" width="20" height="20" alt="">&#160;Wii</sub></td><td width="500">Rock Band 3 (Wii), decompiled to C++<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/frootloops-1/SlopSportsResort"><b>SlopSportsResort</b></a><br><sub>frootloops-1</sub><br><sub><img src="images/platforms/wii.svg" width="20" height="20" alt="">&#160;Wii</sub></td><td width="500">AI-assisted decompilation project for the closed-source Wii Sports Resort, aiming to rebuild its code.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
@@ -331,7 +331,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220">—<br><a href="https://github.com/josiahg2502-glitch/BrawlRecompiled"><b>BrawlRecompiled</b></a><br><sub>josiahg2502-glitch</sub><br><sub><img src="images/platforms/wii.svg" width="20" height="20" alt="">&#160;Wii</sub></td><td width="500">Makes Super Smash Bros. Brawl (the 2008 Wii game) run as a native Windows or Linux program by translating its PowerPC code, with 4K, high frame rates and mod support. Bring your own disc.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 </table>
 
@@ -340,7 +340,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/pret/pokeheartgold"><img src="https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg" width="160" alt="pret/pokeheartgold"></a><br><a href="https://github.com/pret/pokeheartgold"><b>pokeheartgold</b></a><br><sub>pret</sub><br><sub><img src="images/platforms/ds.svg" width="20" height="20" alt="">&#160;Nintendo DS</sub></td><td width="500">Pokémon HeartGold/SoulSilver, decompiled to C<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/pret/pokeplatinum"><img src="https://github.com/user-attachments/assets/157f7c15-4684-48e9-aacb-eefefbcffcec" width="160" alt="pret/pokeplatinum"></a><br><a href="https://github.com/pret/pokeplatinum"><b>pokeplatinum</b></a><br><sub>pret</sub><br><sub><img src="images/platforms/ds.svg" width="20" height="20" alt="">&#160;Nintendo DS</sub></td><td width="500">Pokémon Platinum as C source<br><br><sub>Uses rea: No<br>Image source: Maintainer post</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/tangosdev/sm64ds-decomp"><img src="images/sm64ds-decomp-card.png" width="160" alt="tangosdev/sm64ds-decomp"></a><br><a href="https://github.com/tangosdev/sm64ds-decomp"><b>sm64ds-decomp</b></a><br><sub>tangosdev</sub><br><sub><img src="images/platforms/ds.svg" width="20" height="20" alt="">&#160;Nintendo DS</sub></td><td width="500">A from-scratch, byte-for-byte matching decompilation of Super Mario 64 DS, turning the original DS game into readable C/C++ source code.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
@@ -353,7 +353,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Asset extraction & tools
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/3DSGuy/Project_CTR"><img src="https://opengraph.githubassets.com/1/3DSGuy/Project_CTR" width="160" alt="3DSGuy/Project_CTR"></a><br><a href="https://github.com/3DSGuy/Project_CTR"><b>Project_CTR</b></a><br><sub>3DSGuy</sub><br><sub><img src="images/platforms/3ds.svg" width="20" height="20" alt="">&#160;Nintendo 3DS</sub></td><td width="500">Build and inspect 3DS file formats (ctrtool / makerom)<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 </table>
 
@@ -362,7 +362,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/Xeeynamo/sotn-decomp"><img src="https://github.com/user-attachments/assets/fff7ddb2-736f-4e7d-b0ee-3c1151649773" width="160" alt="Xeeynamo/sotn-decomp"></a><br><a href="https://github.com/Xeeynamo/sotn-decomp"><b>sotn-decomp</b></a><br><sub>Xeeynamo</sub><br><sub><img src="images/platforms/ps1.svg" width="20" height="20" alt="">&#160;PlayStation</sub></td><td width="500">Castlevania: Symphony of the Night, decompiled to C<br><br><sub>Uses rea: No<br>Image source: Maintainer post</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/shdecompilations/silent-hill-decomp"><img src="https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png" width="160" alt="shdecompilations/silent-hill-decomp"></a><br><a href="https://github.com/shdecompilations/silent-hill-decomp"><b>silent-hill-decomp</b></a><br><sub>shdecompilations</sub><br><sub><img src="images/platforms/ps1.svg" width="20" height="20" alt="">&#160;PlayStation</sub></td><td width="500">Silent Hill (PS1), being decompiled to C<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220"><a href="https://github.com/SlickAmogus/silent-hill-decomp"><img src="images/silent-hill-decomp-card.png" width="160" alt="SlickAmogus/silent-hill-decomp"></a><br><a href="https://github.com/SlickAmogus/silent-hill-decomp"><b>silent-hill-decomp</b></a><br><sub>SlickAmogus</sub><br><sub><img src="images/platforms/ps1.svg" width="20" height="20" alt="">&#160;PlayStation</sub></td><td width="500">An open-source multiplatform port of the original Silent Hill 1, built from a decompilation of the PS1 version so you can play the classic horror game on modern PCs.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
@@ -374,7 +374,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220">—<br><a href="https://github.com/AndrewAltimit/legend-of-legaia-re"><b>legend-of-legaia-re</b></a><br><sub>AndrewAltimit</sub><br><sub><img src="images/platforms/ps1.svg" width="20" height="20" alt="">&#160;PlayStation</sub></td><td width="500">From-scratch Rust reimplementation of the closed-source 1999 PlayStation game Legend of Legaia, based on Ghidra reverse-engineering of formats and logic. You supply your own disc image.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 </table>
 
@@ -383,7 +383,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/ran-j/PS2Recomp"><img src="https://opengraph.githubassets.com/1/ran-j/PS2Recomp" width="160" alt="ran-j/PS2Recomp"></a><br><a href="https://github.com/ran-j/PS2Recomp"><b>PS2Recomp</b></a><br><sub>ran-j</sub><br><sub><img src="images/platforms/ps2.svg" width="20" height="20" alt="">&#160;PlayStation 2</sub></td><td width="500">Recompile PS2 games into native PC executables<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/open-goal/jak-project"><img src="https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png" width="160" alt="open-goal/jak-project"></a><br><b>Jak and Daxter / Jak II</b><br><a href="https://github.com/open-goal/jak-project"><b>jak-project</b></a><br><sub>open-goal</sub><br><sub><img src="images/platforms/ps2.svg" width="20" height="20" alt="">&#160;PlayStation 2</sub></td><td width="500">Play Jak and Daxter natively on PC (bring your own disc)<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/OpenRAC/rac1-decomp"><img src="https://opengraph.githubassets.com/1/OpenRAC/rac1-decomp" width="160" alt="OpenRAC/rac1-decomp"></a><br><a href="https://github.com/OpenRAC/rac1-decomp"><b>rac1-decomp</b></a><br><sub>OpenRAC</sub><br><sub><img src="images/platforms/ps2.svg" width="20" height="20" alt="">&#160;PlayStation 2</sub></td><td width="500">Matching decompilation of the original PlayStation 2 Ratchet &amp; Clank: C/C++ code that rebuilds the retail executable byte-for-byte.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
@@ -403,7 +403,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220">—<br><a href="https://github.com/gothamor/gta-vcs-recomp"><b>gta-vcs-recomp</b></a><br><sub>gothamor</sub><br><sub><img src="images/platforms/ps2.svg" width="20" height="20" alt="">&#160;PlayStation 2</sub></td><td width="500">Makes a native Windows and Linux version of Grand Theft Auto: Vice City Stories (original PS2 game) by recompiling its executable. Bring your own disc image.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/AsobiCodes/rac-rs"><b>rac-rs</b></a><br><sub>AsobiCodes</sub><br><sub><img src="images/platforms/ps2.svg" width="20" height="20" alt="">&#160;PlayStation 2</sub></td><td width="500">Turns the 2002 PS2 game Ratchet &amp; Clank into a native PC program by translating its code ahead of time, so it runs without an emulator. You need your own disc.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/thiagordsfx/urban-reign-recomp"><img src="images/urban-reign-recomp-card.png" width="160" alt="thiagordsfx/urban-reign-recomp"></a><br><a href="https://github.com/thiagordsfx/urban-reign-recomp"><b>urban-reign-recomp</b></a><br><sub>thiagordsfx</sub><br><sub><img src="images/platforms/ps2.svg" width="20" height="20" alt="">&#160;PlayStation 2</sub></td><td width="500">Static recompilation of the PS2 fighting game Urban Reign into a native PC port with 60 FPS, high resolution, and HD textures.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
@@ -418,7 +418,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/hedge-dev/XenonRecomp"><img src="https://opengraph.githubassets.com/1/hedge-dev/XenonRecomp" width="160" alt="hedge-dev/XenonRecomp"></a><br><a href="https://github.com/hedge-dev/XenonRecomp"><b>XenonRecomp</b></a><br><sub>hedge-dev</sub><br><sub><img src="images/platforms/xbox.svg" width="20" height="20" alt="">&#160;Xbox / Xbox 360</sub></td><td width="500">Recompile Xbox 360 games into native C++<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/RenanQueiroz/mcla-recomp"><b>mcla-recomp</b></a><br><sub>RenanQueiroz</sub><br><sub><img src="images/platforms/xbox.svg" width="20" height="20" alt="">&#160;Xbox / Xbox 360</sub></td><td width="500">Turns Midnight Club: Los Angeles Complete Edition (Xbox 360) into a native PC (and PS5) program by static recompilation. You build it from your own disc image.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/phobos665/split2-recomp"><img src="images/ts2-xbox-recomp-og.png" width="160" alt="phobos665/split2-recomp"></a><br><a href="https://github.com/phobos665/split2-recomp"><b>split2-recomp</b></a><br><sub>phobos665</sub><br><sub><img src="images/platforms/xbox.svg" width="20" height="20" alt="">&#160;Xbox / Xbox 360</sub></td><td width="500">Recompiles the original Xbox TimeSplitters 2 into a native program for Windows, Mac and Linux that you build from your own disc.<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
@@ -431,7 +431,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/hedge-dev/UnleashedRecomp"><img src="https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg" width="160" alt="hedge-dev/UnleashedRecomp"></a><br><a href="https://github.com/hedge-dev/UnleashedRecomp"><b>UnleashedRecomp</b></a><br><sub>hedge-dev</sub><br><sub><img src="images/platforms/xbox.svg" width="20" height="20" alt="">&#160;Xbox / Xbox 360</sub></td><td width="500">Play Sonic Unleashed natively on PC (bring your own copy)<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/Shagg88/COGBox"><b>COGBox</b></a><br><sub>Shagg88</sub><br><sub><img src="images/platforms/xbox.svg" width="20" height="20" alt="">&#160;Xbox / Xbox 360</sub></td><td width="500">Free open-source project that turns the Xbox 360 versions of Gears of War 2, 3 and Judgment into native Windows PC games you can run yourself (you need your own legal copy).<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/NoRain211/doaxvb-re"><b>doaxvb-re</b></a><br><sub>NoRain211</sub><br><sub><img src="images/platforms/xbox.svg" width="20" height="20" alt="">&#160;Xbox / Xbox 360</sub></td><td width="500">Native PC port of the Xbox game Dead or Alive Xtreme Beach Volleyball, made by static recompilation from your own disc.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
@@ -450,7 +450,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Asset extraction & tools
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/xemu-project/xemu"><img src="https://user-images.githubusercontent.com/71127352/144098855-dbc7b12a-d715-4102-b45c-faeb46deabde.png" width="160" alt="xemu-project/xemu"></a><br><a href="https://github.com/xemu-project/xemu"><b>xemu</b></a><br><sub>xemu-project</sub><br><sub><img src="images/platforms/xbox.svg" width="20" height="20" alt="">&#160;Xbox / Xbox 360</sub></td><td width="500">Play original Xbox games on Windows, macOS and Linux<br><br><sub>Uses rea: No<br>Image source: Maintainer post</sub></td></tr>
 </table>
 
@@ -459,7 +459,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Decompilation / Recomp
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/diasurgical/DevilutionX"><img src="https://github.com/user-attachments/assets/7ac73801-ef7b-4cc1-8442-a191a2a0a1ce" width="160" alt="diasurgical/DevilutionX"></a><br><b>Diablo</b><br><a href="https://github.com/diasurgical/DevilutionX"><b>DevilutionX</b></a><br><sub>diasurgical</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Play Diablo on modern systems (uses your own DIABDAT.MPQ)<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/isledecomp/isle"><img src="https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg" width="160" alt="isledecomp/isle"></a><br><a href="https://github.com/isledecomp/isle"><b>isle</b></a><br><sub>isledecomp</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">LEGO Island (1997), decompiled to C++<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/timboat/demons-souls-recomp"><b>demons-souls-recomp</b></a><br><sub>timboat</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Native Windows port of the closed-source Demon&#x27;s Souls (PlayStation 3), made with ps3recomp static recompilation. Bring your own disc image.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
@@ -481,7 +481,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <summary>Browse the complete category (+9)</summary>
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/N0zoM1z0/th10"><img src="https://raw.githubusercontent.com/N0zoM1z0/th10/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th10"></a><br><a href="https://github.com/N0zoM1z0/th10"><b>th10</b></a><br><sub>N0zoM1z0</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Touhou 10: Mountain of Faith reconstructed as source<br><br><sub>Uses rea: ❔ Unverified<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/N0zoM1z0/touhou-reverse-engineering"><img src="https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reverse-engineering" width="160" alt="N0zoM1z0/touhou-reverse-engineering"></a><br><a href="https://github.com/N0zoM1z0/touhou-reverse-engineering"><b>touhou-reverse-engineering</b></a><br><sub>N0zoM1z0</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Evidence-first IDA notes on Touhou, with live patch experiments<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/N0zoM1z0/th09"><img src="https://raw.githubusercontent.com/N0zoM1z0/th09/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th09"></a><br><a href="https://github.com/N0zoM1z0/th09"><b>th09</b></a><br><sub>N0zoM1z0</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Touhou 9: Phantasmagoria of Flower View, reconstructed as source<br><br><sub>Uses rea: ❔ Unverified<br>Image source: Project README</sub></td></tr>
@@ -499,7 +499,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Remake / Port
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/OpenRA/OpenRA"><img src="https://www.openra.net/images/news/20260222-generators.gif" width="160" alt="OpenRA/OpenRA"></a><br><a href="https://github.com/OpenRA/OpenRA"><b>OpenRA</b></a><br><sub>OpenRA</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Classic Command &amp; Conquer, rebuilt for modern online play<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/OpenRCT2/OpenRCT2"><img src="https://github.com/user-attachments/assets/fa893cc8-1484-4751-94be-4ead00a6c8f9" width="160" alt="OpenRCT2/OpenRCT2"></a><br><b>RollerCoaster Tycoon 2</b><br><a href="https://github.com/OpenRCT2/OpenRCT2"><b>OpenRCT2</b></a><br><sub>OpenRCT2</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">RollerCoaster Tycoon 2, open-source and alive on modern systems<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/OpenTTD/OpenTTD"><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/OpenTTD-15.3-en.png" width="160" alt="OpenTTD/OpenTTD"></a><br><a href="https://github.com/OpenTTD/OpenTTD"><b>OpenTTD</b></a><br><sub>OpenTTD</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Transport Tycoon Deluxe, open-source and still growing<br><br><sub>Uses rea: No<br>Image source: <a href="https://upload.wikimedia.org/wikipedia/commons/b/ba/OpenTTD-15.3-en.png">Wikipedia (© owner)</a></sub></td></tr>
@@ -521,7 +521,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <summary>Browse the complete category (+22)</summary>
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220">—<br><a href="https://github.com/mr-finster/vf3-recomp"><b>vf3-recomp</b></a><br><sub>mr-finster</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Static recompilation of the closed-source 1996 Sega Model 3 arcade game Virtua Fighter 3 into native PC code, with up to 6x resolution and 120 fps. Bring your own ROM.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a><br><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Battlefield 2&#x27;s engine, rewritten clean-room in C++20 (uses your own copy)<br><br><sub>Uses rea: ✅ Yes<br>Image source: Project README</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/Mava-b/folklore-decomp"><b>folklore-decomp</b></a><br><sub>Mava-b</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Native Windows port of the 2007 PS3 game Folklore, made by static recompilation (60 FPS, ultrawide)<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
@@ -552,7 +552,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 #### Asset extraction & tools
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/Perfare/AssetStudio"><img src="https://opengraph.githubassets.com/1/Perfare/AssetStudio" width="160" alt="Perfare/AssetStudio"></a><br><a href="https://github.com/Perfare/AssetStudio"><b>AssetStudio</b></a><br><sub>Perfare</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Browse and export assets from Unity games<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/AssetRipper/AssetRipper"><img src="https://raw.githubusercontent.com/AssetRipper/AssetRipper/master/docs/articles/images/RunningOnMac/004.png" width="160" alt="AssetRipper/AssetRipper"></a><br><a href="https://github.com/AssetRipper/AssetRipper"><b>AssetRipper</b></a><br><sub>AssetRipper</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Turn Unity builds back into an editable project<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/ata4/disunity"><img src="https://opengraph.githubassets.com/1/ata4/disunity" width="160" alt="ata4/disunity"></a><br><a href="https://github.com/ata4/disunity"><b>disunity</b></a><br><sub>ata4</sub><br><sub><img src="images/platforms/pc.svg" width="20" height="20" alt="">&#160;PC / DOS / PC-98</sub></td><td width="500">Early toolset for poking at Unity asset files<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
@@ -566,7 +566,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 ## Apps / Electron / Desktop
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/storytold/photocraft"><img src="https://raw.githubusercontent.com/storytold/photocraft/main/docs/images/photocraft-demo.jpg" width="160" alt="storytold/photocraft"></a><br><a href="https://github.com/storytold/photocraft"><b>photocraft</b></a><br><sub>storytold</sub></td><td width="500">People rebuilt Adobe Photoshop from scratch as free open-source software. It is a photo editor written in Rust that tries to work like Photoshop (layers, masks, PSD files) without using any of Adobe’s code.<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/storytold/pdfcraft"><b>pdfcraft</b></a><br><sub>storytold</sub></td><td width="500">Clean-room PDF reader and editor in pure Rust<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/storytold/filmcraft"><b>filmcraft</b></a><br><sub>storytold</sub></td><td width="500">People made a free video editor that works like Adobe Premiere Pro, written from scratch in Rust. You can cut video, add effects and color grade without using Adobe’s code.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
@@ -588,7 +588,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <summary>Browse the complete category (+20)</summary>
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/GLinnik21/plx-native"><img src="https://raw.githubusercontent.com/GLinnik21/plx-native/main/docs/screenshots/home.jpg" width="160" alt="GLinnik21/plx-native"></a><br><a href="https://github.com/GLinnik21/plx-native"><b>plx-native</b></a><br><sub>GLinnik21</sub></td><td width="500">A faster native Plex client for LG TVs<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/michaelshimeles/terminal-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png" width="160" alt="michaelshimeles/terminal-rs"></a><br><a href="https://github.com/michaelshimeles/terminal-rs"><b>terminal-rs</b></a><br><sub>michaelshimeles</sub></td><td width="500">A Bloomberg-style trading terminal in Rust<br><br><sub>Uses rea: ✅ Yes<br>Image source: Project README</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/pingw33n/openrb-338"><b>openrb-338</b></a><br><sub>pingw33n</sub></td><td width="500">Free open-source reimplementation of the 1997 ReBirth RB-338 software synthesizer that sounds exactly like the original.<br><br><sub>Uses rea: No<br>Image source: —</sub></td></tr>
@@ -619,7 +619,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 ## Protocols / Hardware
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/mitmproxy/mitmproxy"><img src="https://mitmproxy.org/screenshot.png" width="160" alt="mitmproxy/mitmproxy"></a><br><a href="https://github.com/mitmproxy/mitmproxy"><b>mitmproxy</b></a><br><sub>mitmproxy</sub></td><td width="500">Watch and edit HTTPS traffic as it happens<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/wireshark/wireshark"><img src="images/wireshark-gui.png" width="160" alt="wireshark/wireshark"></a><br><a href="https://github.com/wireshark/wireshark"><b>wireshark</b></a><br><sub>wireshark</sub></td><td width="500">See every packet on the wire, decoded<br><br><sub>Uses rea: No<br>Image source: Our screenshot</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/postlund/pyatv"><img src="https://opengraph.githubassets.com/1/postlund/pyatv" width="160" alt="postlund/pyatv"></a><br><a href="https://github.com/postlund/pyatv"><b>pyatv</b></a><br><sub>postlund</sub></td><td width="500">Control Apple TVs and AirPlay devices from Python<br><br><sub>Uses rea: No<br>Image source: Repo card</sub></td></tr>
@@ -635,7 +635,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 ## Firmware / Drivers
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/ReFirmLabs/binwalk"><img src="https://raw.githubusercontent.com/ReFirmLabs/binwalk/master/images/output.png" width="160" alt="ReFirmLabs/binwalk"></a><br><a href="https://github.com/ReFirmLabs/binwalk"><b>binwalk</b></a><br><sub>ReFirmLabs</sub></td><td width="500">Find and extract what&#x27;s hidden inside firmware images<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/qilingframework/qiling"><img src="https://raw.githubusercontent.com/qilingframework/theme.qiling.io/master/source/img/fuzzer.jpg?raw=true" width="160" alt="qilingframework/qiling"></a><br><a href="https://github.com/qilingframework/qiling"><b>qiling</b></a><br><sub>qilingframework</sub></td><td width="500">Emulate and instrument binaries across OSes and CPUs<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/onekey-sec/unblob"><img src="images/unblob-terminal.png" width="160" alt="onekey-sec/unblob"></a><br><a href="https://github.com/onekey-sec/unblob"><b>unblob</b></a><br><sub>onekey-sec</sub></td><td width="500">Unpack almost any firmware or container format, recursively<br><br><sub>Uses rea: No<br>Image source: Our screenshot</sub></td></tr>
@@ -652,7 +652,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 ## Security / Evaluations
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/morluto/rea/discussions/2254"><img src="images/rea-discussion-2254.png" width="160" alt="REA discussion #2254"></a><br><a href="https://github.com/morluto/rea/discussions/2254"><b>REA discussion #2254</b></a></td><td width="500">A stripped bzip2, analysed and checked against the real build<br><br><sub>Uses rea: ✅ Yes<br>Image source: Our screenshot</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/MobSF/Mobile-Security-Framework-MobSF"><b>Mobile-Security-Framework-MobSF</b></a><br><sub>MobSF</sub></td><td width="500">Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine.<br><br><sub>Uses rea: ❔ Unverified<br>Image source: —</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/ljagiello/ctf-skills"><b>ctf-skills</b></a><br><sub>ljagiello</sub></td><td width="500">CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups.<br><br><sub>Uses rea: ❔ Unverified<br>Image source: —</sub></td></tr>
@@ -670,7 +670,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 ## Reverse-engineering tools
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220">—<br><a href="https://github.com/morluto/rea"><b>rea</b></a><br><sub>morluto</sub></td><td width="500">Evidence-oriented CLI and MCP toolkit for native, Android, JavaScript/Electron and firmware analysis; third-party engines are separate.<br><br><sub>Uses rea: ❔ Unverified<br>Image source: —</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/NationalSecurityAgency/ghidra"><img src="images/ghidra-gui.png" width="160" alt="NationalSecurityAgency/ghidra"></a><br><a href="https://github.com/NationalSecurityAgency/ghidra"><b>ghidra</b></a><br><sub>NationalSecurityAgency</sub></td><td width="500">The NSA&#x27;s free decompiler and disassembler suite<br><br><sub>Uses rea: No<br>Image source: Our screenshot</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/WerWolv/ImHex"><img src="images/imhex-gui.png" width="160" alt="WerWolv/ImHex"></a><br><a href="https://github.com/WerWolv/ImHex"><b>ImHex</b></a><br><sub>WerWolv</sub></td><td width="500">A hex editor with a pattern language that decodes structures for you<br><br><sub>Uses rea: No<br>Image source: Our screenshot</sub></td></tr>
@@ -692,7 +692,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <summary>Browse the complete category (+96)</summary>
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220">—<br><a href="https://github.com/Gallopsled/pwntools"><b>pwntools</b></a><br><sub>Gallopsled</sub></td><td width="500">Python framework for CTF experiments and binary-analysis automation; component licenses vary.<br><br><sub>Uses rea: ❔ Unverified<br>Image source: —</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/mrexodia/ida-pro-mcp"><img src="https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg" width="160" alt="mrexodia/ida-pro-mcp"></a><br><a href="https://github.com/mrexodia/ida-pro-mcp"><b>ida-pro-mcp</b></a><br><sub>mrexodia</sub></td><td width="500">IDA Pro MCP bridge; upstream now recommends the official HexRaysSA/ida-mcp successor.<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
 <tr><td width="220"><a href="https://github.com/LaurieWired/GhidraMCP"><img src="https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3" width="160" alt="LaurieWired/GhidraMCP"></a><br><a href="https://github.com/LaurieWired/GhidraMCP"><b>GhidraMCP</b></a><br><sub>LaurieWired</sub></td><td width="500">A bridge that lets AI assistants (like Claude) control the free reverse-engineering tool Ghidra. The AI can decompile programs, rename functions and analyze binaries for you.<br><br><sub>Uses rea: No<br>Image source: Project README</sub></td></tr>
@@ -799,7 +799,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 ## Official REA showcases
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a><br><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td width="500">Watch REA turn one DX-Ball sound helper into byte-exact C<br><br><sub>Uses rea: ✅ Yes<br>Image source: Our screenshot</sub></td></tr>
 <tr><td width="220"><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a><br><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td width="500">Follow a Notion copy from the page, through IPC, into the main process<br><br><sub>Uses rea: ✅ Yes<br>Image source: Our screenshot</sub></td></tr>
 <tr><td width="220"><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a><br><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td width="500">Recover Touhou 4&#x27;s bullet-ring angle maths from 16-bit DOS code<br><br><sub>Uses rea: ✅ Yes<br>Image source: Our screenshot</sub></td></tr>
@@ -817,7 +817,7 @@ This evidence-tagged subset reuses entries from the platform and topic sections 
 <summary>Expand 58 REA-tagged entries</summary>
 
 <table>
-<tr><th width="220">Game,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
+<tr><th width="220">Project,&#160;preview&#160;and&#160;platform</th><th width="500">Purpose,&#160;requirements&#160;and&#160;sources</th></tr>
 <tr><td width="220"><a href="https://github.com/morluto/rea/discussions/2254"><img src="images/rea-discussion-2254.png" width="160" alt="REA discussion #2254"></a><br><a href="https://github.com/morluto/rea/discussions/2254"><b>REA discussion #2254</b></a></td><td width="500">A stripped bzip2, analysed and checked against the real build<br><br><sub>Uses rea: ✅ Yes<br>Image source: Our screenshot</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td width="500">MCP server and skills to add co-op to single-player games by investigating entry points with REA<br><br><sub>Uses rea: ✅ Yes<br>Image source: —</sub></td></tr>
 <tr><td width="220">—<br><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td width="500">High-fidelity rebuild of Claude Desktop UI components and interaction physics, extracted via REA<br><br><sub>Uses rea: ✅ Yes<br>Image source: —</sub></td></tr>
