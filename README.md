@@ -1,3 +1,5 @@
+![Reverse Engineering Atlas](images/atlas-hero.webp)
+
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 # Reverse Engineering Atlas
@@ -5,6 +7,8 @@
 A curated map of reverse-engineering projects, tools and agent workflows. Find existing work before starting your own: game decompilations and recompilations, application reimplementations, Android and JavaScript analysis, protocols, firmware and supporting tools.
 
 **382 catalog entries · 376 GitHub repositories · 10 skill workflows · 5 README languages**
+
+Switch 2 is an editorial priority, not a measured popularity claim. Within each section, projects use the existing cumulative Star snapshot, not live trending data. The snapshot has no capture timestamp; missing counts sort last. All entries remain available below.
 
 > Independent and tool-agnostic. This is not an official directory for REA or any other upstream project. Inclusion is not an endorsement or a claim that a project is complete, safe or licensed for your use.
 
@@ -14,6 +18,8 @@ A curated map of reverse-engineering projects, tools and agent workflows. Find e
 - [Skill technology map](#atlas-skills)
 - [Scope, evidence and licenses](#atlas-policy)
 - [Games](#atlas-games)
+  - [Nintendo Switch 2](#nintendo-switch-2)
+  - [Nintendo Switch](#nintendo-switch)
   - [NES / Famicom](#nes--famicom)
   - [Super Famicom / SNES](#super-famicom--snes)
   - [Mega Drive / Genesis](#mega-drive--genesis)
@@ -87,6 +93,48 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <a id="atlas-games"></a>
 
 ## Games
+
+### Nintendo Switch 2
+
+#### Decompilation / Recomp
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
+<tr><td>—</td><td><a href="https://github.com/Dittobyte/Recompia"><b>Recompia</b></a><br><sub>Dittobyte</sub></td><td>Turns Pokémon Pokopia (Nintendo Switch 2) into a native Windows or Linux program, with multiplayer, modding and higher resolutions. You need your own game files.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RealZotto/oot2-native"><b>oot2-native</b></a><br><sub>RealZotto</sub></td><td>Turns the Nintendo Switch 2 version of The Legend of Zelda: Ocarina of Time Remake into a native Windows program you can run on your PC. You need your own game dump.</td><td>No</td><td><sub>—</sub></td></tr>
+</table>
+
+#### Remake / Port
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
+<tr><td><a href="https://github.com/NotRexed/Hookshot"><img src="https://opengraph.githubassets.com/1/NotRexed/Hookshot" width="160" alt="NotRexed/Hookshot"></a></td><td><a href="https://github.com/NotRexed/Hookshot"><b>Hookshot</b></a><br><sub>NotRexed</sub></td><td>Turns the Switch 2 version of The Legend of Zelda: Ocarina of Time into a native Windows program you can run without an emulator, using your own game dump.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/sostenesfreitas/ocarina-recomp"><img src="images/ocarina-og.png" width="160" alt="sostenesfreitas/ocarina-recomp"></a></td><td><a href="https://github.com/sostenesfreitas/ocarina-recomp"><b>ocarina-recomp</b></a><br><sub>sostenesfreitas</sub></td><td>Turns your own copy of the Switch 2 Ocarina of Time remake into a native Windows program with no emulator.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/Lucas-blip-png/dkb-pc-recomp"><img src="images/dkb-pc-recomp.png" width="160" alt="Lucas-blip-png/dkb-pc-recomp"></a></td><td><a href="https://github.com/Lucas-blip-png/dkb-pc-recomp"><b>dkb-pc-recomp</b></a><br><sub>Lucas-blip-png</sub></td><td>Turns the closed-source Nintendo Switch 2 game Donkey Kong Bananza into a native Windows program by static recompilation. You need your own dump; currently reaches the tutorial.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/SerenityG4K/SpaceAnimalsRecomp"><img src="https://opengraph.githubassets.com/1/SerenityG4K/SpaceAnimalsRecomp" width="160" alt="SerenityG4K/SpaceAnimalsRecomp"></a></td><td><a href="https://github.com/SerenityG4K/SpaceAnimalsRecomp"><b>SpaceAnimalsRecomp</b></a><br><sub>SerenityG4K</sub></td><td>A static recompilation that turns the Nintendo Switch 2 version of Star Fox into a native Windows program you build from your own legally owned copy. No game files included.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/drakolordx7/switch2-recomp"><img src="https://opengraph.githubassets.com/1/drakolordx7/switch2-recomp" width="160" alt="drakolordx7/switch2-recomp"></a></td><td><a href="https://github.com/drakolordx7/switch2-recomp"><b>switch2-recomp</b></a><br><sub>drakolordx7</sub></td><td>Turns the Nintendo Switch 2 game Pokémon Pokopia into a native Windows program you run with your own game dump, without an emulator.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+</table>
+
+### Nintendo Switch
+
+#### Decompilation / Recomp
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
+<tr><td>—</td><td><a href="https://github.com/jmars125/xcx-recomp"><b>xcx-recomp</b></a><br><sub>jmars125</sub></td><td>Turns the closed-source Xenoblade Chronicles X: Definitive Edition (Switch) into a native Windows program by statically recompiling its code. You bring your own legally dumped files.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><img src="https://opengraph.githubassets.com/1/KevinBonnoron/xc2-decomp" width="160" alt="KevinBonnoron/xc2-decomp"></a></td><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><b>xc2-decomp</b></a><br><sub>KevinBonnoron</sub></td><td>Matching decompilation of Xenoblade Chronicles 2 on Nintendo Switch: source that rebuilds the original game binary.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+</table>
+
+#### Remake / Port
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
+<tr><td><a href="https://github.com/valentderah/totk-pc-recomp"><img src="images/totk-pc-recomp-card.png" width="160" alt="valentderah/totk-pc-recomp"></a></td><td><a href="https://github.com/valentderah/totk-pc-recomp"><b>totk-pc-recomp</b></a><br><sub>valentderah</sub></td><td>Turns the Nintendo Switch version of The Legend of Zelda: Tears of the Kingdom into a native Windows program you can run without an emulator. You supply your own game files.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/peiikai/LASRecomp"><img src="https://opengraph.githubassets.com/1/peiikai/LASRecomp" width="160" alt="peiikai/LASRecomp"></a></td><td><a href="https://github.com/peiikai/LASRecomp"><b>LASRecomp</b></a><br><sub>peiikai</sub></td><td>Turns the 2019 Nintendo Switch version of The Legend of Zelda: Link&#x27;s Awakening into a native Windows, macOS or Linux program you run with your own game dump.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/smm2recomp/smm2recomp"><b>smm2recomp</b></a><br><sub>smm2recomp</sub></td><td>Static recompilation that turns the closed-source Switch Super Mario Maker 2 into a native app for PC, Mac, Linux and more; you provide your own dump.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/linuxopt/mp4-recomp"><b>mp4-recomp</b></a><br><sub>linuxopt</sub></td><td>A free native Linux version of the Nintendo Switch game Metroid Prime 4: Beyond. It recompiles your own game dump so the game runs without an emulator.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>Early free open-source port that recompiles the Nintendo Switch game Tomodachi Life: Living the Dream into a native PC program (you need your own dump).</td><td>No</td><td><sub>—</sub></td></tr>
+</table>
 
 ### NES / Famicom
 
@@ -409,8 +457,6 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
 <tr><td><a href="https://github.com/diasurgical/DevilutionX"><img src="https://github.com/user-attachments/assets/7ac73801-ef7b-4cc1-8442-a191a2a0a1ce" width="160" alt="diasurgical/DevilutionX"></a></td><td><a href="https://github.com/diasurgical/DevilutionX"><b>DevilutionX</b></a><br><sub>diasurgical</sub></td><td>Play Diablo on modern systems (uses your own DIABDAT.MPQ)</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/isledecomp/isle"><img src="https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg" width="160" alt="isledecomp/isle"></a></td><td><a href="https://github.com/isledecomp/isle"><b>isle</b></a><br><sub>isledecomp</sub></td><td>LEGO Island (1997), decompiled to C++</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg">Wikipedia (© owner)</a></sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Dittobyte/Recompia"><b>Recompia</b></a><br><sub>Dittobyte</sub></td><td>Turns Pokémon Pokopia (Nintendo Switch 2) into a native Windows or Linux program, with multiplayer, modding and higher resolutions. You need your own game files.</td><td>No</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/jmars125/xcx-recomp"><b>xcx-recomp</b></a><br><sub>jmars125</sub></td><td>Turns the closed-source Xenoblade Chronicles X: Definitive Edition (Switch) into a native Windows program by statically recompiling its code. You bring your own legally dumped files.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/timboat/demons-souls-recomp"><b>demons-souls-recomp</b></a><br><sub>timboat</sub></td><td>Native Windows port of the closed-source Demon&#x27;s Souls (PlayStation 3), made with ps3recomp static recompilation. Bring your own disc image.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/Open-BFME/Open-BFME-1"><img src="https://opengraph.githubassets.com/6e61087d192d2ca439dcfc002c615a58e1e2b117568508112c1cba84bee30301/Open-BFME/Open-BFME-1" width="160" alt="Open-BFME/Open-BFME-1"></a></td><td><a href="https://github.com/Open-BFME/Open-BFME-1"><b>Open-BFME-1</b></a><br><sub>Open-BFME</sub></td><td>From-scratch C++ rewrite of The Lord of the Rings: Battle for Middle-earth 1 so the code rebuilds the original game EXE byte-for-byte</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/openblack/bw1-decomp"><img src="images/bw1-decomp-card.png" width="160" alt="openblack/bw1-decomp"></a></td><td><a href="https://github.com/openblack/bw1-decomp"><b>bw1-decomp</b></a><br><sub>openblack</sub></td><td>Decompilation of the classic PC god game Black &amp; White 1, reconstructing the original closed-source code into open source.</td><td>No</td><td><sub>Repo card</sub></td></tr>
@@ -422,13 +468,18 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/N0zoM1z0/th105"><img src="https://raw.githubusercontent.com/N0zoM1z0/th105/main/resources/title-screen.jpg" width="160" alt="N0zoM1z0/th105"></a></td><td><a href="https://github.com/N0zoM1z0/th105"><b>th105</b></a><br><sub>N0zoM1z0</sub></td><td>Touhou 10.5: Scarlet Weather Rhapsody, reconstructed as source</td><td>❔ Unverified</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/0xd34db8/LF2-decomp"><b>LF2-decomp</b></a><br><sub>0xd34db8</sub></td><td>A true 1:1 decompilation of the closed-source Little Fighter 2 into modern C++20 source that matches the original x86 machine code.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/phys-winner/pc_decomp_ut3"><b>pc_decomp_ut3</b></a><br><sub>phys-winner</sub></td><td>Statically recompiles the closed-source Unreal Tournament 3 (PC) into native Android ARM64 code, with a compatibility layer for its original Win32/Direct3D 9 calls.</td><td>No</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><img src="https://opengraph.githubassets.com/1/KevinBonnoron/xc2-decomp" width="160" alt="KevinBonnoron/xc2-decomp"></a></td><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><b>xc2-decomp</b></a><br><sub>KevinBonnoron</sub></td><td>Matching decompilation of Xenoblade Chronicles 2 on Nintendo Switch: source that rebuilds the original game binary.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/th095"><img src="https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg" width="160" alt="N0zoM1z0/th095"></a></td><td><a href="https://github.com/N0zoM1z0/th095"><b>th095</b></a><br><sub>N0zoM1z0</sub></td><td>Touhou 9.5: Shoot the Bullet, reconstructed as source</td><td>❔ Unverified</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/kazuyette/senjin-recomped"><b>senjin-recomped</b></a><br><sub>kazuyette</sub></td><td>Static recompilation of the closed-source arcade game Senjin Aleste (APM3) into a native Linux x86-64 binary, plus a Windows replacement DLL.</td><td>No</td><td><sub>—</sub></td></tr>
+</table>
+
+<details>
+<summary>Browse the complete category (+9)</summary>
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/th10"><img src="https://raw.githubusercontent.com/N0zoM1z0/th10/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th10"></a></td><td><a href="https://github.com/N0zoM1z0/th10"><b>th10</b></a><br><sub>N0zoM1z0</sub></td><td>Touhou 10: Mountain of Faith reconstructed as source</td><td>❔ Unverified</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/touhou-reverse-engineering"><img src="https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reverse-engineering" width="160" alt="N0zoM1z0/touhou-reverse-engineering"></a></td><td><a href="https://github.com/N0zoM1z0/touhou-reverse-engineering"><b>touhou-reverse-engineering</b></a><br><sub>N0zoM1z0</sub></td><td>Evidence-first IDA notes on Touhou, with live patch experiments</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/th09"><img src="https://raw.githubusercontent.com/N0zoM1z0/th09/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th09"></a></td><td><a href="https://github.com/N0zoM1z0/th09"><b>th09</b></a><br><sub>N0zoM1z0</sub></td><td>Touhou 9: Phantasmagoria of Flower View, reconstructed as source</td><td>❔ Unverified</td><td><sub>Project README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/RealZotto/oot2-native"><b>oot2-native</b></a><br><sub>RealZotto</sub></td><td>Turns the Nintendo Switch 2 version of The Legend of Zelda: Ocarina of Time Remake into a native Windows program you can run on your PC. You need your own game dump.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/yamahuser/mhfz-decomp"><b>mhfz-decomp</b></a><br><sub>yamahuser</sub></td><td>Reverse-engineering work on the Monster Hunter Frontier Z online client: function names, specifications and helper tools. Does not include Capcom&#x27;s original code.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><img src="images/sadx-decomp.png" width="160" alt="LuckyLuke00/sadx-decomp"></a></td><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><b>sadx-decomp</b></a><br><sub>LuckyLuke00</sub></td><td>Matching decompilation of the closed-source 2014 Steam release of Sonic Adventure DX, aiming for byte-identical machine code.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><img src="https://raw.githubusercontent.com/bmbelo87/decomp-it-up-Perfect-Collection/main/LogoIA.png" width="160" alt="bmbelo87/decomp-it-up-Perfect-Collection"></a></td><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><b>decomp-it-up-Perfect-Collection</b></a><br><sub>bmbelo87</sub></td><td>From-scratch C recompilation of the closed-source DOS Pump It Up Perfect Collection (PIU.EXE, Dec 2000) that plays like the original.</td><td>No</td><td><sub>Project README</sub></td></tr>
@@ -437,6 +488,9 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>Matching decompilation of the original 1996 DOS Tomb Raider so C and assembly compile back to the exact retail TOMB.EXE bytes</td><td>No</td><td><sub>Project README</sub></td></tr>
 </table>
 
+</details>
+
+
 #### Remake / Port
 
 <table>
@@ -444,30 +498,28 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/OpenRA/OpenRA"><img src="https://www.openra.net/images/news/20260222-generators.gif" width="160" alt="OpenRA/OpenRA"></a></td><td><a href="https://github.com/OpenRA/OpenRA"><b>OpenRA</b></a><br><sub>OpenRA</sub></td><td>Classic Command &amp; Conquer, rebuilt for modern online play</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/OpenRCT2/OpenRCT2"><img src="https://github.com/user-attachments/assets/fa893cc8-1484-4751-94be-4ead00a6c8f9" width="160" alt="OpenRCT2/OpenRCT2"></a></td><td><a href="https://github.com/OpenRCT2/OpenRCT2"><b>OpenRCT2</b></a><br><sub>OpenRCT2</sub></td><td>RollerCoaster Tycoon 2, open-source and alive on modern systems</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/OpenTTD/OpenTTD"><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/OpenTTD-15.3-en.png" width="160" alt="OpenTTD/OpenTTD"></a></td><td><a href="https://github.com/OpenTTD/OpenTTD"><b>OpenTTD</b></a><br><sub>OpenTTD</sub></td><td>Transport Tycoon Deluxe, open-source and still growing</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/commons/b/ba/OpenTTD-15.3-en.png">Wikipedia (© owner)</a></sub></td></tr>
-<tr><td><a href="https://github.com/NotRexed/Hookshot"><img src="https://opengraph.githubassets.com/1/NotRexed/Hookshot" width="160" alt="NotRexed/Hookshot"></a></td><td><a href="https://github.com/NotRexed/Hookshot"><b>Hookshot</b></a><br><sub>NotRexed</sub></td><td>Turns the Switch 2 version of The Legend of Zelda: Ocarina of Time into a native Windows program you can run without an emulator, using your own game dump.</td><td>No</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/valentderah/totk-pc-recomp"><img src="images/totk-pc-recomp-card.png" width="160" alt="valentderah/totk-pc-recomp"></a></td><td><a href="https://github.com/valentderah/totk-pc-recomp"><b>totk-pc-recomp</b></a><br><sub>valentderah</sub></td><td>Turns the Nintendo Switch version of The Legend of Zelda: Tears of the Kingdom into a native Windows program you can run without an emulator. You supply your own game files.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/OpenMW/openmw"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/OpenMW_with_example_suit_2.png" width="160" alt="OpenMW/openmw"></a></td><td><a href="https://github.com/OpenMW/openmw"><b>openmw</b></a><br><sub>OpenMW</sub></td><td>Play Morrowind on a modern open-source engine</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/commons/9/9e/OpenMW_with_example_suit_2.png">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td><a href="https://github.com/Interkarma/daggerfall-unity"><img src="https://github.com/Interkarma/daggerfall-unity/assets/10426244/4f176f9d-6332-47b3-a4d7-317ed8d6b38b" width="160" alt="Interkarma/daggerfall-unity"></a></td><td><a href="https://github.com/Interkarma/daggerfall-unity"><b>daggerfall-unity</b></a><br><sub>Interkarma</sub></td><td>Daggerfall recreated in Unity (uses your own game data)</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/scummvm/scummvm"><img src="https://www.scummvm.org/data/screenshots/prince/prince/prince_win_en_1_3_full.png" width="160" alt="scummvm/scummvm"></a></td><td><a href="https://github.com/scummvm/scummvm"><b>scummvm</b></a><br><sub>scummvm</sub></td><td>Play classic point-and-click adventures on almost anything</td><td>No</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/peiikai/LASRecomp"><img src="https://opengraph.githubassets.com/1/peiikai/LASRecomp" width="160" alt="peiikai/LASRecomp"></a></td><td><a href="https://github.com/peiikai/LASRecomp"><b>LASRecomp</b></a><br><sub>peiikai</sub></td><td>Turns the 2019 Nintendo Switch version of The Legend of Zelda: Link&#x27;s Awakening into a native Windows, macOS or Linux program you run with your own game dump.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/OpenXcom/OpenXcom"><img src="https://opengraph.githubassets.com/1/OpenXcom/OpenXcom" width="160" alt="OpenXcom/OpenXcom"></a></td><td><a href="https://github.com/OpenXcom/OpenXcom"><b>OpenXcom</b></a><br><sub>OpenXcom</sub></td><td>Play the original UFO / X-COM on a modern open-source engine</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/perfect-dark-pc-port/perfect_dark"><img src="https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg" width="160" alt="perfect-dark-pc-port/perfect_dark"></a></td><td><a href="https://github.com/perfect-dark-pc-port/perfect_dark"><b>perfect_dark</b></a><br><sub>perfect-dark-pc-port</sub></td><td>Play Perfect Dark natively on PC (bring your own ROM)</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg">Wikipedia (© owner)</a></sub></td></tr>
-<tr><td><a href="https://github.com/sostenesfreitas/ocarina-recomp"><img src="images/ocarina-og.png" width="160" alt="sostenesfreitas/ocarina-recomp"></a></td><td><a href="https://github.com/sostenesfreitas/ocarina-recomp"><b>ocarina-recomp</b></a><br><sub>sostenesfreitas</sub></td><td>Turns your own copy of the Switch 2 Ocarina of Time remake into a native Windows program with no emulator.</td><td>No</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/Lucas-blip-png/dkb-pc-recomp"><img src="images/dkb-pc-recomp.png" width="160" alt="Lucas-blip-png/dkb-pc-recomp"></a></td><td><a href="https://github.com/Lucas-blip-png/dkb-pc-recomp"><b>dkb-pc-recomp</b></a><br><sub>Lucas-blip-png</sub></td><td>Turns the closed-source Nintendo Switch 2 game Donkey Kong Bananza into a native Windows program by static recompilation. You need your own dump; currently reaches the tutorial.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/julianxhokaxhiu/FFNx"><img src="https://raw.githubusercontent.com/julianxhokaxhiu/FFNx/master/.screens/ff7.png" width="160" alt="julianxhokaxhiu/FFNx"></a></td><td><a href="https://github.com/julianxhokaxhiu/FFNx"><b>FFNx</b></a><br><sub>julianxhokaxhiu</sub></td><td>A modern driver and mod platform for FF7/FF8 on PC</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/AksharDP/xc2-recomp"><b>xc2-recomp</b></a><br><sub>AksharDP</sub></td><td>A free native Windows version of the Nintendo Switch game Xenoblade Chronicles 2. It statically recompiles your own game dump into a native executable with a Vulkan renderer.</td><td>No</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/smm2recomp/smm2recomp"><b>smm2recomp</b></a><br><sub>smm2recomp</sub></td><td>Static recompilation that turns the closed-source Switch Super Mario Maker 2 into a native app for PC, Mac, Linux and more; you provide your own dump.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/BLSNCVS/Castlevania-Grimoire-of-Souls-Recomp"><b>Castlevania-Grimoire-of-Souls-Recomp</b></a><br><sub>BLSNCVS</sub></td><td>Turns the Apple Arcade / macOS version of Castlevania: Grimoire of Souls into a native Windows program you can run without an emulator, using your own game files.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/tmcleroy/cps2recomp"><img src="images/cps2recomp-card.png" width="160" alt="tmcleroy/cps2recomp"></a></td><td><a href="https://github.com/tmcleroy/cps2recomp"><b>cps2recomp</b></a><br><sub>tmcleroy</sub></td><td>Unofficial native PC ports of classic Capcom CPS-2 arcade games (Street Fighter Alpha 2, etc.) made via static recompilation. Bring your own ROMs.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/fallout2-ce/fallout2-ce"><img src="https://raw.githubusercontent.com/fallout2-ce/fallout2-ce/main/docs/images/two-column-inventory.jpg" width="160" alt="fallout2-ce/fallout2-ce"></a></td><td><a href="https://github.com/fallout2-ce/fallout2-ce"><b>fallout2-ce</b></a><br><sub>fallout2-ce</sub></td><td>Play Fallout 2 on modern systems (uses your own game data)</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pablocpas/OpenCMR2"><b>OpenCMR2</b></a><br><sub>pablocpas</sub></td><td>Native multi-platform port of the closed-source 2000 PC game Colin McRae Rally 2.0, built on a matching decompilation and using modern SDL3 instead of old DirectX. You supply your own game files.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/cheviman/outrunners-port"><b>outrunners-port</b></a><br><sub>cheviman</sub></td><td>A native port of the 1992 Sega arcade game OutRunners for PC and consoles, built from a matching C decompilation. You need your own ROM.</td><td>No</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/linuxopt/mp4-recomp"><b>mp4-recomp</b></a><br><sub>linuxopt</sub></td><td>A free native Linux version of the Nintendo Switch game Metroid Prime 4: Beyond. It recompiles your own game dump so the game runs without an emulator.</td><td>No</td><td><sub>—</sub></td></tr>
+</table>
+
+<details>
+<summary>Browse the complete category (+22)</summary>
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
 <tr><td>—</td><td><a href="https://github.com/mr-finster/vf3-recomp"><b>vf3-recomp</b></a><br><sub>mr-finster</sub></td><td>Static recompilation of the closed-source 1996 Sega Model 3 arcade game Virtua Fighter 3 into native PC code, with up to 6x resolution and 120 fps. Bring your own ROM.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a></td><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub></td><td>Battlefield 2&#x27;s engine, rewritten clean-room in C++20 (uses your own copy)</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Mava-b/folklore-decomp"><b>folklore-decomp</b></a><br><sub>Mava-b</sub></td><td>Native Windows port of the 2007 PS3 game Folklore, made by static recompilation (60 FPS, ultrawide)</td><td>No</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>Early free open-source port that recompiles the Nintendo Switch game Tomodachi Life: Living the Dream into a native PC program (you need your own dump).</td><td>No</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/SerenityG4K/SpaceAnimalsRecomp"><img src="https://opengraph.githubassets.com/1/SerenityG4K/SpaceAnimalsRecomp" width="160" alt="SerenityG4K/SpaceAnimalsRecomp"></a></td><td><a href="https://github.com/SerenityG4K/SpaceAnimalsRecomp"><b>SpaceAnimalsRecomp</b></a><br><sub>SerenityG4K</sub></td><td>A static recompilation that turns the Nintendo Switch 2 version of Star Fox into a native Windows program you build from your own legally owned copy. No game files included.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Karlos-fr/fun-tracks-recomp-releases"><b>fun-tracks-recomp-releases</b></a><br><sub>Karlos-fr</sub></td><td>Multi-platform (Windows, Android) releases of the decompilation and recompilation of the closed-source 1997 game Fun Tracks. Original game files required.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/vahokif/I26"><b>I26</b></a><br><sub>vahokif</sub></td><td>Free open-source Godot remake of the 1997 car combat game Interstate &#x27;76, with modern graphics and multiplayer.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/OpenReliant/openreliant"><img src="https://opengraph.githubassets.com/fb57741559b03427ef4d7964c66f66ce6d1414f53da1d5e6ef67f667d117b20b/OpenReliant/openreliant" width="160" alt="OpenReliant/openreliant"></a></td><td><a href="https://github.com/OpenReliant/openreliant"><b>openreliant</b></a><br><sub>OpenReliant</sub></td><td>Play the 2000 space combat game StarLancer on modern Windows, Mac and Linux: a clean-room engine rewrite that uses your own game files.</td><td>No</td><td><sub>Repo card</sub></td></tr>
@@ -487,8 +539,10 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>Clean-room SA-MP 0.3.DL-R1 client reimplementation; architecture recovered with REA/Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/openage/openage"><b>openage</b></a><br><sub>openage</sub></td><td>Open-source engine reimplementation for Age of Empires II and other RTS titles</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/thepoprock/mudbrick"><b>mudbrick</b></a><br><sub>thepoprock</sub></td><td>A clean-room, from-scratch open-source browser re-creation of the closed-source Sid Meier&#x27;s Civilization II (1996), written in TypeScript. MIT licensed.</td><td>No</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/drakolordx7/switch2-recomp"><img src="https://opengraph.githubassets.com/1/drakolordx7/switch2-recomp" width="160" alt="drakolordx7/switch2-recomp"></a></td><td><a href="https://github.com/drakolordx7/switch2-recomp"><b>switch2-recomp</b></a><br><sub>drakolordx7</sub></td><td>Turns the Nintendo Switch 2 game Pokémon Pokopia into a native Windows program you run with your own game dump, without an emulator.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 </table>
+
+</details>
+
 
 #### Asset extraction & tools
 
@@ -523,6 +577,13 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/storytold/soundcraft"><b>soundcraft</b></a><br><sub>storytold</sub></td><td>An open-source digital audio workstation rebuilt to be like Pro Tools. Written from scratch in Rust.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/electron/asar"><img src="images/asar-terminal.png" width="160" alt="electron/asar"></a></td><td><a href="https://github.com/electron/asar"><b>asar</b></a><br><sub>electron</sub></td><td>Pack and unpack the archives inside Electron apps</td><td>No</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>High-fidelity rebuild of Claude Desktop UI components and interaction physics, extracted via REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+</table>
+
+<details>
+<summary>Browse the complete category (+20)</summary>
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
 <tr><td><a href="https://github.com/GLinnik21/plx-native"><img src="https://raw.githubusercontent.com/GLinnik21/plx-native/main/docs/screenshots/home.jpg" width="160" alt="GLinnik21/plx-native"></a></td><td><a href="https://github.com/GLinnik21/plx-native"><b>plx-native</b></a><br><sub>GLinnik21</sub></td><td>A faster native Plex client for LG TVs</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/michaelshimeles/terminal-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png" width="160" alt="michaelshimeles/terminal-rs"></a></td><td><a href="https://github.com/michaelshimeles/terminal-rs"><b>terminal-rs</b></a><br><sub>michaelshimeles</sub></td><td>A Bloomberg-style trading terminal in Rust</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pingw33n/openrb-338"><b>openrb-338</b></a><br><sub>pingw33n</sub></td><td>Free open-source reimplementation of the 1997 ReBirth RB-338 software synthesizer that sounds exactly like the original.</td><td>No</td><td><sub>—</sub></td></tr>
@@ -544,6 +605,9 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>A minimal macOS terminal, built by poking at Ghostty</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA teardown notes of the FM Season Hub app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
+
+</details>
+
 
 <a id="atlas-protocol"></a>
 
@@ -617,6 +681,13 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/frida/frida"><img src="images/frida-terminal.png" width="160" alt="frida/frida"></a></td><td><a href="https://github.com/frida/frida"><b>frida</b></a><br><sub>frida</sub></td><td>Hook into running apps on any platform and rewrite them live</td><td>No</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td><a href="https://github.com/rizinorg/cutter"><img src="https://raw.githubusercontent.com/rizinorg/cutter/dev/docs/source/images/screenshot.png" width="160" alt="rizinorg/cutter"></a></td><td><a href="https://github.com/rizinorg/cutter"><b>cutter</b></a><br><sub>rizinorg</sub></td><td>A friendly GUI for reverse engineering, powered by Rizin</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/microsoft/playwright-cli"><b>playwright-cli</b></a><br><sub>microsoft</sub></td><td>Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing.</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
+</table>
+
+<details>
+<summary>Browse the complete category (+96)</summary>
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
 <tr><td>—</td><td><a href="https://github.com/Gallopsled/pwntools"><b>pwntools</b></a><br><sub>Gallopsled</sub></td><td>Python framework for CTF experiments and binary-analysis automation; component licenses vary.</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/mrexodia/ida-pro-mcp"><img src="https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg" width="160" alt="mrexodia/ida-pro-mcp"></a></td><td><a href="https://github.com/mrexodia/ida-pro-mcp"><b>ida-pro-mcp</b></a><br><sub>mrexodia</sub></td><td>IDA Pro MCP bridge; upstream now recommends the official HexRaysSA/ida-mcp successor.</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/LaurieWired/GhidraMCP"><img src="https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3" width="160" alt="LaurieWired/GhidraMCP"></a></td><td><a href="https://github.com/LaurieWired/GhidraMCP"><b>GhidraMCP</b></a><br><sub>LaurieWired</sub></td><td>A bridge that lets AI assistants (like Claude) control the free reverse-engineering tool Ghidra. The AI can decompile programs, rename functions and analyze binaries for you.</td><td>No</td><td><sub>Project README</sub></td></tr>
@@ -715,6 +786,9 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/sosiman/re-code-mode"><b>re-code-mode</b></a><br><sub>sosiman</sub></td><td>Toolbox that gives AI agents radare2, binwalk and other reverse-engineering tools for closed binaries, with local filtering so big outputs don&#x27;t flood the model.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
+</details>
+
+
 <a id="atlas-official"></a>
 
 ## Official REA showcases
@@ -786,17 +860,17 @@ This evidence-tagged subset reuses entries from the platform and topic sections 
 <tr><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><img src="https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth" width="160" alt="UnknownHacker1/rea-groundtruth"></a></td><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><b>rea-groundtruth</b></a><br><sub>UnknownHacker1</sub></td><td>Check REA&#x27;s reports against the real source code</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>DSH plugin packaging REA skills + optional MCP for reverse engineering and Mac app building.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>Took apart Resident Evil 2 on the Nintendo 64 with AI tools (REA + Ghidra). Thousands of decompiled functions and a verification suite; no game ROM included.</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>Watch REA turn one DX-Ball sound helper into byte-exact C</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>Follow a Notion copy from the page, through IPC, into the main process</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>Recover Touhou 4&#x27;s bullet-ring angle maths from 16-bit DOS code</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>See exactly how the Aegis Android app generates your 2FA codes</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>Solve a DownUnderCTF 2023 reversing challenge step by step</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>A minimal macOS terminal, built by poking at Ghostty</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA teardown notes of the FM Season Hub app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>Native Linux/SDL2 reimplementation of Commander Keen 1, recovered function-by-function with REA + Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>Clean-room SA-MP 0.3.DL-R1 client reimplementation; architecture recovered with REA/Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea slash command that routes requests to the REA skill and MCP tools.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/romangalaxys10-spec/zcode-rea"><b>zcode-rea</b></a><br><sub>romangalaxys10-spec</sub></td><td>ZCode plugin that wraps the official REA toolkit so AI agents can reverse-engineer closed binaries, apps and websites with evidence attached.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>Watch REA turn one DX-Ball sound helper into byte-exact C</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>Follow a Notion copy from the page, through IPC, into the main process</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>Recover Touhou 4&#x27;s bullet-ring angle maths from 16-bit DOS code</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>See exactly how the Aegis Android app generates your 2FA codes</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>Solve a DownUnderCTF 2023 reversing challenge step by step</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 </table>
 
 </details>

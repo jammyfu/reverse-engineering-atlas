@@ -67,7 +67,7 @@ def main():
         for anchor in ["atlas-start", "atlas-skills", "atlas-policy", "atlas-games", "atlas-app", "atlas-protocol", "atlas-firmware", "atlas-security", "atlas-tooling", "atlas-rea", "atlas-data"]:
             check(f'<a id="{anchor}"></a>' in rendered, f"Missing navigation target in {filename}: {anchor}")
         check(rendered.index('id="atlas-games"') < rendered.index('id="atlas-rea"'), f"REA subset dominates the catalog: {filename}")
-        check(rendered.count("<details>") == rendered.count("</details>") == 1, f"Invalid optional-view markup: {filename}")
+        check(rendered.count("<details>") == rendered.count("</details>") and rendered.count("<details>") > 1, f"Invalid optional-view markup: {filename}")
         heading_ids = set(re.findall(r'<a id="([^"]+)"></a>', rendered))
         seen = Counter()
         for heading in re.findall(r'^#{1,6} (.+)$', rendered, re.M):
