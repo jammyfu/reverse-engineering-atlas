@@ -199,7 +199,7 @@ def table(d,x,es,k):
   # CSS-free HTML tables. Word joiners keep CJK heading phrases together without
   # visible padding; descriptions and long game names wrap normally.
   headers=table_headers[k]
-  headers=[html.escape(h).replace(' ', '&#160;') if k=='en' else '&#8288;'.join(html.escape(h)) for h in headers]
+  headers=[html.escape(h).replace(' ', '&#160;') if k=='en' else '&#8288;'.join(html.escape(h)).replace(' ', '&#160;') for h in headers]
   r=['<table>',f'<tr><th width="220">{headers[0]}</th><th width="500">{headers[1]}</th></tr>']
   for e in es:
     im=IM.get(e[2]);kind=im[0] if im else 'none'
