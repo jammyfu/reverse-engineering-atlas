@@ -5,6 +5,7 @@ SKILLS=load_map()
 E=json.load(open('data.json'))
 IM=json.load(open('images.json'))
 UNAVAILABLE=json.load(open('unavailable-previews.json'))
+GAME_TITLES=json.load(open('game-titles.json'))
 FALLBACK={
 'en':'Preview unavailable · view original project',
 'zh-CN':'预览暂不可用 · 查看原项目',
@@ -192,14 +193,24 @@ def table(d,x,es,k):
   for e in es:
     im=IM.get(e[2]);kind=im[0] if im else 'none'
     pic=f'<a href="{e[3]}"><img src="{html.escape(im[1])}" width="160" alt="{html.escape(e[2])}"></a>' if im else '—'
-    src=x['K'][kind]
+    editorial_labels={'en':'Official game art · not project output','zh-CN':'官方游戏主视觉 · 非项目运行截图','zh-TW':'官方遊戲主視覺 · 非專案執行截圖','ja':'公式ゲーム画像・移植の動作画面ではありません','ko':'공식 게임 이미지 · 프로젝트 실행 화면 아님'}
+    src=x['K'].get(kind, '—')
+    if kind=='editorial':
+      src=f'<a href="images/editorial/README.md">{editorial_labels[k]}</a>'
+      pic=f'<a href="{e[3]}"><img src="{html.escape(im[1])}" width="160" alt="{html.escape(editorial_labels[k])}"></a>'
     if e[2] in UNAVAILABLE:
       pic=f'<a href="{html.escape(e[3])}">{FALLBACK[k]}</a>'
       src=f'<a href="{html.escape(e[3])}">{src}</a>'
     if kind in('wiki','video','issue') and im and kind!='issue': src=f'<a href="{html.escape(im[1])}">{src}</a>'
     nm=e[2].split('/')[-1] if '/' in e[2] and ' ' not in e[2] else e[2]
     own=f'<br><sub>{e[2].split("/")[0]}</sub>' if '/' in e[2] and ' ' not in e[2] else ''
-    r.append(f'<tr><td>{pic}</td><td><a href="{e[3]}"><b>{html.escape(nm)}</b></a>{own}</td><td>{html.escape(DS[e[2]][k])}</td><td>{x["Y"][e[4]]}</td><td><sub>{src}</sub></td></tr>')
+    platform=''
+    if e[0] in plats:
+      label=d['sec'].get(e[0], d['sec'].get('_'+e[0], e[0]))
+      platform=f'<br><sub><img src="images/platforms/{e[0]}.svg" width="20" height="20" alt=""> {html.escape(label)}</sub>'
+    game=GAME_TITLES.get(e[2])
+    title=f'<b>{html.escape(game)}</b><br>' if game else ''
+    r.append(f'<tr><td>{pic}</td><td>{title}<a href="{e[3]}"><b>{html.escape(nm)}</b></a>{own}{platform}</td><td>{html.escape(DS[e[2]][k])}</td><td>{x["Y"][e[4]]}</td><td><sub>{src}</sub></td></tr>')
   r.append('</table>');return r
 for d in L.values():
   d["sec"].update(switch2="Nintendo Switch 2", switch="Nintendo Switch")

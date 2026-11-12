@@ -6,8 +6,8 @@ class DiscoveryContract(unittest.TestCase):
     def test_shared_platform_classification(self):
         entries=json.loads(Path('data.json').read_text())
         self.assertEqual(7,sum(e[0]=='switch2' for e in entries))
-        self.assertEqual(7,sum(e[0]=='switch' for e in entries))
-        self.assertEqual(382,len(entries))
+        self.assertEqual(11,sum(e[0]=='switch' for e in entries))
+        self.assertEqual(387,len(entries))
 
     def test_five_generated_views(self):
         for file in ['README.md','README.zh-CN.md','README.zh-TW.md','README.ja.md','README.ko.md']:
@@ -33,3 +33,28 @@ class DiscoveryContract(unittest.TestCase):
             for record in unavailable.values():
                 self.assertNotIn('src="'+record['original_image']+'"',text)
                 self.assertIn('href="'+record['source']+'"',text)
+
+class GamePresentation(unittest.TestCase):
+    def test_game_titles_only_reference_catalog_entries(self):
+        entries={e[2] for e in json.loads(Path('data.json').read_text())}
+        titles=json.loads(Path('game-titles.json').read_text())
+        self.assertTrue(set(titles)<=entries)
+        self.assertEqual(titles['Dittobyte/Recompia'],'Pokémon Pokopia')
+
+    def test_platform_icons_are_local_safe_svg(self):
+        import xml.etree.ElementTree as ET
+        for p in Path('images/platforms').glob('*.svg'):
+            text=p.read_text()
+            ET.fromstring(text)
+            self.assertNotIn('http', text.replace('http://www.w3.org/2000/svg',''))
+            self.assertNotIn('<script',text)
+        for file in Path('.').glob('README*.md'):
+            text=file.read_text()
+            self.assertIn('images/platforms/switch2.svg',text)
+            self.assertIn('<b>Pokémon Pokopia</b>',text)
+            self.assertIn('images/platforms/n64.svg',text)
+
+    def test_developer_preview_not_misrepresented(self):
+        descriptions=json.loads(Path('descriptions.json').read_text())
+        self.assertIn('Not playable', descriptions['RealZotto/oot2-native']['en'])
+        self.assertIn('尚不可玩', descriptions['RealZotto/oot2-native']['zh-CN'])
