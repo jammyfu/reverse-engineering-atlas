@@ -3022,5 +3022,37 @@
     "https://github.com/octavioCuatrochio/nfsu2-gcpc",
     "No",
     "Behavior-equivalent rewrite of Need for Speed: Underground 2 using GameCube debug symbols and the PC executable."
+  ],
+  [
+    "xbox",
+    "remake",
+    "YuutaTsubasa/Free-Riders-Recompiled",
+    "https://github.com/YuutaTsubasa/Free-Riders-Recompiled",
+    "No",
+    "Unofficial static recompilation of Sonic Free Riders (Xbox 360) for Windows, Linux and Android; needs your own disc. GPL-3.0."
+  ],
+  [
+    "firmware",
+    "",
+    "mwdmwd/sc26re",
+    "https://github.com/mwdmwd/sc26re",
+    "No",
+    "Experimental open-source firmware reimplementation and RE tools for the 2026 Steam Controller."
+  ],
+  [
+    "tooling",
+    "tools",
+    "itsgrimetime/decomp-me-mcp",
+    "https://github.com/itsgrimetime/decomp-me-mcp",
+    "No",
+    "MCP server letting AI agents fetch, compile and improve matching decompilation scratches on decomp.me."
+  ],
+  [
+    "pc",
+    "decomp",
+    "LemonHaze420/shenmue",
+    "https://github.com/LemonHaze420/shenmue",
+    "No",
+    "C/C++ reimplementation of Shenmue I & II (Dreamcast, Xbox, PC) derived from a completed decompilation project."
   ]
 ]

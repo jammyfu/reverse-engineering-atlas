@@ -2644,5 +2644,33 @@
     "zh-TW": "對《極品飛車：地下狂飆2》進行函數級重寫，行為與原版 PC 遊戲一致，借助 GameCube 版的除錯符號獲得原始名稱和類型。透過代理 DLL 在原版遊戲內運行。",
     "ja": "『ニード・フォー・スピード アンダーグラウンド2』を関数単位で書き換え、元のPC版の動作と一致させます。ゲームキューブ版のデバッグシンボルで名前と型を取得し、プロキシDLLで元のゲーム内で動作します。",
     "ko": "니드 포 스피드: 언더그라운드 2를 함수 단위로 재작성하여 원본 PC 게임의 동작과 일치시킵니다. 게임큐브 버전의 디버그 심볼로 이름과 유형을 얻고 프록시 DLL을 통해 원본 게임 내에서 실행합니다."
+  },
+  "YuutaTsubasa/Free-Riders-Recompiled": {
+    "en": "Unofficial PC port of the Xbox 360 Sonic Free Riders made by translating its code so it runs natively on Windows, Linux and Android. You need your own game disc.",
+    "zh-CN": "把 Xbox 360 上的《索尼克自由滑板》通过静态再编译做成能在电脑和安卓上直接跑的版本，需要你自己的正版光盘。",
+    "zh-TW": "把 Xbox 360 上的《索尼克自由滑板》透過靜態再編譯做成能在電腦和安卓上直接跑的版本，需要你自己的正版光碟。",
+    "ja": "Xbox 360の『ソニック・フリーライダーズ』を静的再コンパイルしてWindows・Linux・Androidでネイティブに動くようにした非公式移植。自分のゲームディスクが必要です。",
+    "ko": "Xbox 360의 《소닉 프리 라이더스》를 정적 재컴파일하여 윈도우, 리눅스, 안드로이드에서 네이티브로 실행되게 한 비공식 포트. 본인 게임 디스크가 필요합니다."
+  },
+  "mwdmwd/sc26re": {
+    "en": "Open-source experimental firmware that tries to replace the official one on the 2026 Steam Controller, plus tools to reverse-engineer it.",
+    "zh-CN": "尝试从零重写 2026 年 Steam 手柄官方固件的实验性开源固件，附带逆向工具。",
+    "zh-TW": "嘗試從零重寫 2026 年 Steam 手把官方韌體的實驗性開源韌體，附帶逆向工具。",
+    "ja": "2026年のSteamコントローラー公式ファームウェアを置き換えることを目指した実験的なオープンソースファームウェアと、その解析ツール。",
+    "ko": "2026년 스팀 컨트롤러의 공식 펌웨어를 대체하려는 실험적 오픈소스 펌웨어와 역공학 도구."
+  },
+  "itsgrimetime/decomp-me-mcp": {
+    "en": "An MCP server that lets AI coding agents look up, compile and improve matching decompilation work on the decomp.me site.",
+    "zh-CN": "让 AI 编程助手能直接在 decomp.me 上查看、编译并改进游戏反编译草稿的 MCP 服务器。",
+    "zh-TW": "讓 AI 程式助手能直接在 decomp.me 上查看、編譯並改進遊戲反編譯草稿的 MCP 伺服器。",
+    "ja": "AIコーディングエージェントが decomp.me 上のマッチング逆コンパイル作業を調べ、コンパイルし、改善できるようにする MCP サーバー。",
+    "ko": "AI 코딩 에이전트가 decomp.me 사이트에서 매칭 디컴파일 작업을 조회하고 컴파일하며 개선할 수 있게 해주는 MCP 서버."
+  },
+  "LemonHaze420/shenmue": {
+    "en": "Open C/C++ rewrite of the original closed-source Shenmue I & II (Dreamcast, Xbox and PC versions) based on a finished decompilation.",
+    "zh-CN": "基于已完成的反编译，从零用 C/C++ 重写了原本闭源的《莎木 I & II》（Dreamcast、Xbox 和 PC 版）。",
+    "zh-TW": "基於已完成的反編譯，從零用 C/C++ 重寫了原本閉源的《莎木 I & II》（Dreamcast、Xbox 和 PC 版）。",
+    "ja": "完成したデコンパイルに基づき、元々クローズドソースだった『シェンムー I & II』（ドリームキャスト、Xbox、PC版）を C/C++ でゼロから書き直したもの。",
+    "ko": "완료된 디컴파일을 바탕으로 원래 클로즈드 소스였던 《셴무 I & II》(드림캐스트, Xbox, PC 버전)를 C/C++로 처음부터 다시 작성한 것."
   }
 }
