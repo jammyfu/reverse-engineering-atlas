@@ -23,7 +23,7 @@ class DiscoveryContract(unittest.TestCase):
                 for token in re.findall(r'<details>|</details>|<table>.*?</table>',s,re.S):
                     if token=='<details>': depth+=1
                     elif token=='</details>': depth-=1
-                    elif depth==0: self.assertLessEqual(token.count('<tr><td>'),15)
+                    elif depth==0: self.assertLessEqual(len(re.findall(r'<tr><td(?:\s[^>]*)?>',token)),15)
 
     def test_unavailable_previews_never_emit_broken_images(self):
         unavailable=json.loads(Path('unavailable-previews.json').read_text())
@@ -58,3 +58,12 @@ class GamePresentation(unittest.TestCase):
         descriptions=json.loads(Path('descriptions.json').read_text())
         self.assertIn('Not playable', descriptions['RealZotto/oot2-native']['en'])
         self.assertIn('尚不可玩', descriptions['RealZotto/oot2-native']['zh-CN'])
+
+class SkillLocalization(unittest.TestCase):
+    def test_techniques_localized_in_readme(self):
+        skills=json.loads(Path('skill-map.json').read_text())['skills']
+        for lang in ['zh-CN','zh-TW','ja','ko']:
+            text=Path('README.'+lang+'.md').read_text()
+            for skill in skills:
+                self.assertIn(skill['techniques_localized'][lang],text)
+                self.assertNotIn(', '.join(skill['techniques']),text)

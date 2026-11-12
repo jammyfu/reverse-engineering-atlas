@@ -189,7 +189,7 @@ def slug(h,seen):
   n=seen.get(s,0);seen[s]=n+1
   return s if n==0 else f'{s}-{n}'
 def table(d,x,es,k):
-  r=['<table>',f'<tr><th width="170">{x["img"]}</th><th>{x["proj"]}</th><th>{x["desc"]}</th><th>{x["rea"]}</th><th>{x["src"]}</th></tr>']
+  r=['<table>',f'<tr><th width="170">{x["img"]}</th><th width="200">{x["proj"]}</th><th width="360">{x["desc"]}</th><th width="75">{x["rea"]}</th><th width="160">{x["src"]}</th></tr>']
   for e in es:
     im=IM.get(e[2]);kind=im[0] if im else 'none'
     pic=f'<a href="{e[3]}"><img src="{html.escape(im[1])}" width="160" alt="{html.escape(e[2])}"></a>' if im else '—'
@@ -210,7 +210,7 @@ def table(d,x,es,k):
       platform=f'<br><sub><img src="images/platforms/{e[0]}.svg" width="20" height="20" alt=""> {html.escape(label)}</sub>'
     game=GAME_TITLES.get(e[2])
     title=f'<b>{html.escape(game)}</b><br>' if game else ''
-    r.append(f'<tr><td>{pic}</td><td>{title}<a href="{e[3]}"><b>{html.escape(nm)}</b></a>{own}{platform}</td><td>{html.escape(DS[e[2]][k])}</td><td>{x["Y"][e[4]]}</td><td><sub>{src}</sub></td></tr>')
+    r.append(f'<tr><td width="170">{pic}</td><td width="200">{title}<a href="{e[3]}"><b>{html.escape(nm)}</b></a>{own}{platform}</td><td width="360">{html.escape(DS[e[2]][k])}</td><td width="75">{x["Y"][e[4]]}</td><td width="160"><sub>{src}</sub></td></tr>')
   r.append('</table>');return r
 for d in L.values():
   d["sec"].update(switch2="Nintendo Switch 2", switch="Nintendo Switch")

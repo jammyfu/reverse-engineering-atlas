@@ -22,7 +22,7 @@ def overview(language, skill_map):
     filename = "SKILL_MAP.zh-CN.md" if language in {"zh-CN", "zh-TW"} else "SKILL_MAP.md"
     lines = [note, "", f"[{details}]({filename}) · [JSON](skill-map.json)", "", f"| {skill_label} | {techniques} | {related} |", "| --- | --- | --- |"]
     for skill in skill_map["skills"]:
-        lines.append(f"| [{skill['name']}](https://github.com/{skill['repo']}) | {cell(', '.join(skill['techniques']))} | [{len(skill['related'])}]({filename}#{skill['id']}) |")
+        lines.append(f"| [{skill['name']}](https://github.com/{skill['repo']}) | {cell(', '.join(skill['techniques']) if language == 'en' else skill['techniques_localized'][language])} | [{len(skill['related'])}]({filename}#{skill['id']}) |")
     return title, lines + [""]
 
 
