@@ -1688,7 +1688,7 @@
     "Native Windows static recompilation of Rayman 3 HD (Xbox 360); needs your own package."
   ],
   [
-    "pc",
+    "switch",
     "remake",
     "smm2recomp/smm2recomp",
     "https://github.com/smm2recomp/smm2recomp",
@@ -1752,7 +1752,7 @@
     "Local Python reimplementation of REA: a DRY MCP server and CLI with pageable Evidence."
   ],
   [
-    "pc",
+    "switch",
     "remake",
     "valentderah/totk-pc-recomp",
     "https://github.com/valentderah/totk-pc-recomp",
@@ -1832,7 +1832,7 @@
     "Native multi-platform static recompilation of Knuckles' Chaotix (Sega 32X 1995). True widescreen. Bring your own ROM."
   ],
   [
-    "pc",
+    "switch",
     "decomp",
     "jmars125/xcx-recomp",
     "https://github.com/jmars125/xcx-recomp",
@@ -2000,7 +2000,7 @@
     "Matching decompilation of Ratchet & Clank (PS2). Byte-identical C/C++ reconstruction."
   ],
   [
-    "pc",
+    "switch",
     "decomp",
     "KevinBonnoron/xc2-decomp",
     "https://github.com/KevinBonnoron/xc2-decomp",
@@ -2032,7 +2032,7 @@
     "All-in-one static recompilation project for Xbox 360 Gears of War 2, 3 and Judgment to native Windows PC with custom renderer, high FPS, upscaling. Bring your own copy."
   ],
   [
-    "pc",
+    "switch",
     "remake",
     "RussoPhone/tomodachi-ltd-recomp",
     "https://github.com/RussoPhone/tomodachi-ltd-recomp",
@@ -2200,7 +2200,7 @@
     "Partial matching decompilation of Turok: Dinosaur Hunter (N64 Europe); AI-assisted. Bring your own ROM."
   ],
   [
-    "pc",
+    "switch",
     "remake",
     "linuxopt/mp4-recomp",
     "https://github.com/linuxopt/mp4-recomp",
@@ -2408,7 +2408,7 @@
     "Native static recompilation of NiGHTS: Journey of Dreams (Wii). Bring your own dump."
   ],
   [
-    "pc",
+    "switch2",
     "remake",
     "NotRexed/Hookshot",
     "https://github.com/NotRexed/Hookshot",
@@ -2416,7 +2416,7 @@
     "Static recompilation of the Nintendo Switch 2 Ocarina of Time remake to native Windows with Vulkan. Bring your own dump."
   ],
   [
-    "pc",
+    "switch",
     "remake",
     "peiikai/LASRecomp",
     "https://github.com/peiikai/LASRecomp",
@@ -2424,7 +2424,7 @@
     "Static recompilation of The Legend of Zelda: Link's Awakening (Switch 2019) to native Windows/macOS/Linux. Bring your own dump."
   ],
   [
-    "pc",
+    "switch2",
     "remake",
     "drakolordx7/switch2-recomp",
     "https://github.com/drakolordx7/switch2-recomp",
@@ -2440,7 +2440,7 @@
     "Turns Ghidra decompiler output into clean, namespaced, recompilable C++ source with transform passes."
   ],
   [
-    "pc",
+    "switch2",
     "remake",
     "Lucas-blip-png/dkb-pc-recomp",
     "https://github.com/Lucas-blip-png/dkb-pc-recomp",
@@ -2760,7 +2760,7 @@
     "Desktop app where AI agents perform matching decompilations of games you own into byte-identical C/C++."
   ],
   [
-    "pc",
+    "switch2",
     "remake",
     "sostenesfreitas/ocarina-recomp",
     "https://github.com/sostenesfreitas/ocarina-recomp",
@@ -2856,7 +2856,7 @@
     "Saved decompdecomp project for Penny Racers (N64): AI agents matched 222/1111 functions byte-for-byte with the original KMC GCC 2.7.2 compiler."
   ],
   [
-    "pc",
+    "switch2",
     "decomp",
     "RealZotto/oot2-native",
     "https://github.com/RealZotto/oot2-native",
@@ -2864,7 +2864,7 @@
     "Native Windows recompilation of The Legend of Zelda: Ocarina of Time Remake (Nintendo Switch 2). Bring your own dump."
   ],
   [
-    "pc",
+    "switch2",
     "decomp",
     "Dittobyte/Recompia",
     "https://github.com/Dittobyte/Recompia",
@@ -3000,7 +3000,7 @@
     "Static recompiler for Nintendo Switch and Switch 2 games by MZ Labs; translates ARM64 code to native C for Windows/Linux."
   ],
   [
-    "pc",
+    "switch2",
     "remake",
     "SerenityG4K/SpaceAnimalsRecomp",
     "https://github.com/SerenityG4K/SpaceAnimalsRecomp",

@@ -4,6 +4,14 @@ from render_skill_map import load_map, overview, render_details
 SKILLS=load_map()
 E=json.load(open('data.json'))
 IM=json.load(open('images.json'))
+UNAVAILABLE=json.load(open('unavailable-previews.json'))
+FALLBACK={
+'en':'Preview unavailable · view original project',
+'zh-CN':'预览暂不可用 · 查看原项目',
+'zh-TW':'預覽暫時無法顯示 · 查看原始專案',
+'ja':'プレビューを表示できません · 元のプロジェクトへ',
+'ko':'미리보기를 표시할 수 없음 · 원본 프로젝트 보기'
+}
 try:
   STARS=json.load(open('stars.json'))
 except:
@@ -13,8 +21,8 @@ def star_count(e):
   if 'github.com/' in url:
     path=url.split('github.com/')[-1].strip('/').split('/')
     if len(path)>=2:
-      return STARS.get(f"{path[0]}/{path[1]}", 0)
-  return 0
+      return STARS.get(f"{path[0]}/{path[1]}")
+  return None
 L={'en': {'f': 'README.md',
         'sec': {'gc': 'GameCube',
                 'wii': 'Wii',
@@ -155,7 +163,7 @@ L={'en': {'f': 'README.md',
                '참고해 확인했습니다.',
         'c': '기여 방법: [CONTRIBUTING.md](CONTRIBUTING.md). 라이선스: [CC0-1.0](LICENSE).'}}
 bar=" · ".join(f"[{n}]({L[k]['f']})" for k,n in [('en','English'),('zh-CN','简体中文'),('zh-TW','繁體中文'),('ja','日本語'),('ko','한국어')])
-plats=['nes','snes','md','saturn','gb','gba','n64','gc','wii','ds','3ds','ps1','ps2','xbox','pc']
+plats=['switch2','switch','nes','snes','md','saturn','gb','gba','n64','gc','wii','ds','3ds','ps1','ps2','xbox','pc']
 import re,html
 DS=json.load(open('descriptions.json'))
 X={
@@ -185,11 +193,30 @@ def table(d,x,es,k):
     im=IM.get(e[2]);kind=im[0] if im else 'none'
     pic=f'<a href="{e[3]}"><img src="{html.escape(im[1])}" width="160" alt="{html.escape(e[2])}"></a>' if im else '—'
     src=x['K'][kind]
+    if e[2] in UNAVAILABLE:
+      pic=f'<a href="{html.escape(e[3])}">{FALLBACK[k]}</a>'
+      src=f'<a href="{html.escape(e[3])}">{src}</a>'
     if kind in('wiki','video','issue') and im and kind!='issue': src=f'<a href="{html.escape(im[1])}">{src}</a>'
     nm=e[2].split('/')[-1] if '/' in e[2] and ' ' not in e[2] else e[2]
     own=f'<br><sub>{e[2].split("/")[0]}</sub>' if '/' in e[2] and ' ' not in e[2] else ''
     r.append(f'<tr><td>{pic}</td><td><a href="{e[3]}"><b>{html.escape(nm)}</b></a>{own}</td><td>{html.escape(DS[e[2]][k])}</td><td>{x["Y"][e[4]]}</td><td><sub>{src}</sub></td></tr>')
   r.append('</table>');return r
+for d in L.values():
+  d["sec"].update(switch2="Nintendo Switch 2", switch="Nintendo Switch")
+
+DISCOVERY = {
+ "en": ("Browse the complete category", "Switch 2 is an editorial priority, not a measured popularity claim. Within each section, projects use the existing cumulative Star snapshot, not live trending data. The snapshot has no capture timestamp; missing counts sort last. All entries remain available below."),
+ "zh-CN": ("查看该分类全部项目", "Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累计 Star 快照排序，不是实时趋势；原快照未记录采集时间，缺失计数排在最后。所有条目均保留。"),
+ "zh-TW": ("查看此分類的所有專案", "Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內沿用累計 Star 快照排序，並非即時趨勢；原快照未記錄擷取時間，缺少數據者排在最後。所有項目皆保留。"),
+ "ja": ("このカテゴリをすべて表示", "Switch 2 は編集上の優先項目であり、人気の実測順位ではありません。各分類は既存の累計 Star スナップショット順で、リアルタイムのトレンドではありません。取得日時は未記録、件数不明の項目は末尾です。全項目を保持しています。"),
+ "ko": ("이 분류의 모든 프로젝트 보기", "Switch 2는 편집상 우선순위이며 실측 인기 순위가 아닙니다. 분류 내에서는 기존 누적 Star 스냅샷을 사용하며 실시간 추세가 아닙니다. 수집 시각은 기록되지 않았으며 수치가 없는 항목은 마지막에 표시합니다. 모든 항목은 유지됩니다.")
+}
+
+def preview_table(d,x,es,k):
+  first=table(d,x,es[:15],k)
+  if len(es)<=15: return first
+  return first+["", "<details>", f"<summary>{DISCOVERY[k][0]} (+{len(es)-15})</summary>", ""]+table(d,x,es[15:],k)+["", "</details>", ""]
+
 for k,d in L.items():
   x=X[k]; text=CONTENT[k]; seen={}; body=[]; toc=[]
   def H(level,title,anchor=None):
@@ -214,22 +241,22 @@ for k,d in L.items():
 
   H(2,d['sec']['games'],'atlas-games')
   for p in plats:
-    es=sorted([e for e in E if e[0]==p],key=star_count,reverse=True)
+    es=sorted([e for e in E if e[0]==p],key=lambda e: (star_count(e) is not None, star_count(e) or 0),reverse=True)
     if not es:continue
     H(3,d['sec'].get(p,d['sec'].get('_'+p)))
     for section in ['decomp','remake','tools']:
-      subset=sorted([e for e in es if e[1]==section],key=star_count,reverse=True)
+      subset=sorted([e for e in es if e[1]==section],key=lambda e: (star_count(e) is not None, star_count(e) or 0),reverse=True)
       if subset:
         title=d['sub'][section];slug(title,seen)
-        body += [f'#### {title}','']+table(d,x,subset,k)+['']
+        body += [f'#### {title}','']+preview_table(d,x,subset,k)+['']
 
   for section in ['app','protocol','firmware','security','tooling','official']:
-    es=sorted([e for e in E if e[0]==section],key=star_count,reverse=True)
+    es=sorted([e for e in E if e[0]==section],key=lambda e: (star_count(e) is not None, star_count(e) or 0),reverse=True)
     if es:
       H(2,d['sec'][section],'atlas-'+section)
-      body += table(d,x,es,k)+['']
+      body += preview_table(d,x,es,k)+['']
 
-  yes_es=sorted([e for e in E if e[4]=='Yes'],key=star_count,reverse=True)
+  yes_es=sorted([e for e in E if e[4]=='Yes'],key=lambda e: (star_count(e) is not None, star_count(e) or 0),reverse=True)
   if yes_es:
     H(2,text['rea_title'],'atlas-rea')
     body += [text['rea_note'],'','<details>',f"<summary>{text['rea_summary'].format(count=len(yes_es))}</summary>",'']
@@ -241,7 +268,7 @@ for k,d in L.items():
 
   repository_count=sum(bool(re.fullmatch(r'https://github.com/[^/]+/[^/]+/?',e[3])) for e in E)
   stats=text['stats'].format(entries=len(E),repos=repository_count,skills=len(SKILLS['skills']))
-  head=[bar,'',f"# {text['title']}",'',text['intro'],'',stats,'','> '+text['notice'],'']
+  head=['![Reverse Engineering Atlas](images/atlas-hero.webp)', '', bar,'',f"# {text['title']}",'',text['intro'],'',stats,'',DISCOVERY[k][1],'','> '+text['notice'],'']
   tl=[f"## {x['toc']}",'']+[("  "*(level-2))+f"- [{title}](#{anchor})" for level,title,anchor in toc]+['']
   output=head+tl+body+['---','',d['thx'],'',d['c'],'']
   open(d['f'],'w',encoding='utf-8').write('\n'.join(output))
