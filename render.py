@@ -189,7 +189,18 @@ def slug(h,seen):
   n=seen.get(s,0);seen[s]=n+1
   return s if n==0 else f'{s}-{n}'
 def table(d,x,es,k):
-  r=['<table>',f'<tr><th width="220">{x["proj"]} / {x["img"]}</th><th width="500">{x["desc"]}</th></tr>']
+  table_headers={
+    'en':('Game, preview and platform','Purpose, requirements and sources'),
+    'zh-CN':('游戏、预览与原始来源平台','项目用途、运行条件与资料来源'),
+    'zh-TW':('遊戲、預覽與原始來源平台','專案用途、執行條件與資料來源'),
+    'ja':('ゲーム・画像・元の対応機種','概要・実行条件・画像の出典'),
+    'ko':('게임·미리보기·원본 플랫폼','프로젝트 설명·실행 조건·출처')}
+  # Real compact headings supply readable intrinsic column widths in GitHub's
+  # CSS-free HTML tables. Word joiners keep CJK heading phrases together without
+  # visible padding; descriptions and long game names wrap normally.
+  headers=table_headers[k]
+  headers=[html.escape(h).replace(' ', '&#160;') if k=='en' else '&#8288;'.join(html.escape(h)) for h in headers]
+  r=['<table>',f'<tr><th width="220">{headers[0]}</th><th width="500">{headers[1]}</th></tr>']
   for e in es:
     im=IM.get(e[2]);kind=im[0] if im else 'none'
     pic=f'<a href="{e[3]}"><img src="{html.escape(im[1])}" width="160" alt="{html.escape(e[2])}"></a>' if im else '—'
@@ -209,7 +220,7 @@ def table(d,x,es,k):
       label=d['sec'].get(e[0], d['sec'].get('_'+e[0], e[0]))
       platform=f'<br><sub><img src="images/platforms/{e[0]}.svg" width="20" height="20" alt="">&#160;{html.escape(label).replace(chr(32), chr(160))}</sub>'
     game=GAME_TITLES.get(e[2])
-    title=f'<b>{html.escape(game).replace(chr(32), chr(160))}</b><br>' if game else ''
+    title=f'<b>{html.escape(game)}</b><br>' if game else ''
     # Keep real comparison tables, but combine identity and preview so a narrow
     # viewport cannot allocate a separate 16 px image column. Source platform
     # and proper game names stay together; GitHub supplies table-local scrolling.

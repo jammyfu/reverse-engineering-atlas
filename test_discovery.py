@@ -51,7 +51,7 @@ class GamePresentation(unittest.TestCase):
         for file in Path('.').glob('README*.md'):
             text=file.read_text()
             self.assertIn('images/platforms/switch2.svg',text)
-            self.assertIn('<b>Pokémon\u00a0Pokopia</b>',text)
+            self.assertIn('<b>Pokémon Pokopia</b>',text)
             self.assertIn('images/platforms/n64.svg',text)
 
     def test_developer_preview_not_misrepresented(self):
