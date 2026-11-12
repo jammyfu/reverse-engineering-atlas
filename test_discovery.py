@@ -24,3 +24,12 @@ class DiscoveryContract(unittest.TestCase):
                     if token=='<details>': depth+=1
                     elif token=='</details>': depth-=1
                     elif depth==0: self.assertLessEqual(token.count('<tr><td>'),15)
+
+    def test_unavailable_previews_never_emit_broken_images(self):
+        unavailable=json.loads(Path('unavailable-previews.json').read_text())
+        self.assertEqual(9,len(unavailable))
+        for file in ['README.md','README.zh-CN.md','README.zh-TW.md','README.ja.md','README.ko.md']:
+            text=Path(file).read_text()
+            for record in unavailable.values():
+                self.assertNotIn('src="'+record['original_image']+'"',text)
+                self.assertIn('href="'+record['source']+'"',text)

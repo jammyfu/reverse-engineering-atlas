@@ -4,6 +4,14 @@ from render_skill_map import load_map, overview, render_details
 SKILLS=load_map()
 E=json.load(open('data.json'))
 IM=json.load(open('images.json'))
+UNAVAILABLE=json.load(open('unavailable-previews.json'))
+FALLBACK={
+'en':'Preview unavailable · view original project',
+'zh-CN':'预览暂不可用 · 查看原项目',
+'zh-TW':'預覽暫時無法顯示 · 查看原始專案',
+'ja':'プレビューを表示できません · 元のプロジェクトへ',
+'ko':'미리보기를 표시할 수 없음 · 원본 프로젝트 보기'
+}
 try:
   STARS=json.load(open('stars.json'))
 except:
@@ -185,6 +193,9 @@ def table(d,x,es,k):
     im=IM.get(e[2]);kind=im[0] if im else 'none'
     pic=f'<a href="{e[3]}"><img src="{html.escape(im[1])}" width="160" alt="{html.escape(e[2])}"></a>' if im else '—'
     src=x['K'][kind]
+    if e[2] in UNAVAILABLE:
+      pic=f'<a href="{html.escape(e[3])}">{FALLBACK[k]}</a>'
+      src=f'<a href="{html.escape(e[3])}">{src}</a>'
     if kind in('wiki','video','issue') and im and kind!='issue': src=f'<a href="{html.escape(im[1])}">{src}</a>'
     nm=e[2].split('/')[-1] if '/' in e[2] and ' ' not in e[2] else e[2]
     own=f'<br><sub>{e[2].split("/")[0]}</sub>' if '/' in e[2] and ' ' not in e[2] else ''

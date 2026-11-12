@@ -1,0 +1,56 @@
+{
+  "drakolordx7/switch2-recomp": {
+    "original_image": "https://opengraph.githubassets.com/1/drakolordx7/switch2-recomp",
+    "source": "https://github.com/drakolordx7/switch2-recomp",
+    "checked_on": "2026-11-12",
+    "reason": "Image failed to decode in actual GitHub rendered page (complete=true, naturalWidth=0)"
+  },
+  "ethteck/splat": {
+    "original_image": "https://opengraph.githubassets.com/1/ethteck/splat",
+    "source": "https://github.com/ethteck/splat",
+    "checked_on": "2026-11-12",
+    "reason": "Image failed to decode in actual GitHub rendered page (complete=true, naturalWidth=0)"
+  },
+  "cdlewis/snowboardkidsplus-decomp": {
+    "original_image": "images/snowboard-decomp.png",
+    "source": "https://github.com/cdlewis/snowboardkidsplus-decomp",
+    "checked_on": "2026-11-12",
+    "reason": "Not an image: committed local PNG is 42-byte text"
+  },
+  "C-GBL/P3FES-Decompilation": {
+    "original_image": "https://p3fmmo.com/p3fesdecompheader.png",
+    "source": "https://github.com/C-GBL/P3FES-Decompilation",
+    "checked_on": "2026-11-12",
+    "reason": "Image failed to decode in actual GitHub rendered page (complete=true, naturalWidth=0)"
+  },
+  "a-barzanti/ai-rebuilds": {
+    "original_image": "https://opengraph.githubassets.com/1/a-barzanti/ai-rebuilds",
+    "source": "https://github.com/a-barzanti/ai-rebuilds",
+    "checked_on": "2026-11-12",
+    "reason": "Image failed to decode in actual GitHub rendered page (complete=true, naturalWidth=0)"
+  },
+  "attify/firmware-analysis-toolkit": {
+    "original_image": "https://opengraph.githubassets.com/1/attify/firmware-analysis-toolkit",
+    "source": "https://github.com/attify/firmware-analysis-toolkit",
+    "checked_on": "2026-11-12",
+    "reason": "Image failed to decode in actual GitHub rendered page (complete=true, naturalWidth=0)"
+  },
+  "travisgoodspeed/md380tools": {
+    "original_image": "https://opengraph.githubassets.com/1/travisgoodspeed/md380tools",
+    "source": "https://github.com/travisgoodspeed/md380tools",
+    "checked_on": "2026-11-12",
+    "reason": "Image failed to decode in actual GitHub rendered page (complete=true, naturalWidth=0)"
+  },
+  "angr/angr": {
+    "original_image": "https://opengraph.githubassets.com/1/angr/angr",
+    "source": "https://github.com/angr/angr",
+    "checked_on": "2026-11-12",
+    "reason": "Image failed to decode in actual GitHub rendered page (complete=true, naturalWidth=0)"
+  },
+  "cognixws/picode-rea": {
+    "original_image": "https://opengraph.githubassets.com/1/cognixws/picode-rea",
+    "source": "https://github.com/cognixws/picode-rea",
+    "checked_on": "2026-11-12",
+    "reason": "Image failed to decode in actual GitHub rendered page (complete=true, naturalWidth=0)"
+  }
+}
