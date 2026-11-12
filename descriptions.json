@@ -2672,5 +2672,40 @@
     "zh-TW": "基於已完成的反編譯，從零用 C/C++ 重寫了原本閉源的《莎木 I & II》（Dreamcast、Xbox 和 PC 版）。",
     "ja": "完成したデコンパイルに基づき、元々クローズドソースだった『シェンムー I & II』（ドリームキャスト、Xbox、PC版）を C/C++ でゼロから書き直したもの。",
     "ko": "완료된 디컴파일을 바탕으로 원래 클로즈드 소스였던 《셴무 I & II》(드림캐스트, Xbox, PC 버전)를 C/C++로 처음부터 다시 작성한 것."
+  },
+  "Zexyen/Witch-Time": {
+    "en": "Turns the closed-source Bayonetta 3 Switch game into a native PC program you can run if you own a dump",
+    "zh-CN": "把闭源的《猎天使魔女3》（Switch）变成你能在电脑上跑的原生程序（需自备游戏文件）",
+    "zh-TW": "把閉源的《獵天使魔女3》（Switch）變成你能在電腦上跑的原生程式（需自備遊戲檔）",
+    "ja": "クローズドソースの『ベヨネッタ3』（Switch）を、自分のダンプがあればPCで動かせるネイティブ版に",
+    "ko": "클로즈드 소스인 베요네타 3(Switch)를 본인 덤프가 있으면 PC에서 돌릴 수 있는 네이티브로"
+  },
+  "Revivedx/SavageWindRecomp": {
+    "en": "Turns the closed-source Breath of the Wild Switch version into a native Windows/Linux program (bring your own dump)",
+    "zh-CN": "把闭源的《塞尔达传说：旷野之息》（Switch）变成你能在 Windows/Linux 上跑的原生程序（需自备文件）",
+    "zh-TW": "把閉源的《薩爾達傳說：曠野之息》（Switch）變成你能在 Windows/Linux 上跑的原生程式（需自備檔案）",
+    "ja": "クローズドソースの『ゼルダの伝説 ブレス オブ ザ ワイルド』（Switch）を自分のダンプでPCネイティブに",
+    "ko": "클로즈드 소스인 젤다의 전설: 브레스 오브 더 와일드(Switch)를 본인 덤프로 PC 네이티브로"
+  },
+  "captainj-sparrow/astral-chain-pc-recomp": {
+    "en": "Turns the closed-source Astral Chain Switch game into a native Windows program with better performance (bring your own dump)",
+    "zh-CN": "把闭源的《异界锁链》（Switch）变成你能在 Windows 上跑的原生程序（需自备游戏文件）",
+    "zh-TW": "把閉源的《異界鎖鏈》（Switch）變成你能在 Windows 上跑的原生程式（需自備遊戲檔）",
+    "ja": "クローズドソースの『アストラルチェイン』（Switch）を自分のダンプでWindowsネイティブに",
+    "ko": "클로즈드 소스인 아스트랄 체인(Switch)를 본인 덤프로 윈도우 네이티브로"
+  },
+  "yozander2009-stack/Metroid-Dread-Recomp": {
+    "en": "Turns the closed-source Metroid Dread Switch game into a native Windows/Linux program (bring your own dump)",
+    "zh-CN": "把闭源的《银河战士：生存恐惧》（Switch）变成你能在电脑上跑的原生程序（需自备文件）",
+    "zh-TW": "把閉源的《銀河戰士：生存恐懼》（Switch）變成你能在電腦上跑的原生程式（需自備檔案）",
+    "ja": "クローズドソースの『メトロイド ドレッド』（Switch）を自分のダンプでPCネイティブに",
+    "ko": "클로즈드 소스인 메트로이드 드레드(Switch)를 본인 덤프로 PC 네이티브로"
+  },
+  "Minuteworld94/Dawn-of-the-dragon-recomp": {
+    "en": "Turns the closed-source Spyro: Dawn of the Dragon Xbox 360 game into a native Windows program (bring your own disc)",
+    "zh-CN": "把闭源的《小龙斯派罗：黎明之龙》（Xbox 360）变成你能在 Windows 上跑的原生程序（需自备光盘）",
+    "zh-TW": "把閉源的《小龍史派羅：黎明之龍》（Xbox 360）變成你能在 Windows 上跑的原生程式（需自備光碟）",
+    "ja": "クローズドソースの『スパイロ：ドーン・オブ・ザ・ドラゴン』（Xbox 360）を自分のディスクでWindowsネイティブに",
+    "ko": "클로즈드 소스인 스파이로: 던 오브 더 드래곤(Xbox 360)을 본인 디스크로 윈도우 네이티브로"
   }
 }

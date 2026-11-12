@@ -3054,5 +3054,45 @@
     "https://github.com/LemonHaze420/shenmue",
     "No",
     "C/C++ reimplementation of Shenmue I & II (Dreamcast, Xbox, PC) derived from a completed decompilation project."
+  ],
+  [
+    "switch",
+    "remake",
+    "Zexyen/Witch-Time",
+    "https://github.com/Zexyen/Witch-Time",
+    "No",
+    "Unofficial static recompilation of Bayonetta 3 (Nintendo Switch) to native Windows/Linux. Bring your own dump."
+  ],
+  [
+    "switch",
+    "remake",
+    "Revivedx/SavageWindRecomp",
+    "https://github.com/Revivedx/SavageWindRecomp",
+    "No",
+    "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch v1.9.0) to native Windows/Linux. Bring your own dump."
+  ],
+  [
+    "switch",
+    "remake",
+    "captainj-sparrow/astral-chain-pc-recomp",
+    "https://github.com/captainj-sparrow/astral-chain-pc-recomp",
+    "No",
+    "Static recompilation of Astral Chain (Nintendo Switch) to native Windows with Vulkan renderer. Bring your own dump."
+  ],
+  [
+    "switch",
+    "remake",
+    "yozander2009-stack/Metroid-Dread-Recomp",
+    "https://github.com/yozander2009-stack/Metroid-Dread-Recomp",
+    "No",
+    "Static recompilation of Metroid Dread (Switch 2.1.0) to native Windows/Linux. Bring your own dump."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Minuteworld94/Dawn-of-the-dragon-recomp",
+    "https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp",
+    "No",
+    "Static recompilation of The Legend of Spyro: Dawn of the Dragon (Xbox 360) to native Windows. Bring your own disc."
   ]
 ]
