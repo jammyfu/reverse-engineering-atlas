@@ -189,7 +189,7 @@ def slug(h,seen):
   n=seen.get(s,0);seen[s]=n+1
   return s if n==0 else f'{s}-{n}'
 def table(d,x,es,k):
-  r=['<table>',f'<tr><th width="170">{x["img"]}</th><th width="200">{x["proj"]}</th><th width="360">{x["desc"]}</th><th width="75">{x["rea"]}</th><th width="160">{x["src"]}</th></tr>']
+  r=['<table>',f'<tr><th width="220">{x["proj"]} / {x["img"]}</th><th width="500">{x["desc"]}</th></tr>']
   for e in es:
     im=IM.get(e[2]);kind=im[0] if im else 'none'
     pic=f'<a href="{e[3]}"><img src="{html.escape(im[1])}" width="160" alt="{html.escape(e[2])}"></a>' if im else '—'
@@ -207,10 +207,13 @@ def table(d,x,es,k):
     platform=''
     if e[0] in plats:
       label=d['sec'].get(e[0], d['sec'].get('_'+e[0], e[0]))
-      platform=f'<br><sub><img src="images/platforms/{e[0]}.svg" width="20" height="20" alt=""> {html.escape(label)}</sub>'
+      platform=f'<br><sub><img src="images/platforms/{e[0]}.svg" width="20" height="20" alt="">&#160;{html.escape(label).replace(chr(32), chr(160))}</sub>'
     game=GAME_TITLES.get(e[2])
-    title=f'<b>{html.escape(game)}</b><br>' if game else ''
-    r.append(f'<tr><td width="170">{pic}</td><td width="200">{title}<a href="{e[3]}"><b>{html.escape(nm)}</b></a>{own}{platform}</td><td width="360">{html.escape(DS[e[2]][k])}</td><td width="75">{x["Y"][e[4]]}</td><td width="160"><sub>{src}</sub></td></tr>')
+    title=f'<b>{html.escape(game).replace(chr(32), chr(160))}</b><br>' if game else ''
+    # Keep real comparison tables, but combine identity and preview so a narrow
+    # viewport cannot allocate a separate 16 px image column. Source platform
+    # and proper game names stay together; GitHub supplies table-local scrolling.
+    r.append(f'<tr><td width="220">{pic}<br>{title}<a href="{e[3]}"><b>{html.escape(nm)}</b></a>{own}{platform}</td><td width="500">{html.escape(DS[e[2]][k])}<br><br><sub>{x["rea"]}: {x["Y"][e[4]]}<br>{x["src"]}: {src}</sub></td></tr>')
   r.append('</table>');return r
 for d in L.values():
   d["sec"].update(switch2="Nintendo Switch 2", switch="Nintendo Switch")

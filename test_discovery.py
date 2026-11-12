@@ -51,7 +51,7 @@ class GamePresentation(unittest.TestCase):
         for file in Path('.').glob('README*.md'):
             text=file.read_text()
             self.assertIn('images/platforms/switch2.svg',text)
-            self.assertIn('<b>Pokémon Pokopia</b>',text)
+            self.assertIn('<b>Pokémon\u00a0Pokopia</b>',text)
             self.assertIn('images/platforms/n64.svg',text)
 
     def test_developer_preview_not_misrepresented(self):
@@ -67,3 +67,15 @@ class SkillLocalization(unittest.TestCase):
             for skill in skills:
                 self.assertIn(skill['techniques_localized'][lang],text)
                 self.assertNotIn(', '.join(skill['techniques']),text)
+
+class CompactTable(unittest.TestCase):
+    def test_two_columns_without_losing_fields(self):
+        import re
+        for file in Path('.').glob('README*.md'):
+            text=file.read_text()
+            for table in re.findall(r'<table>.*?</table>',text,re.S):
+                rows=re.findall(r'<tr>(.*?)</tr>',table,re.S)
+                self.assertEqual(2,rows[0].count('<th '))
+                for row in rows[1:]:
+                    self.assertEqual(2,row.count('<td '))
+            self.assertIn('images/editorial/README.md',text)
