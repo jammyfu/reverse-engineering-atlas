@@ -2413,7 +2413,7 @@
     "NotRexed/Hookshot",
     "https://github.com/NotRexed/Hookshot",
     "No",
-    "Static recompilation of the Nintendo Switch 2 Ocarina of Time remake to native Windows with Vulkan. Bring your own dump."
+    "Experimental Ocarina of Time Switch 2 recompilation for Windows/Linux. Upstream reports a playable starting area, with other areas and GPUs still problematic. Requires your own game dump; not independently tested here."
   ],
   [
     "switch",
@@ -2445,7 +2445,7 @@
     "Lucas-blip-png/dkb-pc-recomp",
     "https://github.com/Lucas-blip-png/dkb-pc-recomp",
     "No",
-    "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Tutorial renders; bring your own dump."
+    "Donkey Kong Bananza (Switch 2) experimental recompilation. Upstream says not playable yet: tutorial cave movement/attacks work, but crashes and missing effects remain. Windows target; Linux/macOS preview. Own game dump required."
   ],
   [
     "ps2",
@@ -2765,7 +2765,7 @@
     "sostenesfreitas/ocarina-recomp",
     "https://github.com/sostenesfreitas/ocarina-recomp",
     "No",
-    "Static recompilation of the Nintendo Switch 2 Ocarina of Time remake into a native Windows program with Vulkan. Bring your own dump."
+    "Ocarina of Time Switch 2 recompilation research, now redirecting implementation contributions to Hookshot and keeping Portuguese support/guides. Author reports only an opening-area RTX 5090 test, not full-game verification. Own game files required."
   ],
   [
     "tooling",
@@ -2861,7 +2861,7 @@
     "RealZotto/oot2-native",
     "https://github.com/RealZotto/oot2-native",
     "No",
-    "Native Windows recompilation of The Legend of Zelda: Ocarina of Time Remake (Nintendo Switch 2). Bring your own dump."
+    "Developer-preview research targeting the claimed Switch 2 Ocarina of Time remake. Not playable; no release; null graphics backend. Not a working PC port."
   ],
   [
     "switch2",
@@ -2869,7 +2869,7 @@
     "Dittobyte/Recompia",
     "https://github.com/Dittobyte/Recompia",
     "No",
-    "Native Windows/Linux recompilation of Pokémon Pokopia (Nintendo Switch 2) with multiplayer, modding and higher resolutions. Bring your own game files."
+    "Pokémon Pokopia (Switch 2) recompilation. Upstream targets Windows; Linux launcher uses Proton. Requires your own 2.0.1a files. Repository screenshot SVGs are placeholders, not verified gameplay."
   ],
   [
     "xbox",
@@ -3005,7 +3005,7 @@
     "SerenityG4K/SpaceAnimalsRecomp",
     "https://github.com/SerenityG4K/SpaceAnimalsRecomp",
     "No",
-    "Static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app from your own copy."
+    "Star Fox (Switch 2 2.0.0) recompilation for Windows. Author reports completed runs at 60 fps on Ryzen 9700X + RTX 5070 Ti only; unoptimized with some shaders untranslated. Not independently verified here. Own game files required."
   ],
   [
     "pc",

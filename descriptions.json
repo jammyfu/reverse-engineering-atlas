@@ -2107,11 +2107,11 @@
     "ko": "Wii 게임 《NiGHTS: Journey of Dreams》를 정적 재컴파일로 네이티브 PC 프로그램으로"
   },
   "NotRexed/Hookshot": {
-    "en": "Turns the Switch 2 version of The Legend of Zelda: Ocarina of Time into a native Windows program you can run without an emulator, using your own game dump.",
-    "zh-CN": "把任天堂 Switch 2 上的《塞尔达传说：时之笛》重制版变成可以在 Windows 上原生运行的程序，不需要模拟器，用你自己的游戏转储。",
-    "zh-TW": "把任天堂 Switch 2 上的《薩爾達傳說：時之笛》重製版變成可以在 Windows 上原生執行的程式，不需要模擬器，用你自己的遊戲轉儲。",
-    "ja": "Nintendo Switch 2 版『ゼルダの伝説 時のオカリナ』を、エミュレータなしで Windows 上でネイティブに動くプログラムに変換します。自分のゲームダンプを使います。",
-    "ko": "닌텐도 스위치 2 버전 『젤다의 전설: 시간의 오카리나』를 에뮬레이터 없이 Windows에서 네이티브로 실행되는 프로그램으로 바꿉니다. 본인 게임 덤프를 사용합니다."
+    "en": "Experimental Ocarina of Time Switch 2 recompilation for Windows/Linux. Upstream reports a playable starting area, with other areas and GPUs still problematic. Requires your own game dump; not independently tested here.",
+    "zh-CN": "实验性《时之笛》Switch 2 重编译，面向 Windows/Linux。上游报告起始区域可玩，其他区域与部分显卡仍有问题。需自备游戏转储；本目录未独立实测。",
+    "zh-TW": "實驗性《時之笛》Switch 2 重編譯，支援目標為 Windows/Linux。上游回報起始區域可遊玩，其他區域與部分顯示卡仍有問題。須自備遊戲傾印；本目錄尚未獨立實測。",
+    "ja": "「時のオカリナ」Switch 2 の実験的な Windows/Linux 向け再コンパイル。上流は序盤のプレイを報告していますが、他のエリアや GPU には問題が残ります。自分のゲームデータが必要。当カタログでは未実測です。",
+    "ko": "시간의 오카리나 Switch 2의 실험적 Windows/Linux 재컴파일. 상위 프로젝트는 시작 구역 플레이를 보고했지만 다른 구역과 GPU에는 문제가 남아 있습니다. 본인 게임 덤프가 필요하며 이 목록에서 독립 실행 검증하지 않았습니다."
   },
   "peiikai/LASRecomp": {
     "en": "Turns the 2019 Nintendo Switch version of The Legend of Zelda: Link's Awakening into a native Windows, macOS or Linux program you run with your own game dump.",
@@ -2135,11 +2135,11 @@
     "ko": "Ghidra가 출력한 지저분한 디컴파일 코드를 깔끔하고 네임스페이스가 정리된 컴파일 가능한 C++ 소스로 바꿉니다."
   },
   "Lucas-blip-png/dkb-pc-recomp": {
-    "en": "Turns the closed-source Nintendo Switch 2 game Donkey Kong Bananza into a native Windows program by static recompilation. You need your own dump; currently reaches the tutorial.",
-    "zh-CN": "把闭源的任天堂 Switch 2 游戏《大金刚 香蕉狂欢》通过静态重编译做成能在 Windows 上原生运行的程序。需要自己的转储，目前能进教程。",
-    "zh-TW": "把閉源的任天堂 Switch 2 遊戲《大金剛 香蕉狂歡》透過靜態重編譯做成能在 Windows 上原生執行的程式。需要自己的轉儲，目前能進教學。",
-    "ja": "クローズドソースのニンテンドースイッチ2ゲーム『ドンキーコング バナンザ』を静的再コンパイルでネイティブWindowsプログラムにする。自分のダンプが必要、現在はチュートリアルまで。",
-    "ko": "폐쇄 소스인 닌텐도 스위치 2 게임 동키콩 바난자를 정적 재컴파일로 네이티브 Windows 프로그램으로 만듭니다. 자신의 덤프가 필요하며 현재는 튜토리얼까지 도달합니다."
+    "en": "Donkey Kong Bananza (Switch 2) experimental recompilation. Upstream says not playable yet: tutorial cave movement/attacks work, but crashes and missing effects remain. Windows target; Linux/macOS preview. Own game dump required.",
+    "zh-CN": "《咚奇刚 蕉力全开》（Switch 2）实验性重编译。上游明确尚不可玩：教学洞穴可移动与攻击，但仍会崩溃、缺失特效。面向 Windows，Linux/macOS 为预览；需自备游戏转储。",
+    "zh-TW": "《咚奇剛 蕉力全開》（Switch 2）實驗性重編譯。上游明示尚無法正常遊玩：教學洞穴可移動與攻擊，但仍有當機與特效缺失。目標為 Windows，Linux/macOS 為預覽版；須自備遊戲傾印。",
+    "ja": "Donkey Kong Bananza（Switch 2）の実験的再コンパイル。上流はまだプレイ不可と明記。チュートリアル洞窟で移動・攻撃できますが、クラッシュやエフェクト欠落があります。Windows 向け、Linux/macOS はプレビュー。自分のデータが必要です。",
+    "ko": "Donkey Kong Bananza(Switch 2) 실험적 재컴파일. 상위 프로젝트는 아직 플레이 불가라고 명시합니다. 튜토리얼 동굴에서 이동·공격은 가능하지만 충돌과 효과 누락이 남아 있습니다. Windows 대상, Linux/macOS 프리뷰이며 본인 덤프가 필요합니다."
   },
   "TheBozos/VP2S_Recomp": {
     "en": "Native PC port of the closed-source PlayStation 2 game Valkyrie Profile 2: Silmeria by static recompilation. Bring your own disc; no game files included.",
@@ -2415,11 +2415,11 @@
     "ko": "소유한 게임을 AI 에이전트가 바이트 단위로 원본과 같은 C/C++로 디컴파일하는 데스크톱 앱."
   },
   "sostenesfreitas/ocarina-recomp": {
-    "en": "Turns your own copy of the Switch 2 Ocarina of Time remake into a native Windows program with no emulator.",
-    "zh-CN": "把你自己的 Switch 2 版《塞尔达传说：时之笛》重制成原生 Windows 程序，不需要模拟器。",
-    "zh-TW": "把你自己的 Switch 2 版《薩爾達傳說：時之笛》重製成原生 Windows 程式，不需要模擬器。",
-    "ja": "自分の Switch 2 版ゼルダの伝説 時のオカリナを、エミュレータなしのネイティブ Windows プログラムに変換する。",
-    "ko": "자신의 Switch 2 버전 젤다의 전설: 시간의 오카리나를 에뮬레이터 없이 네이티브 Windows 프로그램으로 바꿉니다."
+    "en": "Ocarina of Time Switch 2 recompilation research, now redirecting implementation contributions to Hookshot and keeping Portuguese support/guides. Author reports only an opening-area RTX 5090 test, not full-game verification. Own game files required.",
+    "zh-CN": "《时之笛》Switch 2 重编译研究；现将实现贡献转向 Hookshot，并保留葡语支持与指南。作者仅报告 RTX 5090 起始区域测试，并非全流程验证；需自备游戏文件。",
+    "zh-TW": "《時之笛》Switch 2 重編譯研究；目前將實作貢獻轉向 Hookshot，保留葡語支援與指南。作者僅回報 RTX 5090 起始區域測試，並非完整遊戲驗證；須自備遊戲檔案。",
+    "ja": "「時のオカリナ」Switch 2 の再コンパイル研究。現在は実装への貢献先を Hookshot に移し、ポルトガル語の支援・ガイドを維持。作者の報告は RTX 5090 での序盤テストのみで、全編の動作確認ではありません。自分のゲームデータが必要です。",
+    "ko": "시간의 오카리나 Switch 2 재컴파일 연구로, 현재 구현 기여는 Hookshot으로 옮기고 포르투갈어 지원과 가이드를 유지합니다. 저자는 RTX 5090에서 시작 구역만 테스트했다고 보고했으며 전체 게임 검증은 아닙니다. 본인 게임 파일이 필요합니다."
   },
   "qybaihe/bla": {
     "en": "Adds decoys and noise to your software builds so AI reverse-engineering tools waste tokens, while the program still runs exactly the same.",
@@ -2499,18 +2499,18 @@
     "ko": "닌텐도 64 게임 Penny Racers의 매칭 디컴파일 공개 진행 상황. AI 에이전트는 원본 바이트를 정확히 재현하는 C만 유지합니다."
   },
   "RealZotto/oot2-native": {
-    "en": "Turns the Nintendo Switch 2 version of The Legend of Zelda: Ocarina of Time Remake into a native Windows program you can run on your PC. You need your own game dump.",
-    "zh-CN": "把任天堂 Switch 2 上的《塞尔达传说：时之笛》重制版变成可以在电脑上直接运行的原生程序。需要自己准备游戏文件。",
-    "zh-TW": "把任天堂 Switch 2 上的《薩爾達傳說：時之笛》重製版變成可以在電腦上直接執行的原生程式。需要自己準備遊戲檔案。",
-    "ja": "Nintendo Switch 2 版『ゼルダの伝説 時のオカリナ』リメイクを、Windows で直接動くネイティブ版に変換するプロジェクト。自分のゲームデータを用意する必要があります。",
-    "ko": "닌텐도 스위치 2의 『젤다의 전설: 시간의 오카리나』 리메이크를 Windows에서 바로 실행되는 네이티브 프로그램으로 만드는 프로젝트. 자신의 게임 덤프가 필요합니다."
+    "en": "Developer-preview research targeting the claimed Switch 2 Ocarina of Time remake. Not playable; no release; null graphics backend. Not a working PC port.",
+    "zh-CN": "面向上游所称 Switch 2《时之笛》重制版的开发预览研究。尚不可玩、无发行版，图形后端为空；不是可用的 PC 移植。",
+    "zh-TW": "針對上游所稱 Switch 2《時之笛》重製版的開發預覽研究。目前無法遊玩、尚無發行版本，圖形後端為空；並非可用的 PC 移植版。",
+    "ja": "上流が Switch 2 版「時のオカリナ」リメイクとする対象の開発プレビュー研究。プレイ不可、リリースなし、描画バックエンド未実装。動作する PC 移植ではありません。",
+    "ko": "상위 프로젝트가 Switch 2 시간의 오카리나 리메이크로 명시한 대상을 연구하는 개발 프리뷰입니다. 플레이 불가, 릴리스 없음, 그래픽 백엔드 미구현 상태이며 실행 가능한 PC 이식판이 아닙니다."
   },
   "Dittobyte/Recompia": {
-    "en": "Turns Pokémon Pokopia (Nintendo Switch 2) into a native Windows or Linux program, with multiplayer, modding and higher resolutions. You need your own game files.",
-    "zh-CN": "把任天堂 Switch 2 上的《宝可梦 宝可乐园》变成可以在 Windows 或 Linux 上直接运行的原生程序，支持联机、模组和更高分辨率。需要自己准备游戏文件。",
-    "zh-TW": "把任天堂 Switch 2 上的《寶可夢 寶可樂園》變成可以在 Windows 或 Linux 上直接執行的原生程式，支援連線、模組和更高解析度。需要自己準備遊戲檔案。",
-    "ja": "Nintendo Switch 2 の『ポケモン ポコピア』を Windows や Linux で直接動くネイティブ版にし、マルチプレイやモッド、高解像度に対応。自分のゲームファイルが必要です。",
-    "ko": "닌텐도 스위치 2의 『포켓몬 포코피아』를 Windows나 Linux에서 바로 실행되는 네이티브 프로그램으로 만들고, 멀티플레이·모드·고해상도를 지원. 자신의 게임 파일이 필요합니다."
+    "en": "Pokémon Pokopia (Switch 2) recompilation. Upstream targets Windows; Linux launcher uses Proton. Requires your own 2.0.1a files. Repository screenshot SVGs are placeholders, not verified gameplay.",
+    "zh-CN": "《Pokémon Pokopia》（Switch 2）重编译项目。上游以 Windows 为目标，Linux 启动器通过 Proton 运行；需自备 2.0.1a 文件。仓库截图 SVG 是占位图，并非已验证的运行画面。",
+    "zh-TW": "《Pokémon Pokopia》（Switch 2）重編譯專案。上游以 Windows 為目標，Linux 啟動器透過 Proton 執行；須自備 2.0.1a 檔案。儲存庫截圖 SVG 為預留圖片，並非已驗證的遊戲畫面。",
+    "ja": "Pokémon Pokopia（Switch 2）の再コンパイル。Windows 向けで、Linux ランチャーは Proton を使用します。自分の 2.0.1a データが必要。リポジトリのスクリーンショット SVG は仮画像で、検証済みプレイ画面ではありません。",
+    "ko": "Pokémon Pokopia(Switch 2) 재컴파일 프로젝트. Windows 대상이며 Linux 실행기는 Proton을 사용합니다. 본인의 2.0.1a 파일이 필요합니다. 저장소의 스크린샷 SVG는 자리표시자로, 검증된 플레이 화면이 아닙니다."
   },
   "RenanQueiroz/mcla-recomp": {
     "en": "Turns Midnight Club: Los Angeles Complete Edition (Xbox 360) into a native PC (and PS5) program by static recompilation. You build it from your own disc image.",
@@ -2625,11 +2625,11 @@
     "ko": "닌텐도 스위치와 스위치 2 게임의 기계 코드를 한 번 번역해 네이티브 Windows 또는 Linux 프로그램으로 만드는 무료 오픈소스 도구. 자신의 게임 복사본을 에뮬레이터 없이 PC에서 플레이할 수 있습니다."
   },
   "SerenityG4K/SpaceAnimalsRecomp": {
-    "en": "A static recompilation that turns the Nintendo Switch 2 version of Star Fox into a native Windows program you build from your own legally owned copy. No game files included.",
-    "zh-CN": "把任天堂 Switch 2 版的《星际火狐》静态重编译成可以在 Windows 上原生运行的程序，你需要提供自己合法拥有的游戏副本。仓库里不含游戏文件。",
-    "zh-TW": "把任天堂 Switch 2 版的《星際火狐》靜態重編譯成可以在 Windows 上原生運行的程式，你需要提供自己合法擁有的遊戲副本。倉庫裡不含遊戲檔案。",
-    "ja": "任天堂Switch 2版の『スターフォックス』を静的再コンパイルして、自分の合法的に所有するコピーからビルドするネイティブWindowsプログラムにします。ゲームファイルは含まれていません。",
-    "ko": "닌텐도 스위치 2 버전의 스타폭스를 정적 재컴파일하여 자신의 합법적으로 소유한 복사본에서 빌드하는 네이티브 Windows 프로그램으로 만듭니다. 게임 파일은 포함되지 않습니다."
+    "en": "Star Fox (Switch 2 2.0.0) recompilation for Windows. Author reports completed runs at 60 fps on Ryzen 9700X + RTX 5070 Ti only; unoptimized with some shaders untranslated. Not independently verified here. Own game files required.",
+    "zh-CN": "《Star Fox》（Switch 2 2.0.0）Windows 重编译。作者报告仅在 Ryzen 9700X + RTX 5070 Ti 上以 60 fps 通关；尚未优化，部分着色器未转换。本目录未独立验证，需自备游戏文件。",
+    "zh-TW": "《Star Fox》（Switch 2 2.0.0）Windows 重編譯。作者僅回報在 Ryzen 9700X + RTX 5070 Ti 上以 60 fps 破關；尚未最佳化，部分著色器未轉換。本目錄未獨立驗證，須自備遊戲檔案。",
+    "ja": "Star Fox（Switch 2 2.0.0）の Windows 向け再コンパイル。作者は Ryzen 9700X + RTX 5070 Ti でのみ 60 fps でのクリアを報告。未最適化で一部シェーダーは未変換。当カタログでは未検証。自分のゲームデータが必要です。",
+    "ko": "Star Fox(Switch 2 2.0.0) Windows 재컴파일. 저자는 Ryzen 9700X + RTX 5070 Ti에서만 60 fps 클리어를 보고했습니다. 미최적화 상태로 일부 셰이더가 변환되지 않았습니다. 독립 검증하지 않았으며 본인 게임 파일이 필요합니다."
   },
   "gminustwo/RondoRecomp": {
     "en": "A static recompilation that turns the classic PC Engine game Castlevania: Rondo of Blood into a native Windows or Linux application, using your own disc image. Supports rewinding, saves, and RetroAchievements.",

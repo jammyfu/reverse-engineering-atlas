@@ -35,6 +35,12 @@
       "limitations": {
         "en": "Third-party engines and licenses are separate. Decompilation does not recover arbitrary original source. Its CDP workflow is passive observation, not general browser control. Local analysis results can still enter the chosen agent/model provider data flow.",
         "zh-CN": "不是从任意程序恢复完整原始源码。深度原生分析需要 Hopper/Ghidra/IDA/Kuna，Android 需要 JADX/JDK，能力与平台及发行版本有关。分析在本地，但结果仍会进入所用 Agent/模型供应商的数据流程。 MIT 仅覆盖 REA 自有代码；第三方独立许可证，IDA/Hopper/JEB 等商业引擎另需合法许可证。"
+      },
+      "techniques_localized": {
+        "zh-CN": "CLI / MCP、反编译、交叉引用、证据",
+        "zh-TW": "CLI / MCP、反編譯、交叉參照、證據",
+        "ja": "CLI / MCP、逆コンパイル、相互参照、証拠",
+        "ko": "CLI / MCP, 디컴파일, 상호 참조, 증거"
       }
     },
     {
@@ -66,6 +72,12 @@
       "limitations": {
         "en": "A router, not an analysis engine. External tools still require installation and authorization. The root is MIT, CTF-Sandbox-Orchestrator is GPLv3 and other dependencies have their own terms.",
         "zh-CN": "路由包不是逆向引擎。外部工具、MCP 与脚本仍需安装配置，自动安装和联网操作应先核查来源、范围和版本。README 不同小节的模块/规则计数存在不一致，不建议写死数量。 主项目 MIT；CTF-Sandbox-Orchestrator/ 为 GPLv3；被调用的 Pentest Swarm AI 为 AGPL-3.0；其余工具各自许可。"
+      },
+      "techniques_localized": {
+        "zh-CN": "目标分类路由、工具发现、证据工作流",
+        "zh-TW": "目標分類路由、工具探索、證據工作流程",
+        "ja": "対象の振り分け、ツール探索、証拠に基づく作業フロー",
+        "ko": "대상 분류, 도구 탐색, 증거 기반 작업 흐름"
       }
     },
     {
@@ -98,6 +110,12 @@
       "limitations": {
         "en": "Requires JDK/JADX and optional decompilers. Kotlin recovery depends on retained metadata; success rates are not guarantees. Windows PowerShell support is experimental. Native code and runtime validation need other tools.",
         "zh-CN": "需 JDK 17+、JADX；可选 Vineflower/Fernflower/dex2jar。Windows PowerShell 支持仍标注 experimental。Kotlin 名称恢复依赖目标实际保留的元数据，不能把 README 的高恢复率宣传写成保证；加固、JNI/SO 与运行时验证要另用工具。 Apache-2.0；第三方反编译器及运行时工具不随插件捆绑，按各自许可证。"
+      },
+      "techniques_localized": {
+        "zh-CN": "APK / DEX、Kotlin 元数据、HTTP 接口分析",
+        "zh-TW": "APK / DEX、Kotlin 中繼資料、HTTP API 分析",
+        "ja": "APK / DEX、Kotlin メタデータ、HTTP API 解析",
+        "ko": "APK / DEX, Kotlin 메타데이터, HTTP API 분석"
       }
     },
     {
@@ -128,6 +146,12 @@
       "limitations": {
         "en": "Functional and workflow reconstruction does not include target source, branding, assets, private APIs or data. Interfaces do not prove backend architecture. Scoring is not proof of equivalence and implementations need independent testing.",
         "zh-CN": "“clone any app”指功能和流程，不含原代码、品牌、素材、内容库、私有 API 或商业网络；界面不能证明后台架构。自动评分不是等价性证明，复杂产品仍需工程实现与人工验证。 MIT；不授予目标产品的代码、品牌、素材或数据权利。"
+      },
+      "techniques_localized": {
+        "zh-CN": "黑盒观察、净室规格、行为测试",
+        "zh-TW": "黑箱觀察、淨室規格、行為測試",
+        "ja": "ブラックボックス観察、クリーンルーム仕様、動作テスト",
+        "ko": "블랙박스 관찰, 클린룸 명세, 동작 테스트"
       }
     },
     {
@@ -159,6 +183,12 @@
       "limitations": {
         "en": "CLI-only alternative rather than an REA analysis client; the benchmark uses REA as a comparator. Author performance numbers cover one model, one macOS machine, four tasks with three runs and REA 6.5.0, not general performance guarantees.",
         "zh-CN": "不提供独立分析引擎或 MCP 服务；依赖 Agent 的 shell 能力与现有工具。性能数字是作者在 REA 6.5.0、单模型、单台 macOS、4 任务×3 次下的基准，不可推广成普遍速度或准确率结论。 MIT。"
+      },
+      "techniques_localized": {
+        "zh-CN": "命令行编排、目标初筛、证据",
+        "zh-TW": "命令列協調、目標初篩、證據",
+        "ja": "CLI の連携、対象の初期分類、証拠",
+        "ko": "CLI 조율, 대상 초기 분류, 증거"
       }
     },
     {
@@ -190,6 +220,12 @@
       "limitations": {
         "en": "Skills do not install all tools by themselves. Optional bulk setup has many dependencies; related-challenge search uses Tavily. Do not upload private samples or challenge content without authorization.",
         "zh-CN": "技能不等同于已安装工具；有按需和批量安装脚本，批量环境依赖较多。类似题搜索依赖 Tavily API；应避免未经许可上传私有样本或题目内容。 MIT；安装工具与引用资料仍各自许可。"
+      },
+      "techniques_localized": {
+        "zh-CN": "CTF 逆向、符号执行、模拟执行",
+        "zh-TW": "CTF 逆向、符號執行、模擬執行",
+        "ja": "CTF リバース解析、シンボリック実行、エミュレーション",
+        "ko": "CTF 역공학, 기호 실행, 에뮬레이션"
       }
     },
     {
@@ -221,6 +257,12 @@
       "limitations": {
         "en": "Designed around IDA-NO-MCP exports, not a standalone decompiler. Device/process operations need authorization. README says MIT but there is no independent root LICENSE file, so licensing remains incompletely documented.",
         "zh-CN": "不是独立反编译器；IDA、Frida、Unicorn 等依赖及设备权限另行满足。DEX/iOS dump、进程插桩会触及实际目标，需授权和隔离测试设备。 README 声明 MIT，但根目录只有 .gitignore、README.md、README_EN.md、skills，没有独立 LICENSE，GitHub API license=null。应标记“MIT（README 声明；无独立许可证文件）”，不能当作已完成许可证审计。"
+      },
+      "techniques_localized": {
+        "zh-CN": "反编译结果导出、类型重建、插桩",
+        "zh-TW": "反編譯結果匯出、型別重建、插樁",
+        "ja": "逆コンパイル結果の出力、型の再構築、計装",
+        "ko": "디컴파일 결과 내보내기, 타입 재구성, 계측"
       }
     },
     {
@@ -251,6 +293,12 @@
       "limitations": {
         "en": "Methods and templates do not recover arbitrary algorithms or VMs. Hooks can alter behavior. No project-wide root license was found; CC0 applies only to original scripts/real_cases material, not the whole repository.",
         "zh-CN": "方法和模板不保证还原任意算法或VM；Hook可能改变目标行为。GitHub license=null，树中仅 scripts/real_cases/LICENSE，未发现覆盖主项目的根许可证，不能默认自由复制或商业复用。 主项目许可未明确；scripts/real_cases/LICENSE 为 CC0-1.0，仅覆盖该目录原创材料，不含上游源码/依赖/生成bundle。"
+      },
+      "techniques_localized": {
+        "zh-CN": "JavaScript 抽象语法树、反混淆、运行时分析",
+        "zh-TW": "JavaScript 抽象語法樹、去混淆、執行階段分析",
+        "ja": "JavaScript 抽象構文木、難読化解除、実行時解析",
+        "ko": "JavaScript 추상 구문 트리, 난독화 해제, 런타임 분석"
       }
     },
     {
@@ -283,6 +331,12 @@
       "limitations": {
         "en": "Heavier deployment and platform-specific GUI tools. Review host-environment caching and isolate untrusted samples; do not disable antivirus protections. README says GPL-3.0-only and also presents a mandatory disclaimer whose relationship to the license needs review.",
         "zh-CN": "部署比单个 skill 更重；Windows GUI/PE 工具不等同跨平台可用。README 提到主机级环境缓存，应检查收集范围。不要照抄其防病毒排除建议；应在隔离环境评估安全工具及样本。知识库篇数在仓库描述与 README 不完全一致，不建议写死。 README 明确 GPL-3.0-only，另有声明对所有使用者及衍生品有约束力的 DISCLAIMER；其与开源许可的关系需另行审阅，不宜只标无条件 GPL。"
+      },
+      "techniques_localized": {
+        "zh-CN": "MCP 工作台、原生程序 / Android、案例报告",
+        "zh-TW": "MCP 工作台、原生程式 / Android、案例報告",
+        "ja": "MCP ワークベンチ、ネイティブ / Android、事例レポート",
+        "ko": "MCP 작업 환경, 네이티브 / Android, 사례 보고서"
       }
     },
     {
@@ -316,6 +370,12 @@
       "limitations": {
         "en": "Documented limits exclude general VMP static recovery, unexported WASM internals, Service Worker closures, cross-origin iframes and CSP WebSocket bypass. Use isolated authorized test accounts; broad README claims are not universal support.",
         "zh-CN": "能力边界明确不支持通用VMP静态还原、未导出的WASM内部函数、Service Worker内部闭包、跨域iframe、CSP WebSocket绕过等；README宽泛JSVMP宣传不能当完整支持。需要受控测试账号和隔离环境。 Apache-2.0；JSRPC、autoDecoder、Burp及浏览器组件分别适用其许可。"
+      },
+      "techniques_localized": {
+        "zh-CN": "CDP、抽象语法树、浏览器运行时、WASM",
+        "zh-TW": "CDP、抽象語法樹、瀏覽器執行階段、WASM",
+        "ja": "CDP、抽象構文木、ブラウザー実行環境、WASM",
+        "ko": "CDP, 추상 구문 트리, 브라우저 런타임, WASM"
       }
     }
   ],

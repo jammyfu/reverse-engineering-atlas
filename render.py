@@ -5,6 +5,7 @@ SKILLS=load_map()
 E=json.load(open('data.json'))
 IM=json.load(open('images.json'))
 UNAVAILABLE=json.load(open('unavailable-previews.json'))
+GAME_TITLES=json.load(open('game-titles.json'))
 FALLBACK={
 'en':'Preview unavailable · view original project',
 'zh-CN':'预览暂不可用 · 查看原项目',
@@ -188,18 +189,42 @@ def slug(h,seen):
   n=seen.get(s,0);seen[s]=n+1
   return s if n==0 else f'{s}-{n}'
 def table(d,x,es,k):
-  r=['<table>',f'<tr><th width="170">{x["img"]}</th><th>{x["proj"]}</th><th>{x["desc"]}</th><th>{x["rea"]}</th><th>{x["src"]}</th></tr>']
+  table_headers={
+    'en':('Project, preview and platform','Purpose, requirements and sources'),
+    'zh-CN':('项目、预览与原始来源平台','项目用途、运行条件与资料来源'),
+    'zh-TW':('專案、預覽與原始來源平台','專案用途、執行條件與資料來源'),
+    'ja':('対象・画像・元の対応機種','概要・実行条件・画像の出典'),
+    'ko':('프로젝트·미리보기·원본 플랫폼','프로젝트 설명·실행 조건·출처')}
+  # Real compact headings supply readable intrinsic column widths in GitHub's
+  # CSS-free HTML tables. Word joiners keep CJK heading phrases together without
+  # visible padding; descriptions and long game names wrap normally.
+  headers=table_headers[k]
+  headers=[html.escape(h).replace(' ', '&#160;') if k=='en' else '&#8288;'.join(html.escape(h)).replace(' ', '&#160;') for h in headers]
+  r=['<table>',f'<tr><th width="220">{headers[0]}</th><th width="500">{headers[1]}</th></tr>']
   for e in es:
     im=IM.get(e[2]);kind=im[0] if im else 'none'
     pic=f'<a href="{e[3]}"><img src="{html.escape(im[1])}" width="160" alt="{html.escape(e[2])}"></a>' if im else '—'
-    src=x['K'][kind]
+    editorial_labels={'en':'Official game art · not project output','zh-CN':'官方游戏主视觉 · 非项目运行截图','zh-TW':'官方遊戲主視覺 · 非專案執行截圖','ja':'公式ゲーム画像・移植の動作画面ではありません','ko':'공식 게임 이미지 · 프로젝트 실행 화면 아님'}
+    src=x['K'].get(kind, '—')
+    if kind=='editorial':
+      src=f'<a href="images/editorial/README.md">{editorial_labels[k]}</a>'
+      pic=f'<a href="{e[3]}"><img src="{html.escape(im[1])}" width="160" alt="{html.escape(editorial_labels[k])}"></a>'
     if e[2] in UNAVAILABLE:
       pic=f'<a href="{html.escape(e[3])}">{FALLBACK[k]}</a>'
       src=f'<a href="{html.escape(e[3])}">{src}</a>'
     if kind in('wiki','video','issue') and im and kind!='issue': src=f'<a href="{html.escape(im[1])}">{src}</a>'
     nm=e[2].split('/')[-1] if '/' in e[2] and ' ' not in e[2] else e[2]
     own=f'<br><sub>{e[2].split("/")[0]}</sub>' if '/' in e[2] and ' ' not in e[2] else ''
-    r.append(f'<tr><td>{pic}</td><td><a href="{e[3]}"><b>{html.escape(nm)}</b></a>{own}</td><td>{html.escape(DS[e[2]][k])}</td><td>{x["Y"][e[4]]}</td><td><sub>{src}</sub></td></tr>')
+    platform=''
+    if e[0] in plats:
+      label=d['sec'].get(e[0], d['sec'].get('_'+e[0], e[0]))
+      platform=f'<br><sub><img src="images/platforms/{e[0]}.svg" width="20" height="20" alt="">&#160;{html.escape(label).replace(chr(32), chr(160))}</sub>'
+    game=GAME_TITLES.get(e[2])
+    title=f'<b>{html.escape(game)}</b><br>' if game else ''
+    # Keep real comparison tables, but combine identity and preview so a narrow
+    # viewport cannot allocate a separate 16 px image column. Source platform
+    # and proper game names stay together; GitHub supplies table-local scrolling.
+    r.append(f'<tr><td width="220">{pic}<br>{title}<a href="{e[3]}"><b>{html.escape(nm)}</b></a>{own}{platform}</td><td width="500">{html.escape(DS[e[2]][k])}<br><br><sub>{x["rea"]}: {x["Y"][e[4]]}<br>{x["src"]}: {src}</sub></td></tr>')
   r.append('</table>');return r
 for d in L.values():
   d["sec"].update(switch2="Nintendo Switch 2", switch="Nintendo Switch")
