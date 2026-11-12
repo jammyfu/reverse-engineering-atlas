@@ -20,3 +20,8 @@
 Validation checks local structure and references, not live link availability or project execution. Check new external links against their official repositories separately, and distinguish documentation review from runtime verification.
 
 By contributing you dedicate your contribution under CC0-1.0.
+
+
+## Project identity versus references
+
+Follow the [link ownership boundary](GEO.md#link-ownership-boundary). Keep the About website empty until an owner-controlled website for this project is verified. Do not add third-party promotional links to the hero, primary CTA, canonical/social metadata or About. Legitimate catalog destinations, evidence and required attribution remain source links, never claims of affiliation. Verify repository settings separately from file diffs.
