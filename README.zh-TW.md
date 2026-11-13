@@ -6,7 +6,7 @@
 
 依目標、平台與技術整理逆向專案、工具及 Agent 工作流程。開始實作前先查看既有成果：遊戲反編譯與重編譯、應用程式重新實作、Android 與 JavaScript 分析、協定、韌體及配套工具。
 
-**387 筆目錄記錄 · 381 個 GitHub 儲存庫 · 10 類 skill 工作流程 · 5 種 README 語言**
+**397 筆目錄記錄 · 391 個 GitHub 儲存庫 · 10 類 skill 工作流程 · 5 種 README 語言**
 
 Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內沿用累計 Star 快照排序，並非即時趨勢；原快照未記錄擷取時間，缺少數據者排在最後。所有項目皆保留。
 
@@ -130,14 +130,14 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
 <tr><td><a href="https://github.com/valentderah/totk-pc-recomp"><img src="images/totk-pc-recomp-card.png" width="160" alt="valentderah/totk-pc-recomp"></a></td><td><a href="https://github.com/valentderah/totk-pc-recomp"><b>totk-pc-recomp</b></a><br><sub>valentderah</sub></td><td>把任天堂 Switch 上的《薩爾達傳說：王國之淚》靜態重編譯成原生 Windows 程式，不用模擬器就能玩。需要自己提供遊戲檔案。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/Revivedx/SavageWindRecomp"><img src="images/Revivedx-SavageWindRecomp-og.png" width="160" alt="Revivedx/SavageWindRecomp"></a></td><td><a href="https://github.com/Revivedx/SavageWindRecomp"><b>SavageWindRecomp</b></a><br><sub>Revivedx</sub></td><td>把閉源的《薩爾達傳說：曠野之息》（Switch）變成你能在 Windows/Linux 上跑的原生程式（需自備檔案）</td><td>否</td><td><sub>本儲存庫截圖</sub></td></tr>
 <tr><td><a href="https://github.com/peiikai/LASRecomp"><img src="https://opengraph.githubassets.com/1/peiikai/LASRecomp" width="160" alt="peiikai/LASRecomp"></a></td><td><a href="https://github.com/peiikai/LASRecomp"><b>LASRecomp</b></a><br><sub>peiikai</sub></td><td>把 2019 年任天堂 Switch 版《薩爾達傳說：織夢島》變成可以在 Windows、macOS 或 Linux 上原生執行的程式，用你自己的遊戲轉儲。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/captainj-sparrow/astral-chain-pc-recomp"><img src="images/captainj-sparrow-astral-chain-pc-recomp-og.png" width="160" alt="captainj-sparrow/astral-chain-pc-recomp"></a></td><td><a href="https://github.com/captainj-sparrow/astral-chain-pc-recomp"><b>astral-chain-pc-recomp</b></a><br><sub>captainj-sparrow</sub></td><td>把閉源的《異界鎖鏈》（Switch）變成你能在 Windows 上跑的原生程式（需自備遊戲檔）</td><td>否</td><td><sub>本儲存庫截圖</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/yozander2009-stack/Metroid-Dread-Recomp"><b>Metroid-Dread-Recomp</b></a><br><sub>yozander2009-stack</sub></td><td>把閉源的《銀河戰士：生存恐懼》（Switch）變成你能在電腦上跑的原生程式（需自備檔案）</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Zexyen/Witch-Time"><b>Witch-Time</b></a><br><sub>Zexyen</sub></td><td>把閉源的《獵天使魔女3》（Switch）變成你能在電腦上跑的原生程式（需自備遊戲檔）</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/smm2recomp/smm2recomp"><b>smm2recomp</b></a><br><sub>smm2recomp</sub></td><td>用靜態重編譯把閉源的 Switch《超級瑪利歐製造2》做成能在電腦、Mac、Linux 等平台原生執行的程式；需要你自己提供遊戲轉儲。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/linuxopt/mp4-recomp"><b>mp4-recomp</b></a><br><sub>linuxopt</sub></td><td>從零重寫的任天堂Switch遊戲《密特羅德 究極4：超越》的免費開源Linux原生版。用你自己的遊戲dump就能玩，不用模擬器。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>把任天堂 Switch 遊戲《朋友收集：夢想生活》靜態重編譯成可在 PC 上原生執行的早期免費開源移植（需要自備 dump）。</td><td>否</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Zexyen/Witch-Time"><b>Witch-Time</b></a><br><sub>Zexyen</sub></td><td>把閉源的《獵天使魔女3》（Switch）變成你能在電腦上跑的原生程式（需自備遊戲檔）</td><td>否</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/Revivedx/SavageWindRecomp"><img src="images/Revivedx-SavageWindRecomp-og.png" width="160" alt="Revivedx/SavageWindRecomp"></a></td><td><a href="https://github.com/Revivedx/SavageWindRecomp"><b>SavageWindRecomp</b></a><br><sub>Revivedx</sub></td><td>把閉源的《薩爾達傳說：曠野之息》（Switch）變成你能在 Windows/Linux 上跑的原生程式（需自備檔案）</td><td>否</td><td><sub>本儲存庫截圖</sub></td></tr>
-<tr><td><a href="https://github.com/captainj-sparrow/astral-chain-pc-recomp"><img src="images/captainj-sparrow-astral-chain-pc-recomp-og.png" width="160" alt="captainj-sparrow/astral-chain-pc-recomp"></a></td><td><a href="https://github.com/captainj-sparrow/astral-chain-pc-recomp"><b>astral-chain-pc-recomp</b></a><br><sub>captainj-sparrow</sub></td><td>把閉源的《異界鎖鏈》（Switch）變成你能在 Windows 上跑的原生程式（需自備遊戲檔）</td><td>否</td><td><sub>本儲存庫截圖</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/yozander2009-stack/Metroid-Dread-Recomp"><b>Metroid-Dread-Recomp</b></a><br><sub>yozander2009-stack</sub></td><td>把閉源的《銀河戰士：生存恐懼》（Switch）變成你能在電腦上跑的原生程式（需自備檔案）</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 ### NES / FC
@@ -172,6 +172,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
 <tr><td><a href="https://github.com/snesrev/smw"><img src="https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png" width="160" alt="snesrev/smw"></a></td><td><a href="https://github.com/snesrev/smw"><b>smw</b></a><br><sub>snesrev</sub></td><td>以 C 重寫的超級瑪利歐世界（ROM 需自備）</td><td>否</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png">維基百科（© 版權方）</a></sub></td></tr>
 <tr><td><a href="https://github.com/MrJackSpade/SuperMetroidDecomp"><img src="images/supermetroid-decomp.png" width="160" alt="MrJackSpade/SuperMetroidDecomp"></a></td><td><a href="https://github.com/MrJackSpade/SuperMetroidDecomp"><b>SuperMetroidDecomp</b></a><br><sub>MrJackSpade</sub></td><td>把閉源的 SNES 遊戲《超級銀河戰士》用 C# 重實現成原始碼移植，從你自己的 ROM 提取資源，支援現代 Windows 和 Android。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/rac08241988/MegaMan7-Recomp"><b>MegaMan7-Recomp</b></a><br><sub>rac08241988</sub></td><td>把閉源SNES遊戲《洛克人7》透過靜態重編譯做成非官方原生PC版。需自備ROM。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 ### MD / Genesis
@@ -333,6 +334,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
 <tr><td>—</td><td><a href="https://github.com/josiahg2502-glitch/BrawlRecompiled"><b>BrawlRecompiled</b></a><br><sub>josiahg2502-glitch</sub></td><td>把 2008 年 Wii 遊戲《大亂鬥 特別版》（Super Smash Bros. Brawl）的 PowerPC 程式碼靜態重編譯成原生 PC 程式，支援 4K、高幀率和模組。需要自己的光碟。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/darkuni/resident-evil-darkside-chronicles-recomp"><b>resident-evil-darkside-chronicles-recomp</b></a><br><sub>darkuni</sub></td><td>把閉源Wii遊戲《惡靈古堡：黑暗編年史》透過靜態重編譯做成原生Windows和Linux版。目前可玩，需自備光碟映像。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 ### NDS
@@ -349,6 +351,13 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 </table>
 
 ### 3DS
+
+#### 反編譯 / 重編譯
+
+<table>
+<tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
+<tr><td>—</td><td><a href="https://github.com/Tsukimi-Labs/Solstice"><b>Solstice</b></a><br><sub>Tsukimi-Labs</sub></td><td>對閉源3DS遊戲《寶可夢 究極之日/究極之月》進行匹配反編譯。提供C++原始碼，用原版armcc編譯器可還原成遊戲位元組。不含遊戲檔案。</td><td>否</td><td><sub>—</sub></td></tr>
+</table>
 
 #### 資源擷取與工具
 
@@ -376,6 +385,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
 <tr><td>—</td><td><a href="https://github.com/AndrewAltimit/legend-of-legaia-re"><b>legend-of-legaia-re</b></a><br><sub>AndrewAltimit</sub></td><td>用 Rust 從零重寫 1999 年閉源 PS1 遊戲《雷蓋亞傳說》（Legend of Legaia），基於 Ghidra 逆向出的格式和邏輯文件。需要自備光碟映像。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/carlhako/puchicarat-recomp"><b>puchicarat-recomp</b></a><br><sub>carlhako</sub></td><td>把閉源PSX益智遊戲《Puchi Carat》透過靜態重編譯做成原生Linux版。包含MIPS轉C重編譯器和PSX硬體執行環境。不含遊戲資料。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 ### PS2
@@ -411,6 +421,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/Renzo-MGRR/Tenkaichi3Decomp"><b>Tenkaichi3Decomp</b></a><br><sub>Renzo-MGRR</sub></td><td>基於已有的反編譯成果，把閉源的《龍珠 Z 武道會 3》移植到了 PS3。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/TheBozos/ChampionsOfNorrath_Recomp"><b>ChampionsOfNorrath_Recomp</b></a><br><sub>TheBozos</sub></td><td>把 PS2 動作 RPG《諾拉斯的勇士》靜態重編譯成可在 PC 上原生執行的程式碼（需要自備光碟）。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Ptraaah/godhand-recompiled-android"><b>godhand-recompiled-android</b></a><br><sub>Ptraaah</sub></td><td>把 PS2 格鬥遊戲《神之手》靜態重編譯，使其能在 Android 手機上原生執行的免費專案（需要自備遊戲拷貝）。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Wifly413/ape-escape-3-recomp"><b>ape-escape-3-recomp</b></a><br><sub>Wifly413</sub></td><td>把閉源PS2遊戲《猿人逃出3》（PAL版）透過靜態重編譯做成原生PC啟動器。無需模擬器，需自備光碟映像。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 ### Xbox / Xbox 360
@@ -445,6 +456,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/sp00nznet/saintsrow"><b>saintsrow</b></a><br><sub>sp00nznet</sub></td><td>把 2006 年閉源 Xbox 360 遊戲《黑道聖徒》（Saints Row）的 PowerPC 程式碼靜態重編譯成原生 x86-64 C++，在現代 Windows 上直接執行，不需要模擬器。需要自備遊戲檔案。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/summitstrike-recomp"><b>summitstrike-recomp</b></a><br><sub>ElKev118</sub></td><td>透過靜態重編譯把原閉源Xbox擴充包《幽靈行動2：巔峰行動》做成原生Windows版。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>把閉源的《小龍史派羅：黎明之龍》（Xbox 360）變成你能在 Windows 上跑的原生程式（需自備光碟）</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/LomoXSoft/ZoidsAssaultRecomp"><b>ZoidsAssaultRecomp</b></a><br><sub>LomoXSoft</sub></td><td>把閉源Xbox 360遊戲《索斯獸襲擊》用ReXGlue靜態重編譯成原生Windows x64版。僅提供原始碼，需自備光碟。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 資源擷取與工具
@@ -478,7 +490,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 </table>
 
 <details>
-<summary>查看此分類的所有專案 (+9)</summary>
+<summary>查看此分類的所有專案 (+11)</summary>
 
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
@@ -488,6 +500,8 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/yamahuser/mhfz-decomp"><b>mhfz-decomp</b></a><br><sub>yamahuser</sub></td><td>針對《魔物獵人前線Z》線上客戶端的逆向工程：整理函式名稱、規格和輔助工具。不包含卡普空的原始程式碼。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><img src="images/sadx-decomp.png" width="160" alt="LuckyLuke00/sadx-decomp"></a></td><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><b>sadx-decomp</b></a><br><sub>LuckyLuke00</sub></td><td>對閉源的 2014 年 Steam 版《音速小子大冒險 DX》進行的匹配反編譯，目標是機器碼逐位元組一致。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><img src="https://raw.githubusercontent.com/bmbelo87/decomp-it-up-Perfect-Collection/main/LogoIA.png" width="160" alt="bmbelo87/decomp-it-up-Perfect-Collection"></a></td><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><b>decomp-it-up-Perfect-Collection</b></a><br><sub>bmbelo87</sub></td><td>從零用 C 重寫了閉源的 DOS 版《Pump It Up Perfect Collection》（2000 年 PIU.EXE），玩起來和原版一樣。</td><td>否</td><td><sub>專案 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Subarasheese/pwrstn-decomp"><b>pwrstn-decomp</b></a><br><sub>Subarasheese</sub></td><td>把閉源的 Dreamcast 格鬥遊戲《力量寶石》反編譯成開源 C 程式碼，能逐位元組還原原版可執行檔。不含遊戲資料。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/dudhasch/ff7-pc-decomp"><b>ff7-pc-decomp</b></a><br><sub>dudhasch</sub></td><td>把1998年閉源PC版《最終幻想7》用C/C++從零重建，能用當年的編譯工具鏈生成與原版逐位元組一致的 ff7.exe。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>對 1996 年閉源遊戲《致命潮汐》做的逆向工程，以及用現代 WebAssembly 重寫的實作。不包含任何原版遊戲資料。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>把 PC 冒險遊戲《南希·德魯：布萊克摩爾莊園的詛咒》的可執行檔反編譯重建成匹配的原生 C 程式碼，並提供 macOS ARM64 移植。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>對 1996 年 DOS 版《古墓奇兵》做匹配反編譯，讓 C 和組合語言能編譯回原版 TOMB.EXE 的精確位元組</td><td>否</td><td><sub>專案 README</sub></td></tr>
@@ -523,11 +537,11 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
 <tr><td>—</td><td><a href="https://github.com/mr-finster/vf3-recomp"><b>vf3-recomp</b></a><br><sub>mr-finster</sub></td><td>把 1996 年閉源的世嘉 Model 3 街機遊戲《VR 戰士 3》（Virtua Fighter 3）的 PowerPC 程式靜態重編譯成原生 PC 程式碼，支援最高 6 倍解析度和 120 幀。需要自備 ROM。</td><td>否</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a></td><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub></td><td>戰地風雲 2 引擎的 C++20 淨室重寫（讀取你自己的遊戲檔案）</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Mava-b/folklore-decomp"><b>folklore-decomp</b></a><br><sub>Mava-b</sub></td><td>把 2007 年 PS3 遊戲《Folklore》靜態重編譯成可在 Windows 上原生執行的版本（支援 60 幀、超寬螢幕）</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a></td><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub></td><td>戰地風雲 2 引擎的 C++20 淨室重寫（讀取你自己的遊戲檔案）</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Karlos-fr/fun-tracks-recomp-releases"><b>fun-tracks-recomp-releases</b></a><br><sub>Karlos-fr</sub></td><td>閉源 1997 年遊戲《Fun Tracks》的反編譯與重編譯多平台（Windows、Android）發布。需要原版遊戲檔案。</td><td>否</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/vahokif/I26"><b>I26</b></a><br><sub>vahokif</sub></td><td>用 Godot 從零重寫的 1997 年汽車戰鬥遊戲 Interstate &#x27;76，支援現代畫面和多人連線。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/OpenReliant/openreliant"><img src="https://opengraph.githubassets.com/fb57741559b03427ef4d7964c66f66ce6d1414f53da1d5e6ef67f667d117b20b/OpenReliant/openreliant" width="160" alt="OpenReliant/openreliant"></a></td><td><a href="https://github.com/OpenReliant/openreliant"><b>openreliant</b></a><br><sub>OpenReliant</sub></td><td>用現代電腦玩 2000 年的太空戰鬥遊戲《星際航線》：從零重寫的引擎，使用你自己的遊戲檔案，支援高解析度和模組。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/vahokif/I26"><b>I26</b></a><br><sub>vahokif</sub></td><td>用 Godot 從零重寫的 1997 年汽車戰鬥遊戲 Interstate &#x27;76，支援現代畫面和多人連線。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/gminustwo/RondoRecomp"><img src="https://opengraph.githubassets.com/1/gminustwo/RondoRecomp" width="160" alt="gminustwo/RondoRecomp"></a></td><td><a href="https://github.com/gminustwo/RondoRecomp"><b>RondoRecomp</b></a><br><sub>gminustwo</sub></td><td>把經典的 PC Engine 遊戲《惡魔城：血之輪迴》靜態重編譯成原生 Windows 或 Linux 程式，你提供自己的光碟映像即可。支援倒帶、存檔和 RetroAchievements。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ccbury/MGSPOStaticRecomp"><b>MGSPOStaticRecomp</b></a><br><sub>ccbury</sub></td><td>把 PSP 遊戲《合金裝備：掌上行動》靜態重編譯成原生 Windows 程式，不用模擬器就能跑。目前已經能進遊戲。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/AsyncFinn/rook"><img src="https://opengraph.githubassets.com/1/AsyncFinn/rook" width="160" alt="AsyncFinn/rook"></a></td><td><a href="https://github.com/AsyncFinn/rook"><b>rook</b></a><br><sub>AsyncFinn</sub></td><td>以 Rust 寫成的 Roblox 相容引擎，對照 Studio 測試</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
@@ -536,8 +550,8 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/ectrc/dishonoredrecompiled"><b>dishonoredrecompiled</b></a><br><sub>ectrc</sub></td><td>用Claude AI代理從原版Win32可執行檔重建了2012年PC遊戲《恥辱》（Dishonored），能進主選單並玩開頭任務；需要你自己擁有的遊戲檔案。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><img src="https://raw.githubusercontent.com/ucodia/desktop-games-nostalgia/main/docs/demo.gif" width="160" alt="ucodia/desktop-games-nostalgia"></a></td><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><b>desktop-games-nostalgia</b></a><br><sub>ucodia</sub></td><td>再砸一次桌面：Gemtree 2000 年的小玩具登上 macOS 和網頁</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/a-barzanti/ai-rebuilds">預覽暫時無法顯示 · 查看原始專案</a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>被遺棄的老遊戲重回瀏覽器，不含任何原版檔案</td><td>✅ 是</td><td><sub><a href="https://github.com/a-barzanti/ai-rebuilds">儲存庫卡片</a></sub></td></tr>
-<tr><td><a href="https://github.com/OpenRsG/GunZRs"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="160" alt="OpenRsG/GunZRs"></a></td><td><a href="https://github.com/OpenRsG/GunZRs"><b>GunZRs</b></a><br><sub>OpenRsG</sub></td><td>GunZ: The Duel 以 Rust + Bevy 重生</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><img src="https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif" width="160" alt="tuunanet/rea-ski-or-die-reconstruction"></a></td><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><b>rea-ski-or-die-reconstruction</b></a><br><sub>tuunanet</sub></td><td>Ski or Die 的雪球大戰，以 Rust + SDL2 重製（素材需自備）</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/OpenRsG/GunZRs"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="160" alt="OpenRsG/GunZRs"></a></td><td><a href="https://github.com/OpenRsG/GunZRs"><b>GunZRs</b></a><br><sub>OpenRsG</sub></td><td>GunZ: The Duel 以 Rust + Bevy 重生</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NostalgiaRealm/A2-Racer-4"><b>A2-Racer-4</b></a><br><sub>NostalgiaRealm</sub></td><td>閉源遊戲《A2 賽車 4》（Davilex，2000）的瀏覽器和桌面移植版。遊戲的 x86 程式碼被重編譯成了 WebAssembly，選單是手寫重做的。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/YuutaTsubasa/MarbleKnightsRecompiled"><b>MarbleKnightsRecompiled</b></a><br><sub>YuutaTsubasa</sub></td><td>把閉源的 Apple Arcade 遊戲《Marble Knights》（Unity IL2CPP，iOS ARM64）靜態重編譯成原生 Windows 版本。需要自備遊戲檔案，不含任何遊戲資料。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>用 REA + Ghidra 函式級還原的 Commander Keen 1 原生 Linux/SDL2 重實現</td><td>✅ 是</td><td><sub>—</sub></td></tr>
@@ -689,7 +703,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 </table>
 
 <details>
-<summary>查看此分類的所有專案 (+96)</summary>
+<summary>查看此分類的所有專案 (+98)</summary>
 
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
@@ -737,8 +751,8 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/nforest/awesome-decompilation"><b>awesome-decompilation</b></a><br><sub>nforest</sub></td><td>反編譯相關資源、論文、中間表示與專案的精選列表。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/decompme/decomp.me"><img src="https://opengraph.githubassets.com/1/decompme/decomp.me" width="160" alt="decompme/decomp.me"></a></td><td><a href="https://github.com/decompme/decomp.me"><b>decomp.me</b></a><br><sub>decompme</sub></td><td>在瀏覽器裡協作反編譯，一起挑戰完全匹配</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Fausto-404/js-reverse-automation--skill"><b>js-reverse-automation--skill</b></a><br><sub>Fausto-404</sub></td><td>An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/1llu50ry/mcp-reverse"><b>mcp-reverse</b></a><br><sub>1llu50ry</sub></td><td>一個 MCP 伺服器，把多種逆向工具和大量技能庫打包起來，讓 AI 代理能分析二進位和遊戲</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/WhiteNightShadow/camoufox-reverse-mcp"><b>camoufox-reverse-mcp</b></a><br><sub>WhiteNightShadow</sub></td><td>Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/1llu50ry/mcp-reverse"><b>mcp-reverse</b></a><br><sub>1llu50ry</sub></td><td>一個 MCP 伺服器，把多種逆向工具和大量技能庫打包起來，讓 AI 代理能分析二進位和遊戲</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/radareorg/r2ai"><b>r2ai</b></a><br><sub>radareorg</sub></td><td>radare2 的基於 LLM 的逆向工具與插件</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/dnakov/frida-mcp"><b>frida-mcp</b></a><br><sub>dnakov</sub></td><td>Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fosdickio/binary_ninja_mcp"><b>binary_ninja_mcp</b></a><br><sub>fosdickio</sub></td><td>讓 LLM Agent 驅動 Binary Ninja 的 MCP 伺服器（反編譯、交叉參照、重新命名、註解）。</td><td>否</td><td><sub>—</sub></td></tr>
@@ -756,9 +770,10 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td><a href="https://github.com/czcdr/dsh-plugin-rea"><img src="https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png" width="160" alt="czcdr/dsh-plugin-rea"></a></td><td><a href="https://github.com/czcdr/dsh-plugin-rea"><b>dsh-plugin-rea</b></a><br><sub>czcdr</sub></td><td>在 DeepSeek Harness 裡使用 REA，自動裝好 Ghidra</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/rizinorg/jsdec"><img src="https://opengraph.githubassets.com/1/rizinorg/jsdec" width="160" alt="rizinorg/jsdec"></a></td><td><a href="https://github.com/rizinorg/jsdec"><b>jsdec</b></a><br><sub>rizinorg</sub></td><td>為 Rizin 產生可讀的虛擬 C 碼，手寫組合語言也行</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/0xshlomil/ida-free-mcp"><img src="https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp" width="160" alt="0xshlomil/ida-free-mcp"></a></td><td><a href="https://github.com/0xshlomil/ida-free-mcp"><b>ida-free-mcp</b></a><br><sub>0xshlomil</sub></td><td>透過 MCP 讓 AI 代理使用免費版 IDA</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MistblastClear/UEBulkExport-rpocket"><b>UEBulkExport-rpocket</b></a><br><sub>MistblastClear</sub></td><td>一個命令列工具，能把整個虛幻引擎遊戲包（.pak / .utoc / .ucas）一次匯出成紋理、模型、動畫、音訊和關卡資料夾。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/dav1dngy/era-agent"><img src="https://raw.githubusercontent.com/dav1dngy/era-agent/main/docs/assets/screenshots/01-main-workspace.png" width="160" alt="dav1dngy/era-agent"></a></td><td><a href="https://github.com/dav1dngy/era-agent"><b>era-agent</b></a><br><sub>dav1dngy</sub></td><td>證據驅動、會嘗試自我改進的逆向工程 AI 代理</td><td>❔ 待驗證</td><td><sub>專案 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>讓 AI agent 從發行檔案逆向遊戲的框架</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/gryszzz/reverse-engineer-everything"><b>reverse-engineer-everything</b></a><br><sub>gryszzz</sub></td><td>基於 REA 引擎的本地工作台和調查工作室，用於有證據支持的軟體分析，檔案不上雲。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>讓 AI agent 從發行檔案逆向遊戲的框架</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/BurnoutDecomp/BP-Decomp_Workflow"><img src="https://opengraph.githubassets.com/1/BurnoutDecomp/BP-Decomp_Workflow" width="160" alt="BurnoutDecomp/BP-Decomp_Workflow"></a></td><td><a href="https://github.com/BurnoutDecomp/BP-Decomp_Workflow"><b>BP-Decomp_Workflow</b></a><br><sub>BurnoutDecomp</sub></td><td>幫助逆向和反編譯《橫衝直撞：天堂》的工具與工作流倉庫。包含腳本、IDA資料庫和代理編排。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/veritr1x/recomp-kit"><b>recomp-kit</b></a><br><sub>veritr1x</sub></td><td>一套靜態重編譯工具包，把老的32位x86 Windows遊戲變成macOS、iOS、Android、Linux和Windows上的原生程式，完全不需要模擬器或JIT。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/alexmi256/rea-agent-docker"><img src="https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker" width="160" alt="alexmi256/rea-agent-docker"></a></td><td><a href="https://github.com/alexmi256/rea-agent-docker"><b>rea-agent-docker</b></a><br><sub>alexmi256</sub></td><td>REA 的 Docker 映像檔，含 Ghidra/Hopper/IDA 版本</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
@@ -766,8 +781,9 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/yefan911/automated-recompilers"><b>automated-recompilers</b></a><br><sub>yefan911</sub></td><td>一個自動化框架，能把主機 ROM 可執行檔透過靜態重編譯翻譯成能在 PC 上原生執行的程式。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/DatanoiseTV/revenant"><img src="images/revenant-card.png" width="160" alt="DatanoiseTV/revenant"></a></td><td><a href="https://github.com/DatanoiseTV/revenant"><b>revenant</b></a><br><sub>DatanoiseTV</sub></td><td>用大模型自動逆向被廠商拋棄的韌體和二進位程式，生成腳位圖、設備樹或開源重實現。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>在 LM Studio 裡搭配本機模型使用 REA</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/ValveResourceFormat/Source2Mcp"><b>Source2Mcp</b></a><br><sub>ValveResourceFormat</sub></td><td>一個 MCP 伺服器，讓 AI 能啟動並控制 CS2、Dota 2 或 Deadlock 這類 Source 2 遊戲：跑控制台命令、移動鏡頭、截圖。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/abedegno/borland-reborn"><b>borland-reborn</b></a><br><sub>abedegno</sub></td><td>把閉源的 Borland DOS 編譯器還原成開源程式碼，能逐位元組重建原版二進位檔。首發涵蓋 Borland C++ 2.0 的 BCC.EXE。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/jaenster/ghidra-reconstruct"><img src="https://opengraph.githubassets.com/1/jaenster/ghidra-reconstruct" width="160" alt="jaenster/ghidra-reconstruct"></a></td><td><a href="https://github.com/jaenster/ghidra-reconstruct"><b>ghidra-reconstruct</b></a><br><sub>jaenster</sub></td><td>把 Ghidra 反編譯出來的亂糟糟程式碼整理成乾淨、有命名空間的 C++ 原始碼，讓你可以真正編譯建置。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/ValveResourceFormat/Source2Mcp"><b>Source2Mcp</b></a><br><sub>ValveResourceFormat</sub></td><td>一個 MCP 伺服器，讓 AI 能啟動並控制 CS2、Dota 2 或 Deadlock 這類 Source 2 遊戲：跑控制台命令、移動鏡頭、截圖。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>給 DeepSeek Harness 加上 REA 技能和工具</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/andrewnakas/recompsoftware"><img src="images/recompsoftware-og.png" width="160" alt="andrewnakas/recompsoftware"></a></td><td><a href="https://github.com/andrewnakas/recompsoftware"><b>recompsoftware</b></a><br><sub>andrewnakas</sub></td><td>一個即時網站，追蹤數千個從機器碼重建老遊戲和軟體的專案，附帶進度圖和發布記錄。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>讓 Claude Code 的每項結論都引用真實的 REA 證據</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
@@ -781,10 +797,10 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td><a href="https://github.com/jinshi666888/rea-playbook"><img src="https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif" width="160" alt="jinshi666888/rea-playbook"></a></td><td><a href="https://github.com/jinshi666888/rea-playbook"><b>rea-playbook</b></a><br><sub>jinshi666888</sub></td><td>附迷你 Electron 靶機的 REA 實作練習</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>將 REA 技能與可選 MCP 打包為 DSH 插件，用於逆向工程與 Mac 應用建構。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MarkMcCaskey/dolphin-decomp-mcp"><b>dolphin-decomp-mcp</b></a><br><sub>MarkMcCaskey</sub></td><td>一個MCP伺服器和命令列工具，讓AI代理可以即時除錯在海豚模擬器裡跑的GameCube和Wii遊戲。適合做逆向工程和匹配反編譯。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Producdevity/gc-recomp"><b>gc-recomp</b></a><br><sub>Producdevity</sub></td><td>開源的GameCube靜態重編譯器和執行環境，能把閉源GameCube遊戲轉成Linux AArch64原生程式碼，適合掌機。首次啟動時翻譯玩家自己的光碟，不包含任何遊戲程式碼。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/orikami048/gea"><img src="images/gea-card.png" width="160" alt="orikami048/gea"></a></td><td><a href="https://github.com/orikami048/gea"><b>gea</b></a><br><sub>orikami048</sub></td><td>遊戲逆向、資源提取與 Cocos/Three.js 重現的 MCP 與 CLI；受 morluto/rea 啟發。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea 斜線命令，將逆向分析請求路由到 REA 技能與 MCP 工具。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LostArtefacts/decomp-tools"><b>decomp-tools</b></a><br><sub>LostArtefacts</sub></td><td>幫助對 Windows 版《古墓奇兵2》到《古墓奇兵5》做逐位元組匹配反編譯的工具，使用 Wine 下的原版 MSVC 5/6 編譯器。</td><td>否</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/MistblastClear/UEBulkExport-rpocket"><b>UEBulkExport-rpocket</b></a><br><sub>MistblastClear</sub></td><td>一個命令列工具，能把整個虛幻引擎遊戲包（.pak / .utoc / .ucas）一次匯出成紋理、模型、動畫、音訊和關卡資料夾。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/zarvox32/vb-native-decompiler"><b>vb-native-decompiler</b></a><br><sub>zarvox32</sub></td><td>一個工具，能把閉源的 Visual Basic 5/6 原生程式碼程式反編譯回可讀的 VB 原始碼，並且逐個過程對照原版機器碼做驗證。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/austinkregel/corpus_mcp"><b>corpus_mcp</b></a><br><sub>austinkregel</sub></td><td>一個 MCP 伺服器，讓 AI 智能體能搜尋 Ghidra 反編譯結果、Lua 程式碼和專案文件，加快對閉源程式的逆向。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/romangalaxys10-spec/zcode-rea"><b>zcode-rea</b></a><br><sub>romangalaxys10-spec</sub></td><td>ZCode 插件，封裝了官方 REA 工具包，讓 AI 智能體能帶證據地對閉源二進位、應用和網站做逆向。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
@@ -836,11 +852,11 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>本機優先的記帳 App，參考 QuickBooks Mac 版</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>用 REA 和 Ghidra 拆 Sony A6000 相機韌體</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/th04"><img src="https://raw.githubusercontent.com/N0zoM1z0/th04/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th04"></a></td><td><a href="https://github.com/N0zoM1z0/th04"><b>th04</b></a><br><sub>N0zoM1z0</sub></td><td>東方幻想鄉（PC-98）的可讀原始碼，並以原版編譯器驗證</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>讓 AI agent 從發行檔案逆向遊戲的框架</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/gryszzz/reverse-engineer-everything"><b>reverse-engineer-everything</b></a><br><sub>gryszzz</sub></td><td>基於 REA 引擎的本地工作台和調查工作室，用於有證據支持的軟體分析，檔案不上雲。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>讓 AI agent 從發行檔案逆向遊戲的框架</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/rodneypantonial/sims3-modernization"><b>sims3-modernization</b></a><br><sub>rodneypantonial</sub></td><td>讓模擬市民 3 在新電腦上少卡頓、少當機</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>把 Linux 桌面串流到 Quest、Pico 頭戴裝置</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/alexmi256/rea-agent-docker"><img src="https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker" width="160" alt="alexmi256/rea-agent-docker"></a></td><td><a href="https://github.com/alexmi256/rea-agent-docker"><b>rea-agent-docker</b></a><br><sub>alexmi256</sub></td><td>REA 的 Docker 映像檔，含 Ghidra/Hopper/IDA 版本</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>把 Linux 桌面串流到 Quest、Pico 頭戴裝置</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/pablodiazjorge/rea-lab"><img src="https://opengraph.githubassets.com/1/pablodiazjorge/rea-lab" width="160" alt="pablodiazjorge/rea-lab"></a></td><td><a href="https://github.com/pablodiazjorge/rea-lab"><b>rea-lab</b></a><br><sub>pablodiazjorge</sub></td><td>Windows + Ghidra 練習題與預先登記的 REA 評測</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>在 Mac、Android、iPhone 上用 Wi-Fi 遙控小米電視</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/sickpyramid/ReaFuse"><img src="https://opengraph.githubassets.com/1/sickpyramid/ReaFuse" width="160" alt="sickpyramid/ReaFuse"></a></td><td><a href="https://github.com/sickpyramid/ReaFuse"><b>ReaFuse</b></a><br><sub>sickpyramid</sub></td><td>藉助 REA 把兩個 JS/TS 專案合併成一個</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
@@ -852,9 +868,9 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td><a href="https://github.com/iammukeshm/hexgrab"><img src="https://opengraph.githubassets.com/1/iammukeshm/hexgrab" width="160" alt="iammukeshm/hexgrab"></a></td><td><a href="https://github.com/iammukeshm/hexgrab"><b>hexgrab</b></a><br><sub>iammukeshm</sub></td><td>迷你 Windows 取色工具，從 PowerToys 二進位檔研究而來</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>給 DeepSeek Harness 加上 REA 技能和工具</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>在 Windows 桌面上控制 Sony 藍牙耳機</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><img src="https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif" width="160" alt="tuunanet/rea-ski-or-die-reconstruction"></a></td><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><b>rea-ski-or-die-reconstruction</b></a><br><sub>tuunanet</sub></td><td>Ski or Die 的雪球大戰，以 Rust + SDL2 重製（素材需自備）</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/OpenRsG/GunZRs"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="160" alt="OpenRsG/GunZRs"></a></td><td><a href="https://github.com/OpenRsG/GunZRs"><b>GunZRs</b></a><br><sub>OpenRsG</sub></td><td>GunZ: The Duel 以 Rust + Bevy 重生</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>讓 Claude Code 的每項結論都引用真實的 REA 證據</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><img src="https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif" width="160" alt="tuunanet/rea-ski-or-die-reconstruction"></a></td><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><b>rea-ski-or-die-reconstruction</b></a><br><sub>tuunanet</sub></td><td>Ski or Die 的雪球大戰，以 Rust + SDL2 重製（素材需自備）</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><img src="https://opengraph.githubassets.com/1/sheilacraig/dsh-rea-mcp" width="160" alt="sheilacraig/dsh-rea-mcp"></a></td><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><b>dsh-rea-mcp</b></a><br><sub>sheilacraig</sub></td><td>只靠設定就把 REA 接進 DeepSeek Harness</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>拆解 Wispr Flow 的語音管線，附 64 行重寫版</td><td>✅ 是</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">影片封面</a></sub></td></tr>
 <tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>像 WinDirStat 一樣看清 Windows 11 磁碟被什麼佔滿</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>

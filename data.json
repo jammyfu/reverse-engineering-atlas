@@ -3094,5 +3094,85 @@
     "https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp",
     "No",
     "Static recompilation of The Legend of Spyro: Dawn of the Dragon (Xbox 360) to native Windows. Bring your own disc."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Subarasheese/pwrstn-decomp",
+    "https://github.com/Subarasheese/pwrstn-decomp",
+    "No",
+    "Decompilation of Power Stone (Dreamcast). Rebuilds the executable byte for byte; no game data included."
+  ],
+  [
+    "pc",
+    "decomp",
+    "dudhasch/ff7-pc-decomp",
+    "https://github.com/dudhasch/ff7-pc-decomp",
+    "No",
+    "Final Fantasy VII (PC, 1998): C/C++ source that rebuilds a byte-identical retail ff7.exe with the original 1997 toolchain."
+  ],
+  [
+    "tooling",
+    "",
+    "abedegno/borland-reborn",
+    "https://github.com/abedegno/borland-reborn",
+    "No",
+    "Borland's DOS compilers recovered as source that rebuilds the original binaries byte for byte. First: Borland C++ 2.0 BCC.EXE."
+  ],
+  [
+    "ps1",
+    "remake",
+    "carlhako/puchicarat-recomp",
+    "https://github.com/carlhako/puchicarat-recomp",
+    "No",
+    "Puchi Carat (PSX) statically recompiled to native Linux. MIPS-to-C recompiler + PSX hardware runtime; no game data included."
+  ],
+  [
+    "xbox",
+    "remake",
+    "LomoXSoft/ZoidsAssaultRecomp",
+    "https://github.com/LomoXSoft/ZoidsAssaultRecomp",
+    "No",
+    "Unofficial static recompilation of Zoids Assault (Xbox 360) to native Windows x64 with ReXGlue. Bring your own disc."
+  ],
+  [
+    "wii",
+    "remake",
+    "darkuni/resident-evil-darkside-chronicles-recomp",
+    "https://github.com/darkuni/resident-evil-darkside-chronicles-recomp",
+    "No",
+    "Static recompilation of Resident Evil: The Darkside Chronicles (Wii) to native Windows/Linux. Playable; bring your own disc image."
+  ],
+  [
+    "tooling",
+    "tools",
+    "Producdevity/gc-recomp",
+    "https://github.com/Producdevity/gc-recomp",
+    "No",
+    "Static recompiler and runtime for GameCube games on Linux AArch64 handhelds. Translates the player's own disc at first launch."
+  ],
+  [
+    "3ds",
+    "decomp",
+    "Tsukimi-Labs/Solstice",
+    "https://github.com/Tsukimi-Labs/Solstice",
+    "No",
+    "Matching decompilation of Pokémon Ultra Sun and Ultra Moon (3DS). C++ that armcc turns into the game's bytes; no game files included."
+  ],
+  [
+    "snes",
+    "remake",
+    "rac08241988/MegaMan7-Recomp",
+    "https://github.com/rac08241988/MegaMan7-Recomp",
+    "No",
+    "Unofficial Mega Man 7 (SNES) PC port via static recompilation. You supply your own ROM."
+  ],
+  [
+    "ps2",
+    "remake",
+    "Wifly413/ape-escape-3-recomp",
+    "https://github.com/Wifly413/ape-escape-3-recomp",
+    "No",
+    "Native PC launcher for Ape Escape 3 (PS2 PAL) via static recompilation. No emulator; bring your own disc image."
   ]
 ]

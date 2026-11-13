@@ -2707,5 +2707,75 @@
     "zh-TW": "把閉源的《小龍史派羅：黎明之龍》（Xbox 360）變成你能在 Windows 上跑的原生程式（需自備光碟）",
     "ja": "クローズドソースの『スパイロ：ドーン・オブ・ザ・ドラゴン』（Xbox 360）を自分のディスクでWindowsネイティブに",
     "ko": "클로즈드 소스인 스파이로: 던 오브 더 드래곤(Xbox 360)을 본인 디스크로 윈도우 네이티브로"
+  },
+  "Subarasheese/pwrstn-decomp": {
+    "en": "Open-source decompilation of the closed-source Dreamcast fighting game Power Stone. Rebuilds the game executable byte for byte from C source. No game data included.",
+    "zh-CN": "把闭源的 Dreamcast 格斗游戏《力量宝石》反编译成开源 C 代码，能逐字节还原原版可执行文件。不含游戏数据。",
+    "zh-TW": "把閉源的 Dreamcast 格鬥遊戲《力量寶石》反編譯成開源 C 程式碼，能逐位元組還原原版可執行檔。不含遊戲資料。",
+    "ja": "クローズドソースのドリームキャスト格闘ゲーム『パワーストーン』をオープンソースのCでデコンパイル。バイト単位で元の実行ファイルを再現。ゲームデータは含まれない。",
+    "ko": "클로즈드 소스인 드림캐스트 격투 게임 파워 스톤을 오픈소스 C로 디컴파일. 바이트 단위로 원본 실행 파일을 재현. 게임 데이터 미포함."
+  },
+  "dudhasch/ff7-pc-decomp": {
+    "en": "Open-source C/C++ reconstruction of the closed-source 1998 PC release of Final Fantasy VII. Rebuilds a byte-identical retail ff7.exe using the original 1997 toolchain.",
+    "zh-CN": "把1998年闭源PC版《最终幻想7》用C/C++从零重建，能用当年的编译工具链生成与原版逐字节一致的 ff7.exe。",
+    "zh-TW": "把1998年閉源PC版《最終幻想7》用C/C++從零重建，能用當年的編譯工具鏈生成與原版逐位元組一致的 ff7.exe。",
+    "ja": "1998年のクローズドソースPC版『ファイナルファンタジーVII』をC/C++でゼロから再構築。当時のツールチェーンでバイト単位で同一のff7.exeを生成。",
+    "ko": "1998년 클로즈드 소스 PC판 파이널 판타지 VII를 C/C++로 처음부터 재구축. 당시 툴체인으로 바이트 단위로 동일한 ff7.exe 생성."
+  },
+  "abedegno/borland-reborn": {
+    "en": "Recovered open-source version of Borland's closed-source DOS compilers. Rebuilds the original binaries byte for byte. First release covers Borland C++ 2.0's BCC.EXE.",
+    "zh-CN": "把闭源的 Borland DOS 编译器还原成开源代码，能逐字节重建原版二进制文件。首发覆盖 Borland C++ 2.0 的 BCC.EXE。",
+    "zh-TW": "把閉源的 Borland DOS 編譯器還原成開源程式碼，能逐位元組重建原版二進位檔。首發涵蓋 Borland C++ 2.0 的 BCC.EXE。",
+    "ja": "クローズドソースのBorland DOSコンパイラをオープンソースで復元。バイト単位で元のバイナリを再構築。最初はBorland C++ 2.0のBCC.EXE。",
+    "ko": "클로즈드 소스인 Borland DOS 컴파일러를 오픈소스로 복원. 바이트 단위로 원본 바이너리 재구축. 첫 릴리스는 Borland C++ 2.0의 BCC.EXE."
+  },
+  "carlhako/puchicarat-recomp": {
+    "en": "Native Linux port of the closed-source PSX puzzle game Puchi Carat via static recompilation. Includes MIPS-to-C recompiler and PSX hardware runtime. No game data included.",
+    "zh-CN": "把闭源PSX益智游戏《Puchi Carat》通过静态重编译做成原生Linux版。包含MIPS转C重编译器和PSX硬件运行时。不含游戏数据。",
+    "zh-TW": "把閉源PSX益智遊戲《Puchi Carat》透過靜態重編譯做成原生Linux版。包含MIPS轉C重編譯器和PSX硬體執行環境。不含遊戲資料。",
+    "ja": "クローズドソースのPSXパズルゲーム『プチカラット』を静的リコンパイルでネイティブLinux版に。MIPS→CリコンパイラとPSXハードウェアランタイム付き。ゲームデータなし。",
+    "ko": "클로즈드 소스 PSX 퍼즐 게임 푸치 카라트를 정적 리컴파일로 네이티브 리눅스 버전으로. MIPS→C 리컴파일러와 PSX 하드웨어 런타임 포함. 게임 데이터 없음."
+  },
+  "LomoXSoft/ZoidsAssaultRecomp": {
+    "en": "Native Windows x64 port of the closed-source Xbox 360 game Zoids Assault via static recompilation using ReXGlue. Source only; bring your own disc.",
+    "zh-CN": "把闭源Xbox 360游戏《索斯兽袭击》用ReXGlue静态重编译成原生Windows x64版。仅提供源码，需自备光盘。",
+    "zh-TW": "把閉源Xbox 360遊戲《索斯獸襲擊》用ReXGlue靜態重編譯成原生Windows x64版。僅提供原始碼，需自備光碟。",
+    "ja": "クローズドソースのXbox 360ゲーム『ゾイドアサルト』をReXGlueで静的リコンパイルしネイティブWindows x64版に。ソースのみ、ディスクは自分で用意。",
+    "ko": "클로즈드 소스 Xbox 360 게임 조이드 어설트를 ReXGlue로 정적 리컴파일해 네이티브 Windows x64 버전으로. 소스만 제공, 디스크는 직접 준비."
+  },
+  "darkuni/resident-evil-darkside-chronicles-recomp": {
+    "en": "Native Windows and Linux port of the closed-source Wii game Resident Evil: The Darkside Chronicles via static recompilation. Currently playable; bring your own disc image.",
+    "zh-CN": "把闭源Wii游戏《生化危机：黑暗编年史》通过静态重编译做成原生Windows和Linux版。目前可玩，需自备光盘镜像。",
+    "zh-TW": "把閉源Wii遊戲《惡靈古堡：黑暗編年史》透過靜態重編譯做成原生Windows和Linux版。目前可玩，需自備光碟映像。",
+    "ja": "クローズドソースのWiiゲーム『バイオハザード ダークサイド・クロニクルズ』を静的リコンパイルでネイティブWindows/Linux版に。現在プレイ可能。ディスクイメージは自分で用意。",
+    "ko": "클로즈드 소스 Wii 게임 바이오하자드 다크사이드 크로니클스를 정적 리컴파일로 네이티브 Windows/Linux 버전으로. 현재 플레이 가능. 디스크 이미지는 직접 준비."
+  },
+  "Producdevity/gc-recomp": {
+    "en": "Open-source static recompiler and runtime that turns closed-source GameCube games into native Linux AArch64 code for handhelds. Translates the player's own disc at first launch; no game code shipped.",
+    "zh-CN": "开源的GameCube静态重编译器和运行时，能把闭源GameCube游戏转成Linux AArch64原生代码，适合掌机。首次启动时翻译玩家自己的光盘，不包含任何游戏代码。",
+    "zh-TW": "開源的GameCube靜態重編譯器和執行環境，能把閉源GameCube遊戲轉成Linux AArch64原生程式碼，適合掌機。首次啟動時翻譯玩家自己的光碟，不包含任何遊戲程式碼。",
+    "ja": "クローズドソースのゲームキューブゲームをLinux AArch64ネイティブコードに変換するオープンソース静的リコンパイラとランタイム。初回起動時にプレイヤーのディスクを翻訳。ゲームコードは同梱しない。",
+    "ko": "클로즈드 소스 게임큐브 게임을 Linux AArch64 네이티브 코드로 변환하는 오픈소스 정적 리컴파일러와 런타임. 첫 실행 시 플레이어의 디스크를 번역. 게임 코드는 포함하지 않음."
+  },
+  "Tsukimi-Labs/Solstice": {
+    "en": "Matching decompilation of the closed-source 3DS games Pokémon Ultra Sun and Ultra Moon. C++ source that the original armcc compiler turns back into the game's bytes. No game files included.",
+    "zh-CN": "对闭源3DS游戏《宝可梦 究极之日/究极之月》进行匹配反编译。提供C++源码，用原版armcc编译器可还原成游戏字节。不含游戏文件。",
+    "zh-TW": "對閉源3DS遊戲《寶可夢 究極之日/究極之月》進行匹配反編譯。提供C++原始碼，用原版armcc編譯器可還原成遊戲位元組。不含遊戲檔案。",
+    "ja": "クローズドソースの3DSゲーム『ポケットモンスター ウルトラサン/ウルトラムーン』のマッチングデコンパイル。元のarmccコンパイラでゲームのバイトに戻るC++ソース。ゲームファイルなし。",
+    "ko": "클로즈드 소스 3DS 게임 포켓몬 울트라썬/울트라문을 매칭 디컴파일. 원본 armcc 컴파일러로 게임 바이트로 되돌리는 C++ 소스. 게임 파일 미포함."
+  },
+  "rac08241988/MegaMan7-Recomp": {
+    "en": "Unofficial native PC port of the closed-source SNES game Mega Man 7 via static recompilation. You supply your own ROM.",
+    "zh-CN": "把闭源SNES游戏《洛克人7》通过静态重编译做成非官方原生PC版。需自备ROM。",
+    "zh-TW": "把閉源SNES遊戲《洛克人7》透過靜態重編譯做成非官方原生PC版。需自備ROM。",
+    "ja": "クローズドソースのSFCゲーム『ロックマン7』を静的リコンパイルで非公式ネイティブPC版に。ROMは自分で用意。",
+    "ko": "클로즈드 소스 SNES 게임 록맨 7을 정적 리컴파일로 비공식 네이티브 PC 버전으로. ROM은 직접 준비."
+  },
+  "Wifly413/ape-escape-3-recomp": {
+    "en": "Native PC launcher for the closed-source PS2 game Ape Escape 3 (PAL) via static recompilation. Runs without an emulator; bring your own disc image.",
+    "zh-CN": "把闭源PS2游戏《猿人逃出3》（PAL版）通过静态重编译做成原生PC启动器。无需模拟器，需自备光盘镜像。",
+    "zh-TW": "把閉源PS2遊戲《猿人逃出3》（PAL版）透過靜態重編譯做成原生PC啟動器。無需模擬器，需自備光碟映像。",
+    "ja": "クローズドソースのPS2ゲーム『サルゲッチュ3』（PAL版）を静的リコンパイルでネイティブPCランチャーに。エミュレータ不要、ディスクイメージは自分で用意。",
+    "ko": "클로즈드 소스 PS2 게임 에이프 이스케이프 3 (PAL)를 정적 리컴파일로 네이티브 PC 런처로. 에뮬레이터 불필요, 디스크 이미지는 직접 준비."
   }
 }
