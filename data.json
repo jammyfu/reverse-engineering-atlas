@@ -3190,5 +3190,21 @@
     "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains",
     "No",
     "Full decompilation and PC port of Legend of Dragoon (PS1) to high-level Java. Fully playable, with bug fixes and a modding API. Bring your own disc image."
+  ],
+  [
+    "xbox",
+    "remake",
+    "arcanite24/pinyon-shift",
+    "https://github.com/arcanite24/pinyon-shift",
+    "No",
+    "Native Windows/Linux/macOS (and Android alpha) port of Forza Horizon (Xbox 360) via static recompilation of the PowerPC code. You supply your own disc; no game files included."
+  ],
+  [
+    "switch2",
+    "remake",
+    "Goldoire/fefw-recomp",
+    "https://github.com/Goldoire/fefw-recomp",
+    "No",
+    "Native PC port of Fire Emblem: Fortune's Weave (Switch 2) via static recompilation. Bring your own dump; no game files included."
   ]
 ]

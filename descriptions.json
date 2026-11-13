@@ -2791,5 +2791,19 @@
     "zh-TW": "經典 PS1 角色扮演遊戲《龍騎士傳說》被完整反編譯成可讀的 Java，可以在電腦上原生執行，還修了原版的 bug 並支援模組",
     "ja": "クラシックな PS1 RPG『レジェンド・オブ・ドラグーン』を読みやすい Java に完全逆コンパイル。PC でネイティブに動き、バグ修正と Mod 対応",
     "ko": "클래식 PS1 RPG 레전드 오브 드래군을 읽기 쉬운 Java로 완전히 디컴파일. PC에서 네이티브로 실행되며 버그 수정과 모드 지원"
+  },
+  "arcanite24/pinyon-shift": {
+    "en": "Play Forza Horizon (Xbox 360) natively on Windows, Linux, macOS and even Android by translating its code ahead of time. You bring your own disc.",
+    "zh-CN": "把 Xbox 360 的《极限竞速：地平线》代码提前翻译成电脑能跑的原生程序，在 Windows、Linux、macOS 甚至安卓上玩。需要你自己提供光盘。",
+    "zh-TW": "把 Xbox 360 的《極限競速：地平線》程式碼事先翻譯成電腦能跑的原生程式，在 Windows、Linux、macOS 甚至安卓上玩。需要你自己提供光碟。",
+    "ja": "Xbox 360の『Forza Horizon』のコードをあらかじめ翻訳して、Windows・Linux・macOS・Androidでネイティブに遊べる。自分のディスクが必要。",
+    "ko": "Xbox 360 《포르자 호라이즌》의 코드를 미리 번역해서 Windows, Linux, macOS, 심지어 안드로이드에서도 네이티브로 플레이. 본인 디스크가 필요합니다."
+  },
+  "Goldoire/fefw-recomp": {
+    "en": "Run Fire Emblem: Fortune's Weave (Switch 2) natively on PC by statically recompiling its code. Bring your own game dump; nothing from the game is included.",
+    "zh-CN": "把 Switch 2 的《火焰纹章：命运之织》代码静态重编译成原生 PC 程序来玩。需要你自己提供游戏转储，项目里不含任何游戏文件。",
+    "zh-TW": "把 Switch 2 的《火焰紋章：命運之織》程式碼靜態重編譯成原生 PC 程式來玩。需要你自己提供遊戲轉儲，專案裡不含任何遊戲檔案。",
+    "ja": "Switch 2の『ファイアーエムブレム フォーチュンズウィーブ』のコードを静的に再コンパイルして、PCでネイティブに動かす。自分のダンプが必要。ゲームファイルは含まれない。",
+    "ko": "Switch 2 《파이어 엠블렘: 포춘즈 위브》의 코드를 정적으로 재컴파일해서 PC에서 네이티브로 실행. 본인 덤프가 필요하며 게임 파일은 포함되지 않습니다."
   }
 }

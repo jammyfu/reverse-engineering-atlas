@@ -1003,5 +1003,15 @@
   "Legend-of-Dragoon-Modding/Severed-Chains": [
     "readme",
     "https://opengraph.githubassets.com/10bd7d8cef87660d7a82830694e937426745d56724ce5b1fe0ed98ad756d1dd2/Legend-of-Dragoon-Modding/Severed-Chains"
+  ],
+  "arcanite24/pinyon-shift": [
+    "shot",
+    "images/pinyon-shift-og.png",
+    "GitHub opengraph image for the project"
+  ],
+  "Goldoire/fefw-recomp": [
+    "shot",
+    "images/fefw-recomp-og.png",
+    "GitHub opengraph image for the project"
   ]
 }
