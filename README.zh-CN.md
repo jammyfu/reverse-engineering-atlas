@@ -6,7 +6,7 @@
 
 按目标、平台和技术整理逆向项目、工具与 Agent 工作流。开始自己动手前，先看看已有成果：游戏反编译与重编译、应用重实现、Android 与 JavaScript 分析、协议、固件及配套工具。
 
-**397 条目录记录 · 391 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
+**399 条目录记录 · 393 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
 
 Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累计 Star 快照排序，不是实时趋势；原快照未记录采集时间，缺失计数排在最后。所有条目均保留。
 
@@ -375,6 +375,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://github.com/Xeeynamo/sotn-decomp"><img src="https://github.com/user-attachments/assets/fff7ddb2-736f-4e7d-b0ee-3c1151649773" width="160" alt="Xeeynamo/sotn-decomp"></a></td><td><a href="https://github.com/Xeeynamo/sotn-decomp"><b>sotn-decomp</b></a><br><sub>Xeeynamo</sub></td><td>恶魔城：月下夜想曲，反编译为 C</td><td>否</td><td><sub>维护者发布</sub></td></tr>
 <tr><td><a href="https://github.com/shdecompilations/silent-hill-decomp"><img src="https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png" width="160" alt="shdecompilations/silent-hill-decomp"></a></td><td><a href="https://github.com/shdecompilations/silent-hill-decomp"><b>silent-hill-decomp</b></a><br><sub>shdecompilations</sub></td><td>寂静岭（PS1）反编译进行中</td><td>否</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png">维基百科（© 版权方）</a></sub></td></tr>
 <tr><td><a href="https://github.com/SlickAmogus/silent-hill-decomp"><img src="images/silent-hill-decomp-card.png" width="160" alt="SlickAmogus/silent-hill-decomp"></a></td><td><a href="https://github.com/SlickAmogus/silent-hill-decomp"><b>silent-hill-decomp</b></a><br><sub>SlickAmogus</sub></td><td>基于对原版《寂静岭1》PS1 版本的反编译，做成了可以在多平台玩的开源移植版。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
+<tr><td><a href="https://github.com/Legend-of-Dragoon-Modding/Severed-Chains"><img src="https://opengraph.githubassets.com/10bd7d8cef87660d7a82830694e937426745d56724ce5b1fe0ed98ad756d1dd2/Legend-of-Dragoon-Modding/Severed-Chains" width="160" alt="Legend-of-Dragoon-Modding/Severed-Chains"></a></td><td><a href="https://github.com/Legend-of-Dragoon-Modding/Severed-Chains"><b>Severed-Chains</b></a><br><sub>Legend-of-Dragoon-Modding</sub></td><td>经典 PS1 角色扮演游戏《龙骑士传说》被完整反编译成可读的 Java，可以在电脑上原生运行，还修了原版的 bug 并支持模组</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/TekRantGaming/muppet-racemania-recompiled"><b>muppet-racemania-recompiled</b></a><br><sub>TekRantGaming</sub></td><td>把闭源的《布偶赛车》（PlayStation）通过静态重编译做成了 PC 原生版。支持 16:9 和 60 帧。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulcorreia7/bof3-decomp"><img src="images/bof3-decomp.png" width="160" alt="raulcorreia7/bof3-decomp"></a></td><td><a href="https://github.com/raulcorreia7/bof3-decomp"><b>bof3-decomp</b></a><br><sub>raulcorreia7</sub></td><td>对闭源的 PlayStation 游戏《龙战士 III》（美版）进行的匹配反编译。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">预览暂不可用 · 查看原项目</a></td><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp"><b>snowboardkidsplus-decomp</b></a><br><sub>cdlewis</sub></td><td>对闭源的 PlayStation 游戏《滑雪板小子 Plus》进行的匹配反编译。</td><td>否</td><td><sub><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">仓库卡片</a></sub></td></tr>
@@ -599,13 +600,14 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+20)</summary>
+<summary>查看该分类全部项目 (+21)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
 <tr><td><a href="https://github.com/GLinnik21/plx-native"><img src="https://raw.githubusercontent.com/GLinnik21/plx-native/main/docs/screenshots/home.jpg" width="160" alt="GLinnik21/plx-native"></a></td><td><a href="https://github.com/GLinnik21/plx-native"><b>plx-native</b></a><br><sub>GLinnik21</sub></td><td>LG 电视上更快的原生 Plex 客户端</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/michaelshimeles/terminal-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png" width="160" alt="michaelshimeles/terminal-rs"></a></td><td><a href="https://github.com/michaelshimeles/terminal-rs"><b>terminal-rs</b></a><br><sub>michaelshimeles</sub></td><td>Rust 写的彭博风格交易终端</td><td>✅ 是</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pingw33n/openrb-338"><b>openrb-338</b></a><br><sub>pingw33n</sub></td><td>从零重写的 1997 年 ReBirth RB-338 软件合成器，声音与原版逐字节一致。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/pingw33n/OpenRB-338"><img src="https://opengraph.githubassets.com/6166b208fd77e37c32d866e3e3abc15bd2f5860ee0a7fbb76c35044d9273a56f/pingw33n/OpenRB-338" width="160" alt="pingw33n/OpenRB-338"></a></td><td><a href="https://github.com/pingw33n/OpenRB-338"><b>OpenRB-338</b></a><br><sub>pingw33n</sub></td><td>从零重写的免费开源版 ReBirth RB-338，可以用虚拟的 TB-303 和鼓机做酸性浩室音乐</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fabox-os/Pro-Wave"><b>Pro-Wave</b></a><br><sub>fabox-os</sub></td><td>从零用纯 Rust 重写了一个类似 Apple Logic Pro 的免费开源音乐制作软件（DAW）。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>用 REA 研究剪映后重做的开源离线剪辑软件</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/michaelshimeles/rec-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/rec-rs/main/docs/screenshots/main.png" width="160" alt="michaelshimeles/rec-rs"></a></td><td><a href="https://github.com/michaelshimeles/rec-rs"><b>rec-rs</b></a><br><sub>michaelshimeles</sub></td><td>Rust 写的 macOS 快速录屏工具，参照 OBS 设计</td><td>✅ 是</td><td><sub>项目 README</sub></td></tr>

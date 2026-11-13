@@ -6,7 +6,7 @@
 
 역공학 프로젝트, 도구와 에이전트 작업 흐름을 대상·플랫폼·기술별로 모은 목록입니다. 게임 디컴파일과 리컴파일, 앱 재구현, Android·JavaScript 분석, 프로토콜과 펌웨어 분야에서 기존 작업을 먼저 찾아보세요.
 
-**목록 397개 · GitHub 저장소 391개 · skill 작업 흐름 10종 · README 5개 언어**
+**목록 399개 · GitHub 저장소 393개 · skill 작업 흐름 10종 · README 5개 언어**
 
 Switch 2는 편집상 우선순위이며 실측 인기 순위가 아닙니다. 분류 내에서는 기존 누적 Star 스냅샷을 사용하며 실시간 추세가 아닙니다. 수집 시각은 기록되지 않았으며 수치가 없는 항목은 마지막에 표시합니다. 모든 항목은 유지됩니다.
 
@@ -375,6 +375,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/Xeeynamo/sotn-decomp"><img src="https://github.com/user-attachments/assets/fff7ddb2-736f-4e7d-b0ee-3c1151649773" width="160" alt="Xeeynamo/sotn-decomp"></a></td><td><a href="https://github.com/Xeeynamo/sotn-decomp"><b>sotn-decomp</b></a><br><sub>Xeeynamo</sub></td><td>악마성 드라큘라 X 월하의 야상곡을 C로 디컴파일</td><td>아니요</td><td><sub>메인테이너 게시물</sub></td></tr>
 <tr><td><a href="https://github.com/shdecompilations/silent-hill-decomp"><img src="https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png" width="160" alt="shdecompilations/silent-hill-decomp"></a></td><td><a href="https://github.com/shdecompilations/silent-hill-decomp"><b>silent-hill-decomp</b></a><br><sub>shdecompilations</sub></td><td>사일런트 힐(PS1) C 디컴파일 진행 중</td><td>아니요</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png">위키백과(© 권리자)</a></sub></td></tr>
 <tr><td><a href="https://github.com/SlickAmogus/silent-hill-decomp"><img src="images/silent-hill-decomp-card.png" width="160" alt="SlickAmogus/silent-hill-decomp"></a></td><td><a href="https://github.com/SlickAmogus/silent-hill-decomp"><b>silent-hill-decomp</b></a><br><sub>SlickAmogus</sub></td><td>원본 《사일런트 힐 1》 PS1 버전을 역컴파일해서 만든, 현대 PC에서 플레이할 수 있는 오픈소스 이식판.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td><a href="https://github.com/Legend-of-Dragoon-Modding/Severed-Chains"><img src="https://opengraph.githubassets.com/10bd7d8cef87660d7a82830694e937426745d56724ce5b1fe0ed98ad756d1dd2/Legend-of-Dragoon-Modding/Severed-Chains" width="160" alt="Legend-of-Dragoon-Modding/Severed-Chains"></a></td><td><a href="https://github.com/Legend-of-Dragoon-Modding/Severed-Chains"><b>Severed-Chains</b></a><br><sub>Legend-of-Dragoon-Modding</sub></td><td>클래식 PS1 RPG 레전드 오브 드래군을 읽기 쉬운 Java로 완전히 디컴파일. PC에서 네이티브로 실행되며 버그 수정과 모드 지원</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/TekRantGaming/muppet-racemania-recompiled"><b>muppet-racemania-recompiled</b></a><br><sub>TekRantGaming</sub></td><td>클로즈드 소스인 머펫 레이스매니아(PlayStation)를 정적 재컴파일해서 만든 PC 네이티브 포트. 16:9와 60FPS 지원.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulcorreia7/bof3-decomp"><img src="images/bof3-decomp.png" width="160" alt="raulcorreia7/bof3-decomp"></a></td><td><a href="https://github.com/raulcorreia7/bof3-decomp"><b>bof3-decomp</b></a><br><sub>raulcorreia7</sub></td><td>폐쇄 소스인 플레이스테이션 게임 브레스 오브 파이어 III (북미판)의 매칭 디컴파일입니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">미리보기를 표시할 수 없음 · 원본 프로젝트 보기</a></td><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp"><b>snowboardkidsplus-decomp</b></a><br><sub>cdlewis</sub></td><td>폐쇄 소스인 플레이스테이션 게임 스노보드 키즈 플러스의 매칭 디컴파일입니다.</td><td>아니요</td><td><sub><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">저장소 카드</a></sub></td></tr>
@@ -599,13 +600,14 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+20)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+21)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
 <tr><td><a href="https://github.com/GLinnik21/plx-native"><img src="https://raw.githubusercontent.com/GLinnik21/plx-native/main/docs/screenshots/home.jpg" width="160" alt="GLinnik21/plx-native"></a></td><td><a href="https://github.com/GLinnik21/plx-native"><b>plx-native</b></a><br><sub>GLinnik21</sub></td><td>LG TV용 더 빠른 네이티브 Plex 클라이언트</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/michaelshimeles/terminal-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png" width="160" alt="michaelshimeles/terminal-rs"></a></td><td><a href="https://github.com/michaelshimeles/terminal-rs"><b>terminal-rs</b></a><br><sub>michaelshimeles</sub></td><td>Rust로 만든 블룸버그 스타일 트레이딩 터미널</td><td>✅ 예</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pingw33n/openrb-338"><b>openrb-338</b></a><br><sub>pingw33n</sub></td><td>1997년 소프트웨어 신시사이저 ReBirth RB-338을 처음부터 다시 만든 무료 버전. 소리는 원본과 바이트 단위로 동일.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/pingw33n/OpenRB-338"><img src="https://opengraph.githubassets.com/6166b208fd77e37c32d866e3e3abc15bd2f5860ee0a7fbb76c35044d9273a56f/pingw33n/OpenRB-338" width="160" alt="pingw33n/OpenRB-338"></a></td><td><a href="https://github.com/pingw33n/OpenRB-338"><b>OpenRB-338</b></a><br><sub>pingw33n</sub></td><td>클래식 ReBirth RB-338을 처음부터 다시 만든 무료 오픈소스 버전. 가상 TB-303과 드럼 머신으로 애시드 하우스를 만들 수 있음</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fabox-os/Pro-Wave"><b>Pro-Wave</b></a><br><sub>fabox-os</sub></td><td>Apple의 Logic Pro와 비슷한 워크플로를 가진, 순수 Rust로 처음부터 다시 작성한 무료 오픈소스 음악 제작 소프트웨어.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>REA로 CapCut을 분석해 다시 만든 오픈소스 오프라인 영상 편집기</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/michaelshimeles/rec-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/rec-rs/main/docs/screenshots/main.png" width="160" alt="michaelshimeles/rec-rs"></a></td><td><a href="https://github.com/michaelshimeles/rec-rs"><b>rec-rs</b></a><br><sub>michaelshimeles</sub></td><td>OBS를 참고한 Rust 기반 빠른 macOS 녹화 도구</td><td>✅ 예</td><td><sub>프로젝트 README</sub></td></tr>

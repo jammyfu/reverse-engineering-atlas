@@ -3174,5 +3174,21 @@
     "https://github.com/Wifly413/ape-escape-3-recomp",
     "No",
     "Native PC launcher for Ape Escape 3 (PS2 PAL) via static recompilation. No emulator; bring your own disc image."
+  ],
+  [
+    "app",
+    "",
+    "pingw33n/OpenRB-338",
+    "https://github.com/pingw33n/OpenRB-338",
+    "No",
+    "Open-source reimplementation of Propellerhead ReBirth RB-338 (1997 TB-303/TR-808/TR-909 software synth) in Rust. Byte-accurate audio engine; no original files needed for the standard kit."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "Legend-of-Dragoon-Modding/Severed-Chains",
+    "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains",
+    "No",
+    "Full decompilation and PC port of Legend of Dragoon (PS1) to high-level Java. Fully playable, with bug fixes and a modding API. Bring your own disc image."
   ]
 ]

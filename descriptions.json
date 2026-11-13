@@ -2777,5 +2777,19 @@
     "zh-TW": "把閉源PS2遊戲《猿人逃出3》（PAL版）透過靜態重編譯做成原生PC啟動器。無需模擬器，需自備光碟映像。",
     "ja": "クローズドソースのPS2ゲーム『サルゲッチュ3』（PAL版）を静的リコンパイルでネイティブPCランチャーに。エミュレータ不要、ディスクイメージは自分で用意。",
     "ko": "클로즈드 소스 PS2 게임 에이프 이스케이프 3 (PAL)를 정적 리컴파일로 네이티브 PC 런처로. 에뮬레이터 불필요, 디스크 이미지는 직접 준비."
+  },
+  "pingw33n/OpenRB-338": {
+    "en": "Free open-source rewrite of the classic ReBirth RB-338 music software that let you make acid house with virtual TB-303s and drum machines",
+    "zh-CN": "从零重写的免费开源版 ReBirth RB-338，可以用虚拟的 TB-303 和鼓机做酸性浩室音乐",
+    "zh-TW": "從零重寫的免費開源版 ReBirth RB-338，可以用虛擬的 TB-303 和鼓機做酸性浩室音樂",
+    "ja": "クラシックな ReBirth RB-338 をゼロから書き直した無料のオープンソース版。仮想の TB-303 とドラムマシンでアシッドハウスが作れる",
+    "ko": "클래식 ReBirth RB-338을 처음부터 다시 만든 무료 오픈소스 버전. 가상 TB-303과 드럼 머신으로 애시드 하우스를 만들 수 있음"
+  },
+  "Legend-of-Dragoon-Modding/Severed-Chains": {
+    "en": "The classic PS1 RPG Legend of Dragoon, fully decompiled into readable Java so it runs natively on PC with bug fixes and mods",
+    "zh-CN": "经典 PS1 角色扮演游戏《龙骑士传说》被完整反编译成可读的 Java，可以在电脑上原生运行，还修了原版的 bug 并支持模组",
+    "zh-TW": "經典 PS1 角色扮演遊戲《龍騎士傳說》被完整反編譯成可讀的 Java，可以在電腦上原生執行，還修了原版的 bug 並支援模組",
+    "ja": "クラシックな PS1 RPG『レジェンド・オブ・ドラグーン』を読みやすい Java に完全逆コンパイル。PC でネイティブに動き、バグ修正と Mod 対応",
+    "ko": "클래식 PS1 RPG 레전드 오브 드래군을 읽기 쉬운 Java로 완전히 디컴파일. PC에서 네이티브로 실행되며 버그 수정과 모드 지원"
   }
 }
