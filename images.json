@@ -1013,5 +1013,15 @@
     "shot",
     "images/fefw-recomp-og.png",
     "GitHub opengraph image for the project"
+  ],
+  "LexLuthorPrimero/rxre-cleanroom": [
+    "shot",
+    "images/rxre-cleanroom.png",
+    "GitHub opengraph image for LexLuthorPrimero/rxre-cleanroom"
+  ],
+  "bhuiyah/infamous2-recomp": [
+    "shot",
+    "images/infamous2-recomp.png",
+    "GitHub opengraph image for bhuiyah/infamous2-recomp"
   ]
 }

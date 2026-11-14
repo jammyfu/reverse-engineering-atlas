@@ -3230,5 +3230,29 @@
     "https://github.com/tukidev-lgtm/Tera-recomp",
     "No",
     "Static recompilation of Pokémon Scarlet (Switch) to native Windows x86-64 with Vulkan; needs your own dump and keys."
+  ],
+  [
+    "tooling",
+    "",
+    "LexLuthorPrimero/rxre-cleanroom",
+    "https://github.com/LexLuthorPrimero/rxre-cleanroom",
+    "No",
+    "Clean-room reconstruction of GNU coreutils filenvercmp, wc and other functions from stripped binaries, with sealed verification corpora and differential testing."
+  ],
+  [
+    "app",
+    "",
+    "calfonso/rusternetes",
+    "https://github.com/calfonso/rusternetes",
+    "No",
+    "Ground-up reimplementation of Kubernetes in Rust: API server, scheduler, controller manager, kubelet and kube-proxy written from scratch, passing ~94% of official conformance tests."
+  ],
+  [
+    "pc",
+    "remake",
+    "bhuiyah/infamous2-recomp",
+    "https://github.com/bhuiyah/infamous2-recomp",
+    "No",
+    "Static recompilation of inFamous 2 (PS3) to native Windows PC; launcher builds from your own disc and title update. No game files included."
   ]
 ]

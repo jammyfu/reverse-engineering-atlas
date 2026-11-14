@@ -2826,5 +2826,26 @@
     "zh-TW": "把任天堂 Switch 上的《寶可夢 朱》靜態重編譯成帶 Vulkan 渲染的原生 Windows 程式，不用模擬器就能玩。需要自己提供遊戲轉儲和金鑰。",
     "ja": "Nintendo Switch 版『ポケットモンスター スカーレット』を、Vulkan レンダラ付きのネイティブ Windows プログラムに静的再コンパイルします。ダンプとキーは自分で用意。",
     "ko": "닌텐도 스위치 버전의 포켓몬 스칼렛을 Vulkan 렌더러가 있는 네이티브 Windows 프로그램으로 정적 재컴파일합니다. 덤프와 키는 직접 준비해야 합니다."
+  },
+  "LexLuthorPrimero/rxre-cleanroom": {
+    "en": "Someone rebuilt the version-sorting logic inside the Linux ls command and the word-counting tool wc from the compiled binary alone, then proved it matches the original with thousands of test cases.",
+    "zh-CN": "有人只看编译后的二进制，把 Linux ls 命令里的版本排序逻辑和 wc 字数统计工具从零重写了一遍，还用上万个测试证明跟原版完全一致。",
+    "zh-TW": "有人只看編譯後的二進位檔，把 Linux ls 命令裡的版本排序邏輯和 wc 字數統計工具從零重寫了一遍，還用上萬個測試證明跟原版完全一致。",
+    "ja": "Linux の ls コマンドのバージョン並び替えロジックと wc の単語カウント機能を、コンパイル済みバイナリだけからゼロから書き直し、数千のテストでオリジナルと一致することを証明したプロジェクト。",
+    "ko": "리눅스 ls 명령의 버전 정렬 로직과 wc 단어 수 세기 도구를 컴파일된 바이너리만 보고 처음부터 다시 작성하고, 수천 개의 테스트로 원본과 완전히 같음을 증명한 프로젝트."
+  },
+  "calfonso/rusternetes": {
+    "en": "A full rewrite of Kubernetes (the system that runs most cloud apps) in the Rust language, built from scratch instead of wrapping the original Go code, and already passing most official compatibility tests.",
+    "zh-CN": "有人用 Rust 语言从零重写了 Kubernetes（现在大多数云应用都靠它跑），不是套原来的 Go 代码，而是自己全部实现，已经通过了大部分官方兼容性测试。",
+    "zh-TW": "有人用 Rust 語言從零重寫了 Kubernetes（現在大多數雲應用都靠它跑），不是套原來的 Go 程式碼，而是自己全部實現，已經通過了大部分官方相容性測試。",
+    "ja": "クラウドアプリのほとんどを動かしている Kubernetes を、元の Go コードを包むのではなく Rust でゼロから全部書き直したプロジェクト。公式互換性テストのほとんどをすでに通過している。",
+    "ko": "대부분의 클라우드 앱을 돌리는 Kubernetes를 원래 Go 코드를 감싸는 게 아니라 Rust로 처음부터 완전히 다시 만든 프로젝트. 공식 호환성 테스트의 대부분을 이미 통과했다."
+  },
+  "bhuiyah/infamous2-recomp": {
+    "en": "A native Windows PC version of the PlayStation 3 game inFamous 2, made by translating the original game code ahead of time so it runs without an emulator. You still need your own copy of the game.",
+    "zh-CN": "把 PS3 上的《inFamous 2》游戏翻译成能直接在 Windows 电脑上跑的原生程序，不用模拟器。你需要自己有游戏光盘和更新。",
+    "zh-TW": "把 PS3 上的《inFamous 2》遊戲翻譯成能直接在 Windows 電腦上跑的原生程式，不用模擬器。你需要自己有遊戲光碟和更新。",
+    "ja": "PS3 のゲーム inFamous 2 を、エミュレータなしで Windows 上で動くネイティブ版にしたプロジェクト。自分のゲームディスクとアップデートが必要。",
+    "ko": "PS3 게임 inFamous 2를 에뮬레이터 없이 Windows에서 바로 돌아가는 네이티브 버전으로 만든 프로젝트. 자신의 게임 디스크와 업데이트가 필요하다."
   }
 }
