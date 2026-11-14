@@ -3206,5 +3206,29 @@
     "https://github.com/Goldoire/fefw-recomp",
     "No",
     "Native PC port of Fire Emblem: Fortune's Weave (Switch 2) via static recompilation. Bring your own dump; no game files included."
+  ],
+  [
+    "switch2",
+    "remake",
+    "adriadam10/mkw-recomp",
+    "https://github.com/adriadam10/mkw-recomp",
+    "No",
+    "Static recompilation of Mario Kart World (Nintendo Switch 2) to native Windows/Linux; needs your own dump."
+  ],
+  [
+    "switch",
+    "remake",
+    "Simon3Sarkis/super-odyssey-pc-recomp",
+    "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp",
+    "No",
+    "Static recompilation of Super Mario Odyssey (Switch) to native Windows/Linux PC port; bring your own game files."
+  ],
+  [
+    "switch",
+    "remake",
+    "tukidev-lgtm/Tera-recomp",
+    "https://github.com/tukidev-lgtm/Tera-recomp",
+    "No",
+    "Static recompilation of Pokémon Scarlet (Switch) to native Windows x86-64 with Vulkan; needs your own dump and keys."
   ]
 ]

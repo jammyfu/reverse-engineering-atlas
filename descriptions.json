@@ -2805,5 +2805,26 @@
     "zh-TW": "把 Switch 2 的《火焰紋章：命運之織》程式碼靜態重編譯成原生 PC 程式來玩。需要你自己提供遊戲轉儲，專案裡不含任何遊戲檔案。",
     "ja": "Switch 2の『ファイアーエムブレム フォーチュンズウィーブ』のコードを静的に再コンパイルして、PCでネイティブに動かす。自分のダンプが必要。ゲームファイルは含まれない。",
     "ko": "Switch 2 《파이어 엠블렘: 포춘즈 위브》의 코드를 정적으로 재컴파일해서 PC에서 네이티브로 실행. 본인 덤프가 필요하며 게임 파일은 포함되지 않습니다."
+  },
+  "adriadam10/mkw-recomp": {
+    "en": "Turns the Nintendo Switch 2 version of Mario Kart World into a native Windows or Linux program that runs without an emulator. You supply your own game dump.",
+    "zh-CN": "把任天堂 Switch 2 上的《马里奥卡丁车世界》静态重编译成原生 Windows 或 Linux 程序，不用模拟器就能玩。需要自己提供游戏转储文件。",
+    "zh-TW": "把任天堂 Switch 2 上的《瑪利歐賽車世界》靜態重編譯成原生 Windows 或 Linux 程式，不用模擬器就能玩。需要自己提供遊戲轉儲檔案。",
+    "ja": "Nintendo Switch 2 版『マリオカート ワールド』を、エミュレータなしで動くネイティブ Windows/Linux プログラムに静的再コンパイルします。ゲームのダンプは自分で用意。",
+    "ko": "닌텐도 스위치 2 버전의 마리오 카트 월드를 에뮬레이터 없이 실행되는 네이티브 Windows 또는 Linux 프로그램으로 정적 재컴파일합니다. 게임 덤프는 직접 준비해야 합니다."
+  },
+  "Simon3Sarkis/super-odyssey-pc-recomp": {
+    "en": "Turns the Nintendo Switch version of Super Mario Odyssey into a native Windows or Linux program you can run without an emulator. You supply your own game files.",
+    "zh-CN": "把任天堂 Switch 上的《超级马里奥 奥德赛》静态重编译成原生 Windows 或 Linux 程序，不用模拟器就能玩。需要自己提供游戏文件。",
+    "zh-TW": "把任天堂 Switch 上的《超級瑪利歐 奧德賽》靜態重編譯成原生 Windows 或 Linux 程式，不用模擬器就能玩。需要自己提供遊戲檔案。",
+    "ja": "Nintendo Switch 版『スーパーマリオ オデッセイ』を、エミュレータなしで動くネイティブ Windows/Linux プログラムに静的再コンパイルします。ゲームファイルは自分で用意。",
+    "ko": "닌텐도 스위치 버전의 슈퍼 마리오 오디세이를 에뮬레이터 없이 실행되는 네이티브 Windows 또는 Linux 프로그램으로 정적 재컴파일합니다. 게임 파일은 직접 준비해야 합니다."
+  },
+  "tukidev-lgtm/Tera-recomp": {
+    "en": "Turns the Nintendo Switch version of Pokémon Scarlet into a native Windows program with a Vulkan renderer that runs without an emulator. You supply your own dump and keys.",
+    "zh-CN": "把任天堂 Switch 上的《宝可梦 朱》静态重编译成带 Vulkan 渲染的原生 Windows 程序，不用模拟器就能玩。需要自己提供游戏转储和密钥。",
+    "zh-TW": "把任天堂 Switch 上的《寶可夢 朱》靜態重編譯成帶 Vulkan 渲染的原生 Windows 程式，不用模擬器就能玩。需要自己提供遊戲轉儲和金鑰。",
+    "ja": "Nintendo Switch 版『ポケットモンスター スカーレット』を、Vulkan レンダラ付きのネイティブ Windows プログラムに静的再コンパイルします。ダンプとキーは自分で用意。",
+    "ko": "닌텐도 스위치 버전의 포켓몬 스칼렛을 Vulkan 렌더러가 있는 네이티브 Windows 프로그램으로 정적 재컴파일합니다. 덤프와 키는 직접 준비해야 합니다."
   }
 }
