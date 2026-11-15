@@ -2847,5 +2847,47 @@
     "zh-TW": "把 PS3 上的《inFamous 2》遊戲翻譯成能直接在 Windows 電腦上跑的原生程式，不用模擬器。你需要自己有遊戲光碟和更新。",
     "ja": "PS3 のゲーム inFamous 2 を、エミュレータなしで Windows 上で動くネイティブ版にしたプロジェクト。自分のゲームディスクとアップデートが必要。",
     "ko": "PS3 게임 inFamous 2를 에뮬레이터 없이 Windows에서 바로 돌아가는 네이티브 버전으로 만든 프로젝트. 자신의 게임 디스크와 업데이트가 필요하다."
+  },
+  "cheviman/simpsons-decomp": {
+    "en": "Turns Konami's 1991 arcade The Simpsons into readable C code that matches the original frame by frame. Bring your own ROM.",
+    "zh-CN": "把科乐美1991年街机游戏《辛普森一家》反编译成可读的C代码，逐帧与原版一致。需要自备ROM。",
+    "zh-TW": "把科樂美1991年街機遊戲《辛普森一家》反編譯成可讀的C程式碼，逐幀與原版一致。需要自備ROM。",
+    "ja": "コナミの1991年アーケード『ザ・シンプソンズ』を読みやすいCコードに逆コンパイル。フレーム単位でオリジナルと一致。ROMは自分で用意。",
+    "ko": "코나미의 1991년 아케이드 게임 《심슨 가족》을 읽기 쉬운 C 코드로 디컴파일. 프레임 단위로 원본과 일치. ROM은 직접 준비."
+  },
+  "sunkpoet-lang/SUNSET-RIDERS-RECOMP": {
+    "en": "Experimental PC port of Konami's 1991 arcade Sunset Riders with four-player local play. Full static recompilation still in progress. Bring your own ROM.",
+    "zh-CN": "科乐美1991年街机《日落骑士》的实验性PC移植，支持四人本地游戏。完整静态重编译仍在进行中。自备ROM。",
+    "zh-TW": "科樂美1991年街機《日落騎士》的實驗性PC移植，支援四人本地遊戲。完整靜態重編譯仍在進行中。自備ROM。",
+    "ja": "コナミ1991年アーケード『サンセットライダーズ』の実験的PC移植。4人ローカルプレイ対応。完全な静的リコンパイルは進行中。ROMは自分で。",
+    "ko": "코나미 1991년 아케이드 《선셋 라이더스》의 실험적 PC 포트. 4인 로컬 플레이 지원. 완전한 정적 리컴파일은 진행 중. ROM은 직접 준비."
+  },
+  "MIXIDtheSilly/kart-recomp": {
+    "en": "Play Kart World (Nintendo Switch 2) natively on Windows by translating its code ahead of time. Bring your own dump.",
+    "zh-CN": "把任天堂Switch 2的《卡丁车世界》静态重编译成原生Windows程序，用Vulkan渲染。需要自备游戏dump。",
+    "zh-TW": "把任天堂Switch 2的《卡丁車世界》靜態重編譯成原生Windows程式，用Vulkan渲染。需要自備遊戲dump。",
+    "ja": "Nintendo Switch 2の『カートワールド』を静的リコンパイルしてWindowsでネイティブに動かす。Vulkan描画。自分のダンプを用意。",
+    "ko": "닌텐도 스위치 2의 《카트 월드》를 정적 리컴파일하여 윈도우에서 네이티브로 실행. Vulkan 렌더링. 자신의 덤프 필요."
+  },
+  "RivierGrullon/kirby-epic-yarn-recomp": {
+    "en": "Prototype that turns Kirby's Epic Yarn (Wii) into a native Linux program using static recompilation and Vulkan. Bring your own disc image.",
+    "zh-CN": "把Wii游戏《毛线卡比》静态重编译成原生Linux程序的原型，使用Vulkan。自备光盘镜像。",
+    "zh-TW": "把Wii遊戲《毛線卡比》靜態重編譯成原生Linux程式的原型，使用Vulkan。自備光碟鏡像。",
+    "ja": "Wiiの『毛糸のカービィ』を静的リコンパイルでネイティブLinuxプログラムにする試作。Vulkan使用。自分のディスクイメージを用意。",
+    "ko": "Wii 게임 《커비의 에픽 얀》을 정적 리컴파일로 네이티브 리눅스 프로그램으로 만드는 프로토타입. Vulkan 사용. 자신의 디스크 이미지 필요."
+  },
+  "Lazaer-YZY/ff13-lr-recomp": {
+    "en": "Run Lightning Returns: Final Fantasy XIII (Xbox 360) natively on Android by static recompilation to arm64 with a Vulkan renderer. Bring your own copy.",
+    "zh-CN": "把Xbox 360的《最终幻想13：雷霆归来》静态重编译到Android arm64，用Vulkan渲染。自备游戏副本。",
+    "zh-TW": "把Xbox 360的《最終幻想13：雷霆歸來》靜態重編譯到Android arm64，用Vulkan渲染。自備遊戲副本。",
+    "ja": "Xbox 360の『ライトニング リターンズ ファイナルファンタジーXIII』を静的リコンパイルしてAndroid arm64でネイティブ実行。Vulkan。自分のコピーを用意。",
+    "ko": "Xbox 360의 《라이트닝 리턴즈: 파이널 판타지 XIII》를 정적 리컴파일하여 Android arm64에서 네이티브 실행. Vulkan 렌더러. 자신의 복사본 필요."
+  },
+  "bio-colab/bintra": {
+    "en": "AI-assisted reverse engineering framework for Windows programs (.exe/.dll). Helps analyze obfuscated code, patch binaries, and work with Ghidra.",
+    "zh-CN": "面向Windows程序（.exe/.dll）的AI辅助逆向工程框架。帮助分析混淆代码、修补二进制，并与Ghidra集成。",
+    "zh-TW": "面向Windows程式（.exe/.dll）的AI輔助逆向工程框架。幫助分析混淆程式碼、修補二進位，並與Ghidra整合。",
+    "ja": "Windowsプログラム（.exe/.dll）向けのAI支援リバースエンジニアリングフレームワーク。難読化されたコードの分析、バイナリパッチ、Ghidra連携を支援。",
+    "ko": "Windows 프로그램(.exe/.dll)을 위한 AI 지원 리버스 엔지니어링 프레임워크. 난독화된 코드 분석, 바이너리 패치, Ghidra 통합을 도움."
   }
 }

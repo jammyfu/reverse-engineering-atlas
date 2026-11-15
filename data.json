@@ -3254,5 +3254,53 @@
     "https://github.com/bhuiyah/infamous2-recomp",
     "No",
     "Static recompilation of inFamous 2 (PS3) to native Windows PC; launcher builds from your own disc and title update. No game files included."
+  ],
+  [
+    "pc",
+    "decomp",
+    "cheviman/simpsons-decomp",
+    "https://github.com/cheviman/simpsons-decomp",
+    "No",
+    "Full decompilation of Konami's 1991 arcade The Simpsons into readable C, verified frame-by-frame against MAME. Bring your own ROM."
+  ],
+  [
+    "pc",
+    "remake",
+    "sunkpoet-lang/SUNSET-RIDERS-RECOMP",
+    "https://github.com/sunkpoet-lang/SUNSET-RIDERS-RECOMP",
+    "No",
+    "Experimental PC port and recompilation research for Konami's 1991 arcade Sunset Riders. Four-player local play; no ROMs included."
+  ],
+  [
+    "switch2",
+    "remake",
+    "MIXIDtheSilly/kart-recomp",
+    "https://github.com/MIXIDtheSilly/kart-recomp",
+    "No",
+    "Static recompilation of Kart World (Nintendo Switch 2) to native Windows with Vulkan. Bring your own dump."
+  ],
+  [
+    "wii",
+    "remake",
+    "RivierGrullon/kirby-epic-yarn-recomp",
+    "https://github.com/RivierGrullon/kirby-epic-yarn-recomp",
+    "No",
+    "Static recompilation prototype of Kirby's Epic Yarn (Wii) to native Linux with Vulkan. Bring your own disc image."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Lazaer-YZY/ff13-lr-recomp",
+    "https://github.com/Lazaer-YZY/ff13-lr-recomp",
+    "No",
+    "Static recompilation of Lightning Returns: Final Fantasy XIII (Xbox 360) to native Android (arm64) with Vulkan. Bring your own copy."
+  ],
+  [
+    "tooling",
+    "",
+    "bio-colab/bintra",
+    "https://github.com/bio-colab/bintra",
+    "No",
+    "Autonomous continuous semantic reverse engineering framework for Windows PE binaries, with Ghidra integration and AI-assisted analysis."
   ]
 ]
