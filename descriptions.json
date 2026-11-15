@@ -2889,5 +2889,33 @@
     "zh-TW": "面向Windows程式（.exe/.dll）的AI輔助逆向工程框架。幫助分析混淆程式碼、修補二進位，並與Ghidra整合。",
     "ja": "Windowsプログラム（.exe/.dll）向けのAI支援リバースエンジニアリングフレームワーク。難読化されたコードの分析、バイナリパッチ、Ghidra連携を支援。",
     "ko": "Windows 프로그램(.exe/.dll)을 위한 AI 지원 리버스 엔지니어링 프레임워크. 난독화된 코드 분석, 바이너리 패치, Ghidra 통합을 도움."
+  },
+  "Okxmir/chibi-robo-zip-lash-recompiled": {
+    "en": "Play the 3DS game Chibi-Robo! Zip Lash on Windows or Linux by bringing your own cartridge image; the code was translated ahead of time so it runs natively.",
+    "zh-CN": "把 3DS 游戏《奇比机器人！拉链鞭》在 Windows 或 Linux 上原生运行，需要自己提供卡带镜像；代码事先翻译成了原生程序。",
+    "zh-TW": "把 3DS 遊戲《奇比機器人！拉鍊鞭》在 Windows 或 Linux 上原生執行，需要自己提供卡帶映像；程式碼事先翻譯成了原生程式。",
+    "ja": "3DS のゲーム『ちびロボ！ジップラッシュ』を自分のカートリッジイメージで Windows や Linux 上でネイティブに動かす。コードは事前に翻訳済み。",
+    "ko": "3DS 게임 《치비로보! 집 래시》를 자신의 카트리지 이미지로 Windows나 Linux에서 네이티브로 실행. 코드는 미리 번역되어 있다."
+  },
+  "Producdevity/sms-linux-arm-port": {
+    "en": "Play the GameCube game Super Mario Sunshine on Linux ARM handhelds (like those running PortMaster) using the public decompilation; bring your own disc image.",
+    "zh-CN": "用公开的反编译成果，在 Linux ARM 掌机（比如跑 PortMaster 的设备）上原生玩 GameCube 的《超级马里奥阳光》，需要自己提供光盘镜像。",
+    "zh-TW": "用公開的反編譯成果，在 Linux ARM 掌機（例如跑 PortMaster 的裝置）上原生玩 GameCube 的《超級瑪利歐陽光》，需要自己提供光碟映像。",
+    "ja": "公開されている逆コンパイルを使って、Linux ARM の携帯機（PortMaster など）でゲームキューブの『スーパーマリオサンシャイン』をネイティブに遊ぶ。自分のディスクイメージが必要。",
+    "ko": "공개된 디컴파일을 사용해 Linux ARM 휴대용 기기(PortMaster 등)에서 게임큐브 《슈퍼 마리오 선샤인》을 네이티브로 플레이. 자신의 디스크 이미지가 필요."
+  },
+  "AnvitDevadiga/ree": {
+    "en": "A tool that cleans Electron apps, JavaScript, WASM and binaries of decoys and traps meant to fool AI agents, so reverse-engineering models only see the real code.",
+    "zh-CN": "一个工具，会把 Electron 应用、JavaScript、WASM 和二进制文件里那些专门骗 AI 的诱饵和陷阱清掉，让逆向工程模型只看到真正的代码。",
+    "zh-TW": "一個工具，會把 Electron 應用程式、JavaScript、WASM 和二進位檔裡那些專門騙 AI 的誘餌和陷阱清掉，讓逆向工程模型只看到真正的程式碼。",
+    "ja": "Electron アプリや JavaScript、WASM、バイナリから AI を騙すためのおとりや罠を取り除き、逆エンジニアリング用のモデルが本物のコードだけを見るようにするツール。",
+    "ko": "Electron 앱, JavaScript, WASM, 바이너리에서 AI를 속이려는 미끼와 함정을 제거하고, 리버스 엔지니어링 모델이 실제 코드만 보도록 하는 도구."
+  },
+  "kadohack12/binscope": {
+    "en": "A simple command-line tool that looks at Linux or Windows programs and quickly tells you what inputs they want and what they actually do, useful for malware analysis or CTF challenges.",
+    "zh-CN": "一个简单的命令行工具，看一下 Linux 或 Windows 程序就能快速告诉你它想要什么输入、实际会做什么，适合分析恶意软件或打 CTF。",
+    "zh-TW": "一個簡單的命令列工具，看一下 Linux 或 Windows 程式就能快速告訴你它想要什麼輸入、實際會做什麼，適合分析惡意軟體或打 CTF。",
+    "ja": "Linux や Windows のプログラムを見て、どんな入力を期待していて実際に何をするのかを素早く教えてくれるコマンドラインツール。マルウェア解析や CTF 向け。",
+    "ko": "Linux나 Windows 프로그램을 보고 어떤 입력을 기대하는지, 실제로 무엇을 하는지 빠르게 알려주는 명령줄 도구. 멀웨어 분석이나 CTF에 유용."
   }
 }

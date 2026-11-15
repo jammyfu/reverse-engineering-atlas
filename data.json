@@ -3302,5 +3302,37 @@
     "https://github.com/bio-colab/bintra",
     "No",
     "Autonomous continuous semantic reverse engineering framework for Windows PE binaries, with Ghidra integration and AI-assisted analysis."
+  ],
+  [
+    "3ds",
+    "remake",
+    "Okxmir/chibi-robo-zip-lash-recompiled",
+    "https://github.com/Okxmir/chibi-robo-zip-lash-recompiled",
+    "No",
+    "Native Windows x64 and Linux x86-64 port of the European 3DS release of Chibi-Robo! Zip Lash, built by statically translating the original ARM/Thumb code. Bring your own cartridge image."
+  ],
+  [
+    "gc",
+    "remake",
+    "Producdevity/sms-linux-arm-port",
+    "https://github.com/Producdevity/sms-linux-arm-port",
+    "No",
+    "Native Linux AArch64 port of Super Mario Sunshine for PortMaster handhelds, built from the sms-english decompilation plus sms-pc-port platform code and the Starlet GameCube compatibility layer."
+  ],
+  [
+    "tooling",
+    "",
+    "AnvitDevadiga/ree",
+    "https://github.com/AnvitDevadiga/ree",
+    "No",
+    "CLI and MCP server that strips decoys, context bombs and planted instructions from Electron apps, JS, WASM and binaries before an AI agent reads them."
+  ],
+  [
+    "tooling",
+    "",
+    "kadohack12/binscope",
+    "https://github.com/kadohack12/binscope",
+    "No",
+    "One-command triage for Linux ELF and Windows PE binaries: multi-pass strace/ltrace or Speakeasy emulation to reveal expected inputs and real behaviour without raw syscall dumps."
   ]
 ]
