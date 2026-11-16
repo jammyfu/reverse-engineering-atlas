@@ -2917,5 +2917,47 @@
     "zh-TW": "一個簡單的命令列工具，看一下 Linux 或 Windows 程式就能快速告訴你它想要什麼輸入、實際會做什麼，適合分析惡意軟體或打 CTF。",
     "ja": "Linux や Windows のプログラムを見て、どんな入力を期待していて実際に何をするのかを素早く教えてくれるコマンドラインツール。マルウェア解析や CTF 向け。",
     "ko": "Linux나 Windows 프로그램을 보고 어떤 입력을 기대하는지, 실제로 무엇을 하는지 빠르게 알려주는 명령줄 도구. 멀웨어 분석이나 CTF에 유용."
+  },
+  "Dimi42FR/OcaDim": {
+    "en": "Free open-source PC recompilation of The Legend of Zelda: Ocarina of Time that adds AMD frame generation and smoother high-FPS play. Compile it yourself from your own game copy.",
+    "zh-CN": "把《塞尔达传说：时之笛》做成能在电脑上原生跑的免费开源项目，还加了 AMD 插帧和更高帧率优化。自己用正版游戏文件编译。",
+    "zh-TW": "把《薩爾達傳說：時之笛》做成能在電腦上原生跑的免費開源專案，還加了 AMD 插幀和更高幀率優化。自己用正版遊戲檔案編譯。",
+    "ja": "『ゼルダの伝説 時のオカリナ』をPCでネイティブに動かす無料オープンソース再コンパイル版。AMDフレーム生成と高フレームレート対応を追加。自分のゲームファイルからコンパイル。",
+    "ko": "『젤다의 전설: 시간의 오카리나』를 PC에서 네이티브로 돌리는 무료 오픈소스 재컴파일 프로젝트. AMD 프레임 생성과 고프레임 최적화를 추가. 본인 게임 파일로 직접 컴파일."
+  },
+  "gekoii/grandia_xtreme": {
+    "en": "From-scratch decompilation of the closed-source PS2 game Grandia Xtreme that rebuilds almost the whole game in C, plus a native Windows port. Bring your own disc.",
+    "zh-CN": "从零反编译了闭源的 PS2 游戏《格兰蒂亚 极限》，大部分代码还原成 C，还能在 Windows 上原生运行。自己准备光盘。",
+    "zh-TW": "從零反編譯了閉源的 PS2 遊戲《Grandia Xtreme》，大部分程式碼還原成 C，還能在 Windows 上原生執行。自己準備光碟。",
+    "ja": "非公開ソースのPS2ゲーム『グランディア エクストリーム』をゼロから逆コンパイルし、ほぼ全体をCで復元。Windowsネイティブ移植も付属。自分のディスクを用意。",
+    "ko": "클로즈드 소스 PS2 게임 『그란디아 익스트림』을 처음부터 디컴파일해 거의 전체를 C로 복원. Windows 네이티브 포트도 포함. 본인 디스크 필요."
+  },
+  "MisterAlex95/Xrecomp": {
+    "en": "Open-source tool that turns the machine code of games you already own (Xbox, N64, PS1, GBA) into real native Android or PC apps without an emulator.",
+    "zh-CN": "开源工具：把你已经拥有的 Xbox / N64 / PS1 / GBA 游戏机器码，编译成真正的原生安卓或电脑程序，不用模拟器。",
+    "zh-TW": "開源工具：把你已經擁有的 Xbox / N64 / PS1 / GBA 遊戲機器碼，編譯成真正的原生 Android 或電腦程式，不用模擬器。",
+    "ja": "すでに持っているXbox/N64/PS1/GBAゲームのマシンコードを、エミュレータなしで本物のAndroidやPCネイティブアプリに変換するオープンソースツール。",
+    "ko": "이미 소유한 Xbox/N64/PS1/GBA 게임의 머신 코드를 에뮬레이터 없이 진짜 네이티브 Android/PC 앱으로 바꿔주는 오픈소스 도구."
+  },
+  "PumLFxTH-Code/deeptrace": {
+    "en": "Free open-source Windows desktop app that gives AI agents a full reverse-engineering workbench for looking inside closed binaries, Android apps and native code.",
+    "zh-CN": "免费开源的 Windows 桌面程序，给 AI 智能体一个完整的逆向工作台，用来拆解闭源二进制、安卓应用和原生代码。",
+    "zh-TW": "免費開源的 Windows 桌面程式，給 AI 智能體一個完整的逆向工作台，用來拆解閉源二進位、Android 應用程式和原生程式碼。",
+    "ja": "AIエージェントに閉源バイナリ・Androidアプリ・ネイティブコードを調べるための本格的なリバースエンジニアリング作業台を提供する無料オープンソースWindowsデスクトップアプリ。",
+    "ko": "AI 에이전트에게 클로즈드 바이너리, Android 앱, 네이티브 코드를 분석할 수 있는 본격 리버스 엔지니어링 작업대를 제공하는 무료 오픈소스 Windows 데스크톱 앱."
+  },
+  "RivaExits0/patchlens": {
+    "en": "Open-source CLI and AI-agent tool that compares two closed-source Windows PE binaries and shows exactly which functions changed, useful for patch analysis.",
+    "zh-CN": "开源命令行和 AI 工具，对比两个闭源 Windows PE 程序，精确告诉你哪些函数被改了，适合分析补丁。",
+    "zh-TW": "開源命令列和 AI 工具，對比兩個閉源 Windows PE 程式，精確告訴你哪些函式被改了，適合分析修補程式。",
+    "ja": "2つの閉源Windows PEバイナリを比較し、どの関数が変わったかを正確に示すオープンソースCLI＋AIエージェント用ツール。パッチ解析向け。",
+    "ko": "두 개의 클로즈드 소스 Windows PE 바이너리를 비교해 어떤 함수가 바뀌었는지 정확히 보여주는 오픈소스 CLI 및 AI 에이전트 도구. 패치 분석용."
+  },
+  "Gl1ch5555/f1-2012-android": {
+    "en": "Native Android port of the closed-source Xbox 360 racing game F1 2012, made by static recompilation so it runs as a real app. Bring your own dump.",
+    "zh-CN": "把闭源的 Xbox 360 赛车游戏《F1 2012》通过静态重编译做成能在安卓上原生运行的程序。自己准备游戏文件。",
+    "zh-TW": "把閉源的 Xbox 360 賽車遊戲《F1 2012》透過靜態重編譯做成能在 Android 上原生執行的程式。自己準備遊戲檔案。",
+    "ja": "非公開ソースのXbox 360レーシングゲーム『F1 2012』を静的再コンパイルでAndroidネイティブアプリにした移植版。自分のダンプを用意。",
+    "ko": "클로즈드 소스 Xbox 360 레이싱 게임 『F1 2012』를 정적 재컴파일로 Android 네이티브 앱으로 만든 포트. 본인 덤프 필요."
   }
 }

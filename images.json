@@ -1023,5 +1023,15 @@
     "shot",
     "images/infamous2-recomp.png",
     "GitHub opengraph image for bhuiyah/infamous2-recomp"
+  ],
+  "gekoii/grandia_xtreme": [
+    "card",
+    "images/grandia-xtreme-og.png",
+    "GitHub opengraph image for the Grandia Xtreme decompilation and Windows port"
+  ],
+  "RivaExits0/patchlens": [
+    "card",
+    "images/patchlens-og.png",
+    "GitHub opengraph image for Patchlens binary diff MCP tool"
   ]
 }

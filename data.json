@@ -3334,5 +3334,53 @@
     "https://github.com/kadohack12/binscope",
     "No",
     "One-command triage for Linux ELF and Windows PE binaries: multi-pass strace/ltrace or Speakeasy emulation to reveal expected inputs and real behaviour without raw syscall dumps."
+  ],
+  [
+    "n64",
+    "remake",
+    "Dimi42FR/OcaDim",
+    "https://github.com/Dimi42FR/OcaDim",
+    "No",
+    "Personal fork of Longshot (itself a Hookshot fork) that adds AMD FSR frame generation inside the Ocarina of Time PC recompilation, plus >60 fps fixes and a local compile setup. Bring your own .nup."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "gekoii/grandia_xtreme",
+    "https://github.com/gekoii/grandia_xtreme",
+    "No",
+    "Decompilation of Grandia Xtreme (PS2 USA) that builds back byte-for-byte (~92% C) plus a native Windows port with OpenGL. Bring your own disc."
+  ],
+  [
+    "tooling",
+    "",
+    "MisterAlex95/Xrecomp",
+    "https://github.com/MisterAlex95/Xrecomp",
+    "No",
+    "Static recompiler that turns dumped Xbox/N64/PS1/GBA game code into native C then Android or PC executables. Runs the whole toolchain on the phone."
+  ],
+  [
+    "tooling",
+    "",
+    "PumLFxTH-Code/deeptrace",
+    "https://github.com/PumLFxTH-Code/deeptrace",
+    "No",
+    "Standalone Windows desktop AI reverse-engineering workbench (Tauri + React + Monaco + Python MCP host) for analyzing binaries, Smali, native code and Frida traces."
+  ],
+  [
+    "tooling",
+    "",
+    "RivaExits0/patchlens",
+    "https://github.com/RivaExits0/patchlens",
+    "No",
+    "CLI and MCP server that diffs two PE64 Windows binaries at function level, scores confidence, and migrates signatures for reverse engineering."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Gl1ch5555/f1-2012-android",
+    "https://github.com/Gl1ch5555/f1-2012-android",
+    "No",
+    "Native Android ARM64 port of F1 2012 (Xbox 360) built via ReXGlue static recompilation. Bring your own dump."
   ]
 ]

@@ -6,7 +6,7 @@
 
 逆解析プロジェクト、ツール、エージェントのワークフローを対象・プラットフォーム・技術別に整理したカタログです。ゲームの逆コンパイルと再コンパイル、アプリの再実装、Android・JavaScript 解析、プロトコル、ファームウェアの既存成果を探せます。
 
-**417 件の項目 · 411 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
+**423 件の項目 · 417 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
 
 Switch 2 は編集上の優先項目であり、人気の実測順位ではありません。各分類は既存の累計 Star スナップショット順で、リアルタイムのトレンドではありません。取得日時は未記録、件数不明の項目は末尾です。全項目を保持しています。
 
@@ -108,8 +108,8 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
-<tr><td><a href="https://github.com/sostenesfreitas/ocarina-recomp"><img src="images/ocarina-og.png" width="160" alt="sostenesfreitas/ocarina-recomp"></a></td><td><a href="https://github.com/sostenesfreitas/ocarina-recomp"><b>ocarina-recomp</b></a><br><sub>sostenesfreitas</sub></td><td>自分の Switch 2 版ゼルダの伝説 時のオカリナを、エミュレータなしのネイティブ Windows プログラムに変換する。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/adriadam10/mkw-recomp"><b>mkw-recomp</b></a><br><sub>adriadam10</sub></td><td>Nintendo Switch 2 版『マリオカート ワールド』を、エミュレータなしで動くネイティブ Windows/Linux プログラムに静的再コンパイルします。ゲームのダンプは自分で用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/sostenesfreitas/ocarina-recomp"><img src="images/ocarina-og.png" width="160" alt="sostenesfreitas/ocarina-recomp"></a></td><td><a href="https://github.com/sostenesfreitas/ocarina-recomp"><b>ocarina-recomp</b></a><br><sub>sostenesfreitas</sub></td><td>自分の Switch 2 版ゼルダの伝説 時のオカリナを、エミュレータなしのネイティブ Windows プログラムに変換する。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/Lucas-blip-png/dkb-pc-recomp"><img src="images/dkb-pc-recomp.png" width="160" alt="Lucas-blip-png/dkb-pc-recomp"></a></td><td><a href="https://github.com/Lucas-blip-png/dkb-pc-recomp"><b>dkb-pc-recomp</b></a><br><sub>Lucas-blip-png</sub></td><td>クローズドソースのニンテンドースイッチ2ゲーム『ドンキーコング バナンザ』を静的再コンパイルでネイティブWindowsプログラムにする。自分のダンプが必要、現在はチュートリアルまで。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/SerenityG4K/SpaceAnimalsRecomp"><img src="https://opengraph.githubassets.com/1/SerenityG4K/SpaceAnimalsRecomp" width="160" alt="SerenityG4K/SpaceAnimalsRecomp"></a></td><td><a href="https://github.com/SerenityG4K/SpaceAnimalsRecomp"><b>SpaceAnimalsRecomp</b></a><br><sub>SerenityG4K</sub></td><td>任天堂Switch 2版の『スターフォックス』を静的再コンパイルして、自分の合法的に所有するコピーからビルドするネイティブWindowsプログラムにします。ゲームファイルは含まれていません。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MIXIDtheSilly/kart-recomp"><b>kart-recomp</b></a><br><sub>MIXIDtheSilly</sub></td><td>Nintendo Switch 2の『カートワールド』を静的リコンパイルしてWindowsでネイティブに動かす。Vulkan描画。自分のダンプを用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
@@ -279,6 +279,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp"><img src="https://opengraph.githubassets.com/86e2d9b8d8fe1518620b6dcb9ff3fdd3de17ad0557d3ff9640c41e53be2b8f25/HarvestMoon64Recomp/HarvestMoon64Recomp" width="160" alt="HarvestMoon64Recomp/HarvestMoon64Recomp"></a></td><td><a href="https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp"><b>HarvestMoon64Recomp</b></a><br><sub>HarvestMoon64Recomp</sub></td><td>現代PCで『牧場物語64』を遊べる：N64原作を静的再コンパイルしたネイティブ移植版。グラフィック強化とMOD対応。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/TK22-26/JetForceGemini-Recomp"><img src="images/jfg-recomp-og.png" width="160" alt="TK22-26/JetForceGemini-Recomp"></a></td><td><a href="https://github.com/TK22-26/JetForceGemini-Recomp"><b>JetForceGemini-Recomp</b></a><br><sub>TK22-26</sub></td><td>1999年のN64ゲーム『ジェットフォースジェミニ』のコードをWindowsでネイティブに動くプログラムに変換。自分のROMが必要。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/RetroPulse03/WinBackRecomp"><img src="https://opengraph.githubassets.com/1/RetroPulse03/WinBackRecomp" width="160" alt="RetroPulse03/WinBackRecomp"></a></td><td><a href="https://github.com/RetroPulse03/WinBackRecomp"><b>WinBackRecomp</b></a><br><sub>RetroPulse03</sub></td><td>N64の『WinBack: Covert Operations』を静的リコンパイルで作ったネイティブPCポート。ROMは含まれません。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Dimi42FR/OcaDim"><b>OcaDim</b></a><br><sub>Dimi42FR</sub></td><td>『ゼルダの伝説 時のオカリナ』をPCでネイティブに動かす無料オープンソース再コンパイル版。AMDフレーム生成と高フレームレート対応を追加。自分のゲームファイルからコンパイル。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
 #### アセット抽出・ツール
@@ -423,6 +424,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/WeAreTommyBruh/Legaia2-Decomp"><img src="https://raw.githubusercontent.com/WeAreTommyBruh/Legaia2-Decomp/main/logo.png" width="160" alt="WeAreTommyBruh/Legaia2-Decomp"></a></td><td><a href="https://github.com/WeAreTommyBruh/Legaia2-Decomp"><b>Legaia2-Decomp</b></a><br><sub>WeAreTommyBruh</sub></td><td>クローズドソースの PlayStation 2 ゲーム『Legaia 2: Duel Saga』を可読な C にデコンパイルし、元の実行ファイルをバイト単位で一致させて再構築することを目指すプロジェクト。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/andrewnakas/thug-decomp"><b>thug-decomp</b></a><br><sub>andrewnakas</sub></td><td>PlayStation 2のゲーム『トニー・ホークス アンダーグラウンド』のマッチングデコンパイル。元のC++ソースを関数ごとに復元し、小売版とバイト単位で一致する。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/Megami-Decomps/raidou-decomp"><img src="https://opengraph.githubassets.com/1/Megami-Decomps/raidou-decomp" width="160" alt="Megami-Decomps/raidou-decomp"></a></td><td><a href="https://github.com/Megami-Decomps/raidou-decomp"><b>raidou-decomp</b></a><br><sub>Megami-Decomps</sub></td><td>『真・女神転生 デビルサマナー 葛葉ライドウ』1と2（PS2）の閉ソースを、元のバイナリと完全一致するCコードに再構築するマッチング逆コンパイル。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/gekoii/grandia_xtreme"><img src="images/grandia-xtreme-og.png" width="160" alt="gekoii/grandia_xtreme"></a></td><td><a href="https://github.com/gekoii/grandia_xtreme"><b>grandia_xtreme</b></a><br><sub>gekoii</sub></td><td>非公開ソースのPS2ゲーム『グランディア エクストリーム』をゼロから逆コンパイルし、ほぼ全体をCで復元。Windowsネイティブ移植も付属。自分のディスクを用意。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 </table>
 
 #### リメイク / 移植
@@ -476,11 +478,12 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+1)</summary>
+<summary>このカテゴリをすべて表示 (+2)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
 <tr><td>—</td><td><a href="https://github.com/LomoXSoft/ZoidsAssaultRecomp"><b>ZoidsAssaultRecomp</b></a><br><sub>LomoXSoft</sub></td><td>クローズドソースのXbox 360ゲーム『ゾイドアサルト』をReXGlueで静的リコンパイルしネイティブWindows x64版に。ソースのみ、ディスクは自分で用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Gl1ch5555/f1-2012-android"><b>f1-2012-android</b></a><br><sub>Gl1ch5555</sub></td><td>非公開ソースのXbox 360レーシングゲーム『F1 2012』を静的再コンパイルでAndroidネイティブアプリにした移植版。自分のダンプを用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -526,11 +529,11 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/N0zoM1z0/th09"><img src="https://raw.githubusercontent.com/N0zoM1z0/th09/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th09"></a></td><td><a href="https://github.com/N0zoM1z0/th09"><b>th09</b></a><br><sub>N0zoM1z0</sub></td><td>東方花映塚をソースコードとして再構築</td><td>❔ 未確認</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/touhou-reverse-engineering"><img src="https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reverse-engineering" width="160" alt="N0zoM1z0/touhou-reverse-engineering"></a></td><td><a href="https://github.com/N0zoM1z0/touhou-reverse-engineering"><b>touhou-reverse-engineering</b></a><br><sub>N0zoM1z0</sub></td><td>証拠重視の東方 IDA ノート、実行時パッチ実験付き</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/yamahuser/mhfz-decomp"><b>mhfz-decomp</b></a><br><sub>yamahuser</sub></td><td>『モンスターハンター フロンティアZ』オンラインクライアントのリバースエンジニアリング：関数名、仕様、補助ツール。カプコンのオリジナルコードは含みません。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Subarasheese/pwrstn-decomp"><b>pwrstn-decomp</b></a><br><sub>Subarasheese</sub></td><td>クローズドソースのドリームキャスト格闘ゲーム『パワーストーン』をオープンソースのCでデコンパイル。バイト単位で元の実行ファイルを再現。ゲームデータは含まれない。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><img src="images/sadx-decomp.png" width="160" alt="LuckyLuke00/sadx-decomp"></a></td><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><b>sadx-decomp</b></a><br><sub>LuckyLuke00</sub></td><td>クローズドソースの2014年Steam版『ソニックアドベンチャーDX』のマッチング逆コンパイル、マシンコードがバイト単位で一致することを目指す。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><img src="https://raw.githubusercontent.com/bmbelo87/decomp-it-up-Perfect-Collection/main/LogoIA.png" width="160" alt="bmbelo87/decomp-it-up-Perfect-Collection"></a></td><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><b>decomp-it-up-Perfect-Collection</b></a><br><sub>bmbelo87</sub></td><td>クローズドソースのDOS版『Pump It Up Perfect Collection』（2000年のPIU.EXE）をCで一から再実装し、元のゲームと同じように遊べるようにしたもの。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Subarasheese/pwrstn-decomp"><b>pwrstn-decomp</b></a><br><sub>Subarasheese</sub></td><td>クローズドソースのドリームキャスト格闘ゲーム『パワーストーン』をオープンソースのCでデコンパイル。バイト単位で元の実行ファイルを再現。ゲームデータは含まれない。</td><td>いいえ</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>1996 年の DOS 版『トゥームレイダー』のマッチング逆コンパイル。C とアセンブリが元の TOMB.EXE とバイト単位で一致する</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/dudhasch/ff7-pc-decomp"><b>ff7-pc-decomp</b></a><br><sub>dudhasch</sub></td><td>1998年のクローズドソースPC版『ファイナルファンタジーVII』をC/C++でゼロから再構築。当時のツールチェーンでバイト単位で同一のff7.exeを生成。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>1996 年の DOS 版『トゥームレイダー』のマッチング逆コンパイル。C とアセンブリが元の TOMB.EXE とバイト単位で一致する</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>1996年のクローズドソースゲーム『Deadly Tide』のリバースエンジニアリングと、現代の WebAssembly による再実装。元のゲームデータは含まれない。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>PC アドベンチャー『Nancy Drew: Curse of Blackmoor Manor』の実行ファイルをマッチングするネイティブ C コードに再構築し、macOS ARM64 移植も提供するプロジェクト。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
@@ -735,7 +738,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+102)</summary>
+<summary>このカテゴリをすべて表示 (+105)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -812,10 +815,11 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/alexmi256/rea-agent-docker"><img src="https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker" width="160" alt="alexmi256/rea-agent-docker"></a></td><td><a href="https://github.com/alexmi256/rea-agent-docker"><b>rea-agent-docker</b></a><br><sub>alexmi256</sub></td><td>Ghidra・Hopper・IDA 版がある REA の Docker イメージ</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/sp00nznet/snesrecomp"><img src="https://opengraph.githubassets.com/7d6ac1995d211cb9762cf6f1d99ffde8ed93c0c982a794314e59abdfe8699c76/sp00nznet/snesrecomp" width="160" alt="sp00nznet/snesrecomp"></a></td><td><a href="https://github.com/sp00nznet/snesrecomp"><b>snesrecomp</b></a><br><sub>sp00nznet</sub></td><td>再コンパイルしたSNESゲームコードを、本物の画面と音付きのネイティブ移植にするためのハードウェアライブラリ。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/yefan911/automated-recompilers"><b>automated-recompilers</b></a><br><sub>yefan911</sub></td><td>コンソール ROM の実行ファイルを静的再コンパイルでネイティブ PC アプリケーションに自動翻訳するフレームワーク。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MisterAlex95/Xrecomp"><b>Xrecomp</b></a><br><sub>MisterAlex95</sub></td><td>すでに持っているXbox/N64/PS1/GBAゲームのマシンコードを、エミュレータなしで本物のAndroidやPCネイティブアプリに変換するオープンソースツール。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/DatanoiseTV/revenant"><img src="images/revenant-card.png" width="160" alt="DatanoiseTV/revenant"></a></td><td><a href="https://github.com/DatanoiseTV/revenant"><b>revenant</b></a><br><sub>DatanoiseTV</sub></td><td>放棄されたファームウェアやバイナリを LLM で自動解析し、ピンマップや再実装を生成。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>LM Studio のローカルモデルで REA を使う</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/jaenster/ghidra-reconstruct"><img src="https://opengraph.githubassets.com/1/jaenster/ghidra-reconstruct" width="160" alt="jaenster/ghidra-reconstruct"></a></td><td><a href="https://github.com/jaenster/ghidra-reconstruct"><b>ghidra-reconstruct</b></a><br><sub>jaenster</sub></td><td>Ghidra が吐き出すごちゃごちゃした逆コンパイル結果を、きれいに整理されたコンパイル可能な C++ ソースに変換します。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ValveResourceFormat/Source2Mcp"><b>Source2Mcp</b></a><br><sub>ValveResourceFormat</sub></td><td>CS2やDota 2、DeadlockなどのSource 2ゲームをAIが起動・操作できるようにするMCPサーバー。コンソールコマンド、カメラ移動、スクリーンショット。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/jaenster/ghidra-reconstruct"><img src="https://opengraph.githubassets.com/1/jaenster/ghidra-reconstruct" width="160" alt="jaenster/ghidra-reconstruct"></a></td><td><a href="https://github.com/jaenster/ghidra-reconstruct"><b>ghidra-reconstruct</b></a><br><sub>jaenster</sub></td><td>Ghidra が吐き出すごちゃごちゃした逆コンパイル結果を、きれいに整理されたコンパイル可能な C++ ソースに変換します。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>DeepSeek Harness に REA のスキルとツールを追加</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/agioracle/rea-unity-game"><b>rea-unity-game</b></a><br><sub>agioracle</sub></td><td>エージェントで Unity ゲームを解析するワークフロー</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/andrewnakas/recompsoftware"><img src="images/recompsoftware-og.png" width="160" alt="andrewnakas/recompsoftware"></a></td><td><a href="https://github.com/andrewnakas/recompsoftware"><b>recompsoftware</b></a><br><sub>andrewnakas</sub></td><td>機械語から古いゲームやソフトを再構築している数千のプロジェクトをリアルタイムで追跡するサイト。進捗グラフとリリース情報付き。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
@@ -841,6 +845,8 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/sosiman/re-code-mode"><b>re-code-mode</b></a><br><sub>sosiman</sub></td><td>AIエージェントにradare2やbinwalkなどの逆解析ツールを提供するツールボックス。クローズドソースのバイナリを分析し、大きな出力をローカルでフィルタしてモデルを溢れさせない。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/AnvitDevadiga/ree"><b>ree</b></a><br><sub>AnvitDevadiga</sub></td><td>Electron アプリや JavaScript、WASM、バイナリから AI を騙すためのおとりや罠を取り除き、逆エンジニアリング用のモデルが本物のコードだけを見るようにするツール。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>Linux や Windows のプログラムを見て、どんな入力を期待していて実際に何をするのかを素早く教えてくれるコマンドラインツール。マルウェア解析や CTF 向け。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>AIエージェントに閉源バイナリ・Androidアプリ・ネイティブコードを調べるための本格的なリバースエンジニアリング作業台を提供する無料オープンソースWindowsデスクトップアプリ。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>2つの閉源Windows PEバイナリを比較し、どの関数が変わったかを正確に示すオープンソースCLI＋AIエージェント用ツール。パッチ解析向け。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 </table>
 
 </details>
@@ -883,8 +889,8 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/giveen/decomp.anything"><b>decomp.anything</b></a><br><sub>giveen</sub></td><td>更新停止したマッチング型デコンパイラ decomp.wtf の継続フォーク。Windows/Linux バイナリ対応と REA 連携を追加し、ゲーム以外のプログラムもエージェントが解析できるようにした。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/czcdr/dsh-plugin-rea"><img src="https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png" width="160" alt="czcdr/dsh-plugin-rea"></a></td><td><a href="https://github.com/czcdr/dsh-plugin-rea"><b>dsh-plugin-rea</b></a><br><sub>czcdr</sub></td><td>DeepSeek Harness で REA を、Ghidra も自動導入</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a></td><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub></td><td>バトルフィールド 2 のエンジンを C++20 でクリーンルーム再実装（手持ちの製品版を使用）</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/0xshlomil/ida-free-mcp"><img src="https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp" width="160" alt="0xshlomil/ida-free-mcp"></a></td><td><a href="https://github.com/0xshlomil/ida-free-mcp"><b>ida-free-mcp</b></a><br><sub>0xshlomil</sub></td><td>MCP 経由で AI エージェントから IDA Free を使う</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>REA で逆解析した 1992 年 Johnny Castaway スクリーンセーバーの Rust 再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/0xshlomil/ida-free-mcp"><img src="https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp" width="160" alt="0xshlomil/ida-free-mcp"></a></td><td><a href="https://github.com/0xshlomil/ida-free-mcp"><b>ida-free-mcp</b></a><br><sub>0xshlomil</sub></td><td>MCP 経由で AI エージェントから IDA Free を使う</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>QuickBooks for Mac を参考にしたローカル優先の会計アプリ</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>REA と Ghidra で Sony A6000 のファームウェアを解析</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/th04"><img src="https://raw.githubusercontent.com/N0zoM1z0/th04/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th04"></a></td><td><a href="https://github.com/N0zoM1z0/th04"><b>th04</b></a><br><sub>N0zoM1z0</sub></td><td>東方幻想郷（PC-98）を読めるソースに、当時のコンパイラで検証</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
