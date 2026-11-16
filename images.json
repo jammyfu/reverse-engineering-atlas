@@ -1033,5 +1033,49 @@
     "card",
     "images/patchlens-og.png",
     "GitHub opengraph image for Patchlens binary diff MCP tool"
+  ],
+  "jindrapetrik/jpexs-decompiler": [
+    "card",
+    "https://opengraph.githubassets.com/09d3f466eb016a2b461e6bbdcdc6c315e0326711842654edc2fd7dd9d77f5eaf/jindrapetrik/jpexs-decompiler"
+  ],
+  "ruffle-rs/ruffle": [
+    "card",
+    "https://repository-images.githubusercontent.com/183483988/fa5f20a5-0018-452c-adf9-9d70c9fe8253"
+  ],
+  "dail8859/NotepadNext": [
+    "card",
+    "https://repository-images.githubusercontent.com/224468265/85a97400-96c9-11eb-9836-e8abb8e901b9"
+  ],
+  "captbaritone/webamp": [
+    "readme",
+    "https://raw.githubusercontent.com/captbaritone/webamp/master/packages/webamp-demo/images/preview.png"
+  ],
+  "Try/OpenGothic": [
+    "card",
+    "https://repository-images.githubusercontent.com/165291205/4e9ba700-3269-11ea-8bcf-92fabf93b98a"
+  ],
+  "ZeldaWWHDRecomp/ZeldaWWHDRecomp": [
+    "card",
+    "https://opengraph.githubassets.com/1e02dc858b2318a3b34805bcc53362be09927d7cf64d66834b3f9bc1afb531ad/ZeldaWWHDRecomp/ZeldaWWHDRecomp"
+  ],
+  "bryanthaboi/gen1recomp": [
+    "readme",
+    "https://raw.githubusercontent.com/bryanthaboi/gen1recomp/refs/heads/dev/assets/logo/logo.png"
+  ],
+  "Laupetin/OpenAssetTools": [
+    "card",
+    "https://opengraph.githubassets.com/19c0498d73fabb1337ca6bb478c40dc162c6274623afecd9390029cb06b0cbd3/Laupetin/OpenAssetTools"
+  ],
+  "bethington/ghidra-mcp": [
+    "card",
+    "https://opengraph.githubassets.com/644e077ce9f66c8c04b0eb062e65f17bc2869f1f79bcf2ae86302fa537cc8e5a/bethington/ghidra-mcp"
+  ],
+  "ruvnet/open-claude-code": [
+    "card",
+    "https://opengraph.githubassets.com/2dc114b57310b94d39a13829b0f33da68e8640012e263fd2c8a71ca1c7acd1f8/ruvnet/open-claude-code"
+  ],
+  "venshine/decompile-apk": [
+    "readme",
+    "https://raw.githubusercontent.com/venshine/decompile-apk/master/screenshot/demo.gif"
   ]
 }

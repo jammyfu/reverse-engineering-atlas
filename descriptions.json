@@ -2959,5 +2959,82 @@
     "zh-TW": "把閉源的 Xbox 360 賽車遊戲《F1 2012》透過靜態重編譯做成能在 Android 上原生執行的程式。自己準備遊戲檔案。",
     "ja": "非公開ソースのXbox 360レーシングゲーム『F1 2012』を静的再コンパイルでAndroidネイティブアプリにした移植版。自分のダンプを用意。",
     "ko": "클로즈드 소스 Xbox 360 레이싱 게임 『F1 2012』를 정적 재컴파일로 Android 네이티브 앱으로 만든 포트. 본인 덤프 필요."
+  },
+  "jindrapetrik/jpexs-decompiler": {
+    "en": "Free open-source tool that decompiles and edits Adobe Flash SWF files, extracting ActionScript, images and sounds.",
+    "zh-CN": "免费开源的 Adobe Flash SWF 反编译器和编辑器，可以提取和修改 ActionScript、图片和声音。",
+    "zh-TW": "免費開源的 Adobe Flash SWF 反編譯器和編輯器，可以提取和修改 ActionScript、圖片和聲音。",
+    "ja": "Adobe Flash の SWF ファイルを逆コンパイル・編集できる無料オープンソースツール。ActionScript や画像、音声を抽出できます。",
+    "ko": "Adobe Flash SWF 파일을 디컴파일하고 편집할 수 있는 무료 오픈소스 도구. ActionScript, 이미지, 사운드를 추출합니다."
+  },
+  "ruffle-rs/ruffle": {
+    "en": "Open-source Flash Player emulator written in Rust that runs old Adobe Flash content in modern browsers and desktops.",
+    "zh-CN": "用 Rust 写的开源 Flash Player 模拟器，可以在现代浏览器和桌面上运行老的 Adobe Flash 内容。",
+    "zh-TW": "用 Rust 寫的開源 Flash Player 模擬器，可以在現代瀏覽器和桌面上執行老的 Adobe Flash 內容。",
+    "ja": "Rust で書かれたオープンソースの Flash Player エミュレータ。古い Adobe Flash コンテンツを現代のブラウザやデスクトップで実行できます。",
+    "ko": "Rust로 작성된 오픈소스 Flash Player 에뮬레이터. 오래된 Adobe Flash 콘텐츠를 현대 브라우저와 데스크톱에서 실행합니다."
+  },
+  "dail8859/NotepadNext": {
+    "en": "Cross-platform open-source reimplementation of the classic Notepad++ text editor.",
+    "zh-CN": "跨平台开源重写的经典文本编辑器 Notepad++。",
+    "zh-TW": "跨平台開源重寫的經典文字編輯器 Notepad++。",
+    "ja": "定番テキストエディタ Notepad++ のクロスプラットフォームなオープンソース再実装。",
+    "ko": "클래식 텍스트 에디터 Notepad++의 크로스플랫폼 오픈소스 재구현."
+  },
+  "captbaritone/webamp": {
+    "en": "Web-based open-source reimplementation of the classic Winamp 2 music player.",
+    "zh-CN": "基于网页的开源重写版经典音乐播放器 Winamp 2。",
+    "zh-TW": "基於網頁的開源重寫版經典音樂播放器 Winamp 2。",
+    "ja": "クラシックな音楽プレーヤー Winamp 2 のウェブ版オープンソース再実装。",
+    "ko": "클래식 음악 플레이어 Winamp 2의 웹 기반 오픈소스 재구현."
+  },
+  "Try/OpenGothic": {
+    "en": "Open-source reimplementation of the Gothic 2: Night of the Raven game engine.",
+    "zh-CN": "开源重写的《哥特王朝 2：夜之鸦》游戏引擎。",
+    "zh-TW": "開源重寫的《哥特王朝 2：夜之鴉》遊戲引擎。",
+    "ja": "『Gothic 2: Night of the Raven』のゲームエンジンをオープンソースで再実装したもの。",
+    "ko": "『Gothic 2: Night of the Raven』 게임 엔진의 오픈소스 재구현."
+  },
+  "ZeldaWWHDRecomp/ZeldaWWHDRecomp": {
+    "en": "Static recompilation that brings The Legend of Zelda: The Wind Waker HD to modern PCs.",
+    "zh-CN": "静态重编译项目，把《塞尔达传说：风之杖 HD》带到现代 PC 上。",
+    "zh-TW": "靜態重編譯專案，把《薩爾達傳說：風之杖 HD》帶到現代 PC 上。",
+    "ja": "『ゼルダの伝説 風のタクト HD』を現代の PC に移植する静的リコンパイルプロジェクト。",
+    "ko": "『젤다의 전설: 바람의 지휘봉 HD』를 현대 PC로 가져오는 정적 리컴파일 프로젝트."
+  },
+  "bryanthaboi/gen1recomp": {
+    "en": "Native recreation of the original Pokémon Generation 1, 2 and 3 games using Lua and LÖVE2D.",
+    "zh-CN": "用 Lua 和 LÖVE2D 从零重写的原版宝可梦第一、二、三代游戏。",
+    "zh-TW": "用 Lua 和 LÖVE2D 從零重寫的原版寶可夢第一、二、三代遊戲。",
+    "ja": "Lua と LÖVE2D を使ってポケモン第1・2・3世代をネイティブに再現したプロジェクト。",
+    "ko": "Lua와 LÖVE2D로 오리지널 포켓몬 1·2·3세대를 네이티브로 재현한 프로젝트."
+  },
+  "Laupetin/OpenAssetTools": {
+    "en": "Open-source tools for extracting and modding assets from older Call of Duty games.",
+    "zh-CN": "开源工具集，用来提取和修改老版《使命召唤》游戏的资源文件。",
+    "zh-TW": "開源工具集，用來提取和修改老版《決勝時刻》遊戲的資源檔案。",
+    "ja": "古い Call of Duty シリーズのアセットを抽出・改造するためのオープンソースツール。",
+    "ko": "오래된 Call of Duty 게임의 에셋을 추출하고 모드할 수 있는 오픈소스 도구."
+  },
+  "bethington/ghidra-mcp": {
+    "en": "MCP server that gives AI agents more than 200 tools for reverse engineering inside Ghidra.",
+    "zh-CN": "给 AI 代理提供 200 多个工具的 MCP 服务器，让它们能在 Ghidra 里做逆向工程。",
+    "zh-TW": "給 AI 代理提供 200 多個工具的 MCP 伺服器，讓它們能在 Ghidra 裡做逆向工程。",
+    "ja": "Ghidra の中で AI エージェントが 200 以上のツールを使ってリバースエンジニアリングできるようにする MCP サーバー。",
+    "ko": "AI 에이전트가 Ghidra 안에서 200개 이상의 도구로 리버스 엔지니어링을 할 수 있게 해주는 MCP 서버."
+  },
+  "ruvnet/open-claude-code": {
+    "en": "Nightly reverse-engineered and clean-room rebuilt open version of Anthropic's Claude Code CLI.",
+    "zh-CN": "每天更新的、逆向工程并洁净室重写的 Anthropic Claude Code 命令行工具开源版。",
+    "zh-TW": "每天更新的、逆向工程並潔淨室重寫的 Anthropic Claude Code 命令列工具開源版。",
+    "ja": "Anthropic の Claude Code CLI を毎日逆コンパイルしてクリーンルームで再構築したオープン版。",
+    "ko": "Anthropic의 Claude Code CLI를 매일 리버스 엔지니어링하고 클린룸으로 재구축한 오픈 버전."
+  },
+  "venshine/decompile-apk": {
+    "en": "Automated open-source tool that decompiles Android APK files into readable Java source and resources.",
+    "zh-CN": "自动化开源工具，把 Android APK 反编译成可读的 Java 源码和资源文件。",
+    "zh-TW": "自動化開源工具，把 Android APK 反編譯成可讀的 Java 原始碼和資源檔案。",
+    "ja": "Android の APK ファイルを読みやすい Java ソースとリソースに自動で逆コンパイルするオープンソースツール。",
+    "ko": "Android APK 파일을 읽기 쉬운 Java 소스와 리소스로 자동 디컴파일하는 오픈소스 도구."
   }
 }

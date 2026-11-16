@@ -3382,5 +3382,93 @@
     "https://github.com/Gl1ch5555/f1-2012-android",
     "No",
     "Native Android ARM64 port of F1 2012 (Xbox 360) built via ReXGlue static recompilation. Bring your own dump."
+  ],
+  [
+    "tooling",
+    "",
+    "jindrapetrik/jpexs-decompiler",
+    "https://github.com/jindrapetrik/jpexs-decompiler",
+    "No",
+    "Open-source decompiler and editor for Adobe Flash SWF files."
+  ],
+  [
+    "app",
+    "remake",
+    "ruffle-rs/ruffle",
+    "https://github.com/ruffle-rs/ruffle",
+    "No",
+    "Open-source Flash Player emulator written in Rust."
+  ],
+  [
+    "app",
+    "remake",
+    "dail8859/NotepadNext",
+    "https://github.com/dail8859/NotepadNext",
+    "No",
+    "Cross-platform reimplementation of Notepad++."
+  ],
+  [
+    "app",
+    "remake",
+    "captbaritone/webamp",
+    "https://github.com/captbaritone/webamp",
+    "No",
+    "Web-based reimplementation of Winamp 2."
+  ],
+  [
+    "pc",
+    "remake",
+    "Try/OpenGothic",
+    "https://github.com/Try/OpenGothic",
+    "No",
+    "Open-source reimplementation of the Gothic 2 engine."
+  ],
+  [
+    "pc",
+    "remake",
+    "ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+    "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+    "No",
+    "Static recompilation of Zelda: The Wind Waker HD for PC."
+  ],
+  [
+    "gb",
+    "remake",
+    "bryanthaboi/gen1recomp",
+    "https://github.com/bryanthaboi/gen1recomp",
+    "No",
+    "Native Lua/LÖVE2D recreation of Pokémon Gen 1, 2 and 3."
+  ],
+  [
+    "tooling",
+    "",
+    "Laupetin/OpenAssetTools",
+    "https://github.com/Laupetin/OpenAssetTools",
+    "No",
+    "Open-source modding tools for older Call of Duty games."
+  ],
+  [
+    "tooling",
+    "",
+    "bethington/ghidra-mcp",
+    "https://github.com/bethington/ghidra-mcp",
+    "No",
+    "MCP server with 200+ tools for AI-assisted reverse engineering in Ghidra."
+  ],
+  [
+    "app",
+    "",
+    "ruvnet/open-claude-code",
+    "https://github.com/ruvnet/open-claude-code",
+    "No",
+    "Nightly reverse-engineered open rebuild of Anthropic Claude Code CLI."
+  ],
+  [
+    "tooling",
+    "",
+    "venshine/decompile-apk",
+    "https://github.com/venshine/decompile-apk",
+    "No",
+    "Automated tool to decompile Android APKs into Java source and resources."
   ]
 ]
