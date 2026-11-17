@@ -6,7 +6,7 @@
 
 A curated map of reverse-engineering projects, tools and agent workflows. Find existing work before starting your own: game decompilations and recompilations, application reimplementations, Android and JavaScript analysis, protocols, firmware and supporting tools.
 
-**440 catalog entries · 434 GitHub repositories · 10 skill workflows · 5 README languages**
+**443 catalog entries · 437 GitHub repositories · 10 skill workflows · 5 README languages**
 
 Switch 2 is an editorial priority, not a measured popularity claim. Within each section, projects use the existing cumulative Star snapshot, not live trending data. The snapshot has no capture timestamp; missing counts sort last. All entries remain available below.
 
@@ -574,7 +574,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+26)</summary>
+<summary>Browse the complete category (+28)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -604,6 +604,8 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>Clean-room SA-MP 0.3.DL-R1 client reimplementation; architecture recovered with REA/Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/openage/openage"><b>openage</b></a><br><sub>openage</sub></td><td>Open-source engine reimplementation for Age of Empires II and other RTS titles</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/thepoprock/mudbrick"><b>mudbrick</b></a><br><sub>thepoprock</sub></td><td>A clean-room, from-scratch open-source browser re-creation of the closed-source Sid Meier&#x27;s Civilization II (1996), written in TypeScript. MIT licensed.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/OpenIGI/OpenIGI"><b>OpenIGI</b></a><br><sub>OpenIGI</sub></td><td>A from-scratch free open-source remake of the Project I.G.I. and I.G.I. 2 game engines written in C#. It plays the original missions and scripts from your own retail game install, with modern graphics.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/horizon-rust/horizon"><img src="images/horizon-cover.jpg" width="160" alt="horizon-rust/horizon"></a></td><td><a href="https://github.com/horizon-rust/horizon"><b>horizon</b></a><br><sub>horizon-rust</sub></td><td>A free open-source rewrite of Minecraft: Java Edition 26.3 in Rust. It opens your existing worlds and follows the same rules, checked against the original with hundreds of tests. Uses REA tools for inspecting the Java bytecode.</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 </table>
 
 </details>
@@ -764,6 +766,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/LaurieWired/GhidraMCP"><img src="https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3" width="160" alt="LaurieWired/GhidraMCP"></a></td><td><a href="https://github.com/LaurieWired/GhidraMCP"><b>GhidraMCP</b></a><br><sub>LaurieWired</sub></td><td>A bridge that lets AI assistants (like Claude) control the free reverse-engineering tool Ghidra. The AI can decompile programs, rename functions and analyze binaries for you.</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/dnSpyEx/dnSpy"><img src="https://raw.githubusercontent.com/dnSpyEx/dnSpy/master/images/debug-animated.gif" width="160" alt="dnSpyEx/dnSpy"></a></td><td><a href="https://github.com/dnSpyEx/dnSpy"><b>dnSpy</b></a><br><sub>dnSpyEx</sub></td><td>Debug and edit .NET assemblies without source</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pwndbg/pwndbg"><b>pwndbg</b></a><br><sub>pwndbg</sub></td><td>GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage.</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>Classic curated list of reverse engineering resources, tools and learning materials</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Jakeschincariol/replica-skill"><b>replica-skill</b></a><br><sub>Jakeschincariol</sub></td><td>A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/unicorn-engine/unicorn"><b>unicorn</b></a><br><sub>unicorn-engine</sub></td><td>Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments.</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sensepost/objection"><b>objection</b></a><br><sub>sensepost</sub></td><td>Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications.</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
@@ -842,8 +845,8 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>Run REA with local models in LM Studio</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ValveResourceFormat/Source2Mcp"><b>Source2Mcp</b></a><br><sub>ValveResourceFormat</sub></td><td>An MCP server that lets an AI launch and control Source 2 games like CS2, Dota 2 or Deadlock: run console commands, move the camera and take screenshots.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/jaenster/ghidra-reconstruct"><img src="https://opengraph.githubassets.com/1/jaenster/ghidra-reconstruct" width="160" alt="jaenster/ghidra-reconstruct"></a></td><td><a href="https://github.com/jaenster/ghidra-reconstruct"><b>ghidra-reconstruct</b></a><br><sub>jaenster</sub></td><td>Takes the messy decompiled code that Ghidra spits out and turns it into clean, organized C++ source that you can actually compile and build.</td><td>No</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>Add the REA Skill and tools to DeepSeek Harness</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/agioracle/rea-unity-game"><b>rea-unity-game</b></a><br><sub>agioracle</sub></td><td>Agent workflow for reverse engineering Unity games</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>Add the REA Skill and tools to DeepSeek Harness</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/andrewnakas/recompsoftware"><img src="images/recompsoftware-og.png" width="160" alt="andrewnakas/recompsoftware"></a></td><td><a href="https://github.com/andrewnakas/recompsoftware"><b>recompsoftware</b></a><br><sub>andrewnakas</sub></td><td>A live website that tracks thousands of projects rebuilding old games and software from their machine code, with progress charts and releases.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>Make Claude Code cite real REA evidence for every conclusion</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Producdevity/gc-recomp"><b>gc-recomp</b></a><br><sub>Producdevity</sub></td><td>Open-source static recompiler and runtime that turns closed-source GameCube games into native Linux AArch64 code for handhelds. Translates the player&#x27;s own disc at first launch; no game code shipped.</td><td>No</td><td><sub>—</sub></td></tr>
@@ -869,7 +872,6 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>A simple command-line tool that looks at Linux or Windows programs and quickly tells you what inputs they want and what they actually do, useful for malware analysis or CTF challenges.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>Free open-source Windows desktop app that gives AI agents a full reverse-engineering workbench for looking inside closed binaries, Android apps and native code.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>Open-source CLI and AI-agent tool that compares two closed-source Windows PE binaries and shows exactly which functions changed, useful for patch analysis.</td><td>No</td><td><sub>Repo card</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>Classic curated list of reverse engineering resources, tools and learning materials</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -895,7 +897,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 This evidence-tagged subset reuses entries from the platform and topic sections above. The atlas also covers independent tools and projects with no REA dependency.
 
 <details>
-<summary>Expand 58 REA-tagged entries</summary>
+<summary>Expand 59 REA-tagged entries</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -957,6 +959,7 @@ This evidence-tagged subset reuses entries from the platform and topic sections 
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>Recover Touhou 4&#x27;s bullet-ring angle maths from 16-bit DOS code</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>See exactly how the Aegis Android app generates your 2FA codes</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>Solve a DownUnderCTF 2023 reversing challenge step by step</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td><a href="https://github.com/horizon-rust/horizon"><img src="images/horizon-cover.jpg" width="160" alt="horizon-rust/horizon"></a></td><td><a href="https://github.com/horizon-rust/horizon"><b>horizon</b></a><br><sub>horizon-rust</sub></td><td>A free open-source rewrite of Minecraft: Java Edition 26.3 in Rust. It opens your existing worlds and follows the same rules, checked against the original with hundreds of tests. Uses REA tools for inspecting the Java bytecode.</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 </table>
 
 </details>

@@ -6,7 +6,7 @@
 
 按目标、平台和技术整理逆向项目、工具与 Agent 工作流。开始自己动手前，先看看已有成果：游戏反编译与重编译、应用重实现、Android 与 JavaScript 分析、协议、固件及配套工具。
 
-**440 条目录记录 · 434 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
+**443 条目录记录 · 437 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
 
 Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累计 Star 快照排序，不是实时趋势；原快照未记录采集时间，缺失计数排在最后。所有条目均保留。
 
@@ -574,7 +574,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+26)</summary>
+<summary>查看该分类全部项目 (+28)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -604,6 +604,8 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>用 REA/Ghidra 恢复架构的 SA-MP 0.3.DL-R1 clean-room 客户端重实现</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/openage/openage"><b>openage</b></a><br><sub>openage</sub></td><td>帝国时代 2 及其他 RTS 的开源引擎重实现</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/thepoprock/mudbrick"><b>mudbrick</b></a><br><sub>thepoprock</sub></td><td>从零开始、清洁室方式重写的免费开源浏览器版《文明2》（1996 年闭源经典）。用 TypeScript 写，MIT 协议。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/OpenIGI/OpenIGI"><b>OpenIGI</b></a><br><sub>OpenIGI</sub></td><td>用 C# 从零重写的 Project I.G.I. 和 I.G.I. 2 游戏引擎免费开源版。读取你自己正版游戏安装里的原版关卡和脚本，并加上现代渲染。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/horizon-rust/horizon"><img src="images/horizon-cover.jpg" width="160" alt="horizon-rust/horizon"></a></td><td><a href="https://github.com/horizon-rust/horizon"><b>horizon</b></a><br><sub>horizon-rust</sub></td><td>用 Rust 从零重写的 Minecraft Java 版 26.3 免费开源版。能打开你已有的世界并遵循相同规则，用数百个测试与原版对比验证。使用 REA 工具检查 Java 字节码。</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
 </table>
 
 </details>
@@ -764,6 +766,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://github.com/LaurieWired/GhidraMCP"><img src="https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3" width="160" alt="LaurieWired/GhidraMCP"></a></td><td><a href="https://github.com/LaurieWired/GhidraMCP"><b>GhidraMCP</b></a><br><sub>LaurieWired</sub></td><td>一个桥接工具，让 AI 助手（比如 Claude）能直接控制免费的逆向工具 Ghidra。AI 可以帮你反编译程序、给函数改名、分析二进制文件。</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/dnSpyEx/dnSpy"><img src="https://raw.githubusercontent.com/dnSpyEx/dnSpy/master/images/debug-animated.gif" width="160" alt="dnSpyEx/dnSpy"></a></td><td><a href="https://github.com/dnSpyEx/dnSpy"><b>dnSpy</b></a><br><sub>dnSpyEx</sub></td><td>无需源码即可调试和修改 .NET 程序集</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pwndbg/pwndbg"><b>pwndbg</b></a><br><sub>pwndbg</sub></td><td>GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>经典的逆向工程资源、工具与学习资料精选列表</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Jakeschincariol/replica-skill"><b>replica-skill</b></a><br><sub>Jakeschincariol</sub></td><td>A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/unicorn-engine/unicorn"><b>unicorn</b></a><br><sub>unicorn-engine</sub></td><td>Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sensepost/objection"><b>objection</b></a><br><sub>sensepost</sub></td><td>Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
@@ -842,8 +845,8 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>在 LM Studio 里配合本地模型用 REA</td><td>✅ 是</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ValveResourceFormat/Source2Mcp"><b>Source2Mcp</b></a><br><sub>ValveResourceFormat</sub></td><td>一个 MCP 服务器，让 AI 能启动并控制 CS2、Dota 2 或 Deadlock 这类 Source 2 游戏：跑控制台命令、移动镜头、截图。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/jaenster/ghidra-reconstruct"><img src="https://opengraph.githubassets.com/1/jaenster/ghidra-reconstruct" width="160" alt="jaenster/ghidra-reconstruct"></a></td><td><a href="https://github.com/jaenster/ghidra-reconstruct"><b>ghidra-reconstruct</b></a><br><sub>jaenster</sub></td><td>把 Ghidra 反编译出来的乱糟糟代码整理成干净、有命名空间的 C++ 源码，让你可以真正编译构建。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
-<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>给 DeepSeek Harness 加上 REA 技能和工具</td><td>✅ 是</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/agioracle/rea-unity-game"><b>rea-unity-game</b></a><br><sub>agioracle</sub></td><td>用 agent 逆向 Unity 游戏的工作流</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>给 DeepSeek Harness 加上 REA 技能和工具</td><td>✅ 是</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td><a href="https://github.com/andrewnakas/recompsoftware"><img src="images/recompsoftware-og.png" width="160" alt="andrewnakas/recompsoftware"></a></td><td><a href="https://github.com/andrewnakas/recompsoftware"><b>recompsoftware</b></a><br><sub>andrewnakas</sub></td><td>一个实时网站，追踪数千个从机器码重建老游戏和软件的项目，附带进度图和发布记录。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>让 Claude Code 的每条结论都引用真实 REA 证据</td><td>✅ 是</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Producdevity/gc-recomp"><b>gc-recomp</b></a><br><sub>Producdevity</sub></td><td>开源的GameCube静态重编译器和运行时，能把闭源GameCube游戏转成Linux AArch64原生代码，适合掌机。首次启动时翻译玩家自己的光盘，不包含任何游戏代码。</td><td>否</td><td><sub>—</sub></td></tr>
@@ -869,7 +872,6 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>一个简单的命令行工具，看一下 Linux 或 Windows 程序就能快速告诉你它想要什么输入、实际会做什么，适合分析恶意软件或打 CTF。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>免费开源的 Windows 桌面程序，给 AI 智能体一个完整的逆向工作台，用来拆解闭源二进制、安卓应用和原生代码。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>开源命令行和 AI 工具，对比两个闭源 Windows PE 程序，精确告诉你哪些函数被改了，适合分析补丁。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>经典的逆向工程资源、工具与学习资料精选列表</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -895,7 +897,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 这个证据标记子集复用上方平台与主题目录中的条目。本地图同样收录不依赖 REA 的独立工具与项目。
 
 <details>
-<summary>展开 58 条 REA 标记记录</summary>
+<summary>展开 59 条 REA 标记记录</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -957,6 +959,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>从 16 位 DOS 代码里找回东方幻想乡的弹幕角度算法</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>看清 Aegis 安卓应用是怎样生成两步验证码的</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>一步步解开 DownUnderCTF 2023 的逆向题</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
+<tr><td><a href="https://github.com/horizon-rust/horizon"><img src="images/horizon-cover.jpg" width="160" alt="horizon-rust/horizon"></a></td><td><a href="https://github.com/horizon-rust/horizon"><b>horizon</b></a><br><sub>horizon-rust</sub></td><td>用 Rust 从零重写的 Minecraft Java 版 26.3 免费开源版。能打开你已有的世界并遵循相同规则，用数百个测试与原版对比验证。使用 REA 工具检查 Java 字节码。</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
 </table>
 
 </details>

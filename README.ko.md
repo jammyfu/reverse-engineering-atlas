@@ -6,7 +6,7 @@
 
 역공학 프로젝트, 도구와 에이전트 작업 흐름을 대상·플랫폼·기술별로 모은 목록입니다. 게임 디컴파일과 리컴파일, 앱 재구현, Android·JavaScript 분석, 프로토콜과 펌웨어 분야에서 기존 작업을 먼저 찾아보세요.
 
-**목록 440개 · GitHub 저장소 434개 · skill 작업 흐름 10종 · README 5개 언어**
+**목록 443개 · GitHub 저장소 437개 · skill 작업 흐름 10종 · README 5개 언어**
 
 Switch 2는 편집상 우선순위이며 실측 인기 순위가 아닙니다. 분류 내에서는 기존 누적 Star 스냅샷을 사용하며 실시간 추세가 아닙니다. 수집 시각은 기록되지 않았으며 수치가 없는 항목은 마지막에 표시합니다. 모든 항목은 유지됩니다.
 
@@ -574,7 +574,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+26)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+28)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -604,6 +604,8 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>REA/Ghidra로 아키텍처를 복원한 SA-MP 0.3.DL-R1 클린룸 클라이언트 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/openage/openage"><b>openage</b></a><br><sub>openage</sub></td><td>Age of Empires II 등 RTS의 오픈소스 엔진 재구현</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/thepoprock/mudbrick"><b>mudbrick</b></a><br><sub>thepoprock</sub></td><td>클로즈드 소스인 시드 마이어의 문명 II(1996)를 클린룸 방식으로 처음부터 TypeScript로 다시 쓴 무료 오픈소스 브라우저 재구현. MIT 라이선스.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/OpenIGI/OpenIGI"><b>OpenIGI</b></a><br><sub>OpenIGI</sub></td><td>C#으로 처음부터 다시 쓴 Project I.G.I.와 I.G.I. 2 게임 엔진의 무료 오픈소스 버전. 본인 정품 설치 파일에서 원본 미션과 스크립트를 읽어 현대적인 그래픽으로 실행.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/horizon-rust/horizon"><img src="images/horizon-cover.jpg" width="160" alt="horizon-rust/horizon"></a></td><td><a href="https://github.com/horizon-rust/horizon"><b>horizon</b></a><br><sub>horizon-rust</sub></td><td>Rust로 처음부터 다시 쓴 Minecraft Java Edition 26.3의 무료 오픈소스 버전. 기존 월드를 열고 같은 규칙을 따르며 수백 개의 테스트로 원본과 비교 검증. REA 도구로 Java 바이트코드를 검사.</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
 </table>
 
 </details>
@@ -764,6 +766,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/LaurieWired/GhidraMCP"><img src="https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3" width="160" alt="LaurieWired/GhidraMCP"></a></td><td><a href="https://github.com/LaurieWired/GhidraMCP"><b>GhidraMCP</b></a><br><sub>LaurieWired</sub></td><td>AI 도우미(Claude 등)가 무료 리버스 엔지니어링 도구 Ghidra를 직접 제어할 수 있게 해주는 브리지. AI가 디컴파일과 함수 이름 변경을 대신 수행.</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/dnSpyEx/dnSpy"><img src="https://raw.githubusercontent.com/dnSpyEx/dnSpy/master/images/debug-animated.gif" width="160" alt="dnSpyEx/dnSpy"></a></td><td><a href="https://github.com/dnSpyEx/dnSpy"><b>dnSpy</b></a><br><sub>dnSpyEx</sub></td><td>소스 없이 .NET 어셈블리 디버그·편집</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pwndbg/pwndbg"><b>pwndbg</b></a><br><sub>pwndbg</sub></td><td>GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage.</td><td>❔ 미확인</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>클래식한 리버스 엔지니어링 자료/도구/학습 목록</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Jakeschincariol/replica-skill"><b>replica-skill</b></a><br><sub>Jakeschincariol</sub></td><td>A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.</td><td>❔ 미확인</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/unicorn-engine/unicorn"><b>unicorn</b></a><br><sub>unicorn-engine</sub></td><td>Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments.</td><td>❔ 미확인</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sensepost/objection"><b>objection</b></a><br><sub>sensepost</sub></td><td>Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications.</td><td>❔ 미확인</td><td><sub>—</sub></td></tr>
@@ -842,8 +845,8 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>LM Studio 로컬 모델로 REA 사용</td><td>✅ 예</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ValveResourceFormat/Source2Mcp"><b>Source2Mcp</b></a><br><sub>ValveResourceFormat</sub></td><td>CS2, Dota 2, Deadlock 같은 Source 2 게임을 AI가 실행하고 제어할 수 있게 하는 MCP 서버. 콘솔 명령, 카메라 이동, 스크린샷.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/jaenster/ghidra-reconstruct"><img src="https://opengraph.githubassets.com/1/jaenster/ghidra-reconstruct" width="160" alt="jaenster/ghidra-reconstruct"></a></td><td><a href="https://github.com/jaenster/ghidra-reconstruct"><b>ghidra-reconstruct</b></a><br><sub>jaenster</sub></td><td>Ghidra가 출력한 지저분한 디컴파일 코드를 깔끔하고 네임스페이스가 정리된 컴파일 가능한 C++ 소스로 바꿉니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
-<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>DeepSeek Harness에 REA 스킬과 도구 추가</td><td>✅ 예</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/agioracle/rea-unity-game"><b>rea-unity-game</b></a><br><sub>agioracle</sub></td><td>에이전트로 Unity 게임을 역공학하는 워크플로</td><td>❔ 미확인</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>DeepSeek Harness에 REA 스킬과 도구 추가</td><td>✅ 예</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/andrewnakas/recompsoftware"><img src="images/recompsoftware-og.png" width="160" alt="andrewnakas/recompsoftware"></a></td><td><a href="https://github.com/andrewnakas/recompsoftware"><b>recompsoftware</b></a><br><sub>andrewnakas</sub></td><td>기계 코드에서 오래된 게임과 소프트웨어를 재구축하는 수천 개 프로젝트를 실시간으로 추적하는 사이트. 진행 차트와 릴리스 정보 포함.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>Claude Code의 모든 결론에 실제 REA 증거를 인용하게</td><td>✅ 예</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Producdevity/gc-recomp"><b>gc-recomp</b></a><br><sub>Producdevity</sub></td><td>클로즈드 소스 게임큐브 게임을 Linux AArch64 네이티브 코드로 변환하는 오픈소스 정적 리컴파일러와 런타임. 첫 실행 시 플레이어의 디스크를 번역. 게임 코드는 포함하지 않음.</td><td>아니요</td><td><sub>—</sub></td></tr>
@@ -869,7 +872,6 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>Linux나 Windows 프로그램을 보고 어떤 입력을 기대하는지, 실제로 무엇을 하는지 빠르게 알려주는 명령줄 도구. 멀웨어 분석이나 CTF에 유용.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>AI 에이전트에게 클로즈드 바이너리, Android 앱, 네이티브 코드를 분석할 수 있는 본격 리버스 엔지니어링 작업대를 제공하는 무료 오픈소스 Windows 데스크톱 앱.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>두 개의 클로즈드 소스 Windows PE 바이너리를 비교해 어떤 함수가 바뀌었는지 정확히 보여주는 오픈소스 CLI 및 AI 에이전트 도구. 패치 분석용.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>클래식한 리버스 엔지니어링 자료/도구/학습 목록</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -895,7 +897,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 이 근거 표시 하위 목록은 위 플랫폼·주제별 항목을 다시 보여줍니다. REA에 의존하지 않는 독립 도구와 프로젝트도 수록합니다.
 
 <details>
-<summary>REA 태그 항목 58개 펼치기</summary>
+<summary>REA 태그 항목 59개 펼치기</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -957,6 +959,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>16비트 DOS 코드에서 동방환상향 탄막 각도 계산을 복원</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>Aegis 안드로이드 앱이 2단계 인증 코드를 만드는 방식을 해부</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>DownUnderCTF 2023 리버싱 문제를 단계별로 풀이</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
+<tr><td><a href="https://github.com/horizon-rust/horizon"><img src="images/horizon-cover.jpg" width="160" alt="horizon-rust/horizon"></a></td><td><a href="https://github.com/horizon-rust/horizon"><b>horizon</b></a><br><sub>horizon-rust</sub></td><td>Rust로 처음부터 다시 쓴 Minecraft Java Edition 26.3의 무료 오픈소스 버전. 기존 월드를 열고 같은 규칙을 따르며 수백 개의 테스트로 원본과 비교 검증. REA 도구로 Java 바이트코드를 검사.</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
 </table>
 
 </details>
