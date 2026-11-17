@@ -1077,5 +1077,29 @@
   "venshine/decompile-apk": [
     "readme",
     "https://raw.githubusercontent.com/venshine/decompile-apk/master/screenshot/demo.gif"
+  ],
+  "ratman-bit/Rewind-IL2CPP-Decompiler": [
+    "card",
+    "https://opengraph.githubassets.com/1/ratman-bit/Rewind-IL2CPP-Decompiler"
+  ],
+  "lemiur/shsm-decomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/lemiur/shsm-decomp"
+  ],
+  "RetroReversing/decompdecomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/RetroReversing/decompdecomp"
+  ],
+  "dexedrne/txra-decomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/dexedrne/txra-decomp"
+  ],
+  "deoka31/gp4-decomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/deoka31/gp4-decomp"
+  ],
+  "sal063/AC3-decomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/sal063/AC3-decomp"
   ]
 }

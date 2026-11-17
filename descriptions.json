@@ -3036,5 +3036,47 @@
     "zh-TW": "自動化開源工具，把 Android APK 反編譯成可讀的 Java 原始碼和資源檔案。",
     "ja": "Android の APK ファイルを読みやすい Java ソースとリソースに自動で逆コンパイルするオープンソースツール。",
     "ko": "Android APK 파일을 읽기 쉬운 Java 소스와 리소스로 자동 디컴파일하는 오픈소스 도구."
+  },
+  "ratman-bit/Rewind-IL2CPP-Decompiler": {
+    "en": "Turns Unity games that were compiled to native code back into readable C# with the actual method bodies restored.",
+    "zh-CN": "把用 IL2CPP 编译成原生代码的 Unity 游戏重新还原成带真实方法体的可读 C# 代码。",
+    "zh-TW": "把用 IL2CPP 編譯成原生程式碼的 Unity 遊戲重新還原成帶真實方法體的可讀 C# 程式碼。",
+    "ja": "IL2CPP でネイティブコードにコンパイルされた Unity ゲームを、実際のメソッド本体付きの読める C# に復元するツール。",
+    "ko": "IL2CPP로 네이티브 코드로 컴파일된 Unity 게임을 실제 메서드 본문이 복원된 읽을 수 있는 C#으로 되돌리는 도구."
+  },
+  "lemiur/shsm-decomp": {
+    "en": "From-scratch matching decompilation of the Wii horror game Silent Hill: Shattered Memories, so the original compiler produces identical code.",
+    "zh-CN": "从零开始对 Wii 恐怖游戏《寂静岭：破碎记忆》做匹配反编译，让原版编译器编出完全一样的代码。",
+    "zh-TW": "從零開始對 Wii 恐怖遊戲《寂靜嶺：破碎記憶》做匹配反編譯，讓原版編譯器編出完全一樣的程式碼。",
+    "ja": "Wii のホラーゲーム『サイレントヒル シャッタードメモリーズ』のマッチング逆コンパイル。元のコンパイラが同じコードを出力する。",
+    "ko": "Wii 공포 게임 사일런트 힐: 섀터드 메모리즈를 처음부터 매칭 디컴파일하여 원래 컴파일러가 동일한 코드를 만들게 함."
+  },
+  "RetroReversing/decompdecomp": {
+    "en": "A desktop app that lets AI agents decompile the games you own into C or C++ that rebuilds the original binary byte for byte.",
+    "zh-CN": "一个桌面应用，让 AI 智能体把你拥有的游戏反编译成能逐字节重建原版二进制的 C 或 C++。",
+    "zh-TW": "一個桌面應用，讓 AI 智慧體把你擁有的遊戲反編譯成能逐位元組重建原版二進位檔的 C 或 C++。",
+    "ja": "所有しているゲームを、元のバイナリをバイト単位で再現する C/C++ に AI エージェントが逆コンパイルするデスクトップアプリ。",
+    "ko": "소유한 게임을 AI 에이전트가 원본 바이너리를 바이트 단위로 재현하는 C/C++로 디컴파일하게 해주는 데스크톱 앱."
+  },
+  "dexedrne/txra-decomp": {
+    "en": "Complete matching decompilation of the GBA racing game Tokyo Xtreme Racer Advance, plus a native PC recompiler. Your own ROM required.",
+    "zh-CN": "对 GBA 赛车游戏《东京极限赛 Advance》的完整匹配反编译，还附带原生 PC 重编译器。需要自己的 ROM。",
+    "zh-TW": "對 GBA 賽車遊戲《東京極限賽 Advance》的完整匹配反編譯，還附帶原生 PC 重編譯器。需要自己的 ROM。",
+    "ja": "GBA レーシングゲーム『東京エクストリームレーサー Advance』の完全マッチング逆コンパイルと、ネイティブ PC 再コンパイラ。自分の ROM が必要。",
+    "ko": "GBA 레이싱 게임 도쿄 익스트림 레이서 Advance의 완전한 매칭 디컴파일과 네이티브 PC 리컴파일러. 자신의 ROM 필요."
+  },
+  "deoka31/gp4-decomp": {
+    "en": "Documented, byte-identical assembly reconstruction of the PC racing game Grand Prix 4. The C++ parts are not started yet.",
+    "zh-CN": "对 PC 赛车游戏《大奖赛 4》的汇编核心做了逐字节一致、带注释的还原。C++ 部分还没开始。",
+    "zh-TW": "對 PC 賽車遊戲《大獎賽 4》的組合語言核心做了逐位元組一致、帶註解的還原。C++ 部分還沒開始。",
+    "ja": "PC レーシングゲーム『グランプリ 4』のアセンブリ部分をバイト一致で文書化した復元。C++ 部分は未着手。",
+    "ko": "PC 레이싱 게임 그랑프리 4의 어셈블리 코어를 바이트 단위로 일치하게 문서화한 복원. C++ 부분은 아직 시작 안 함."
+  },
+  "sal063/AC3-decomp": {
+    "en": "A native Windows rewrite of the PS1 flight combat game Ace Combat 3: Electrosphere, using C++ and Vulkan so you can play the original discs at higher resolution.",
+    "zh-CN": "用 C++ 和 Vulkan 从零重写的《皇牌空战 3：电圈》原生 Windows 版，可以更高分辨率玩原版光盘。",
+    "zh-TW": "用 C++ 和 Vulkan 從零重寫的《皇牌空戰 3：電圈》原生 Windows 版，可以更高解析度玩原版光碟。",
+    "ja": "PS1 のフライトコンバットゲーム『エースコンバット 3 エレクトロスフィア』を C++ と Vulkan でネイティブ Windows 向けに書き直したもの。元のディスクをより高解像度で遊べる。",
+    "ko": "PS1 비행 전투 게임 에이스 컴뱃 3: 일렉트로스피어를 C++와 Vulkan으로 처음부터 다시 쓴 네이티브 Windows 버전. 원본 디스크를 더 높은 해상도로 플레이 가능."
   }
 }

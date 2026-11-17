@@ -3470,5 +3470,53 @@
     "https://github.com/venshine/decompile-apk",
     "No",
     "Automated tool to decompile Android APKs into Java source and resources."
+  ],
+  [
+    "tooling",
+    "",
+    "ratman-bit/Rewind-IL2CPP-Decompiler",
+    "https://github.com/ratman-bit/Rewind-IL2CPP-Decompiler",
+    "No",
+    "Unity IL2CPP decompiler that recovers real method bodies and C# from standard builds."
+  ],
+  [
+    "wii",
+    "decomp",
+    "lemiur/shsm-decomp",
+    "https://github.com/lemiur/shsm-decomp",
+    "No",
+    "Matching decompilation of Silent Hill: Shattered Memories (Wii). ROM not included."
+  ],
+  [
+    "tooling",
+    "",
+    "RetroReversing/decompdecomp",
+    "https://github.com/RetroReversing/decompdecomp",
+    "No",
+    "Desktop app where AI agents decompile games you own into byte-matching C/C++."
+  ],
+  [
+    "gba",
+    "decomp",
+    "dexedrne/txra-decomp",
+    "https://github.com/dexedrne/txra-decomp",
+    "No",
+    "Complete matching decompilation of Tokyo Xtreme Racer Advance (GBA), plus native PC recompiler. ROM not included."
+  ],
+  [
+    "pc",
+    "decomp",
+    "deoka31/gp4-decomp",
+    "https://github.com/deoka31/gp4-decomp",
+    "No",
+    "Documented byte-identical assembly disassembly of Grand Prix 4 (PC). C++ not started."
+  ],
+  [
+    "ps1",
+    "remake",
+    "sal063/AC3-decomp",
+    "https://github.com/sal063/AC3-decomp",
+    "No",
+    "Native Windows port of Ace Combat 3: Electrosphere (PS1) with rewritten C++ and Vulkan."
   ]
 ]
