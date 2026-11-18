@@ -3566,5 +3566,37 @@
     "https://github.com/NightSightProductions/Recomp-Framework",
     "No",
     "Static recompiler framework that turns Windows x86-64 and old 32-bit Intel Mac games into native Apple Silicon apps. Used by DOOM-Recomp and others."
+  ],
+  [
+    "pc",
+    "decomp",
+    "sirgwain/stars-decompile",
+    "https://github.com/sirgwain/stars-decompile",
+    "No",
+    "Decompilation and reimplementation of the classic Win16 4X strategy game Stars! using debug symbols and modern C."
+  ],
+  [
+    "ds",
+    "decomp",
+    "DQIX/dqix-decomp",
+    "https://github.com/DQIX/dqix-decomp",
+    "No",
+    "Matching decompilation of Dragon Quest IX: Sentinels of the Starry Skies for Nintendo DS, aiming for byte-identical rebuilds."
+  ],
+  [
+    "tooling",
+    "tools",
+    "isledecomp/reccmp",
+    "https://github.com/isledecomp/reccmp",
+    "No",
+    "Collection of tools for verifying matching decompilations, born from the LEGO Island project. Supports function and data matching."
+  ],
+  [
+    "pc",
+    "recomp",
+    "isledecomp/isle-portable",
+    "https://github.com/isledecomp/isle-portable",
+    "No",
+    "Portable, cross-platform version of the 1997 LEGO Island game based on its matching decompilation. Runs natively on modern systems."
   ]
 ]

@@ -3120,5 +3120,33 @@
     "zh-TW": "一個開源工具，能把 Windows 遊戲和老舊 Mac 遊戲靜態重編譯成可在蘋果晶片 Mac 上原生執行的程式。被用來製作《毀滅戰士》（2016）重編譯版等專案。",
     "ja": "Windowsゲームや古いMacゲームを静的再コンパイルして、Apple Silicon Mac上でネイティブに動かせるようにするオープンソースツール。DOOM（2016）Recompなどのポート作成に使われています。",
     "ko": "Windows 게임과 오래된 Mac 게임을 정적으로 재컴파일하여 Apple Silicon Mac에서 네이티브로 실행되게 하는 오픈소스 도구. DOOM (2016) Recomp 같은 포트 제작에 사용됩니다."
+  },
+  "sirgwain/stars-decompile": {
+    "en": "People are reverse-engineering the old Windows Stars! 4X strategy game from its binary and debug symbols, rewriting it in modern C so it can run again.",
+    "zh-CN": "有人正在从二进制和调试符号里把老旧的 Windows Stars! 4X 策略游戏逆向出来，用现代 C 重写，让它能重新跑起来。",
+    "zh-TW": "有人正在從二進位和除錯符號裡把老舊的 Windows Stars! 4X 策略遊戲逆向出來，用現代 C 重寫，讓它能重新跑起來。",
+    "ja": "古い Windows の Stars! 4X 戦略ゲームをバイナリとデバッグシンボルから逆コンパイルし、現代の C で書き直して再び動かせるようにしています。",
+    "ko": "오래된 Windows Stars! 4X 전략 게임을 바이너리와 디버그 심볼에서 역공학하여 현대 C로 다시 작성해서 다시 실행할 수 있게 만들고 있습니다."
+  },
+  "DQIX/dqix-decomp": {
+    "en": "A matching decompilation of the Nintendo DS game Dragon Quest IX, turning its machine code back into C++ that rebuilds the original ROM byte for byte.",
+    "zh-CN": "把任天堂 DS 游戏《勇者斗恶龙 IX》的机器码逆向成 C++，目标是逐字节还原出原来的 ROM。",
+    "zh-TW": "把任天堂 DS 遊戲《勇者鬥惡龍 IX》的機器碼逆向成 C++，目標是逐位元組還原出原來的 ROM。",
+    "ja": "ニンテンドーDSの『ドラゴンクエストIX』をマッチング逆コンパイルし、元のROMをバイト単位で再現できるC++ソースにしています。",
+    "ko": "닌텐도 DS 게임 드래곤 퀘스트 IX를 매칭 디컴파일하여 원래 ROM을 바이트 단위로 재현하는 C++ 소스로 만들고 있습니다."
+  },
+  "isledecomp/reccmp": {
+    "en": "Tools that help people check if their rewritten game code matches the original binary, originally made for the LEGO Island decompilation.",
+    "zh-CN": "一套帮人检查重写的游戏代码是否和原版二进制一致的工具，最早是为《乐高岛》反编译项目做的。",
+    "zh-TW": "一套幫人檢查重寫的遊戲程式碼是否和原版二進位一致的工具，最早是為《樂高島》反編譯專案做的。",
+    "ja": "書き直したゲームコードが元のバイナリと一致するかを確認するツール群。LEGO Island の逆コンパイルから生まれました。",
+    "ko": "다시 작성한 게임 코드가 원본 바이너리와 일치하는지 확인하는 도구 모음. LEGO Island 디컴파일 프로젝트에서 시작되었습니다."
+  },
+  "isledecomp/isle-portable": {
+    "en": "A modern portable version of the 1997 LEGO Island game, built from its decompilation so it runs natively on Windows, Mac, Linux and more.",
+    "zh-CN": "基于《乐高岛》反编译做出的现代可移植版本，让这款 1997 年的游戏能在 Windows、Mac、Linux 等系统上原生运行。",
+    "zh-TW": "基於《樂高島》反編譯做出的現代可攜版本，讓這款 1997 年的遊戲能在 Windows、Mac、Linux 等系統上原生執行。",
+    "ja": "1997年の LEGO Island を逆コンパイルから作った現代的なポータブル版。Windows、Mac、Linux などでネイティブに動きます。",
+    "ko": "1997년 LEGO Island를 디컴파일에서 만든 현대적인 이식 버전. Windows, Mac, Linux 등에서 네이티브로 실행됩니다."
   }
 }
