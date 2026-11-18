@@ -13,7 +13,7 @@
     "Notion: Electron clipboard bridge",
     "https://rea.tools/showcase/notion/",
     "Yes",
-    "Official showcase; renderer \u2192 preload \u2192 IPC trace."
+    "Official showcase; renderer → preload → IPC trace."
   ],
   [
     "official",
@@ -205,7 +205,7 @@
     "pret/pokeemerald",
     "https://github.com/pret/pokeemerald",
     "No",
-    "Pok\u00e9mon Emerald decompilation."
+    "Pokémon Emerald decompilation."
   ],
   [
     "gba",
@@ -213,7 +213,7 @@
     "pret/pokefirered",
     "https://github.com/pret/pokefirered",
     "No",
-    "Pok\u00e9mon FireRed/LeafGreen decompilation."
+    "Pokémon FireRed/LeafGreen decompilation."
   ],
   [
     "gba",
@@ -229,7 +229,7 @@
     "pret/pokered",
     "https://github.com/pret/pokered",
     "No",
-    "Pok\u00e9mon Red/Blue disassembly."
+    "Pokémon Red/Blue disassembly."
   ],
   [
     "gb",
@@ -237,7 +237,7 @@
     "pret/pokegold",
     "https://github.com/pret/pokegold",
     "No",
-    "Pok\u00e9mon Gold/Silver disassembly."
+    "Pokémon Gold/Silver disassembly."
   ],
   [
     "ps1",
@@ -437,7 +437,7 @@
     "pret/pokeruby",
     "https://github.com/pret/pokeruby",
     "No",
-    "Pok\u00e9mon Ruby/Sapphire decompilation."
+    "Pokémon Ruby/Sapphire decompilation."
   ],
   [
     "tooling",
@@ -469,7 +469,7 @@
     "pret/pokeplatinum",
     "https://github.com/pret/pokeplatinum",
     "No",
-    "Pok\u00e9mon Platinum decompilation."
+    "Pokémon Platinum decompilation."
   ],
   [
     "n64",
@@ -541,7 +541,7 @@
     "pret/pokeyellow",
     "https://github.com/pret/pokeyellow",
     "No",
-    "Pok\u00e9mon Yellow disassembly."
+    "Pokémon Yellow disassembly."
   ],
   [
     "nes",
@@ -573,7 +573,7 @@
     "pret/pokecrystal",
     "https://github.com/pret/pokecrystal",
     "No",
-    "Pok\u00e9mon Crystal disassembly."
+    "Pokémon Crystal disassembly."
   ],
   [
     "tooling",
@@ -813,7 +813,7 @@
     "pret/pmd-red",
     "https://github.com/pret/pmd-red",
     "No",
-    "Pok\u00e9mon Mystery Dungeon: Red Rescue Team decompilation."
+    "Pokémon Mystery Dungeon: Red Rescue Team decompilation."
   ],
   [
     "firmware",
@@ -933,7 +933,7 @@
     "pret/pokeheartgold",
     "https://github.com/pret/pokeheartgold",
     "No",
-    "Pok\u00e9mon HeartGold/SoulSilver decompilation."
+    "Pokémon HeartGold/SoulSilver decompilation."
   ],
   [
     "gb",
@@ -1133,7 +1133,7 @@
     "storytold/photocraft",
     "https://github.com/storytold/photocraft",
     "No",
-    "People rebuilt Adobe Photoshop from scratch as free open-source software. Rust photo editor that tries to work like Photoshop without using Adobe\u2019s code."
+    "People rebuilt Adobe Photoshop from scratch as free open-source software. Rust photo editor that tries to work like Photoshop without using Adobe’s code."
   ],
   [
     "app",
@@ -1789,7 +1789,7 @@
     "LostArtefacts/decomp-tools",
     "https://github.com/LostArtefacts/decomp-tools",
     "No",
-    "Tooling for matching decompilations of the Windows Tomb Raider games (TR2\u2013TR5) using MSVC 5/6 under Wine."
+    "Tooling for matching decompilations of the Windows Tomb Raider games (TR2–TR5) using MSVC 5/6 under Wine."
   ],
   [
     "ps2",
@@ -1925,7 +1925,7 @@
     "jaenster/setup-msvc",
     "https://github.com/jaenster/setup-msvc",
     "No",
-    "GitHub Action / CI helper to set up historical MSVC toolchains (6.0\u20132010) for byte-matching decomp and recomp work."
+    "GitHub Action / CI helper to set up historical MSVC toolchains (6.0–2010) for byte-matching decomp and recomp work."
   ],
   [
     "tooling",
@@ -2277,7 +2277,7 @@
     "fuddlesworth/pokebw2",
     "https://github.com/fuddlesworth/pokebw2",
     "No",
-    "Decompilation of the closed-source Nintendo DS games Pok\u00e9mon Black 2 and White 2."
+    "Decompilation of the closed-source Nintendo DS games Pokémon Black 2 and White 2."
   ],
   [
     "pc",
@@ -2389,7 +2389,7 @@
     "mattkuhnQAAI/sfiii-native",
     "https://github.com/mattkuhnQAAI/sfiii-native",
     "No",
-    "Experimental native PC static recompilation of Shining Force III (Sega Saturn) Scenarios 1\u20133. Widescreen preview; needs your own discs."
+    "Experimental native PC static recompilation of Shining Force III (Sega Saturn) Scenarios 1–3. Widescreen preview; needs your own discs."
   ],
   [
     "tooling",
@@ -2429,7 +2429,7 @@
     "drakolordx7/switch2-recomp",
     "https://github.com/drakolordx7/switch2-recomp",
     "No",
-    "Static recompilation of Pok\u00e9mon Pokopia (Switch 2) to native Windows with Vulkan. Bring your own dump."
+    "Static recompilation of Pokémon Pokopia (Switch 2) to native Windows with Vulkan. Bring your own dump."
   ],
   [
     "tooling",
@@ -2869,7 +2869,7 @@
     "Dittobyte/Recompia",
     "https://github.com/Dittobyte/Recompia",
     "No",
-    "Native Windows/Linux recompilation of Pok\u00e9mon Pokopia (Nintendo Switch 2) with multiplayer, modding and higher resolutions. Bring your own game files."
+    "Native Windows/Linux recompilation of Pokémon Pokopia (Nintendo Switch 2) with multiplayer, modding and higher resolutions. Bring your own game files."
   ],
   [
     "xbox",
@@ -3013,7 +3013,7 @@
     "gminustwo/RondoRecomp",
     "https://github.com/gminustwo/RondoRecomp",
     "No",
-    "Static recompilation of Castlevania: Rondo of Blood (PC Engine Super CD-ROM\u00b2) into a native PC application."
+    "Static recompilation of Castlevania: Rondo of Blood (PC Engine Super CD-ROM²) into a native PC application."
   ],
   [
     "gc",
@@ -3157,7 +3157,7 @@
     "Tsukimi-Labs/Solstice",
     "https://github.com/Tsukimi-Labs/Solstice",
     "No",
-    "Matching decompilation of Pok\u00e9mon Ultra Sun and Ultra Moon (3DS). C++ that armcc turns into the game's bytes; no game files included."
+    "Matching decompilation of Pokémon Ultra Sun and Ultra Moon (3DS). C++ that armcc turns into the game's bytes; no game files included."
   ],
   [
     "snes",
@@ -3229,7 +3229,7 @@
     "tukidev-lgtm/Tera-recomp",
     "https://github.com/tukidev-lgtm/Tera-recomp",
     "No",
-    "Static recompilation of Pok\u00e9mon Scarlet (Switch) to native Windows x86-64 with Vulkan; needs your own dump and keys."
+    "Static recompilation of Pokémon Scarlet (Switch) to native Windows x86-64 with Vulkan; needs your own dump and keys."
   ],
   [
     "tooling",
@@ -3437,7 +3437,7 @@
     "bryanthaboi/gen1recomp",
     "https://github.com/bryanthaboi/gen1recomp",
     "No",
-    "Native Lua/L\u00d6VE2D recreation of Pok\u00e9mon Gen 1, 2 and 3."
+    "Native Lua/LÖVE2D recreation of Pokémon Gen 1, 2 and 3."
   ],
   [
     "tooling",
@@ -3542,5 +3542,29 @@
     "https://github.com/horizon-rust/horizon",
     "Yes",
     "Minecraft: Java Edition 26.3 rewritten from scratch in Rust with differential harnesses. Uses REA (tools/rea_vanilla.py with JADX) for bytecode inspection. LGPL-3.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "open-conche/OpenConche",
+    "https://github.com/open-conche/OpenConche",
+    "No",
+    "Modern C++20/SDL3 engine that runs the closed-source Chocolatier games (1, 2, 3 and spin-off) on modern platforms. You supply your own game assets."
+  ],
+  [
+    "pc",
+    "recomp",
+    "NightSightProductions/DOOM-Recomp",
+    "https://github.com/NightSightProductions/DOOM-Recomp",
+    "No",
+    "Native Apple Silicon port of the closed-source DOOM (2016) Windows version by static recompilation. Bring your own copy; no game files included."
+  ],
+  [
+    "tooling",
+    "",
+    "NightSightProductions/Recomp-Framework",
+    "https://github.com/NightSightProductions/Recomp-Framework",
+    "No",
+    "Static recompiler framework that turns Windows x86-64 and old 32-bit Intel Mac games into native Apple Silicon apps. Used by DOOM-Recomp and others."
   ]
 ]
