@@ -6,7 +6,7 @@
 
 逆解析プロジェクト、ツール、エージェントのワークフローを対象・プラットフォーム・技術別に整理したカタログです。ゲームの逆コンパイルと再コンパイル、アプリの再実装、Android・JavaScript 解析、プロトコル、ファームウェアの既存成果を探せます。
 
-**463 件の項目 · 457 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
+**464 件の項目 · 458 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
 
 Switch 2 は編集上の優先項目であり、人気の実測順位ではありません。各分類は既存の累計 Star スナップショット順で、リアルタイムのトレンドではありません。取得日時は未記録、件数不明の項目は末尾です。全項目を保持しています。
 
@@ -254,6 +254,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/zeldaret/tmc"><img src="https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png" width="160" alt="zeldaret/tmc"></a></td><td><a href="https://github.com/zeldaret/tmc"><b>tmc</b></a><br><sub>zeldaret</sub></td><td>ゼルダの伝説 ふしぎのぼうしを C へ逆コンパイル</td><td>いいえ</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png">Wikipedia（© 権利者）</a></sub></td></tr>
 <tr><td><a href="https://github.com/pret/pmd-red"><img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg" width="160" alt="pret/pmd-red"></a></td><td><a href="https://github.com/pret/pmd-red"><b>pmd-red</b></a><br><sub>pret</sub></td><td>ポケモン不思議のダンジョン 赤の救助隊を C へ逆コンパイル</td><td>いいえ</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg">Wikipedia（© 権利者）</a></sub></td></tr>
 <tr><td><a href="https://github.com/jiangzhengwenjz/katam"><img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg" width="160" alt="jiangzhengwenjz/katam"></a></td><td><a href="https://github.com/jiangzhengwenjz/katam"><b>katam</b></a><br><sub>jiangzhengwenjz</sub></td><td>星のカービィ 鏡の大迷宮を C へ逆コンパイル</td><td>いいえ</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg">Wikipedia（© 権利者）</a></sub></td></tr>
+<tr><td><a href="https://github.com/SAT-R/sa3"><img src="https://opengraph.githubassets.com/04a7ad56b46d58e3f1461ea3dd8693293ee4f6390b18767a4d84d13fdc417270/SAT-R/sa3" width="160" alt="SAT-R/sa3"></a></td><td><a href="https://github.com/SAT-R/sa3"><b>sa3</b></a><br><sub>SAT-R</sub></td><td>ゲームボーイアドバンス版『ソニックアドバンス3』のマッチング逆コンパイル。読みやすい C コードから元の欧州版 ROM をバイト単位で再現。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/dexedrne/txra-decomp"><img src="https://opengraph.githubassets.com/1/dexedrne/txra-decomp" width="160" alt="dexedrne/txra-decomp"></a></td><td><a href="https://github.com/dexedrne/txra-decomp"><b>txra-decomp</b></a><br><sub>dexedrne</sub></td><td>GBA レーシングゲーム『東京エクストリームレーサー Advance』の完全マッチング逆コンパイルと、ネイティブ PC 再コンパイラ。自分の ROM が必要。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 </table>
 

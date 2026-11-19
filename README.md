@@ -6,7 +6,7 @@
 
 A curated map of reverse-engineering projects, tools and agent workflows. Find existing work before starting your own: game decompilations and recompilations, application reimplementations, Android and JavaScript analysis, protocols, firmware and supporting tools.
 
-**463 catalog entries · 457 GitHub repositories · 10 skill workflows · 5 README languages**
+**464 catalog entries · 458 GitHub repositories · 10 skill workflows · 5 README languages**
 
 Switch 2 is an editorial priority, not a measured popularity claim. Within each section, projects use the existing cumulative Star snapshot, not live trending data. The snapshot has no capture timestamp; missing counts sort last. All entries remain available below.
 
@@ -254,6 +254,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/zeldaret/tmc"><img src="https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png" width="160" alt="zeldaret/tmc"></a></td><td><a href="https://github.com/zeldaret/tmc"><b>tmc</b></a><br><sub>zeldaret</sub></td><td>Zelda: The Minish Cap, decompiled to C</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td><a href="https://github.com/pret/pmd-red"><img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg" width="160" alt="pret/pmd-red"></a></td><td><a href="https://github.com/pret/pmd-red"><b>pmd-red</b></a><br><sub>pret</sub></td><td>Pokémon Mystery Dungeon: Red Rescue Team, decompiled to C</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td><a href="https://github.com/jiangzhengwenjz/katam"><img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg" width="160" alt="jiangzhengwenjz/katam"></a></td><td><a href="https://github.com/jiangzhengwenjz/katam"><b>katam</b></a><br><sub>jiangzhengwenjz</sub></td><td>Kirby &amp; the Amazing Mirror, decompiled to C</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg">Wikipedia (© owner)</a></sub></td></tr>
+<tr><td><a href="https://github.com/SAT-R/sa3"><img src="https://opengraph.githubassets.com/04a7ad56b46d58e3f1461ea3dd8693293ee4f6390b18767a4d84d13fdc417270/SAT-R/sa3" width="160" alt="SAT-R/sa3"></a></td><td><a href="https://github.com/SAT-R/sa3"><b>sa3</b></a><br><sub>SAT-R</sub></td><td>Matching decompilation of Sonic Advance 3 for Game Boy Advance — rebuilds the original Europe ROM byte-for-byte from readable C code.</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/dexedrne/txra-decomp"><img src="https://opengraph.githubassets.com/1/dexedrne/txra-decomp" width="160" alt="dexedrne/txra-decomp"></a></td><td><a href="https://github.com/dexedrne/txra-decomp"><b>txra-decomp</b></a><br><sub>dexedrne</sub></td><td>Complete matching decompilation of the GBA racing game Tokyo Xtreme Racer Advance, plus a native PC recompiler. Your own ROM required.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 </table>
 

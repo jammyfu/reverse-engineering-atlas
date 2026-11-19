@@ -1166,5 +1166,9 @@
     "shot",
     "images/chupathingy-og.png",
     "GitHub OpenGraph card for the Halo CE multi-platform port"
+  ],
+  "SAT-R/sa3": [
+    "readme",
+    "https://opengraph.githubassets.com/04a7ad56b46d58e3f1461ea3dd8693293ee4f6390b18767a4d84d13fdc417270/SAT-R/sa3"
   ]
 }

@@ -6,7 +6,7 @@
 
 역공학 프로젝트, 도구와 에이전트 작업 흐름을 대상·플랫폼·기술별로 모은 목록입니다. 게임 디컴파일과 리컴파일, 앱 재구현, Android·JavaScript 분석, 프로토콜과 펌웨어 분야에서 기존 작업을 먼저 찾아보세요.
 
-**목록 463개 · GitHub 저장소 457개 · skill 작업 흐름 10종 · README 5개 언어**
+**목록 464개 · GitHub 저장소 458개 · skill 작업 흐름 10종 · README 5개 언어**
 
 Switch 2는 편집상 우선순위이며 실측 인기 순위가 아닙니다. 분류 내에서는 기존 누적 Star 스냅샷을 사용하며 실시간 추세가 아닙니다. 수집 시각은 기록되지 않았으며 수치가 없는 항목은 마지막에 표시합니다. 모든 항목은 유지됩니다.
 
@@ -254,6 +254,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/zeldaret/tmc"><img src="https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png" width="160" alt="zeldaret/tmc"></a></td><td><a href="https://github.com/zeldaret/tmc"><b>tmc</b></a><br><sub>zeldaret</sub></td><td>젤다의 전설 이상한 모자를 C로 디컴파일</td><td>아니요</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png">위키백과(© 권리자)</a></sub></td></tr>
 <tr><td><a href="https://github.com/pret/pmd-red"><img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg" width="160" alt="pret/pmd-red"></a></td><td><a href="https://github.com/pret/pmd-red"><b>pmd-red</b></a><br><sub>pret</sub></td><td>포켓몬 불가사의 던전 레드 구조대를 C로 디컴파일</td><td>아니요</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg">위키백과(© 권리자)</a></sub></td></tr>
 <tr><td><a href="https://github.com/jiangzhengwenjz/katam"><img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg" width="160" alt="jiangzhengwenjz/katam"></a></td><td><a href="https://github.com/jiangzhengwenjz/katam"><b>katam</b></a><br><sub>jiangzhengwenjz</sub></td><td>별의 커비 거울의 대미궁을 C로 디컴파일</td><td>아니요</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg">위키백과(© 권리자)</a></sub></td></tr>
+<tr><td><a href="https://github.com/SAT-R/sa3"><img src="https://opengraph.githubassets.com/04a7ad56b46d58e3f1461ea3dd8693293ee4f6390b18767a4d84d13fdc417270/SAT-R/sa3" width="160" alt="SAT-R/sa3"></a></td><td><a href="https://github.com/SAT-R/sa3"><b>sa3</b></a><br><sub>SAT-R</sub></td><td>게임보이 어드밴스 『소닉 어드밴스 3』의 매칭 디컴파일. 읽기 쉬운 C 코드로 원본 유럽 ROM을 바이트 단위로 재현.</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/dexedrne/txra-decomp"><img src="https://opengraph.githubassets.com/1/dexedrne/txra-decomp" width="160" alt="dexedrne/txra-decomp"></a></td><td><a href="https://github.com/dexedrne/txra-decomp"><b>txra-decomp</b></a><br><sub>dexedrne</sub></td><td>GBA 레이싱 게임 도쿄 익스트림 레이서 Advance의 완전한 매칭 디컴파일과 네이티브 PC 리컴파일러. 자신의 ROM 필요.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 </table>
 

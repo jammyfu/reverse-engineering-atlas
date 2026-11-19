@@ -3239,5 +3239,12 @@
     "zh-TW": "把原版Xbox遊戲《光環：戰鬥進化》移植到PC、Mac、Linux、Android等多平台；需要自備遊戲映像檔。",
     "ja": "オリジナルXboxゲーム『Halo: Combat Evolved』をPC、Mac、Linux、Androidなどに移植したクロスプラットフォーム版。自分のディスクイメージが必要。",
     "ko": "오리지널 Xbox 게임 《헤일로: 컴뱃 이볼브드》를 PC, Mac, Linux, Android 등으로 포팅한 크로스 플랫폼 버전. 자신의 디스크 이미지가 필요."
+  },
+  "SAT-R/sa3": {
+    "en": "Matching decompilation of Sonic Advance 3 for Game Boy Advance — rebuilds the original Europe ROM byte-for-byte from readable C code.",
+    "zh-CN": "把 GBA 上的《索尼克冲刺 3》逆向成可编译的 C 代码，能逐字节还原出原版欧洲 ROM。",
+    "zh-TW": "把 GBA 上的《索尼克衝刺 3》逆向成可編譯的 C 程式碼，能逐位元組還原出原版歐洲 ROM。",
+    "ja": "ゲームボーイアドバンス版『ソニックアドバンス3』のマッチング逆コンパイル。読みやすい C コードから元の欧州版 ROM をバイト単位で再現。",
+    "ko": "게임보이 어드밴스 『소닉 어드밴스 3』의 매칭 디컴파일. 읽기 쉬운 C 코드로 원본 유럽 ROM을 바이트 단위로 재현."
   }
 }

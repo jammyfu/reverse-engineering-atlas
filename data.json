@@ -3702,5 +3702,13 @@
     "https://github.com/ChupathingyCE/chupathingyce",
     "No",
     "Cross-platform port of Halo: Combat Evolved (original Xbox) to PC, Mac, Linux, Android and more; bring your own disc."
+  ],
+  [
+    "gba",
+    "decomp",
+    "SAT-R/sa3",
+    "https://github.com/SAT-R/sa3",
+    "No",
+    "Matching decompilation of Sonic Advance 3 (GBA); builds the Europe ROM byte-for-byte from C. Strict no-AI policy."
   ]
 ]

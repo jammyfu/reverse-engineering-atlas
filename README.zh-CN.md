@@ -6,7 +6,7 @@
 
 按目标、平台和技术整理逆向项目、工具与 Agent 工作流。开始自己动手前，先看看已有成果：游戏反编译与重编译、应用重实现、Android 与 JavaScript 分析、协议、固件及配套工具。
 
-**463 条目录记录 · 457 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
+**464 条目录记录 · 458 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
 
 Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累计 Star 快照排序，不是实时趋势；原快照未记录采集时间，缺失计数排在最后。所有条目均保留。
 
@@ -254,6 +254,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://github.com/zeldaret/tmc"><img src="https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png" width="160" alt="zeldaret/tmc"></a></td><td><a href="https://github.com/zeldaret/tmc"><b>tmc</b></a><br><sub>zeldaret</sub></td><td>塞尔达：缩小帽，反编译为 C</td><td>否</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png">维基百科（© 版权方）</a></sub></td></tr>
 <tr><td><a href="https://github.com/pret/pmd-red"><img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg" width="160" alt="pret/pmd-red"></a></td><td><a href="https://github.com/pret/pmd-red"><b>pmd-red</b></a><br><sub>pret</sub></td><td>宝可梦不可思议的迷宫 赤之救助队，反编译为 C</td><td>否</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg">维基百科（© 版权方）</a></sub></td></tr>
 <tr><td><a href="https://github.com/jiangzhengwenjz/katam"><img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg" width="160" alt="jiangzhengwenjz/katam"></a></td><td><a href="https://github.com/jiangzhengwenjz/katam"><b>katam</b></a><br><sub>jiangzhengwenjz</sub></td><td>星之卡比：镜之大迷宫，反编译为 C</td><td>否</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg">维基百科（© 版权方）</a></sub></td></tr>
+<tr><td><a href="https://github.com/SAT-R/sa3"><img src="https://opengraph.githubassets.com/04a7ad56b46d58e3f1461ea3dd8693293ee4f6390b18767a4d84d13fdc417270/SAT-R/sa3" width="160" alt="SAT-R/sa3"></a></td><td><a href="https://github.com/SAT-R/sa3"><b>sa3</b></a><br><sub>SAT-R</sub></td><td>把 GBA 上的《索尼克冲刺 3》逆向成可编译的 C 代码，能逐字节还原出原版欧洲 ROM。</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/dexedrne/txra-decomp"><img src="https://opengraph.githubassets.com/1/dexedrne/txra-decomp" width="160" alt="dexedrne/txra-decomp"></a></td><td><a href="https://github.com/dexedrne/txra-decomp"><b>txra-decomp</b></a><br><sub>dexedrne</sub></td><td>对 GBA 赛车游戏《东京极限赛 Advance》的完整匹配反编译，还附带原生 PC 重编译器。需要自己的 ROM。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 </table>
 
