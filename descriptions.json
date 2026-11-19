@@ -3211,5 +3211,33 @@
     "zh-TW": "一個面向AI智能體優先的反編譯器，用Rust從Ghidra移植而來，專門設計成讓AI代理能自動持續改進它。",
     "ja": "AIエージェント優先のデコンパイラ。元々GhidraからRustに移植され、AIエージェントが自動的に改善し続けられるように設計されている。",
     "ko": "AI 에이전트 우선 디컴파일러. 원래 Ghidra에서 Rust로 포팅되었으며, AI 에이전트가 자동으로 계속 개선할 수 있도록 설계됨."
+  },
+  "djsaunde/1080-decomp": {
+    "en": "A complete matching decompilation of the N64 game 1080 Snowboarding that rebuilds a byte-identical ROM from readable C/C++ source.",
+    "zh-CN": "对N64游戏《1080°滑雪》做完整的匹配反编译，用可读的C/C++源码重新生成和原版完全一致的ROM。",
+    "zh-TW": "對N64遊戲《1080°滑雪》做完整的匹配反編譯，用可讀的C/C++原始碼重新生成和原版完全一致的ROM。",
+    "ja": "N64ゲーム『1080°スノーボーディング』の完全なマッチングデコンパイル。読みやすいC/C++ソースからバイト単位で同一のROMを再構築。",
+    "ko": "N64 게임 《1080 스노보딩》의 완전한 매칭 디컴파일. 읽기 쉬운 C/C++ 소스로 바이트 단위 동일한 ROM을 재구축."
+  },
+  "egeozcan/glasnost": {
+    "en": "A free open-source clean-room engine remake that lets you play Command & Conquer: Yuri's Revenge using your own game files, in browser or desktop.",
+    "zh-CN": "一个免费开源的洁净室引擎重制，让你用自己拥有的游戏文件在浏览器或桌面端玩《命令与征服：尤里的复仇》。",
+    "zh-TW": "一個免費開源的潔淨室引擎重製，讓你用自己擁有的遊戲檔案在瀏覽器或桌面端玩《命令與征服：尤里的復仇》。",
+    "ja": "無料オープンソースのクリーンルームエンジンリメイク。自分のゲームファイルを使って『コマンド&コンカー：ユーリの復讐』をブラウザまたはデスクトップでプレイ可能。",
+    "ko": "무료 오픈소스 클린룸 엔진 리메이크. 자신이 가진 게임 파일로 브라우저나 데스크톱에서 《커맨드 앤 컨커: 유리의 복수》를 플레이할 수 있음."
+  },
+  "squirelworks/Graal_analysis": {
+    "en": "Detailed reverse-engineering notes on the old online game Graal: network protocol, file formats, NPC scripting language and client internals.",
+    "zh-CN": "对老牌在线游戏《Graal》的详细逆向工程笔记，涵盖网络协议、文件格式、NPC脚本语言和客户端内部机制。",
+    "zh-TW": "對老牌線上遊戲《Graal》的詳細逆向工程筆記，涵蓋網路協定、檔案格式、NPC腳本語言和客戶端內部機制。",
+    "ja": "古いオンラインゲーム『Graal』の詳細なリバースエンジニアリングノート。ネットワークプロトコル、ファイル形式、NPCスクリプト言語、クライアント内部をカバー。",
+    "ko": "오래된 온라인 게임 《Graal》에 대한 상세한 리버스 엔지니어링 노트. 네트워크 프로토콜, 파일 형식, NPC 스크립트 언어, 클라이언트 내부를 다룸."
+  },
+  "ChupathingyCE/chupathingyce": {
+    "en": "A cross-platform port of the original Xbox game Halo: Combat Evolved to PC, Mac, Linux, Android and more; you bring your own disc image.",
+    "zh-CN": "把原版Xbox游戏《光环：战斗进化》移植到PC、Mac、Linux、Android等多平台；需要自备游戏镜像文件。",
+    "zh-TW": "把原版Xbox遊戲《光環：戰鬥進化》移植到PC、Mac、Linux、Android等多平台；需要自備遊戲映像檔。",
+    "ja": "オリジナルXboxゲーム『Halo: Combat Evolved』をPC、Mac、Linux、Androidなどに移植したクロスプラットフォーム版。自分のディスクイメージが必要。",
+    "ko": "오리지널 Xbox 게임 《헤일로: 컴뱃 이볼브드》를 PC, Mac, Linux, Android 등으로 포팅한 크로스 플랫폼 버전. 자신의 디스크 이미지가 필요."
   }
 }

@@ -6,7 +6,7 @@
 
 按目标、平台和技术整理逆向项目、工具与 Agent 工作流。开始自己动手前，先看看已有成果：游戏反编译与重编译、应用重实现、Android 与 JavaScript 分析、协议、固件及配套工具。
 
-**459 条目录记录 · 453 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
+**463 条目录记录 · 457 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
 
 Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累计 Star 快照排序，不是实时趋势；原快照未记录采集时间，缺失计数排在最后。所有条目均保留。
 
@@ -274,11 +274,22 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://github.com/DinosaurPlanetRecomp/dino-recomp"><img src="images/dino-recomp-card.png" width="160" alt="DinosaurPlanetRecomp/dino-recomp"></a></td><td><a href="https://github.com/DinosaurPlanetRecomp/dino-recomp"><b>dino-recomp</b></a><br><sub>DinosaurPlanetRecomp</sub></td><td>把 N64 原型游戏 Dinosaur Planet 静态重编译成原生 PC 移植，带图形增强。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fliperama86/cvlod_recomp"><b>cvlod_recomp</b></a><br><sub>fliperama86</sub></td><td>用 N64Recomp 把任天堂 64 上的《恶魔城：暗夜之光》变成可以在电脑上直接运行的原生程序。需要自己准备 ROM。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/bryantmh/rush2recompiled"><img src="images/rush2recompiled-card.png" width="160" alt="bryantmh/rush2recompiled"></a></td><td><a href="https://github.com/bryantmh/rush2recompiled"><b>rush2recompiled</b></a><br><sub>bryantmh</sub></td><td>把 N64 上的 Rush 2 赛车游戏静态重编译成原生 PC 版本，支持宽屏和高帧率。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
+<tr><td><a href="https://github.com/djsaunde/1080-decomp"><img src="images/1080-decomp-og.png" width="160" alt="djsaunde/1080-decomp"></a></td><td><a href="https://github.com/djsaunde/1080-decomp"><b>1080-decomp</b></a><br><sub>djsaunde</sub></td><td>对N64游戏《1080°滑雪》做完整的匹配反编译，用可读的C/C++源码重新生成和原版完全一致的ROM。</td><td>否</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RetroReversing/v-rally-decomp"><b>v-rally-decomp</b></a><br><sub>RetroReversing</sub></td><td>任天堂64游戏《V-Rally 99欧洲版》的匹配反编译项目，用AI辅助从ROM还原，并逐字节验证与原版一致。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>用 AI 工具（REA + Ghidra）拆解任天堂64版《生化危机2》。有数千个反编译函数和验证套件，不含游戏ROM。</td><td>✅ 是</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RetroReversing/turok-decomp"><b>turok-decomp</b></a><br><sub>RetroReversing</sub></td><td>任天堂64游戏《恐龙猎人》（Turok: Dinosaur Hunter，欧洲版）的部分匹配反编译，用AI辅助从ROM还原。需要你自己拥有的ROM。</td><td>否</td><td><sub>—</sub></td></tr>
+</table>
+
+<details>
+<summary>查看该分类全部项目 (+1)</summary>
+
+<table>
+<tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
 <tr><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><img src="images/penny-racers-decomp-og.png" width="160" alt="RetroReversing/penny-racers-decomp"></a></td><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><b>penny-racers-decomp</b></a><br><sub>RetroReversing</sub></td><td>任天堂 64 游戏《Penny Racers》的匹配反编译公开进度，AI 助手只保留能逐字节重建原版的 C 代码。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 </table>
+
+</details>
+
 
 #### 重制 / 移植
 
@@ -480,6 +491,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/Shagg88/COGBox"><b>COGBox</b></a><br><sub>Shagg88</sub></td><td>把 Xbox 360 上的《战争机器 2》《战争机器 3》和《战争机器：审判》静态重编译成可在 Windows PC 上原生运行的免费开源项目（需要自备合法拷贝）。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NoRain211/doaxvb-re"><b>doaxvb-re</b></a><br><sub>NoRain211</sub></td><td>用静态重编译把 Xbox 游戏《Dead or Alive Xtreme Beach Volleyball》做成原生 PC 版（需要自备光盘）。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/i2kiselev/fm4-static-recomp"><b>fm4-static-recomp</b></a><br><sub>i2kiselev</sub></td><td>把 Xbox 360 竞速游戏《极限竞速 4》（Forza Motorsport 4）静态重编译成原生 Windows 程序，支持高帧率、DLSS/FSR 和最高 4K。需要自己的光盘。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/ChupathingyCE/chupathingyce"><img src="images/chupathingy-og.png" width="160" alt="ChupathingyCE/chupathingyce"></a></td><td><a href="https://github.com/ChupathingyCE/chupathingyce"><b>chupathingyce</b></a><br><sub>ChupathingyCE</sub></td><td>把原版Xbox游戏《光环：战斗进化》移植到PC、Mac、Linux、Android等多平台；需要自备游戏镜像文件。</td><td>否</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://github.com/YuutaTsubasa/Free-Riders-Recompiled"><img src="https://opengraph.githubassets.com/abbf4aa90eccf866346e51dd357ec97f17006d27d33f5c651c4aa3b748603fff/YuutaTsubasa/Free-Riders-Recompiled" width="160" alt="YuutaTsubasa/Free-Riders-Recompiled"></a></td><td><a href="https://github.com/YuutaTsubasa/Free-Riders-Recompiled"><b>Free-Riders-Recompiled</b></a><br><sub>YuutaTsubasa</sub></td><td>把 Xbox 360 上的《索尼克自由滑板》通过静态再编译做成能在电脑和安卓上直接跑的版本，需要你自己的正版光盘。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td><a href="https://github.com/hk21x/pgr2-recomp"><img src="https://raw.githubusercontent.com/hk21x/pgr2-recomp/main/docs/images/pgr2-pc-port.webp" width="160" alt="hk21x/pgr2-recomp"></a></td><td><a href="https://github.com/hk21x/pgr2-recomp"><b>pgr2-recomp</b></a><br><sub>hk21x</sub></td><td>把原版Xbox游戏《哥谭赛车2》通过静态重编译做成的免费原生PC版。需要自备游戏光盘。</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MysteriousAeon/rayman3-hd-recompiled"><b>rayman3-hd-recompiled</b></a><br><sub>MysteriousAeon</sub></td><td>把闭源的 Xbox 360《雷曼3 HD》通过静态重编译做成能在 Windows 上原生运行的程序；需要你自己提供游戏包。</td><td>否</td><td><sub>—</sub></td></tr>
@@ -489,14 +501,14 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/MrPowerUp82/superman_returns_recomp"><b>superman_returns_recomp</b></a><br><sub>MrPowerUp82</sub></td><td>用 ReXGlue 把闭源的 Xbox 360 游戏《Superman Returns》实验性静态重编译到原生 PC。需要自备游戏副本，不含游戏文件。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sp00nznet/saintsrow"><b>saintsrow</b></a><br><sub>sp00nznet</sub></td><td>把 2006 年闭源 Xbox 360 游戏《黑道圣徒》（Saints Row）的 PowerPC 代码静态重编译成原生 x86-64 C++，在现代 Windows 上直接运行，不需要模拟器。需要自备游戏文件。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/summitstrike-recomp"><b>summitstrike-recomp</b></a><br><sub>ElKev118</sub></td><td>通过静态重编译把原闭源Xbox扩展包《幽灵行动2：巅峰行动》做成原生Windows版。</td><td>否</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>把闭源的《小龙斯派罗：黎明之龙》（Xbox 360）变成你能在 Windows 上跑的原生程序（需自备光盘）</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+3)</summary>
+<summary>查看该分类全部项目 (+4)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
+<tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>把闭源的《小龙斯派罗：黎明之龙》（Xbox 360）变成你能在 Windows 上跑的原生程序（需自备光盘）</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>把Xbox 360的《最终幻想13：雷霆归来》静态重编译到Android arm64，用Vulkan渲染。自备游戏副本。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LomoXSoft/ZoidsAssaultRecomp"><b>ZoidsAssaultRecomp</b></a><br><sub>LomoXSoft</sub></td><td>把闭源Xbox 360游戏《索斯兽袭击》用ReXGlue静态重编译成原生Windows x64版。仅提供源码，需自备光盘。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Gl1ch5555/f1-2012-android"><b>f1-2012-android</b></a><br><sub>Gl1ch5555</sub></td><td>把闭源的 Xbox 360 赛车游戏《F1 2012》通过静态重编译做成能在安卓上原生运行的程序。自己准备游戏文件。</td><td>否</td><td><sub>—</sub></td></tr>
@@ -582,7 +594,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+29)</summary>
+<summary>查看该分类全部项目 (+30)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -600,6 +612,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/vahokif/I26"><b>I26</b></a><br><sub>vahokif</sub></td><td>用 Godot 从零重写的 1997 年汽车战斗游戏 Interstate &#x27;76，支持现代画面和多人联机。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/AsyncFinn/rook"><img src="https://opengraph.githubassets.com/1/AsyncFinn/rook" width="160" alt="AsyncFinn/rook"></a></td><td><a href="https://github.com/AsyncFinn/rook"><b>rook</b></a><br><sub>AsyncFinn</sub></td><td>Rust 写的 Roblox 兼容引擎，对照 Studio 测试</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ccbury/MGSPOStaticRecomp"><b>MGSPOStaticRecomp</b></a><br><sub>ccbury</sub></td><td>把 PSP 游戏《合金装备：掌上行动》静态重编译成原生 Windows 程序，不用模拟器就能跑。目前已经能进游戏。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/egeozcan/glasnost"><img src="images/glasnost-og.png" width="160" alt="egeozcan/glasnost"></a></td><td><a href="https://github.com/egeozcan/glasnost"><b>glasnost</b></a><br><sub>egeozcan</sub></td><td>一个免费开源的洁净室引擎重制，让你用自己拥有的游戏文件在浏览器或桌面端玩《命令与征服：尤里的复仇》。</td><td>否</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sunkpoet-lang/SUNSET-RIDERS-RECOMP"><b>SUNSET-RIDERS-RECOMP</b></a><br><sub>sunkpoet-lang</sub></td><td>科乐美1991年街机《日落骑士》的实验性PC移植，支持四人本地游戏。完整静态重编译仍在进行中。自备ROM。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/th08-web"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="160" alt="N0zoM1z0/th08-web"></a></td><td><a href="https://github.com/N0zoM1z0/th08-web"><b>th08-web</b></a><br><sub>N0zoM1z0</sub></td><td>在浏览器里玩永夜抄，基于 th08 重建</td><td>❔ 待验证</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/a-barzanti/ai-rebuilds">预览暂不可用 · 查看原项目</a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>被遗弃的老游戏重回浏览器，不含任何原版文件</td><td>✅ 是</td><td><sub><a href="https://github.com/a-barzanti/ai-rebuilds">仓库卡片</a></sub></td></tr>
@@ -705,6 +718,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://github.com/Slyvan25/OpenGHub"><img src="https://raw.githubusercontent.com/Slyvan25/OpenGHub/master/docs/screenshots/devices.png" width="160" alt="Slyvan25/OpenGHub"></a></td><td><a href="https://github.com/Slyvan25/OpenGHub"><b>OpenGHub</b></a><br><sub>Slyvan25</sub></td><td>在 Linux 上不用 G HUB 也能控制罗技外设</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>在 Mac、安卓、iPhone 上用 Wi-Fi 遥控小米电视</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>在 Windows 桌面上控制索尼蓝牙耳机</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/squirelworks/Graal_analysis"><b>Graal_analysis</b></a><br><sub>squirelworks</sub></td><td>对老牌在线游戏《Graal》的详细逆向工程笔记，涵盖网络协议、文件格式、NPC脚本语言和客户端内部机制。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ethanntann/massage-chair-mcp"><b>massage-chair-mcp</b></a><br><sub>ethanntann</sub></td><td>逆向了闭源的 OSIM uDiva3 按摩椅蓝牙协议，做成 MCP 服务器，让 AI 智能体可以控制这把椅子。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 

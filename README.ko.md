@@ -6,7 +6,7 @@
 
 역공학 프로젝트, 도구와 에이전트 작업 흐름을 대상·플랫폼·기술별로 모은 목록입니다. 게임 디컴파일과 리컴파일, 앱 재구현, Android·JavaScript 분석, 프로토콜과 펌웨어 분야에서 기존 작업을 먼저 찾아보세요.
 
-**목록 459개 · GitHub 저장소 453개 · skill 작업 흐름 10종 · README 5개 언어**
+**목록 463개 · GitHub 저장소 457개 · skill 작업 흐름 10종 · README 5개 언어**
 
 Switch 2는 편집상 우선순위이며 실측 인기 순위가 아닙니다. 분류 내에서는 기존 누적 Star 스냅샷을 사용하며 실시간 추세가 아닙니다. 수집 시각은 기록되지 않았으며 수치가 없는 항목은 마지막에 표시합니다. 모든 항목은 유지됩니다.
 
@@ -274,11 +274,22 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/DinosaurPlanetRecomp/dino-recomp"><img src="images/dino-recomp-card.png" width="160" alt="DinosaurPlanetRecomp/dino-recomp"></a></td><td><a href="https://github.com/DinosaurPlanetRecomp/dino-recomp"><b>dino-recomp</b></a><br><sub>DinosaurPlanetRecomp</sub></td><td>N64 프로토타입 Dinosaur Planet을 정적 재컴파일로 네이티브 PC 포트로 만듦.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fliperama86/cvlod_recomp"><b>cvlod_recomp</b></a><br><sub>fliperama86</sub></td><td>N64Recomp를 사용해 닌텐도 64의 『캐슬바니아: 레거시 오브 다크니스』를 PC에서 바로 실행되는 네이티브 프로그램으로 만듭니다. 자신의 ROM이 필요합니다.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/bryantmh/rush2recompiled"><img src="images/rush2recompiled-card.png" width="160" alt="bryantmh/rush2recompiled"></a></td><td><a href="https://github.com/bryantmh/rush2recompiled"><b>rush2recompiled</b></a><br><sub>bryantmh</sub></td><td>N64의 Rush 2를 미리 번역해서 네이티브 PC에서 실행하는 프로젝트.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td><a href="https://github.com/djsaunde/1080-decomp"><img src="images/1080-decomp-og.png" width="160" alt="djsaunde/1080-decomp"></a></td><td><a href="https://github.com/djsaunde/1080-decomp"><b>1080-decomp</b></a><br><sub>djsaunde</sub></td><td>N64 게임 《1080 스노보딩》의 완전한 매칭 디컴파일. 읽기 쉬운 C/C++ 소스로 바이트 단위 동일한 ROM을 재구축.</td><td>아니요</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RetroReversing/v-rally-decomp"><b>v-rally-decomp</b></a><br><sub>RetroReversing</sub></td><td>닌텐도 64 게임 『V-Rally Edition 99』(유럽판)의 매칭 디컴파일. AI 지원으로 ROM에서 복원하고 원본 ROM과 바이트 단위로 검증.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>AI 도구(REA + Ghidra)로 닌텐도 64판 『바이오하자드 2』를 분석. 수천 개의 디컴파일 함수와 검증 스위트 포함. 게임 ROM은 포함되지 않음.</td><td>✅ 예</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RetroReversing/turok-decomp"><b>turok-decomp</b></a><br><sub>RetroReversing</sub></td><td>닌텐도 64 게임 『Turok: Dinosaur Hunter』(유럽판)의 부분 매칭 디컴파일. AI 지원으로 ROM에서 복원. 자신의 ROM 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
+</table>
+
+<details>
+<summary>이 분류의 모든 프로젝트 보기 (+1)</summary>
+
+<table>
+<tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
 <tr><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><img src="images/penny-racers-decomp-og.png" width="160" alt="RetroReversing/penny-racers-decomp"></a></td><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><b>penny-racers-decomp</b></a><br><sub>RetroReversing</sub></td><td>닌텐도 64 게임 Penny Racers의 매칭 디컴파일 공개 진행 상황. AI 에이전트는 원본 바이트를 정확히 재현하는 C만 유지합니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 </table>
+
+</details>
+
 
 #### 리메이크 / 포팅
 
@@ -480,6 +491,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/Shagg88/COGBox"><b>COGBox</b></a><br><sub>Shagg88</sub></td><td>Xbox 360 버전의 Gears of War 2, 3, Judgment를 정적 재컴파일하여 Windows PC에서 네이티브로 실행할 수 있게 하는 무료 오픈소스 프로젝트 (자신의 정품 복사본 필요).</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NoRain211/doaxvb-re"><b>doaxvb-re</b></a><br><sub>NoRain211</sub></td><td>Xbox 게임 Dead or Alive Xtreme Beach Volleyball를 정적 재컴파일로 만든 네이티브 PC 포트. 본인 디스크 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/i2kiselev/fm4-static-recomp"><b>fm4-static-recomp</b></a><br><sub>i2kiselev</sub></td><td>Xbox 360 레이싱 게임 《포르자 모터스포츠 4》를 고프레임, DLSS/FSR, 최대 4K 지원 네이티브 Windows 버전으로 만들었다. 자신의 디스크가 필요하다.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/ChupathingyCE/chupathingyce"><img src="images/chupathingy-og.png" width="160" alt="ChupathingyCE/chupathingyce"></a></td><td><a href="https://github.com/ChupathingyCE/chupathingyce"><b>chupathingyce</b></a><br><sub>ChupathingyCE</sub></td><td>오리지널 Xbox 게임 《헤일로: 컴뱃 이볼브드》를 PC, Mac, Linux, Android 등으로 포팅한 크로스 플랫폼 버전. 자신의 디스크 이미지가 필요.</td><td>아니요</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td><a href="https://github.com/YuutaTsubasa/Free-Riders-Recompiled"><img src="https://opengraph.githubassets.com/abbf4aa90eccf866346e51dd357ec97f17006d27d33f5c651c4aa3b748603fff/YuutaTsubasa/Free-Riders-Recompiled" width="160" alt="YuutaTsubasa/Free-Riders-Recompiled"></a></td><td><a href="https://github.com/YuutaTsubasa/Free-Riders-Recompiled"><b>Free-Riders-Recompiled</b></a><br><sub>YuutaTsubasa</sub></td><td>Xbox 360의 《소닉 프리 라이더스》를 정적 재컴파일하여 윈도우, 리눅스, 안드로이드에서 네이티브로 실행되게 한 비공식 포트. 본인 게임 디스크가 필요합니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/hk21x/pgr2-recomp"><img src="https://raw.githubusercontent.com/hk21x/pgr2-recomp/main/docs/images/pgr2-pc-port.webp" width="160" alt="hk21x/pgr2-recomp"></a></td><td><a href="https://github.com/hk21x/pgr2-recomp"><b>pgr2-recomp</b></a><br><sub>hk21x</sub></td><td>원본 Xbox 게임 『프로젝트 고담 레이싱 2』를 정적 재컴파일로 만든 네이티브 PC 버전. 자신의 디스크가 필요합니다.</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MysteriousAeon/rayman3-hd-recompiled"><b>rayman3-hd-recompiled</b></a><br><sub>MysteriousAeon</sub></td><td>폐쇄 소스 Xbox 360 『레이맨 3 HD』를 정적 재컴파일로 Windows에서 네이티브로 실행되게 만든 것. 자신의 게임 패키지가 필요함.</td><td>아니요</td><td><sub>—</sub></td></tr>
@@ -489,14 +501,14 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/MrPowerUp82/superman_returns_recomp"><b>superman_returns_recomp</b></a><br><sub>MrPowerUp82</sub></td><td>ReXGlue를 사용해 클로즈드 소스 Xbox 360 게임 Superman Returns를 네이티브 PC로 실험적 정적 재컴파일. 게임 파일 없음, 직접 준비 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sp00nznet/saintsrow"><b>saintsrow</b></a><br><sub>sp00nznet</sub></td><td>2006년 클로즈드 소스 Xbox 360 게임 『세인츠 로우』의 PowerPC 코드를 네이티브 x86-64 C++로 정적 재컴파일하여 에뮬레이터 없이 현대 Windows에서 실행하는 프로젝트. 자신의 게임 파일이 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/summitstrike-recomp"><b>summitstrike-recomp</b></a><br><sub>ElKev118</sub></td><td>비공개 소스 Xbox 확장팩 『고스트 리콘 2: 서밋 스트라이크』를 정적 리컴파일로 네이티브 Windows 포팅.</td><td>아니요</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>클로즈드 소스인 스파이로: 던 오브 더 드래곤(Xbox 360)을 본인 디스크로 윈도우 네이티브로</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+3)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+4)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
+<tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>클로즈드 소스인 스파이로: 던 오브 더 드래곤(Xbox 360)을 본인 디스크로 윈도우 네이티브로</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>Xbox 360의 《라이트닝 리턴즈: 파이널 판타지 XIII》를 정적 리컴파일하여 Android arm64에서 네이티브 실행. Vulkan 렌더러. 자신의 복사본 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LomoXSoft/ZoidsAssaultRecomp"><b>ZoidsAssaultRecomp</b></a><br><sub>LomoXSoft</sub></td><td>클로즈드 소스 Xbox 360 게임 조이드 어설트를 ReXGlue로 정적 리컴파일해 네이티브 Windows x64 버전으로. 소스만 제공, 디스크는 직접 준비.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Gl1ch5555/f1-2012-android"><b>f1-2012-android</b></a><br><sub>Gl1ch5555</sub></td><td>클로즈드 소스 Xbox 360 레이싱 게임 『F1 2012』를 정적 재컴파일로 Android 네이티브 앱으로 만든 포트. 본인 덤프 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
@@ -582,7 +594,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+29)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+30)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -600,6 +612,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/vahokif/I26"><b>I26</b></a><br><sub>vahokif</sub></td><td>1997년 자동차 전투 게임 Interstate &#x27;76를 Godot으로 처음부터 다시 만든 무료 오픈소스 버전. 현대적인 그래픽과 멀티플레이 지원.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/AsyncFinn/rook"><img src="https://opengraph.githubassets.com/1/AsyncFinn/rook" width="160" alt="AsyncFinn/rook"></a></td><td><a href="https://github.com/AsyncFinn/rook"><b>rook</b></a><br><sub>AsyncFinn</sub></td><td>Studio와 대조해 테스트하는 Rust 기반 Roblox 호환 엔진</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ccbury/MGSPOStaticRecomp"><b>MGSPOStaticRecomp</b></a><br><sub>ccbury</sub></td><td>PSP 게임 메탈 기어 솔리드: 포터블 옵스를 에뮬레이터 없이 실행되는 네이티브 Windows로 정적 재컴파일. 현재 게임 내 진입 가능.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/egeozcan/glasnost"><img src="images/glasnost-og.png" width="160" alt="egeozcan/glasnost"></a></td><td><a href="https://github.com/egeozcan/glasnost"><b>glasnost</b></a><br><sub>egeozcan</sub></td><td>무료 오픈소스 클린룸 엔진 리메이크. 자신이 가진 게임 파일로 브라우저나 데스크톱에서 《커맨드 앤 컨커: 유리의 복수》를 플레이할 수 있음.</td><td>아니요</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sunkpoet-lang/SUNSET-RIDERS-RECOMP"><b>SUNSET-RIDERS-RECOMP</b></a><br><sub>sunkpoet-lang</sub></td><td>코나미 1991년 아케이드 《선셋 라이더스》의 실험적 PC 포트. 4인 로컬 플레이 지원. 완전한 정적 리컴파일은 진행 중. ROM은 직접 준비.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/th08-web"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="160" alt="N0zoM1z0/th08-web"></a></td><td><a href="https://github.com/N0zoM1z0/th08-web"><b>th08-web</b></a><br><sub>N0zoM1z0</sub></td><td>th08 재구성을 바탕으로 브라우저에서 즐기는 영야초</td><td>❔ 미확인</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/a-barzanti/ai-rebuilds">미리보기를 표시할 수 없음 · 원본 프로젝트 보기</a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>버려진 게임을 브라우저로 되살림, 원본 파일 미포함</td><td>✅ 예</td><td><sub><a href="https://github.com/a-barzanti/ai-rebuilds">저장소 카드</a></sub></td></tr>
@@ -705,6 +718,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/Slyvan25/OpenGHub"><img src="https://raw.githubusercontent.com/Slyvan25/OpenGHub/master/docs/screenshots/devices.png" width="160" alt="Slyvan25/OpenGHub"></a></td><td><a href="https://github.com/Slyvan25/OpenGHub"><b>OpenGHub</b></a><br><sub>Slyvan25</sub></td><td>G HUB 없이 Linux에서 로지텍 장치 제어</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Mac·안드로이드·아이폰에서 Wi-Fi로 샤오미 TV 조작</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Windows 데스크톱에서 소니 블루투스 헤드폰 제어</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/squirelworks/Graal_analysis"><b>Graal_analysis</b></a><br><sub>squirelworks</sub></td><td>오래된 온라인 게임 《Graal》에 대한 상세한 리버스 엔지니어링 노트. 네트워크 프로토콜, 파일 형식, NPC 스크립트 언어, 클라이언트 내부를 다룸.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ethanntann/massage-chair-mcp"><b>massage-chair-mcp</b></a><br><sub>ethanntann</sub></td><td>비공개 OSIM uDiva3 마사지 의자의 블루투스 LE 프로토콜을 리버스 엔지니어링해 AI 에이전트가 제어할 수 있는 MCP 서버로 만듦.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 

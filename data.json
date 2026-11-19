@@ -3670,5 +3670,37 @@
     "https://github.com/Noelo-Lab/kuna",
     "Yes",
     "Agent-first Rust decompiler ported from Ghidra, optimized for LLM refinement. Featured on Made with REA."
+  ],
+  [
+    "n64",
+    "decomp",
+    "djsaunde/1080-decomp",
+    "https://github.com/djsaunde/1080-decomp",
+    "No",
+    "Matching decompilation of 1080 Snowboarding (N64 USA); 100% matched, builds byte-identical ROM."
+  ],
+  [
+    "pc",
+    "remake",
+    "egeozcan/glasnost",
+    "https://github.com/egeozcan/glasnost",
+    "No",
+    "Clean-room open-source engine remake of Command & Conquer: Yuri's Revenge; plays from your own game files."
+  ],
+  [
+    "protocol",
+    "",
+    "squirelworks/Graal_analysis",
+    "https://github.com/squirelworks/Graal_analysis",
+    "No",
+    "Field notes and reverse engineering of Graal Online: protocol, file formats, NPC scripting and client internals."
+  ],
+  [
+    "xbox",
+    "remake",
+    "ChupathingyCE/chupathingyce",
+    "https://github.com/ChupathingyCE/chupathingyce",
+    "No",
+    "Cross-platform port of Halo: Combat Evolved (original Xbox) to PC, Mac, Linux, Android and more; bring your own disc."
   ]
 ]

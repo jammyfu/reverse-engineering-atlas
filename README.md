@@ -6,7 +6,7 @@
 
 A curated map of reverse-engineering projects, tools and agent workflows. Find existing work before starting your own: game decompilations and recompilations, application reimplementations, Android and JavaScript analysis, protocols, firmware and supporting tools.
 
-**459 catalog entries · 453 GitHub repositories · 10 skill workflows · 5 README languages**
+**463 catalog entries · 457 GitHub repositories · 10 skill workflows · 5 README languages**
 
 Switch 2 is an editorial priority, not a measured popularity claim. Within each section, projects use the existing cumulative Star snapshot, not live trending data. The snapshot has no capture timestamp; missing counts sort last. All entries remain available below.
 
@@ -274,11 +274,22 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/DinosaurPlanetRecomp/dino-recomp"><img src="images/dino-recomp-card.png" width="160" alt="DinosaurPlanetRecomp/dino-recomp"></a></td><td><a href="https://github.com/DinosaurPlanetRecomp/dino-recomp"><b>dino-recomp</b></a><br><sub>DinosaurPlanetRecomp</sub></td><td>Dinosaur Planet (N64 prototype) turned into a native PC port via static recompilation with better graphics.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fliperama86/cvlod_recomp"><b>cvlod_recomp</b></a><br><sub>fliperama86</sub></td><td>Uses N64Recomp to turn Castlevania: Legacy of Darkness (Nintendo 64) into a native PC executable. You need your own ROM.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/bryantmh/rush2recompiled"><img src="images/rush2recompiled-card.png" width="160" alt="bryantmh/rush2recompiled"></a></td><td><a href="https://github.com/bryantmh/rush2recompiled"><b>rush2recompiled</b></a><br><sub>bryantmh</sub></td><td>Rush 2: Extreme Racing USA running natively on PC, translated from the N64 ROM ahead of time.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/djsaunde/1080-decomp"><img src="images/1080-decomp-og.png" width="160" alt="djsaunde/1080-decomp"></a></td><td><a href="https://github.com/djsaunde/1080-decomp"><b>1080-decomp</b></a><br><sub>djsaunde</sub></td><td>A complete matching decompilation of the N64 game 1080 Snowboarding that rebuilds a byte-identical ROM from readable C/C++ source.</td><td>No</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RetroReversing/v-rally-decomp"><b>v-rally-decomp</b></a><br><sub>RetroReversing</sub></td><td>A matching decompilation of the Nintendo 64 game V-Rally Edition 99 (Europe version), recovered with AI assistance and verified byte-for-byte against the original ROM.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>Took apart Resident Evil 2 on the Nintendo 64 with AI tools (REA + Ghidra). Thousands of decompiled functions and a verification suite; no game ROM included.</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RetroReversing/turok-decomp"><b>turok-decomp</b></a><br><sub>RetroReversing</sub></td><td>A partial matching decompilation of the Nintendo 64 game Turok: Dinosaur Hunter (Europe version), recovered from the ROM with AI assistance. Bring your own ROM.</td><td>No</td><td><sub>—</sub></td></tr>
+</table>
+
+<details>
+<summary>Browse the complete category (+1)</summary>
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
 <tr><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><img src="images/penny-racers-decomp-og.png" width="160" alt="RetroReversing/penny-racers-decomp"></a></td><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><b>penny-racers-decomp</b></a><br><sub>RetroReversing</sub></td><td>Open progress of a matching decompilation of the Nintendo 64 game Penny Racers, where AI agents only keep C that rebuilds the original bytes exactly.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 </table>
+
+</details>
+
 
 #### Remake / Port
 
@@ -480,6 +491,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/Shagg88/COGBox"><b>COGBox</b></a><br><sub>Shagg88</sub></td><td>Free open-source project that turns the Xbox 360 versions of Gears of War 2, 3 and Judgment into native Windows PC games you can run yourself (you need your own legal copy).</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NoRain211/doaxvb-re"><b>doaxvb-re</b></a><br><sub>NoRain211</sub></td><td>Native PC port of the Xbox game Dead or Alive Xtreme Beach Volleyball, made by static recompilation from your own disc.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/i2kiselev/fm4-static-recomp"><b>fm4-static-recomp</b></a><br><sub>i2kiselev</sub></td><td>Turns the Xbox 360 racing game Forza Motorsport 4 into a native Windows program with high frame rates, DLSS/FSR upscaling and up to 4K resolution. You supply your own disc.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/ChupathingyCE/chupathingyce"><img src="images/chupathingy-og.png" width="160" alt="ChupathingyCE/chupathingyce"></a></td><td><a href="https://github.com/ChupathingyCE/chupathingyce"><b>chupathingyce</b></a><br><sub>ChupathingyCE</sub></td><td>A cross-platform port of the original Xbox game Halo: Combat Evolved to PC, Mac, Linux, Android and more; you bring your own disc image.</td><td>No</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td><a href="https://github.com/YuutaTsubasa/Free-Riders-Recompiled"><img src="https://opengraph.githubassets.com/abbf4aa90eccf866346e51dd357ec97f17006d27d33f5c651c4aa3b748603fff/YuutaTsubasa/Free-Riders-Recompiled" width="160" alt="YuutaTsubasa/Free-Riders-Recompiled"></a></td><td><a href="https://github.com/YuutaTsubasa/Free-Riders-Recompiled"><b>Free-Riders-Recompiled</b></a><br><sub>YuutaTsubasa</sub></td><td>Unofficial PC port of the Xbox 360 Sonic Free Riders made by translating its code so it runs natively on Windows, Linux and Android. You need your own game disc.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/hk21x/pgr2-recomp"><img src="https://raw.githubusercontent.com/hk21x/pgr2-recomp/main/docs/images/pgr2-pc-port.webp" width="160" alt="hk21x/pgr2-recomp"></a></td><td><a href="https://github.com/hk21x/pgr2-recomp"><b>pgr2-recomp</b></a><br><sub>hk21x</sub></td><td>From-scratch native PC version of the original Xbox game Project Gotham Racing 2, made by statically recompiling its code. You need your own disc.</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MysteriousAeon/rayman3-hd-recompiled"><b>rayman3-hd-recompiled</b></a><br><sub>MysteriousAeon</sub></td><td>Turns the closed-source Xbox 360 Rayman 3 HD into a native Windows program by statically recompiling its code; you supply your own game package.</td><td>No</td><td><sub>—</sub></td></tr>
@@ -489,14 +501,14 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/MrPowerUp82/superman_returns_recomp"><b>superman_returns_recomp</b></a><br><sub>MrPowerUp82</sub></td><td>Experimental static recompilation of the closed-source Xbox 360 game Superman Returns to native PC using ReXGlue. Bring your own copy; no game files included.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sp00nznet/saintsrow"><b>saintsrow</b></a><br><sub>sp00nznet</sub></td><td>Static recompilation of the closed-source 2006 Xbox 360 game Saints Row into native x86-64 C++ so it runs on modern Windows without an emulator. You supply your own copy.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/summitstrike-recomp"><b>summitstrike-recomp</b></a><br><sub>ElKev118</sub></td><td>A free native Windows port of the closed-source Xbox expansion Tom Clancy&#x27;s Ghost Recon 2: Summit Strike, created via static recompilation of the original binary.</td><td>No</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>Turns the closed-source Spyro: Dawn of the Dragon Xbox 360 game into a native Windows program (bring your own disc)</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
 <details>
-<summary>Browse the complete category (+3)</summary>
+<summary>Browse the complete category (+4)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
+<tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>Turns the closed-source Spyro: Dawn of the Dragon Xbox 360 game into a native Windows program (bring your own disc)</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>Run Lightning Returns: Final Fantasy XIII (Xbox 360) natively on Android by static recompilation to arm64 with a Vulkan renderer. Bring your own copy.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LomoXSoft/ZoidsAssaultRecomp"><b>ZoidsAssaultRecomp</b></a><br><sub>LomoXSoft</sub></td><td>Native Windows x64 port of the closed-source Xbox 360 game Zoids Assault via static recompilation using ReXGlue. Source only; bring your own disc.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Gl1ch5555/f1-2012-android"><b>f1-2012-android</b></a><br><sub>Gl1ch5555</sub></td><td>Native Android port of the closed-source Xbox 360 racing game F1 2012, made by static recompilation so it runs as a real app. Bring your own dump.</td><td>No</td><td><sub>—</sub></td></tr>
@@ -582,7 +594,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+29)</summary>
+<summary>Browse the complete category (+30)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -600,6 +612,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/vahokif/I26"><b>I26</b></a><br><sub>vahokif</sub></td><td>Free open-source Godot remake of the 1997 car combat game Interstate &#x27;76, with modern graphics and multiplayer.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/AsyncFinn/rook"><img src="https://opengraph.githubassets.com/1/AsyncFinn/rook" width="160" alt="AsyncFinn/rook"></a></td><td><a href="https://github.com/AsyncFinn/rook"><b>rook</b></a><br><sub>AsyncFinn</sub></td><td>A Roblox-compatible engine in Rust, tested against Studio</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ccbury/MGSPOStaticRecomp"><b>MGSPOStaticRecomp</b></a><br><sub>ccbury</sub></td><td>Static recompilation of the PSP game Metal Gear Solid: Portable Ops so it runs natively on Windows without an emulator. Currently gets into the game.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/egeozcan/glasnost"><img src="images/glasnost-og.png" width="160" alt="egeozcan/glasnost"></a></td><td><a href="https://github.com/egeozcan/glasnost"><b>glasnost</b></a><br><sub>egeozcan</sub></td><td>A free open-source clean-room engine remake that lets you play Command &amp; Conquer: Yuri&#x27;s Revenge using your own game files, in browser or desktop.</td><td>No</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sunkpoet-lang/SUNSET-RIDERS-RECOMP"><b>SUNSET-RIDERS-RECOMP</b></a><br><sub>sunkpoet-lang</sub></td><td>Experimental PC port of Konami&#x27;s 1991 arcade Sunset Riders with four-player local play. Full static recompilation still in progress. Bring your own ROM.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/th08-web"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="160" alt="N0zoM1z0/th08-web"></a></td><td><a href="https://github.com/N0zoM1z0/th08-web"><b>th08-web</b></a><br><sub>N0zoM1z0</sub></td><td>Imperishable Night in your browser, from the th08 reconstruction</td><td>❔ Unverified</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/a-barzanti/ai-rebuilds">Preview unavailable · view original project</a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>Abandoned games brought back to the browser, no original files included</td><td>✅ Yes</td><td><sub><a href="https://github.com/a-barzanti/ai-rebuilds">Repo card</a></sub></td></tr>
@@ -705,6 +718,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/Slyvan25/OpenGHub"><img src="https://raw.githubusercontent.com/Slyvan25/OpenGHub/master/docs/screenshots/devices.png" width="160" alt="Slyvan25/OpenGHub"></a></td><td><a href="https://github.com/Slyvan25/OpenGHub"><b>OpenGHub</b></a><br><sub>Slyvan25</sub></td><td>Control Logitech gear on Linux without G HUB</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Control Xiaomi TVs over Wi-Fi from Mac, Android or iPhone</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Control Sony Bluetooth headphones from a Windows desktop app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/squirelworks/Graal_analysis"><b>Graal_analysis</b></a><br><sub>squirelworks</sub></td><td>Detailed reverse-engineering notes on the old online game Graal: network protocol, file formats, NPC scripting language and client internals.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ethanntann/massage-chair-mcp"><b>massage-chair-mcp</b></a><br><sub>ethanntann</sub></td><td>MCP server that reverse-engineered the closed Bluetooth LE protocol of the OSIM uDiva3 massage chair so an AI agent can control it.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 

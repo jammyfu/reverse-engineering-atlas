@@ -6,7 +6,7 @@
 
 逆解析プロジェクト、ツール、エージェントのワークフローを対象・プラットフォーム・技術別に整理したカタログです。ゲームの逆コンパイルと再コンパイル、アプリの再実装、Android・JavaScript 解析、プロトコル、ファームウェアの既存成果を探せます。
 
-**459 件の項目 · 453 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
+**463 件の項目 · 457 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
 
 Switch 2 は編集上の優先項目であり、人気の実測順位ではありません。各分類は既存の累計 Star スナップショット順で、リアルタイムのトレンドではありません。取得日時は未記録、件数不明の項目は末尾です。全項目を保持しています。
 
@@ -274,11 +274,22 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/DinosaurPlanetRecomp/dino-recomp"><img src="images/dino-recomp-card.png" width="160" alt="DinosaurPlanetRecomp/dino-recomp"></a></td><td><a href="https://github.com/DinosaurPlanetRecomp/dino-recomp"><b>dino-recomp</b></a><br><sub>DinosaurPlanetRecomp</sub></td><td>N64 プロトタイプの Dinosaur Planet を静的再コンパイルでネイティブ PC ポートに。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fliperama86/cvlod_recomp"><b>cvlod_recomp</b></a><br><sub>fliperama86</sub></td><td>N64Recomp を使って任天堂64の『悪魔城ドラキュラ 黙示録外伝』を、PCで直接動くネイティブ版にする。自分のROMが必要です。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/bryantmh/rush2recompiled"><img src="images/rush2recompiled-card.png" width="160" alt="bryantmh/rush2recompiled"></a></td><td><a href="https://github.com/bryantmh/rush2recompiled"><b>rush2recompiled</b></a><br><sub>bryantmh</sub></td><td>N64 の Rush 2 を事前に翻訳して、ネイティブ PC で動かすプロジェクト。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/djsaunde/1080-decomp"><img src="images/1080-decomp-og.png" width="160" alt="djsaunde/1080-decomp"></a></td><td><a href="https://github.com/djsaunde/1080-decomp"><b>1080-decomp</b></a><br><sub>djsaunde</sub></td><td>N64ゲーム『1080°スノーボーディング』の完全なマッチングデコンパイル。読みやすいC/C++ソースからバイト単位で同一のROMを再構築。</td><td>いいえ</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RetroReversing/v-rally-decomp"><b>v-rally-decomp</b></a><br><sub>RetroReversing</sub></td><td>N64ゲーム『V-Rally Edition 99』（欧州版）のマッチングデコンパイル。AI支援でROMから復元し、オリジナルROMとバイト単位で検証。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>AIツール（REA + Ghidra）でニンテンドー64版『バイオハザード2』を解析。数千のデコンパイル関数と検証スイートあり。ゲームROMは含まれません。</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RetroReversing/turok-decomp"><b>turok-decomp</b></a><br><sub>RetroReversing</sub></td><td>N64ゲーム『Turok: Dinosaur Hunter』（欧州版）の部分マッチングデコンパイル。AI支援でROMから復元。自分のROMが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+</table>
+
+<details>
+<summary>このカテゴリをすべて表示 (+1)</summary>
+
+<table>
+<tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
 <tr><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><img src="images/penny-racers-decomp-og.png" width="160" alt="RetroReversing/penny-racers-decomp"></a></td><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><b>penny-racers-decomp</b></a><br><sub>RetroReversing</sub></td><td>ニンテンドウ64『Penny Racers』のマッチング逆コンパイルの公開進捗。AI エージェントは元のバイトを正確に再現する C だけを残す。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 </table>
+
+</details>
+
 
 #### リメイク / 移植
 
@@ -480,6 +491,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/Shagg88/COGBox"><b>COGBox</b></a><br><sub>Shagg88</sub></td><td>Xbox 360 版『Gears of War 2』『3』『Judgment』を静的再コンパイルして Windows PC でネイティブに動かせる無料オープンソースプロジェクト（自分の正規版が必要）。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NoRain211/doaxvb-re"><b>doaxvb-re</b></a><br><sub>NoRain211</sub></td><td>Xboxの『Dead or Alive Xtreme Beach Volleyball』を静的再コンパイルでネイティブPC版にしたポート。自分のディスクが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/i2kiselev/fm4-static-recomp"><b>fm4-static-recomp</b></a><br><sub>i2kiselev</sub></td><td>Xbox 360のレーシングゲーム『Forza Motorsport 4』を高フレームレート・DLSS/FSR・最大4K対応のネイティブWindows版にした。自分のディスクが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/ChupathingyCE/chupathingyce"><img src="images/chupathingy-og.png" width="160" alt="ChupathingyCE/chupathingyce"></a></td><td><a href="https://github.com/ChupathingyCE/chupathingyce"><b>chupathingyce</b></a><br><sub>ChupathingyCE</sub></td><td>オリジナルXboxゲーム『Halo: Combat Evolved』をPC、Mac、Linux、Androidなどに移植したクロスプラットフォーム版。自分のディスクイメージが必要。</td><td>いいえ</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://github.com/YuutaTsubasa/Free-Riders-Recompiled"><img src="https://opengraph.githubassets.com/abbf4aa90eccf866346e51dd357ec97f17006d27d33f5c651c4aa3b748603fff/YuutaTsubasa/Free-Riders-Recompiled" width="160" alt="YuutaTsubasa/Free-Riders-Recompiled"></a></td><td><a href="https://github.com/YuutaTsubasa/Free-Riders-Recompiled"><b>Free-Riders-Recompiled</b></a><br><sub>YuutaTsubasa</sub></td><td>Xbox 360の『ソニック・フリーライダーズ』を静的再コンパイルしてWindows・Linux・Androidでネイティブに動くようにした非公式移植。自分のゲームディスクが必要です。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/hk21x/pgr2-recomp"><img src="https://raw.githubusercontent.com/hk21x/pgr2-recomp/main/docs/images/pgr2-pc-port.webp" width="160" alt="hk21x/pgr2-recomp"></a></td><td><a href="https://github.com/hk21x/pgr2-recomp"><b>pgr2-recomp</b></a><br><sub>hk21x</sub></td><td>オリジナルXboxの『プロジェクトゴッサムレーシング2』を静的リコンパイルして作ったネイティブPC版。自分のディスクが必要。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MysteriousAeon/rayman3-hd-recompiled"><b>rayman3-hd-recompiled</b></a><br><sub>MysteriousAeon</sub></td><td>クローズドソースの Xbox 360『レイマン3 HD』を静的再コンパイルして Windows でネイティブに動くプログラムにしたもの。自分のゲームパッケージが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
@@ -489,14 +501,14 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/MrPowerUp82/superman_returns_recomp"><b>superman_returns_recomp</b></a><br><sub>MrPowerUp82</sub></td><td>ReXGlue を使ってクローズドソースの Xbox 360 ゲーム『Superman Returns』をネイティブ PC に実験的に静的再コンパイル。ゲームファイルは含まれず自分で用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sp00nznet/saintsrow"><b>saintsrow</b></a><br><sub>sp00nznet</sub></td><td>2006年のクローズドソース Xbox 360 ゲーム『セインツロウ』の PowerPC コードをネイティブ x86-64 C++ に静的再コンパイルし、エミュレータなしで現代の Windows 上で動かすプロジェクト。自分のゲームファイルが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/summitstrike-recomp"><b>summitstrike-recomp</b></a><br><sub>ElKev118</sub></td><td>非公開ソースのXbox拡張『ゴーストリコン2：サミットストライク』を静的リコンパイルしたネイティブWindows移植。</td><td>いいえ</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>クローズドソースの『スパイロ：ドーン・オブ・ザ・ドラゴン』（Xbox 360）を自分のディスクでWindowsネイティブに</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+3)</summary>
+<summary>このカテゴリをすべて表示 (+4)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
+<tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>クローズドソースの『スパイロ：ドーン・オブ・ザ・ドラゴン』（Xbox 360）を自分のディスクでWindowsネイティブに</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>Xbox 360の『ライトニング リターンズ ファイナルファンタジーXIII』を静的リコンパイルしてAndroid arm64でネイティブ実行。Vulkan。自分のコピーを用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LomoXSoft/ZoidsAssaultRecomp"><b>ZoidsAssaultRecomp</b></a><br><sub>LomoXSoft</sub></td><td>クローズドソースのXbox 360ゲーム『ゾイドアサルト』をReXGlueで静的リコンパイルしネイティブWindows x64版に。ソースのみ、ディスクは自分で用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Gl1ch5555/f1-2012-android"><b>f1-2012-android</b></a><br><sub>Gl1ch5555</sub></td><td>非公開ソースのXbox 360レーシングゲーム『F1 2012』を静的再コンパイルでAndroidネイティブアプリにした移植版。自分のダンプを用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
@@ -582,7 +594,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+29)</summary>
+<summary>このカテゴリをすべて表示 (+30)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -600,6 +612,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/vahokif/I26"><b>I26</b></a><br><sub>vahokif</sub></td><td>1997年のカーコンバットゲーム『Interstate &#x27;76』をGodotで一から書き直した無料のオープンソース版。現代的なグラフィックとマルチプレイ対応。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/AsyncFinn/rook"><img src="https://opengraph.githubassets.com/1/AsyncFinn/rook" width="160" alt="AsyncFinn/rook"></a></td><td><a href="https://github.com/AsyncFinn/rook"><b>rook</b></a><br><sub>AsyncFinn</sub></td><td>Studio と照合してテストする Rust 製 Roblox 互換エンジン</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ccbury/MGSPOStaticRecomp"><b>MGSPOStaticRecomp</b></a><br><sub>ccbury</sub></td><td>PSPゲーム『メタルギアソリッド ポータブル・オプス』をエミュレーターなしのネイティブWindows版に静的再コンパイル。現在ゲーム内まで到達。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/egeozcan/glasnost"><img src="images/glasnost-og.png" width="160" alt="egeozcan/glasnost"></a></td><td><a href="https://github.com/egeozcan/glasnost"><b>glasnost</b></a><br><sub>egeozcan</sub></td><td>無料オープンソースのクリーンルームエンジンリメイク。自分のゲームファイルを使って『コマンド&amp;コンカー：ユーリの復讐』をブラウザまたはデスクトップでプレイ可能。</td><td>いいえ</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sunkpoet-lang/SUNSET-RIDERS-RECOMP"><b>SUNSET-RIDERS-RECOMP</b></a><br><sub>sunkpoet-lang</sub></td><td>コナミ1991年アーケード『サンセットライダーズ』の実験的PC移植。4人ローカルプレイ対応。完全な静的リコンパイルは進行中。ROMは自分で。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/th08-web"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="160" alt="N0zoM1z0/th08-web"></a></td><td><a href="https://github.com/N0zoM1z0/th08-web"><b>th08-web</b></a><br><sub>N0zoM1z0</sub></td><td>th08 の再構築をもとにブラウザで遊べる永夜抄</td><td>❔ 未確認</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/a-barzanti/ai-rebuilds">プレビューを表示できません · 元のプロジェクトへ</a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>見捨てられたゲームをブラウザで復活、元ファイルは含まない</td><td>✅ はい</td><td><sub><a href="https://github.com/a-barzanti/ai-rebuilds">リポジトリカード</a></sub></td></tr>
@@ -705,6 +718,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/Slyvan25/OpenGHub"><img src="https://raw.githubusercontent.com/Slyvan25/OpenGHub/master/docs/screenshots/devices.png" width="160" alt="Slyvan25/OpenGHub"></a></td><td><a href="https://github.com/Slyvan25/OpenGHub"><b>OpenGHub</b></a><br><sub>Slyvan25</sub></td><td>G HUB なしで Linux から Logitech 機器を操作</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Mac・Android・iPhone から Wi-Fi で Xiaomi テレビを操作</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Windows デスクトップから Sony の Bluetooth ヘッドホンを操作</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/squirelworks/Graal_analysis"><b>Graal_analysis</b></a><br><sub>squirelworks</sub></td><td>古いオンラインゲーム『Graal』の詳細なリバースエンジニアリングノート。ネットワークプロトコル、ファイル形式、NPCスクリプト言語、クライアント内部をカバー。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ethanntann/massage-chair-mcp"><b>massage-chair-mcp</b></a><br><sub>ethanntann</sub></td><td>クローズドソースのOSIM uDiva3マッサージチェアのBluetooth LEプロトコルを逆解析し、AIエージェントが椅子を操作できるMCPサーバーにした。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 

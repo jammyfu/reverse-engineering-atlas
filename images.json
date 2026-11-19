@@ -1151,5 +1151,20 @@
     "card",
     "images/Berny23-slingshot-animals-recomp-og.png",
     "GitHub opengraph image for Berny23/slingshot-animals-recomp"
+  ],
+  "djsaunde/1080-decomp": [
+    "shot",
+    "images/1080-decomp-og.png",
+    "GitHub OpenGraph card for 1080 Snowboarding decompilation"
+  ],
+  "egeozcan/glasnost": [
+    "shot",
+    "images/glasnost-og.png",
+    "GitHub OpenGraph card for the Glasnost Yuri's Revenge remake"
+  ],
+  "ChupathingyCE/chupathingyce": [
+    "shot",
+    "images/chupathingy-og.png",
+    "GitHub OpenGraph card for the Halo CE multi-platform port"
   ]
 }
