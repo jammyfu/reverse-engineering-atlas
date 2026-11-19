@@ -6,7 +6,7 @@
 
 역공학 프로젝트, 도구와 에이전트 작업 흐름을 대상·플랫폼·기술별로 모은 목록입니다. 게임 디컴파일과 리컴파일, 앱 재구현, Android·JavaScript 분석, 프로토콜과 펌웨어 분야에서 기존 작업을 먼저 찾아보세요.
 
-**목록 464개 · GitHub 저장소 458개 · skill 작업 흐름 10종 · README 5개 언어**
+**목록 472개 · GitHub 저장소 466개 · skill 작업 흐름 10종 · README 5개 언어**
 
 Switch 2는 편집상 우선순위이며 실측 인기 순위가 아닙니다. 분류 내에서는 기존 누적 Star 스냅샷을 사용하며 실시간 추세가 아닙니다. 수집 시각은 기록되지 않았으며 수치가 없는 항목은 마지막에 표시합니다. 모든 항목은 유지됩니다.
 
@@ -282,11 +282,12 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+1)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+2)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
 <tr><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><img src="images/penny-racers-decomp-og.png" width="160" alt="RetroReversing/penny-racers-decomp"></a></td><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><b>penny-racers-decomp</b></a><br><sub>RetroReversing</sub></td><td>닌텐도 64 게임 Penny Racers의 매칭 디컴파일 공개 진행 상황. AI 에이전트는 원본 바이트를 정확히 재현하는 C만 유지합니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RetroReversing/twine-n64-decomp"><b>twine-n64-decomp</b></a><br><sub>RetroReversing</sub></td><td>폐쇄 소스 N64 게임 007: The World Is Not Enough(TWINE)의 매칭 디컴파일. 수백 개 함수를 원본과 바이트 단위로 일치하는 C로 재구축. 자신의 ROM 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -420,6 +421,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/TekRantGaming/muppet-racemania-recompiled"><b>muppet-racemania-recompiled</b></a><br><sub>TekRantGaming</sub></td><td>클로즈드 소스인 머펫 레이스매니아(PlayStation)를 정적 재컴파일해서 만든 PC 네이티브 포트. 16:9와 60FPS 지원.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulcorreia7/bof3-decomp"><img src="images/bof3-decomp.png" width="160" alt="raulcorreia7/bof3-decomp"></a></td><td><a href="https://github.com/raulcorreia7/bof3-decomp"><b>bof3-decomp</b></a><br><sub>raulcorreia7</sub></td><td>폐쇄 소스인 플레이스테이션 게임 브레스 오브 파이어 III (북미판)의 매칭 디컴파일입니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">미리보기를 표시할 수 없음 · 원본 프로젝트 보기</a></td><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp"><b>snowboardkidsplus-decomp</b></a><br><sub>cdlewis</sub></td><td>폐쇄 소스인 플레이스테이션 게임 스노보드 키즈 플러스의 매칭 디컴파일입니다.</td><td>아니요</td><td><sub><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">저장소 카드</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/TheSaltsmith69/chronocross_decomp"><b>chronocross_decomp</b></a><br><sub>TheSaltsmith69</sub></td><td>폐쇄 소스 PS1 게임 Chrono Cross(미국판)의 바이트 단위 매칭 디컴파일 진행 중. 메인 EXE는 이미 동일하게 재구축. 자신의 디스크 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 리메이크 / 포팅
@@ -549,7 +551,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+15)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+16)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -565,6 +567,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><img src="images/sadx-decomp.png" width="160" alt="LuckyLuke00/sadx-decomp"></a></td><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><b>sadx-decomp</b></a><br><sub>LuckyLuke00</sub></td><td>폐쇄 소스인 2014년 스팀 릴리스 소닉 어드벤처 DX의 매칭 디컴파일로, 바이트 단위로 동일한 기계어를 목표로 합니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><img src="https://raw.githubusercontent.com/bmbelo87/decomp-it-up-Perfect-Collection/main/LogoIA.png" width="160" alt="bmbelo87/decomp-it-up-Perfect-Collection"></a></td><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><b>decomp-it-up-Perfect-Collection</b></a><br><sub>bmbelo87</sub></td><td>비공개 DOS 버전 『Pump It Up Perfect Collection』(2000년 PIU.EXE)을 C로 처음부터 다시 구현해 원본처럼 플레이할 수 있게 한 프로젝트.</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>1996년 DOS 버전 『툼 레이더』의 매칭 디컴파일. C와 어셈블리가 원본 TOMB.EXE와 바이트 단위로 일치하게 복원</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/LostArtefacts/tr04"><b>tr04</b></a><br><sub>LostArtefacts</sub></td><td>폐쇄 소스 Windows 게임 Tomb Raider IV: The Last Revelation(1999)의 매칭 디컴파일. Linux에서 Wine과 원본 MSVC 6으로 빌드 및 검증. 자신의 게임 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>1996년 클로즈드 소스 게임 Deadly Tide의 역공학과 현대 WebAssembly 재구현. 원본 게임 데이터는 포함되지 않음.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>PC 어드벤처 게임 낸시 드류: 블랙무어 저택의 저주를 실행 파일에서 매칭되는 네이티브 C 코드로 재구성하고 macOS ARM64 포트도 제공하는 프로젝트.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>《스카이림 스페셜 에디션》의 매칭 디컴파일. 모든 함수를 원본 게임 바이트와 동일한 C++로 재구성하는 것이 목표.</td><td>아니요</td><td><sub>—</sub></td></tr>
@@ -595,7 +598,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+30)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+31)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -625,6 +628,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/open-conche/OpenConche"><b>OpenConche</b></a><br><sub>open-conche</sub></td><td>오래된 클로즈드 소스 초콜릿 사업 게임 &#x27;Chocolatier&#x27; 시리즈를 현대 컴퓨터에서 플레이할 수 있게 해주는 무료 오픈소스 엔진. 원본 게임 파일은 직접 준비해야 합니다.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NostalgiaRealm/A2-Racer-4"><b>A2-Racer-4</b></a><br><sub>NostalgiaRealm</sub></td><td>클로즈드 소스 게임 A2 레이서 4(Davilex, 2000)의 브라우저 및 데스크톱 포트. 게임의 x86 코드를 WebAssembly로 재컴파일하고 메뉴는 손으로 다시 작성.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/YuutaTsubasa/MarbleKnightsRecompiled"><b>MarbleKnightsRecompiled</b></a><br><sub>YuutaTsubasa</sub></td><td>클로즈드 소스 Apple Arcade 게임 Marble Knights(Unity IL2CPP, iOS ARM64)를 정적 재컴파일하여 네이티브 Windows 빌드로 만드는 비공식 프로젝트. 게임 데이터 없음, 직접 준비 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/pedryvo/comanche3-decomp"><b>comanche3-decomp</b></a><br><sub>pedryvo</sub></td><td>폐쇄 소스 DOS 게임 Comanche 3의 리버스 엔지니어링과 현대적인 무료 Rust 재구현. 플레이 가능한 MVP는 원본 지형을 로드하고 훈련 미션을 비행. 자신의 게임 데이터 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>REA + Ghidra로 함수 단위 복원한 Commander Keen 1의 네이티브 Linux/SDL2 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>REA/Ghidra로 아키텍처를 복원한 SA-MP 0.3.DL-R1 클린룸 클라이언트 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/openage/openage"><b>openage</b></a><br><sub>openage</sub></td><td>Age of Empires II 등 RTS의 오픈소스 엔진 재구현</td><td>아니요</td><td><sub>—</sub></td></tr>
@@ -782,7 +786,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+114)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+115)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -899,6 +903,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>Linux나 Windows 프로그램을 보고 어떤 입력을 기대하는지, 실제로 무엇을 하는지 빠르게 알려주는 명령줄 도구. 멀웨어 분석이나 CTF에 유용.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>AI 에이전트에게 클로즈드 바이너리, Android 앱, 네이티브 코드를 분석할 수 있는 본격 리버스 엔지니어링 작업대를 제공하는 무료 오픈소스 Windows 데스크톱 앱.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>두 개의 클로즈드 소스 Windows PE 바이너리를 비교해 어떤 함수가 바뀌었는지 정확히 보여주는 오픈소스 CLI 및 AI 에이전트 도구. 패치 분석용.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RetroReversing/decomp-repair"><b>decomp-repair</b></a><br><sub>RetroReversing</sub></td><td>폐쇄 소스 게임의 매칭 디컴파일을 위한 타겟 C 재작성 제안을 하는 무료 오픈소스 도구. 컴파일러에 민감한 의도적 변경을 제안하지만 매칭 여부는 판단하지 않음. 랜덤 퍼뮤터를 보완.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>AI 에이전트 우선 디컴파일러. 원래 Ghidra에서 Rust로 포팅되었으며, AI 에이전트가 자동으로 계속 개선할 수 있도록 설계됨.</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
 

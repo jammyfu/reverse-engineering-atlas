@@ -3246,5 +3246,61 @@
     "zh-TW": "把 GBA 上的《索尼克衝刺 3》逆向成可編譯的 C 程式碼，能逐位元組還原出原版歐洲 ROM。",
     "ja": "ゲームボーイアドバンス版『ソニックアドバンス3』のマッチング逆コンパイル。読みやすい C コードから元の欧州版 ROM をバイト単位で再現。",
     "ko": "게임보이 어드밴스 『소닉 어드밴스 3』의 매칭 디컴파일. 읽기 쉬운 C 코드로 원본 유럽 ROM을 바이트 단위로 재현."
+  },
+  "RetroReversing/twine-n64-decomp": {
+    "en": "Matching decompilation of the closed-source N64 game 007: The World Is Not Enough (TWINE); rebuilds hundreds of functions as C that matches the original bytes exactly. Bring your own ROM.",
+    "zh-CN": "把闭源的任天堂64游戏《007：择日再战》（TWINE）做匹配反编译，已经把几百个函数重写成和原版字节完全一样的C代码。需要自备ROM。",
+    "zh-TW": "把閉源的任天堂64遊戲《007：擇日再戰》（TWINE）做匹配反編譯，已經把幾百個函數重寫成和原版位元組完全一樣的C程式碼。需要自備ROM。",
+    "ja": "クローズドソースのN64ゲーム「007 ワールド・イズ・ノット・イナフ」（TWINE）のマッチング逆コンパイル。数百の関数をオリジナルとバイト単位で一致するCに再構築。自分のROMが必要。",
+    "ko": "폐쇄 소스 N64 게임 007: The World Is Not Enough(TWINE)의 매칭 디컴파일. 수백 개 함수를 원본과 바이트 단위로 일치하는 C로 재구축. 자신의 ROM 필요."
+  },
+  "TheSaltsmith69/chronocross_decomp": {
+    "en": "Work-in-progress byte-matching decompilation of the closed-source PS1 game Chrono Cross (USA). The main EXE rebuilds identically so far. Bring your own disc.",
+    "zh-CN": "正在进行的、对闭源PS1游戏《时空之轮》（美版）做字节级匹配反编译。目前主程序已经能重建成完全一样的文件。需要自备光盘。",
+    "zh-TW": "正在進行的、對閉源PS1遊戲《時空之輪》（美版）做位元組級匹配反編譯。目前主程式已經能重建成完全一樣的檔案。需要自備光碟。",
+    "ja": "クローズドソースのPS1ゲーム「クロノ・クロス」（USA版）のバイト単位マッチング逆コンパイル進行中。メインEXEはすでに同一に再構築可能。自分のディスクが必要。",
+    "ko": "폐쇄 소스 PS1 게임 Chrono Cross(미국판)의 바이트 단위 매칭 디컴파일 진행 중. 메인 EXE는 이미 동일하게 재구축. 자신의 디스크 필요."
+  },
+  "pedryvo/comanche3-decomp": {
+    "en": "Reverse engineering and a modern free Rust reimplementation of the closed-source DOS game Comanche 3. Playable MVP loads original terrain and lets you fly a training mission. Bring your own game data.",
+    "zh-CN": "对闭源DOS游戏《科曼奇3》做逆向工程，并用现代免费Rust从零重写了一个可玩的引擎。MVP已经能加载原版地形并飞行训练任务。需要自备游戏数据。",
+    "zh-TW": "對閉源DOS遊戲《科曼奇3》做逆向工程，並用現代免費Rust從零重寫了一個可玩的引擎。MVP已經能載入原版地形並飛行訓練任務。需要自備遊戲資料。",
+    "ja": "クローズドソースのDOSゲーム「Comanche 3」のリバースエンジニアリングと、現代の無料Rustによる再実装。プレイ可能なMVPはオリジナル地形を読み込んで訓練ミッションを飛行可能。自分のゲームデータが必要。",
+    "ko": "폐쇄 소스 DOS 게임 Comanche 3의 리버스 엔지니어링과 현대적인 무료 Rust 재구현. 플레이 가능한 MVP는 원본 지형을 로드하고 훈련 미션을 비행. 자신의 게임 데이터 필요."
+  },
+  "batinium/gta-stories-recompiled": {
+    "en": "Static recompilation of the closed-source PS2 games GTA Liberty City Stories and Vice City Stories to PC and Android, joining both cities into one world with a mod loader. Bring your own discs.",
+    "zh-CN": "把闭源的PS2游戏《GTA自由城故事》和《罪恶都市故事》静态重编译到PC和安卓，并把两个城市连成一个世界，还带模组加载器。需要自备光盘。",
+    "zh-TW": "把閉源的PS2遊戲《GTA自由城故事》和《罪惡都市故事》靜態重編譯到PC和安卓，並把兩個城市連成一個世界，還帶模組載入器。需要自備光碟。",
+    "ja": "クローズドソースのPS2ゲーム「GTA Liberty City Stories」と「Vice City Stories」をPCとAndroidへ静的再コンパイル。両都市を一つの世界に結合し、モッドローダー付き。自分のディスクが必要。",
+    "ko": "폐쇄 소스 PS2 게임 GTA Liberty City Stories와 Vice City Stories를 PC와 Android로 정적 재컴파일. 두 도시를 하나의 세계로 연결하고 모드 로더 포함. 자신의 디스크 필요."
+  },
+  "LostArtefacts/tr04": {
+    "en": "Matching decompilation of the closed-source Windows game Tomb Raider IV: The Last Revelation (1999). Builds and verifies under Wine with the original MSVC 6. Bring your own game.",
+    "zh-CN": "对闭源Windows游戏《古墓丽影4：最后的启示》（1999）做匹配反编译。在Linux上用Wine和原版MSVC 6编译并验证。需要自备游戏。",
+    "zh-TW": "對閉源Windows遊戲《古墓麗影4：最後的啟示》（1999）做匹配反編譯。在Linux上用Wine和原版MSVC 6編譯並驗證。需要自備遊戲。",
+    "ja": "クローズドソースのWindowsゲーム「トゥームレイダー4：ラスト・リベレーション」（1999）のマッチング逆コンパイル。Wine上でオリジナルのMSVC 6を使ってビルドと検証。自分のゲームが必要。",
+    "ko": "폐쇄 소스 Windows 게임 Tomb Raider IV: The Last Revelation(1999)의 매칭 디컴파일. Linux에서 Wine과 원본 MSVC 6으로 빌드 및 검증. 자신의 게임 필요."
+  },
+  "SlickAmogus/GTAAdvanceRecomp": {
+    "en": "Static recompilation of the closed-source GBA game Grand Theft Auto Advance to PC using gbarecomp, with modern controls. Bring your own ROM and BIOS.",
+    "zh-CN": "用gbarecomp把闭源GBA游戏《侠盗猎车手Advance》静态重编译到PC，带现代控制。需要自备ROM和BIOS。",
+    "zh-TW": "用gbarecomp把閉源GBA遊戲《俠盜獵車手Advance》靜態重編譯到PC，帶現代控制。需要自備ROM和BIOS。",
+    "ja": "クローズドソースのGBAゲーム「Grand Theft Auto Advance」をgbarecompでPCへ静的再コンパイル。現代的な操作に対応。自分のROMとBIOSが必要。",
+    "ko": "폐쇄 소스 GBA 게임 Grand Theft Auto Advance를 gbarecomp으로 PC에 정적 재컴파일. 현대적인 조작 지원. 자신의 ROM과 BIOS 필요."
+  },
+  "owmyback/backbreaker-recomp": {
+    "en": "Static recompilation of the closed-source Xbox 360 game Backbreaker to native Linux via XenonRecomp. Bring your own game files.",
+    "zh-CN": "用XenonRecomp把闭源Xbox 360游戏《Backbreaker》静态重编译成原生Linux程序。需要自备游戏文件。",
+    "zh-TW": "用XenonRecomp把閉源Xbox 360遊戲《Backbreaker》靜態重編譯成原生Linux程式。需要自備遊戲檔案。",
+    "ja": "クローズドソースのXbox 360ゲーム「Backbreaker」をXenonRecompでネイティブLinuxへ静的再コンパイル。自分のゲームファイルが必要。",
+    "ko": "폐쇄 소스 Xbox 360 게임 Backbreaker를 XenonRecomp으로 네이티브 Linux에 정적 재컴파일. 자신의 게임 파일 필요."
+  },
+  "RetroReversing/decomp-repair": {
+    "en": "A free open-source tool that proposes targeted C rewrites for matching decompilation of closed-source games: it suggests deliberate compiler-sensitive changes but never judges if they match. Complements random permuters.",
+    "zh-CN": "一个免费开源工具，专门给闭源游戏的匹配反编译提供针对性的C代码重写建议：它会提出编译器敏感的刻意改动，但从不自己判断是否匹配。是随机排列工具的补充。",
+    "zh-TW": "一個免費開源工具，專門給閉源遊戲的匹配反編譯提供針對性的C程式碼重寫建議：它會提出編譯器敏感的刻意改動，但從不自己判斷是否匹配。是隨機排列工具的補充。",
+    "ja": "クローズドソースゲームのマッチング逆コンパイル向けに、ターゲットを絞ったCの書き換え案を提案する無料オープンソースツール。コンパイラが敏感な変更を意図的に提案するが、一致判定は行わない。ランダムなパーミューターを補完。",
+    "ko": "폐쇄 소스 게임의 매칭 디컴파일을 위한 타겟 C 재작성 제안을 하는 무료 오픈소스 도구. 컴파일러에 민감한 의도적 변경을 제안하지만 매칭 여부는 판단하지 않음. 랜덤 퍼뮤터를 보완."
   }
 }

@@ -1170,5 +1170,10 @@
   "SAT-R/sa3": [
     "readme",
     "https://opengraph.githubassets.com/04a7ad56b46d58e3f1461ea3dd8693293ee4f6390b18767a4d84d13fdc417270/SAT-R/sa3"
+  ],
+  "batinium/gta-stories-recompiled": [
+    "readme",
+    "https://raw.githubusercontent.com/batinium/gta-stories-recompiled/main/docs/media/hero_portland_sunset.jpg",
+    "Project hero screenshot of Liberty City Stories on PC"
   ]
 }

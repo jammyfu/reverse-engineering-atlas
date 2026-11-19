@@ -6,7 +6,7 @@
 
 逆解析プロジェクト、ツール、エージェントのワークフローを対象・プラットフォーム・技術別に整理したカタログです。ゲームの逆コンパイルと再コンパイル、アプリの再実装、Android・JavaScript 解析、プロトコル、ファームウェアの既存成果を探せます。
 
-**464 件の項目 · 458 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
+**472 件の項目 · 466 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
 
 Switch 2 は編集上の優先項目であり、人気の実測順位ではありません。各分類は既存の累計 Star スナップショット順で、リアルタイムのトレンドではありません。取得日時は未記録、件数不明の項目は末尾です。全項目を保持しています。
 
@@ -282,11 +282,12 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+1)</summary>
+<summary>このカテゴリをすべて表示 (+2)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
 <tr><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><img src="images/penny-racers-decomp-og.png" width="160" alt="RetroReversing/penny-racers-decomp"></a></td><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><b>penny-racers-decomp</b></a><br><sub>RetroReversing</sub></td><td>ニンテンドウ64『Penny Racers』のマッチング逆コンパイルの公開進捗。AI エージェントは元のバイトを正確に再現する C だけを残す。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RetroReversing/twine-n64-decomp"><b>twine-n64-decomp</b></a><br><sub>RetroReversing</sub></td><td>クローズドソースのN64ゲーム「007 ワールド・イズ・ノット・イナフ」（TWINE）のマッチング逆コンパイル。数百の関数をオリジナルとバイト単位で一致するCに再構築。自分のROMが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -420,6 +421,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/TekRantGaming/muppet-racemania-recompiled"><b>muppet-racemania-recompiled</b></a><br><sub>TekRantGaming</sub></td><td>クローズドソースの『Muppet RaceMania』（PlayStation）を静的再コンパイルして作った PC ネイティブ版。16:9 と 60fps 対応。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulcorreia7/bof3-decomp"><img src="images/bof3-decomp.png" width="160" alt="raulcorreia7/bof3-decomp"></a></td><td><a href="https://github.com/raulcorreia7/bof3-decomp"><b>bof3-decomp</b></a><br><sub>raulcorreia7</sub></td><td>クローズドソースのプレイステーションゲーム『ブレス オブ ファイアIII』（北米版）のマッチング逆コンパイル。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">プレビューを表示できません · 元のプロジェクトへ</a></td><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp"><b>snowboardkidsplus-decomp</b></a><br><sub>cdlewis</sub></td><td>クローズドソースのプレイステーションゲーム『スノーボードキッズプラス』のマッチング逆コンパイル。</td><td>いいえ</td><td><sub><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">リポジトリカード</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/TheSaltsmith69/chronocross_decomp"><b>chronocross_decomp</b></a><br><sub>TheSaltsmith69</sub></td><td>クローズドソースのPS1ゲーム「クロノ・クロス」（USA版）のバイト単位マッチング逆コンパイル進行中。メインEXEはすでに同一に再構築可能。自分のディスクが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
 #### リメイク / 移植
@@ -549,7 +551,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+15)</summary>
+<summary>このカテゴリをすべて表示 (+16)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -565,6 +567,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><img src="images/sadx-decomp.png" width="160" alt="LuckyLuke00/sadx-decomp"></a></td><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><b>sadx-decomp</b></a><br><sub>LuckyLuke00</sub></td><td>クローズドソースの2014年Steam版『ソニックアドベンチャーDX』のマッチング逆コンパイル、マシンコードがバイト単位で一致することを目指す。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><img src="https://raw.githubusercontent.com/bmbelo87/decomp-it-up-Perfect-Collection/main/LogoIA.png" width="160" alt="bmbelo87/decomp-it-up-Perfect-Collection"></a></td><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><b>decomp-it-up-Perfect-Collection</b></a><br><sub>bmbelo87</sub></td><td>クローズドソースのDOS版『Pump It Up Perfect Collection』（2000年のPIU.EXE）をCで一から再実装し、元のゲームと同じように遊べるようにしたもの。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>1996 年の DOS 版『トゥームレイダー』のマッチング逆コンパイル。C とアセンブリが元の TOMB.EXE とバイト単位で一致する</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/LostArtefacts/tr04"><b>tr04</b></a><br><sub>LostArtefacts</sub></td><td>クローズドソースのWindowsゲーム「トゥームレイダー4：ラスト・リベレーション」（1999）のマッチング逆コンパイル。Wine上でオリジナルのMSVC 6を使ってビルドと検証。自分のゲームが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>1996年のクローズドソースゲーム『Deadly Tide』のリバースエンジニアリングと、現代の WebAssembly による再実装。元のゲームデータは含まれない。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>PC アドベンチャー『Nancy Drew: Curse of Blackmoor Manor』の実行ファイルをマッチングするネイティブ C コードに再構築し、macOS ARM64 移植も提供するプロジェクト。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>『スカイリム スペシャルエディション』のマッチングデコンパイル。すべての関数をオリジナルと同じバイトのC++に再構築することを目指す。</td><td>いいえ</td><td><sub>—</sub></td></tr>
@@ -595,7 +598,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+30)</summary>
+<summary>このカテゴリをすべて表示 (+31)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -625,6 +628,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/open-conche/OpenConche"><b>OpenConche</b></a><br><sub>open-conche</sub></td><td>古いクローズドソースのチョコレート経営ゲーム「Chocolatier」シリーズを現代のパソコンで遊べるようにした無料オープンソースエンジン。元のゲームのコピーは自分で用意する必要があります。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NostalgiaRealm/A2-Racer-4"><b>A2-Racer-4</b></a><br><sub>NostalgiaRealm</sub></td><td>クローズドソースの『A2 Racer 4』（Davilex、2000年）のブラウザ／デスクトップ移植版。ゲームの x86 コードを WebAssembly に再コンパイルし、メニューは手書きで書き直したもの。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/YuutaTsubasa/MarbleKnightsRecompiled"><b>MarbleKnightsRecompiled</b></a><br><sub>YuutaTsubasa</sub></td><td>クローズドソースの Apple Arcade ゲーム『Marble Knights』（Unity IL2CPP、iOS ARM64）を静的再コンパイルしてネイティブ Windows ビルドにする非公式プロジェクト。ゲームデータは含まれず、自分で用意する必要あり。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/pedryvo/comanche3-decomp"><b>comanche3-decomp</b></a><br><sub>pedryvo</sub></td><td>クローズドソースのDOSゲーム「Comanche 3」のリバースエンジニアリングと、現代の無料Rustによる再実装。プレイ可能なMVPはオリジナル地形を読み込んで訓練ミッションを飛行可能。自分のゲームデータが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>REA + Ghidra で関数単位に復元した Commander Keen 1 のネイティブ Linux/SDL2 再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>REA/Ghidra でアーキテクチャを復元した SA-MP 0.3.DL-R1 のクリーンルームクライアント再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/openage/openage"><b>openage</b></a><br><sub>openage</sub></td><td>Age of Empires II など RTS のオープンソースエンジン再実装</td><td>いいえ</td><td><sub>—</sub></td></tr>
@@ -782,7 +786,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+114)</summary>
+<summary>このカテゴリをすべて表示 (+115)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -899,6 +903,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>Linux や Windows のプログラムを見て、どんな入力を期待していて実際に何をするのかを素早く教えてくれるコマンドラインツール。マルウェア解析や CTF 向け。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>AIエージェントに閉源バイナリ・Androidアプリ・ネイティブコードを調べるための本格的なリバースエンジニアリング作業台を提供する無料オープンソースWindowsデスクトップアプリ。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>2つの閉源Windows PEバイナリを比較し、どの関数が変わったかを正確に示すオープンソースCLI＋AIエージェント用ツール。パッチ解析向け。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RetroReversing/decomp-repair"><b>decomp-repair</b></a><br><sub>RetroReversing</sub></td><td>クローズドソースゲームのマッチング逆コンパイル向けに、ターゲットを絞ったCの書き換え案を提案する無料オープンソースツール。コンパイラが敏感な変更を意図的に提案するが、一致判定は行わない。ランダムなパーミューターを補完。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>AIエージェント優先のデコンパイラ。元々GhidraからRustに移植され、AIエージェントが自動的に改善し続けられるように設計されている。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
 

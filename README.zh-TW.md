@@ -6,7 +6,7 @@
 
 依目標、平台與技術整理逆向專案、工具及 Agent 工作流程。開始實作前先查看既有成果：遊戲反編譯與重編譯、應用程式重新實作、Android 與 JavaScript 分析、協定、韌體及配套工具。
 
-**464 筆目錄記錄 · 458 個 GitHub 儲存庫 · 10 類 skill 工作流程 · 5 種 README 語言**
+**472 筆目錄記錄 · 466 個 GitHub 儲存庫 · 10 類 skill 工作流程 · 5 種 README 語言**
 
 Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內沿用累計 Star 快照排序，並非即時趨勢；原快照未記錄擷取時間，缺少數據者排在最後。所有項目皆保留。
 
@@ -282,11 +282,12 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 </table>
 
 <details>
-<summary>查看此分類的所有專案 (+1)</summary>
+<summary>查看此分類的所有專案 (+2)</summary>
 
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
 <tr><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><img src="images/penny-racers-decomp-og.png" width="160" alt="RetroReversing/penny-racers-decomp"></a></td><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><b>penny-racers-decomp</b></a><br><sub>RetroReversing</sub></td><td>任天堂 64 遊戲《Penny Racers》的匹配反編譯公開進度，AI 助手只保留能逐位元組重建原版的 C 程式碼。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RetroReversing/twine-n64-decomp"><b>twine-n64-decomp</b></a><br><sub>RetroReversing</sub></td><td>把閉源的任天堂64遊戲《007：擇日再戰》（TWINE）做匹配反編譯，已經把幾百個函數重寫成和原版位元組完全一樣的C程式碼。需要自備ROM。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -420,6 +421,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/TekRantGaming/muppet-racemania-recompiled"><b>muppet-racemania-recompiled</b></a><br><sub>TekRantGaming</sub></td><td>把閉源的《布偶賽車》（PlayStation）透過靜態重編譯做成了 PC 原生版。支援 16:9 和 60 幀。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulcorreia7/bof3-decomp"><img src="images/bof3-decomp.png" width="160" alt="raulcorreia7/bof3-decomp"></a></td><td><a href="https://github.com/raulcorreia7/bof3-decomp"><b>bof3-decomp</b></a><br><sub>raulcorreia7</sub></td><td>對閉源的 PlayStation 遊戲《龍戰士 III》（美版）進行的匹配反編譯。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">預覽暫時無法顯示 · 查看原始專案</a></td><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp"><b>snowboardkidsplus-decomp</b></a><br><sub>cdlewis</sub></td><td>對閉源的 PlayStation 遊戲《滑雪板小子 Plus》進行的匹配反編譯。</td><td>否</td><td><sub><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">儲存庫卡片</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/TheSaltsmith69/chronocross_decomp"><b>chronocross_decomp</b></a><br><sub>TheSaltsmith69</sub></td><td>正在進行的、對閉源PS1遊戲《時空之輪》（美版）做位元組級匹配反編譯。目前主程式已經能重建成完全一樣的檔案。需要自備光碟。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 重製 / 移植
@@ -549,7 +551,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 </table>
 
 <details>
-<summary>查看此分類的所有專案 (+15)</summary>
+<summary>查看此分類的所有專案 (+16)</summary>
 
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
@@ -565,6 +567,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><img src="images/sadx-decomp.png" width="160" alt="LuckyLuke00/sadx-decomp"></a></td><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><b>sadx-decomp</b></a><br><sub>LuckyLuke00</sub></td><td>對閉源的 2014 年 Steam 版《音速小子大冒險 DX》進行的匹配反編譯，目標是機器碼逐位元組一致。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><img src="https://raw.githubusercontent.com/bmbelo87/decomp-it-up-Perfect-Collection/main/LogoIA.png" width="160" alt="bmbelo87/decomp-it-up-Perfect-Collection"></a></td><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><b>decomp-it-up-Perfect-Collection</b></a><br><sub>bmbelo87</sub></td><td>從零用 C 重寫了閉源的 DOS 版《Pump It Up Perfect Collection》（2000 年 PIU.EXE），玩起來和原版一樣。</td><td>否</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>對 1996 年 DOS 版《古墓奇兵》做匹配反編譯，讓 C 和組合語言能編譯回原版 TOMB.EXE 的精確位元組</td><td>否</td><td><sub>專案 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/LostArtefacts/tr04"><b>tr04</b></a><br><sub>LostArtefacts</sub></td><td>對閉源Windows遊戲《古墓麗影4：最後的啟示》（1999）做匹配反編譯。在Linux上用Wine和原版MSVC 6編譯並驗證。需要自備遊戲。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>對 1996 年閉源遊戲《致命潮汐》做的逆向工程，以及用現代 WebAssembly 重寫的實作。不包含任何原版遊戲資料。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>把 PC 冒險遊戲《南希·德魯：布萊克摩爾莊園的詛咒》的可執行檔反編譯重建成匹配的原生 C 程式碼，並提供 macOS ARM64 移植。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>對《上古卷軸5：天際》特別版做匹配反編譯，目標是用C++把每一個函式都還原成和原遊戲位元組完全一致的程式碼。</td><td>否</td><td><sub>—</sub></td></tr>
@@ -595,7 +598,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 </table>
 
 <details>
-<summary>查看此分類的所有專案 (+30)</summary>
+<summary>查看此分類的所有專案 (+31)</summary>
 
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
@@ -625,6 +628,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/open-conche/OpenConche"><b>OpenConche</b></a><br><sub>open-conche</sub></td><td>從零重寫的免費開源引擎，能在現代電腦上執行那些閉源的巧克力商人經營遊戲《Chocolatier》系列。你需要自己準備原版遊戲資源。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NostalgiaRealm/A2-Racer-4"><b>A2-Racer-4</b></a><br><sub>NostalgiaRealm</sub></td><td>閉源遊戲《A2 賽車 4》（Davilex，2000）的瀏覽器和桌面移植版。遊戲的 x86 程式碼被重編譯成了 WebAssembly，選單是手寫重做的。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/YuutaTsubasa/MarbleKnightsRecompiled"><b>MarbleKnightsRecompiled</b></a><br><sub>YuutaTsubasa</sub></td><td>把閉源的 Apple Arcade 遊戲《Marble Knights》（Unity IL2CPP，iOS ARM64）靜態重編譯成原生 Windows 版本。需要自備遊戲檔案，不含任何遊戲資料。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/pedryvo/comanche3-decomp"><b>comanche3-decomp</b></a><br><sub>pedryvo</sub></td><td>對閉源DOS遊戲《科曼奇3》做逆向工程，並用現代免費Rust從零重寫了一個可玩的引擎。MVP已經能載入原版地形並飛行訓練任務。需要自備遊戲資料。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>用 REA + Ghidra 函式級還原的 Commander Keen 1 原生 Linux/SDL2 重實現</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>用 REA/Ghidra 恢復架構的 SA-MP 0.3.DL-R1 clean-room 客戶端重實現</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/openage/openage"><b>openage</b></a><br><sub>openage</sub></td><td>帝國時代 2 及其他 RTS 的開源引擎重實現</td><td>否</td><td><sub>—</sub></td></tr>
@@ -782,7 +786,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 </table>
 
 <details>
-<summary>查看此分類的所有專案 (+114)</summary>
+<summary>查看此分類的所有專案 (+115)</summary>
 
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
@@ -899,6 +903,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>一個簡單的命令列工具，看一下 Linux 或 Windows 程式就能快速告訴你它想要什麼輸入、實際會做什麼，適合分析惡意軟體或打 CTF。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>免費開源的 Windows 桌面程式，給 AI 智能體一個完整的逆向工作台，用來拆解閉源二進位、Android 應用程式和原生程式碼。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>開源命令列和 AI 工具，對比兩個閉源 Windows PE 程式，精確告訴你哪些函式被改了，適合分析修補程式。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RetroReversing/decomp-repair"><b>decomp-repair</b></a><br><sub>RetroReversing</sub></td><td>一個免費開源工具，專門給閉源遊戲的匹配反編譯提供針對性的C程式碼重寫建議：它會提出編譯器敏感的刻意改動，但從不自己判斷是否匹配。是隨機排列工具的補充。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>一個面向AI智能體優先的反編譯器，用Rust從Ghidra移植而來，專門設計成讓AI代理能自動持續改進它。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 </table>
 

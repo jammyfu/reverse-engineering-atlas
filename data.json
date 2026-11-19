@@ -3710,5 +3710,69 @@
     "https://github.com/SAT-R/sa3",
     "No",
     "Matching decompilation of Sonic Advance 3 (GBA); builds the Europe ROM byte-for-byte from C. Strict no-AI policy."
+  ],
+  [
+    "n64",
+    "decomp",
+    "RetroReversing/twine-n64-decomp",
+    "https://github.com/RetroReversing/twine-n64-decomp",
+    "No",
+    "Matching decompilation of 007: The World Is Not Enough (N64); 550 of 1897 functions rebuilt as C that matches the original bytes. Started with decompdecomp. Bring your own ROM."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "TheSaltsmith69/chronocross_decomp",
+    "https://github.com/TheSaltsmith69/chronocross_decomp",
+    "No",
+    "Work-in-progress byte-matching decompilation of Chrono Cross (USA, PS1). Main EXE rebuilds identically; 5 functions matched so far. Bring your own disc."
+  ],
+  [
+    "pc",
+    "remake",
+    "pedryvo/comanche3-decomp",
+    "https://github.com/pedryvo/comanche3-decomp",
+    "No",
+    "Reverse engineering and modern Rust reimplementation of Comanche 3 (DOS). Playable MVP loads original terrain and flies a training mission. Bring your own game data."
+  ],
+  [
+    "ps2",
+    "recomp",
+    "batinium/gta-stories-recompiled",
+    "https://github.com/batinium/gta-stories-recompiled",
+    "No",
+    "Static recompilation of GTA Liberty City Stories and Vice City Stories (PS2) to PC and Android, with both cities joined into one world and a mod loader. Bring your own discs."
+  ],
+  [
+    "pc",
+    "decomp",
+    "LostArtefacts/tr04",
+    "https://github.com/LostArtefacts/tr04",
+    "No",
+    "Matching decompilation of Tomb Raider IV: The Last Revelation (1999 Windows). Builds and verifies under Wine with the original MSVC 6. Bring your own game."
+  ],
+  [
+    "gba",
+    "recomp",
+    "SlickAmogus/GTAAdvanceRecomp",
+    "https://github.com/SlickAmogus/GTAAdvanceRecomp",
+    "No",
+    "Static recompilation of Grand Theft Auto Advance (GBA) to PC using gbarecomp, with modern controls. Bring your own ROM and BIOS."
+  ],
+  [
+    "xbox",
+    "recomp",
+    "owmyback/backbreaker-recomp",
+    "https://github.com/owmyback/backbreaker-recomp",
+    "No",
+    "Static recompilation of Backbreaker (Xbox 360) to native Linux via XenonRecomp. Bring your own game files."
+  ],
+  [
+    "tooling",
+    "tools",
+    "RetroReversing/decomp-repair",
+    "https://github.com/RetroReversing/decomp-repair",
+    "No",
+    "Targeted C rewrites for matching decompilation: proposes deliberate compiler-sensitive changes, never judges. Complements decomp-permuter. From decompdecomp."
   ]
 ]

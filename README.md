@@ -6,7 +6,7 @@
 
 A curated map of reverse-engineering projects, tools and agent workflows. Find existing work before starting your own: game decompilations and recompilations, application reimplementations, Android and JavaScript analysis, protocols, firmware and supporting tools.
 
-**464 catalog entries · 458 GitHub repositories · 10 skill workflows · 5 README languages**
+**472 catalog entries · 466 GitHub repositories · 10 skill workflows · 5 README languages**
 
 Switch 2 is an editorial priority, not a measured popularity claim. Within each section, projects use the existing cumulative Star snapshot, not live trending data. The snapshot has no capture timestamp; missing counts sort last. All entries remain available below.
 
@@ -282,11 +282,12 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+1)</summary>
+<summary>Browse the complete category (+2)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
 <tr><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><img src="images/penny-racers-decomp-og.png" width="160" alt="RetroReversing/penny-racers-decomp"></a></td><td><a href="https://github.com/RetroReversing/penny-racers-decomp"><b>penny-racers-decomp</b></a><br><sub>RetroReversing</sub></td><td>Open progress of a matching decompilation of the Nintendo 64 game Penny Racers, where AI agents only keep C that rebuilds the original bytes exactly.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RetroReversing/twine-n64-decomp"><b>twine-n64-decomp</b></a><br><sub>RetroReversing</sub></td><td>Matching decompilation of the closed-source N64 game 007: The World Is Not Enough (TWINE); rebuilds hundreds of functions as C that matches the original bytes exactly. Bring your own ROM.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -420,6 +421,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/TekRantGaming/muppet-racemania-recompiled"><b>muppet-racemania-recompiled</b></a><br><sub>TekRantGaming</sub></td><td>Native PC port of the closed-source Muppet RaceMania (PlayStation), made by static recompilation. Supports 16:9 and 60 FPS.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulcorreia7/bof3-decomp"><img src="images/bof3-decomp.png" width="160" alt="raulcorreia7/bof3-decomp"></a></td><td><a href="https://github.com/raulcorreia7/bof3-decomp"><b>bof3-decomp</b></a><br><sub>raulcorreia7</sub></td><td>Matching decompilation of the closed-source PlayStation game Breath of Fire III (US version).</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">Preview unavailable · view original project</a></td><td><a href="https://github.com/cdlewis/snowboardkidsplus-decomp"><b>snowboardkidsplus-decomp</b></a><br><sub>cdlewis</sub></td><td>Matching decompilation of the closed-source PlayStation game Snowboard Kids Plus.</td><td>No</td><td><sub><a href="https://github.com/cdlewis/snowboardkidsplus-decomp">Repo card</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/TheSaltsmith69/chronocross_decomp"><b>chronocross_decomp</b></a><br><sub>TheSaltsmith69</sub></td><td>Work-in-progress byte-matching decompilation of the closed-source PS1 game Chrono Cross (USA). The main EXE rebuilds identically so far. Bring your own disc.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
 #### Remake / Port
@@ -549,7 +551,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+15)</summary>
+<summary>Browse the complete category (+16)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -565,6 +567,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><img src="images/sadx-decomp.png" width="160" alt="LuckyLuke00/sadx-decomp"></a></td><td><a href="https://github.com/LuckyLuke00/sadx-decomp"><b>sadx-decomp</b></a><br><sub>LuckyLuke00</sub></td><td>Matching decompilation of the closed-source 2014 Steam release of Sonic Adventure DX, aiming for byte-identical machine code.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><img src="https://raw.githubusercontent.com/bmbelo87/decomp-it-up-Perfect-Collection/main/LogoIA.png" width="160" alt="bmbelo87/decomp-it-up-Perfect-Collection"></a></td><td><a href="https://github.com/bmbelo87/decomp-it-up-Perfect-Collection"><b>decomp-it-up-Perfect-Collection</b></a><br><sub>bmbelo87</sub></td><td>From-scratch C recompilation of the closed-source DOS Pump It Up Perfect Collection (PIU.EXE, Dec 2000) that plays like the original.</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>Matching decompilation of the original 1996 DOS Tomb Raider so C and assembly compile back to the exact retail TOMB.EXE bytes</td><td>No</td><td><sub>Project README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/LostArtefacts/tr04"><b>tr04</b></a><br><sub>LostArtefacts</sub></td><td>Matching decompilation of the closed-source Windows game Tomb Raider IV: The Last Revelation (1999). Builds and verifies under Wine with the original MSVC 6. Bring your own game.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>Reverse engineering and a modern WebAssembly reimplementation of the closed-source 1996 game Deadly Tide. No original game data is included.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>Reverse-engineering project that reconstructs the PC adventure game Nancy Drew: Curse of Blackmoor Manor from its executable into matching native C code, plus a macOS ARM64 port.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>Matching decompilation of Skyrim Special Edition that aims to reconstruct every function in C++ matching the original game bytes.</td><td>No</td><td><sub>—</sub></td></tr>
@@ -595,7 +598,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+30)</summary>
+<summary>Browse the complete category (+31)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -625,6 +628,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/open-conche/OpenConche"><b>OpenConche</b></a><br><sub>open-conche</sub></td><td>A free open-source engine that lets you play the old closed-source Chocolatier chocolate-business games on modern computers. You still need your own copies of the original games.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NostalgiaRealm/A2-Racer-4"><b>A2-Racer-4</b></a><br><sub>NostalgiaRealm</sub></td><td>Browser and desktop port of the closed-source A2 Racer 4 (Davilex, 2000). The game’s x86 code was recompiled to WebAssembly and the menu was rewritten by hand.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/YuutaTsubasa/MarbleKnightsRecompiled"><b>MarbleKnightsRecompiled</b></a><br><sub>YuutaTsubasa</sub></td><td>Unofficial static recompilation that turns the closed-source Apple Arcade game Marble Knights (Unity IL2CPP, iOS ARM64) into a native Windows build. Bring your own copy; no game data included.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/pedryvo/comanche3-decomp"><b>comanche3-decomp</b></a><br><sub>pedryvo</sub></td><td>Reverse engineering and a modern free Rust reimplementation of the closed-source DOS game Comanche 3. Playable MVP loads original terrain and lets you fly a training mission. Bring your own game data.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>Native Linux/SDL2 reimplementation of Commander Keen 1, recovered function-by-function with REA + Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>Clean-room SA-MP 0.3.DL-R1 client reimplementation; architecture recovered with REA/Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/openage/openage"><b>openage</b></a><br><sub>openage</sub></td><td>Open-source engine reimplementation for Age of Empires II and other RTS titles</td><td>No</td><td><sub>—</sub></td></tr>
@@ -782,7 +786,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+114)</summary>
+<summary>Browse the complete category (+115)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -899,6 +903,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>A simple command-line tool that looks at Linux or Windows programs and quickly tells you what inputs they want and what they actually do, useful for malware analysis or CTF challenges.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>Free open-source Windows desktop app that gives AI agents a full reverse-engineering workbench for looking inside closed binaries, Android apps and native code.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>Open-source CLI and AI-agent tool that compares two closed-source Windows PE binaries and shows exactly which functions changed, useful for patch analysis.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RetroReversing/decomp-repair"><b>decomp-repair</b></a><br><sub>RetroReversing</sub></td><td>A free open-source tool that proposes targeted C rewrites for matching decompilation of closed-source games: it suggests deliberate compiler-sensitive changes but never judges if they match. Complements random permuters.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>An agent-first decompiler written in Rust, originally ported from Ghidra, designed so AI agents can keep improving it automatically.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
 
