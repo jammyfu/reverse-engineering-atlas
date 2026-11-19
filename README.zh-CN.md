@@ -6,7 +6,7 @@
 
 按目标、平台和技术整理逆向项目、工具与 Agent 工作流。开始自己动手前，先看看已有成果：游戏反编译与重编译、应用重实现、Android 与 JavaScript 分析、协议、固件及配套工具。
 
-**450 条目录记录 · 444 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
+**459 条目录记录 · 453 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
 
 Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累计 Star 快照排序，不是实时趋势；原快照未记录采集时间，缺失计数排在最后。所有条目均保留。
 
@@ -126,6 +126,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
 <tr><td>—</td><td><a href="https://github.com/jmars125/xcx-recomp"><b>xcx-recomp</b></a><br><sub>jmars125</sub></td><td>把闭源的《异度神剑 X 终极版》（Switch）通过静态重编译做成了能在 Windows 上原生运行的程序。需要自己提供合法转储的游戏文件。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><img src="https://opengraph.githubassets.com/1/KevinBonnoron/xc2-decomp" width="160" alt="KevinBonnoron/xc2-decomp"></a></td><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><b>xc2-decomp</b></a><br><sub>KevinBonnoron</sub></td><td>任天堂Switch版《异度神剑2》的匹配反编译：能重建原版游戏二进制的源码项目。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/var-flotsam/dread-decomp"><b>dread-decomp</b></a><br><sub>var-flotsam</sub></td><td>对任天堂Switch上的《密特罗德 生存恐惧》做逐字节匹配的反编译，目标是做出真正的原生PC移植版。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 重制 / 移植
@@ -143,6 +144,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/linuxopt/mp4-recomp"><b>mp4-recomp</b></a><br><sub>linuxopt</sub></td><td>从零重写的任天堂Switch游戏《密特罗德 究极4：超越》的免费开源Linux原生版。用你自己的游戏dump就能玩，不用模拟器。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>把任天堂 Switch 上的《宝可梦 朱》静态重编译成带 Vulkan 渲染的原生 Windows 程序，不用模拟器就能玩。需要自己提供游戏转储和密钥。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>把任天堂 Switch 游戏《朋友收集：梦想生活》静态重编译成可在 PC 上原生运行的早期免费开源移植（需要自备 dump）。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>把 Switch 上的《宝可梦 剑/盾》游戏代码提前翻译成电脑能直接跑的程序，不用模拟器就能在 Windows 上玩。你得自己准备正版游戏文件。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 </table>
 
 ### NES / FC
@@ -169,6 +171,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
 <tr><td><a href="https://github.com/snesrev/zelda3"><img src="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg" width="160" alt="snesrev/zelda3"></a></td><td><a href="https://github.com/snesrev/zelda3"><b>zelda3</b></a><br><sub>snesrev</sub></td><td>用 C 重写的众神的三角力量，支持宽屏（ROM 自备）</td><td>否</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg">维基百科（© 版权方）</a></sub></td></tr>
 <tr><td><a href="https://github.com/snesrev/sm"><img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" width="160" alt="snesrev/sm"></a></td><td><a href="https://github.com/snesrev/sm"><b>sm</b></a><br><sub>snesrev</sub></td><td>用 C 重写的超级银河战士（ROM 自备）</td><td>否</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg">维基百科（© 版权方）</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MaChInEgUn3/tg3000-decomp"><b>tg3000-decomp</b></a><br><sub>MaChInEgUn3</sub></td><td>对SNES赛车游戏《最高速3000》做带注释的反汇编，并把游戏逻辑重写成可读的C代码，逐个函数对照原版验证正确性。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 重制 / 移植
@@ -381,6 +384,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
+<tr><td><a href="https://github.com/Okxmir/super-mario-3d-land-recompiled"><img src="images/Okxmir-super-mario-3d-land-recompiled-og.png" width="160" alt="Okxmir/super-mario-3d-land-recompiled"></a></td><td><a href="https://github.com/Okxmir/super-mario-3d-land-recompiled"><b>super-mario-3d-land-recompiled</b></a><br><sub>Okxmir</sub></td><td>把 3DS 上的《超级马里奥3D乐园》游戏代码翻译成 Windows 和 Linux 能直接运行的程序，用自己的 ROM 就能在电脑上玩，不用模拟器。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Okxmir/chibi-robo-zip-lash-recompiled"><b>chibi-robo-zip-lash-recompiled</b></a><br><sub>Okxmir</sub></td><td>把 3DS 游戏《奇比机器人！拉链鞭》在 Windows 或 Linux 上原生运行，需要自己提供卡带镜像；代码事先翻译成了原生程序。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
@@ -481,18 +485,19 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/MysteriousAeon/rayman3-hd-recompiled"><b>rayman3-hd-recompiled</b></a><br><sub>MysteriousAeon</sub></td><td>把闭源的 Xbox 360《雷曼3 HD》通过静态重编译做成能在 Windows 上原生运行的程序；需要你自己提供游戏包。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/ghostrecon2-recomp"><b>ghostrecon2-recomp</b></a><br><sub>ElKev118</sub></td><td>通过静态重编译把原闭源Xbox游戏《幽灵行动2》做成原生Windows版，用现代Vulkan渲染器运行。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/itsbybanshee/wwe2k14-pc"><b>wwe2k14-pc</b></a><br><sub>itsbybanshee</sub></td><td>把 Xbox 360 的摔跤游戏《WWE 2K14》做成原生 PC 版，带启动器、模组支持、更高分辨率和现代操控。需要自己的游戏文件。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/Dipshet/GracemeriaRecomp"><img src="images/gracemeria-recomp-og.png" width="160" alt="Dipshet/GracemeriaRecomp"></a></td><td><a href="https://github.com/Dipshet/GracemeriaRecomp"><b>GracemeriaRecomp</b></a><br><sub>Dipshet</sub></td><td>把 Xbox 360 上的飞行游戏《皇牌空战6》代码自动翻译成现代电脑能直接运行的版本，不用原主机也能玩。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MrPowerUp82/superman_returns_recomp"><b>superman_returns_recomp</b></a><br><sub>MrPowerUp82</sub></td><td>用 ReXGlue 把闭源的 Xbox 360 游戏《Superman Returns》实验性静态重编译到原生 PC。需要自备游戏副本，不含游戏文件。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sp00nznet/saintsrow"><b>saintsrow</b></a><br><sub>sp00nznet</sub></td><td>把 2006 年闭源 Xbox 360 游戏《黑道圣徒》（Saints Row）的 PowerPC 代码静态重编译成原生 x86-64 C++，在现代 Windows 上直接运行，不需要模拟器。需要自备游戏文件。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/summitstrike-recomp"><b>summitstrike-recomp</b></a><br><sub>ElKev118</sub></td><td>通过静态重编译把原闭源Xbox扩展包《幽灵行动2：巅峰行动》做成原生Windows版。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>把闭源的《小龙斯派罗：黎明之龙》（Xbox 360）变成你能在 Windows 上跑的原生程序（需自备光盘）</td><td>否</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>把Xbox 360的《最终幻想13：雷霆归来》静态重编译到Android arm64，用Vulkan渲染。自备游戏副本。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+2)</summary>
+<summary>查看该分类全部项目 (+3)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
+<tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>把Xbox 360的《最终幻想13：雷霆归来》静态重编译到Android arm64，用Vulkan渲染。自备游戏副本。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LomoXSoft/ZoidsAssaultRecomp"><b>ZoidsAssaultRecomp</b></a><br><sub>LomoXSoft</sub></td><td>把闭源Xbox 360游戏《索斯兽袭击》用ReXGlue静态重编译成原生Windows x64版。仅提供源码，需自备光盘。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Gl1ch5555/f1-2012-android"><b>f1-2012-android</b></a><br><sub>Gl1ch5555</sub></td><td>把闭源的 Xbox 360 赛车游戏《F1 2012》通过静态重编译做成能在安卓上原生运行的程序。自己准备游戏文件。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
@@ -531,7 +536,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+14)</summary>
+<summary>查看该分类全部项目 (+15)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -549,6 +554,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>对 1996 年 DOS 版《古墓丽影》做匹配反编译，让 C 和汇编能编译回原版 TOMB.EXE 的精确字节</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>对 1996 年闭源游戏《致命潮汐》做的逆向工程，以及用现代 WebAssembly 重写的实现。不包含任何原版游戏数据。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>把 PC 冒险游戏《南希·德鲁：布莱克摩尔庄园的诅咒》的可执行文件反编译重建成匹配的原生 C 代码，并提供 macOS ARM64 移植。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>对《上古卷轴5：天际》特别版做匹配反编译，目标是用C++把每一个函数都还原成和原游戏字节完全一致的代码。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -650,7 +656,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+26)</summary>
+<summary>查看该分类全部项目 (+27)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -669,6 +675,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://github.com/michaelshimeles/sketch"><img src="https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png" width="160" alt="michaelshimeles/sketch"></a></td><td><a href="https://github.com/michaelshimeles/sketch"><b>sketch</b></a><br><sub>michaelshimeles</sub></td><td>Rust 写的无限设计画布，研究 Paper 后重建</td><td>✅ 是</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>用 REA 逆向并重写的 1992 年 Johnny Castaway 屏保（Rust）</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>本地优先的记账应用，参照 QuickBooks Mac 版</td><td>✅ 是</td><td><sub>项目 README</sub></td></tr>
+<tr><td><a href="https://github.com/Berny23/slingshot-animals-recomp"><img src="images/Berny23-slingshot-animals-recomp-og.png" width="160" alt="Berny23/slingshot-animals-recomp"></a></td><td><a href="https://github.com/Berny23/slingshot-animals-recomp"><b>slingshot-animals-recomp</b></a><br><sub>Berny23</sub></td><td>把经典的安卓《愤怒的小鸟》系列游戏重新编译成能在现代电脑、手机甚至 Switch 自制系统上直接运行的版本。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td><a href="https://github.com/LilZeeCN/zee-rp"><img src="https://raw.githubusercontent.com/LilZeeCN/zee-rp/main/examples/screenshot/source.png" width="160" alt="LilZeeCN/zee-rp"></a></td><td><a href="https://github.com/LilZeeCN/zee-rp"><b>zee-rp</b></a><br><sub>LilZeeCN</sub></td><td>用命令行或 MCP 读写 Axure RP 原型文件</td><td>❔ 待验证</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/laaielichter/Reverseport"><img src="https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif" width="160" alt="laaielichter/Reverseport"></a></td><td><a href="https://github.com/laaielichter/Reverseport"><b>Reverseport</b></a><br><sub>laaielichter</sub></td><td>把逆向成果移植到 Godot、Unity、Unreal 或 three.js</td><td>❔ 待验证</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>把 Linux 桌面串流到 Quest、Pico 头显</td><td>✅ 是</td><td><sub>仓库卡片</sub></td></tr>
@@ -760,7 +767,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+113)</summary>
+<summary>查看该分类全部项目 (+114)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -877,6 +884,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>一个简单的命令行工具，看一下 Linux 或 Windows 程序就能快速告诉你它想要什么输入、实际会做什么，适合分析恶意软件或打 CTF。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>免费开源的 Windows 桌面程序，给 AI 智能体一个完整的逆向工作台，用来拆解闭源二进制、安卓应用和原生代码。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>开源命令行和 AI 工具，对比两个闭源 Windows PE 程序，精确告诉你哪些函数被改了，适合分析补丁。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>一个面向AI智能体优先的反编译器，用Rust从Ghidra移植而来，专门设计成让AI代理能自动持续改进它。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -902,7 +910,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 这个证据标记子集复用上方平台与主题目录中的条目。本地图同样收录不依赖 REA 的独立工具与项目。
 
 <details>
-<summary>展开 59 条 REA 标记记录</summary>
+<summary>展开 60 条 REA 标记记录</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -965,6 +973,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>从 16 位 DOS 代码里找回东方幻想乡的弹幕角度算法</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>看清 Aegis 安卓应用是怎样生成两步验证码的</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>一步步解开 DownUnderCTF 2023 的逆向题</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>一个面向AI智能体优先的反编译器，用Rust从Ghidra移植而来，专门设计成让AI代理能自动持续改进它。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>

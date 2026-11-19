@@ -6,7 +6,7 @@
 
 역공학 프로젝트, 도구와 에이전트 작업 흐름을 대상·플랫폼·기술별로 모은 목록입니다. 게임 디컴파일과 리컴파일, 앱 재구현, Android·JavaScript 분석, 프로토콜과 펌웨어 분야에서 기존 작업을 먼저 찾아보세요.
 
-**목록 450개 · GitHub 저장소 444개 · skill 작업 흐름 10종 · README 5개 언어**
+**목록 459개 · GitHub 저장소 453개 · skill 작업 흐름 10종 · README 5개 언어**
 
 Switch 2는 편집상 우선순위이며 실측 인기 순위가 아닙니다. 분류 내에서는 기존 누적 Star 스냅샷을 사용하며 실시간 추세가 아닙니다. 수집 시각은 기록되지 않았으며 수치가 없는 항목은 마지막에 표시합니다. 모든 항목은 유지됩니다.
 
@@ -126,6 +126,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
 <tr><td>—</td><td><a href="https://github.com/jmars125/xcx-recomp"><b>xcx-recomp</b></a><br><sub>jmars125</sub></td><td>클로즈드 소스인 제노블레이드 크로닉스 X 디피니티브 에디션(Switch)을 정적 재컴파일해서 Windows에서 네이티브로 돌아가는 프로그램으로 만든 것. 합법적으로 덤프한 자신의 파일이 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><img src="https://opengraph.githubassets.com/1/KevinBonnoron/xc2-decomp" width="160" alt="KevinBonnoron/xc2-decomp"></a></td><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><b>xc2-decomp</b></a><br><sub>KevinBonnoron</sub></td><td>닌텐도 스위치판 『제노블레이드 2』의 매칭 디컴파일: 오리지널 게임 바이너리를 재구성하는 소스.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/var-flotsam/dread-decomp"><b>dread-decomp</b></a><br><sub>var-flotsam</sub></td><td>닌텐도 스위치 《메트로이드 드레드》의 바이트 단위 일치 디컴파일. 진짜 네이티브 PC 포트를 목표로 함.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 리메이크 / 포팅
@@ -143,6 +144,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/linuxopt/mp4-recomp"><b>mp4-recomp</b></a><br><sub>linuxopt</sub></td><td>닌텐도 스위치 게임 메트로이드 프라임 4: 비욘드의 무료 오픈소스 리눅스 네이티브 버전. 자신의 게임 덤프로 에뮬레이터 없이 플레이 가능.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>닌텐도 스위치 버전의 포켓몬 스칼렛을 Vulkan 렌더러가 있는 네이티브 Windows 프로그램으로 정적 재컴파일합니다. 덤프와 키는 직접 준비해야 합니다.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>닌텐도 스위치 게임 토모다치 라이프: 리빙 더 드림을 정적 재컴파일하여 PC에서 네이티브로 실행할 수 있게 하는 초기 무료 오픈소스 포트 (자신의 덤프 필요).</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>스위치 포켓몬 소드/실드 게임 코드를 미리 번역해서 에뮬레이터 없이 윈도우에서 바로 돌아가는 네이티브 버전으로 만든 프로젝트. 본인이 가진 정품 게임 파일이 필요합니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 </table>
 
 ### 패미컴 / NES
@@ -169,6 +171,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
 <tr><td><a href="https://github.com/snesrev/zelda3"><img src="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg" width="160" alt="snesrev/zelda3"></a></td><td><a href="https://github.com/snesrev/zelda3"><b>zelda3</b></a><br><sub>snesrev</sub></td><td>신들의 트라이포스를 C로 재구현, 와이드 지원(ROM 직접 준비)</td><td>아니요</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg">위키백과(© 권리자)</a></sub></td></tr>
 <tr><td><a href="https://github.com/snesrev/sm"><img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" width="160" alt="snesrev/sm"></a></td><td><a href="https://github.com/snesrev/sm"><b>sm</b></a><br><sub>snesrev</sub></td><td>슈퍼 메트로이드를 C로 재구현(ROM 직접 준비)</td><td>아니요</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg">위키백과(© 권리자)</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MaChInEgUn3/tg3000-decomp"><b>tg3000-decomp</b></a><br><sub>MaChInEgUn3</sub></td><td>SNES 레이싱 게임 《탑 기어 3000》의 주석이 달린 디스어셈블리와 원본과 루틴 단위로 검증된 읽기 쉬운 C 코드.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 리메이크 / 포팅
@@ -381,6 +384,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
+<tr><td><a href="https://github.com/Okxmir/super-mario-3d-land-recompiled"><img src="images/Okxmir-super-mario-3d-land-recompiled-og.png" width="160" alt="Okxmir/super-mario-3d-land-recompiled"></a></td><td><a href="https://github.com/Okxmir/super-mario-3d-land-recompiled"><b>super-mario-3d-land-recompiled</b></a><br><sub>Okxmir</sub></td><td>3DS 슈퍼 마리오 3D 랜드 게임 코드를 번역해서 에뮬레이터 없이 윈도우와 리눅스에서 바로 돌아가게 만든 프로젝트. 본인 ROM이 필요합니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Okxmir/chibi-robo-zip-lash-recompiled"><b>chibi-robo-zip-lash-recompiled</b></a><br><sub>Okxmir</sub></td><td>3DS 게임 《치비로보! 집 래시》를 자신의 카트리지 이미지로 Windows나 Linux에서 네이티브로 실행. 코드는 미리 번역되어 있다.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
@@ -481,18 +485,19 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/MysteriousAeon/rayman3-hd-recompiled"><b>rayman3-hd-recompiled</b></a><br><sub>MysteriousAeon</sub></td><td>폐쇄 소스 Xbox 360 『레이맨 3 HD』를 정적 재컴파일로 Windows에서 네이티브로 실행되게 만든 것. 자신의 게임 패키지가 필요함.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/ghostrecon2-recomp"><b>ghostrecon2-recomp</b></a><br><sub>ElKev118</sub></td><td>비공개 소스 오리지널 Xbox 게임 『고스트 리콘 2』를 정적 리컴파일로 네이티브 Windows 포팅. Vulkan 렌더러로 실행.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/itsbybanshee/wwe2k14-pc"><b>wwe2k14-pc</b></a><br><sub>itsbybanshee</sub></td><td>Xbox 360 레슬링 게임 WWE 2K14를 런처, 모드 지원, 고해상도, 현대적 조작이 있는 네이티브 PC 버전으로. 자신의 게임 파일 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/Dipshet/GracemeriaRecomp"><img src="images/gracemeria-recomp-og.png" width="160" alt="Dipshet/GracemeriaRecomp"></a></td><td><a href="https://github.com/Dipshet/GracemeriaRecomp"><b>GracemeriaRecomp</b></a><br><sub>Dipshet</sub></td><td>Xbox 360 비행 게임 에이스 컴뱃 6의 코드를 자동 번역해서 현대 PC에서 바로 돌아가게 만든 프로젝트.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MrPowerUp82/superman_returns_recomp"><b>superman_returns_recomp</b></a><br><sub>MrPowerUp82</sub></td><td>ReXGlue를 사용해 클로즈드 소스 Xbox 360 게임 Superman Returns를 네이티브 PC로 실험적 정적 재컴파일. 게임 파일 없음, 직접 준비 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sp00nznet/saintsrow"><b>saintsrow</b></a><br><sub>sp00nznet</sub></td><td>2006년 클로즈드 소스 Xbox 360 게임 『세인츠 로우』의 PowerPC 코드를 네이티브 x86-64 C++로 정적 재컴파일하여 에뮬레이터 없이 현대 Windows에서 실행하는 프로젝트. 자신의 게임 파일이 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/summitstrike-recomp"><b>summitstrike-recomp</b></a><br><sub>ElKev118</sub></td><td>비공개 소스 Xbox 확장팩 『고스트 리콘 2: 서밋 스트라이크』를 정적 리컴파일로 네이티브 Windows 포팅.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>클로즈드 소스인 스파이로: 던 오브 더 드래곤(Xbox 360)을 본인 디스크로 윈도우 네이티브로</td><td>아니요</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>Xbox 360의 《라이트닝 리턴즈: 파이널 판타지 XIII》를 정적 리컴파일하여 Android arm64에서 네이티브 실행. Vulkan 렌더러. 자신의 복사본 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+2)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+3)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
+<tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>Xbox 360의 《라이트닝 리턴즈: 파이널 판타지 XIII》를 정적 리컴파일하여 Android arm64에서 네이티브 실행. Vulkan 렌더러. 자신의 복사본 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LomoXSoft/ZoidsAssaultRecomp"><b>ZoidsAssaultRecomp</b></a><br><sub>LomoXSoft</sub></td><td>클로즈드 소스 Xbox 360 게임 조이드 어설트를 ReXGlue로 정적 리컴파일해 네이티브 Windows x64 버전으로. 소스만 제공, 디스크는 직접 준비.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Gl1ch5555/f1-2012-android"><b>f1-2012-android</b></a><br><sub>Gl1ch5555</sub></td><td>클로즈드 소스 Xbox 360 레이싱 게임 『F1 2012』를 정적 재컴파일로 Android 네이티브 앱으로 만든 포트. 본인 덤프 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
@@ -531,7 +536,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+14)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+15)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -549,6 +554,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>1996년 DOS 버전 『툼 레이더』의 매칭 디컴파일. C와 어셈블리가 원본 TOMB.EXE와 바이트 단위로 일치하게 복원</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>1996년 클로즈드 소스 게임 Deadly Tide의 역공학과 현대 WebAssembly 재구현. 원본 게임 데이터는 포함되지 않음.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>PC 어드벤처 게임 낸시 드류: 블랙무어 저택의 저주를 실행 파일에서 매칭되는 네이티브 C 코드로 재구성하고 macOS ARM64 포트도 제공하는 프로젝트.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>《스카이림 스페셜 에디션》의 매칭 디컴파일. 모든 함수를 원본 게임 바이트와 동일한 C++로 재구성하는 것이 목표.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -650,7 +656,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+26)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+27)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -669,6 +675,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/michaelshimeles/sketch"><img src="https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png" width="160" alt="michaelshimeles/sketch"></a></td><td><a href="https://github.com/michaelshimeles/sketch"><b>sketch</b></a><br><sub>michaelshimeles</sub></td><td>Paper를 연구해 만든 Rust 무한 디자인 캔버스</td><td>✅ 예</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>REA로 역공학한 1992년 Johnny Castaway 화면 보호기의 Rust 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>QuickBooks for Mac을 참고한 로컬 우선 회계 앱</td><td>✅ 예</td><td><sub>프로젝트 README</sub></td></tr>
+<tr><td><a href="https://github.com/Berny23/slingshot-animals-recomp"><img src="images/Berny23-slingshot-animals-recomp-og.png" width="160" alt="Berny23/slingshot-animals-recomp"></a></td><td><a href="https://github.com/Berny23/slingshot-animals-recomp"><b>slingshot-animals-recomp</b></a><br><sub>Berny23</sub></td><td>클래식 안드로이드 앵그리버드 시리즈를 현대 PC, 폰, 스위치 홈브루에서도 바로 돌아가게 재컴파일한 프로젝트.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/LilZeeCN/zee-rp"><img src="https://raw.githubusercontent.com/LilZeeCN/zee-rp/main/examples/screenshot/source.png" width="160" alt="LilZeeCN/zee-rp"></a></td><td><a href="https://github.com/LilZeeCN/zee-rp"><b>zee-rp</b></a><br><sub>LilZeeCN</sub></td><td>CLI나 MCP로 Axure RP 프로토타입 파일 읽기·쓰기</td><td>❔ 미확인</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/laaielichter/Reverseport"><img src="https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif" width="160" alt="laaielichter/Reverseport"></a></td><td><a href="https://github.com/laaielichter/Reverseport"><b>Reverseport</b></a><br><sub>laaielichter</sub></td><td>리버싱 결과를 Godot·Unity·Unreal·three.js로 이식</td><td>❔ 미확인</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>Linux 데스크톱을 Quest·Pico 헤드셋으로 스트리밍</td><td>✅ 예</td><td><sub>저장소 카드</sub></td></tr>
@@ -760,7 +767,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+113)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+114)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -877,6 +884,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>Linux나 Windows 프로그램을 보고 어떤 입력을 기대하는지, 실제로 무엇을 하는지 빠르게 알려주는 명령줄 도구. 멀웨어 분석이나 CTF에 유용.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>AI 에이전트에게 클로즈드 바이너리, Android 앱, 네이티브 코드를 분석할 수 있는 본격 리버스 엔지니어링 작업대를 제공하는 무료 오픈소스 Windows 데스크톱 앱.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>두 개의 클로즈드 소스 Windows PE 바이너리를 비교해 어떤 함수가 바뀌었는지 정확히 보여주는 오픈소스 CLI 및 AI 에이전트 도구. 패치 분석용.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>AI 에이전트 우선 디컴파일러. 원래 Ghidra에서 Rust로 포팅되었으며, AI 에이전트가 자동으로 계속 개선할 수 있도록 설계됨.</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -902,7 +910,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 이 근거 표시 하위 목록은 위 플랫폼·주제별 항목을 다시 보여줍니다. REA에 의존하지 않는 독립 도구와 프로젝트도 수록합니다.
 
 <details>
-<summary>REA 태그 항목 59개 펼치기</summary>
+<summary>REA 태그 항목 60개 펼치기</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -965,6 +973,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>16비트 DOS 코드에서 동방환상향 탄막 각도 계산을 복원</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>Aegis 안드로이드 앱이 2단계 인증 코드를 만드는 방식을 해부</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>DownUnderCTF 2023 리버싱 문제를 단계별로 풀이</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>AI 에이전트 우선 디컴파일러. 원래 Ghidra에서 Rust로 포팅되었으며, AI 에이전트가 자동으로 계속 개선할 수 있도록 설계됨.</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>

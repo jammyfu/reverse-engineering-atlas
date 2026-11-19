@@ -6,7 +6,7 @@
 
 A curated map of reverse-engineering projects, tools and agent workflows. Find existing work before starting your own: game decompilations and recompilations, application reimplementations, Android and JavaScript analysis, protocols, firmware and supporting tools.
 
-**450 catalog entries · 444 GitHub repositories · 10 skill workflows · 5 README languages**
+**459 catalog entries · 453 GitHub repositories · 10 skill workflows · 5 README languages**
 
 Switch 2 is an editorial priority, not a measured popularity claim. Within each section, projects use the existing cumulative Star snapshot, not live trending data. The snapshot has no capture timestamp; missing counts sort last. All entries remain available below.
 
@@ -126,6 +126,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
 <tr><td>—</td><td><a href="https://github.com/jmars125/xcx-recomp"><b>xcx-recomp</b></a><br><sub>jmars125</sub></td><td>Turns the closed-source Xenoblade Chronicles X: Definitive Edition (Switch) into a native Windows program by statically recompiling its code. You bring your own legally dumped files.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><img src="https://opengraph.githubassets.com/1/KevinBonnoron/xc2-decomp" width="160" alt="KevinBonnoron/xc2-decomp"></a></td><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><b>xc2-decomp</b></a><br><sub>KevinBonnoron</sub></td><td>Matching decompilation of Xenoblade Chronicles 2 on Nintendo Switch: source that rebuilds the original game binary.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/var-flotsam/dread-decomp"><b>dread-decomp</b></a><br><sub>var-flotsam</sub></td><td>A matching decompilation of Metroid Dread on Nintendo Switch, aiming for a true native PC port from the original source.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
 #### Remake / Port
@@ -143,6 +144,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/linuxopt/mp4-recomp"><b>mp4-recomp</b></a><br><sub>linuxopt</sub></td><td>A free native Linux version of the Nintendo Switch game Metroid Prime 4: Beyond. It recompiles your own game dump so the game runs without an emulator.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>Turns the Nintendo Switch version of Pokémon Scarlet into a native Windows program with a Vulkan renderer that runs without an emulator. You supply your own dump and keys.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>Early free open-source port that recompiles the Nintendo Switch game Tomodachi Life: Living the Dream into a native PC program (you need your own dump).</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>Turns the Switch Pokémon Sword and Shield game into a native Windows program by translating its code ahead of time, so it runs without an emulator. You still need your own legal copy of the game.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 </table>
 
 ### NES / Famicom
@@ -169,6 +171,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
 <tr><td><a href="https://github.com/snesrev/zelda3"><img src="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg" width="160" alt="snesrev/zelda3"></a></td><td><a href="https://github.com/snesrev/zelda3"><b>zelda3</b></a><br><sub>snesrev</sub></td><td>A Link to the Past rewritten in C, with widescreen (bring your own ROM)</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td><a href="https://github.com/snesrev/sm"><img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" width="160" alt="snesrev/sm"></a></td><td><a href="https://github.com/snesrev/sm"><b>sm</b></a><br><sub>snesrev</sub></td><td>Super Metroid rewritten in C (bring your own ROM)</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg">Wikipedia (© owner)</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MaChInEgUn3/tg3000-decomp"><b>tg3000-decomp</b></a><br><sub>MaChInEgUn3</sub></td><td>Annotated disassembly and readable C rewrite of the SNES racing game Top Gear 3000, verified against the original ROM routine by routine.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
 #### Remake / Port
@@ -381,6 +384,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
+<tr><td><a href="https://github.com/Okxmir/super-mario-3d-land-recompiled"><img src="images/Okxmir-super-mario-3d-land-recompiled-og.png" width="160" alt="Okxmir/super-mario-3d-land-recompiled"></a></td><td><a href="https://github.com/Okxmir/super-mario-3d-land-recompiled"><b>super-mario-3d-land-recompiled</b></a><br><sub>Okxmir</sub></td><td>Turns the 3DS game Super Mario 3D Land into a native Windows and Linux program by translating its code, so you can play it on PC from your own ROM without an emulator.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Okxmir/chibi-robo-zip-lash-recompiled"><b>chibi-robo-zip-lash-recompiled</b></a><br><sub>Okxmir</sub></td><td>Play the 3DS game Chibi-Robo! Zip Lash on Windows or Linux by bringing your own cartridge image; the code was translated ahead of time so it runs natively.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
@@ -481,18 +485,19 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/MysteriousAeon/rayman3-hd-recompiled"><b>rayman3-hd-recompiled</b></a><br><sub>MysteriousAeon</sub></td><td>Turns the closed-source Xbox 360 Rayman 3 HD into a native Windows program by statically recompiling its code; you supply your own game package.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/ghostrecon2-recomp"><b>ghostrecon2-recomp</b></a><br><sub>ElKev118</sub></td><td>A free native Windows port of the closed-source original Xbox game Tom Clancy&#x27;s Ghost Recon 2, made by statically recompiling its code so it runs with a modern Vulkan renderer.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/itsbybanshee/wwe2k14-pc"><b>wwe2k14-pc</b></a><br><sub>itsbybanshee</sub></td><td>Brings the Xbox 360 wrestling game WWE 2K14 to PC as a native program, with a launcher, mod support, higher resolutions and modern controls. Needs your own game files.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/Dipshet/GracemeriaRecomp"><img src="images/gracemeria-recomp-og.png" width="160" alt="Dipshet/GracemeriaRecomp"></a></td><td><a href="https://github.com/Dipshet/GracemeriaRecomp"><b>GracemeriaRecomp</b></a><br><sub>Dipshet</sub></td><td>A native PC version of the Xbox 360 flight game Ace Combat 6, made by automatically translating its code so it runs directly on modern computers without the original console.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MrPowerUp82/superman_returns_recomp"><b>superman_returns_recomp</b></a><br><sub>MrPowerUp82</sub></td><td>Experimental static recompilation of the closed-source Xbox 360 game Superman Returns to native PC using ReXGlue. Bring your own copy; no game files included.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sp00nznet/saintsrow"><b>saintsrow</b></a><br><sub>sp00nznet</sub></td><td>Static recompilation of the closed-source 2006 Xbox 360 game Saints Row into native x86-64 C++ so it runs on modern Windows without an emulator. You supply your own copy.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/summitstrike-recomp"><b>summitstrike-recomp</b></a><br><sub>ElKev118</sub></td><td>A free native Windows port of the closed-source Xbox expansion Tom Clancy&#x27;s Ghost Recon 2: Summit Strike, created via static recompilation of the original binary.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>Turns the closed-source Spyro: Dawn of the Dragon Xbox 360 game into a native Windows program (bring your own disc)</td><td>No</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>Run Lightning Returns: Final Fantasy XIII (Xbox 360) natively on Android by static recompilation to arm64 with a Vulkan renderer. Bring your own copy.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
 <details>
-<summary>Browse the complete category (+2)</summary>
+<summary>Browse the complete category (+3)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
+<tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>Run Lightning Returns: Final Fantasy XIII (Xbox 360) natively on Android by static recompilation to arm64 with a Vulkan renderer. Bring your own copy.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LomoXSoft/ZoidsAssaultRecomp"><b>ZoidsAssaultRecomp</b></a><br><sub>LomoXSoft</sub></td><td>Native Windows x64 port of the closed-source Xbox 360 game Zoids Assault via static recompilation using ReXGlue. Source only; bring your own disc.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Gl1ch5555/f1-2012-android"><b>f1-2012-android</b></a><br><sub>Gl1ch5555</sub></td><td>Native Android port of the closed-source Xbox 360 racing game F1 2012, made by static recompilation so it runs as a real app. Bring your own dump.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
@@ -531,7 +536,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+14)</summary>
+<summary>Browse the complete category (+15)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -549,6 +554,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>Matching decompilation of the original 1996 DOS Tomb Raider so C and assembly compile back to the exact retail TOMB.EXE bytes</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>Reverse engineering and a modern WebAssembly reimplementation of the closed-source 1996 game Deadly Tide. No original game data is included.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>Reverse-engineering project that reconstructs the PC adventure game Nancy Drew: Curse of Blackmoor Manor from its executable into matching native C code, plus a macOS ARM64 port.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>Matching decompilation of Skyrim Special Edition that aims to reconstruct every function in C++ matching the original game bytes.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -650,7 +656,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+26)</summary>
+<summary>Browse the complete category (+27)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -669,6 +675,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/michaelshimeles/sketch"><img src="https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png" width="160" alt="michaelshimeles/sketch"></a></td><td><a href="https://github.com/michaelshimeles/sketch"><b>sketch</b></a><br><sub>michaelshimeles</sub></td><td>An infinite design canvas in Rust, rebuilt by studying Paper</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>Rust reimplementation of the 1992 Johnny Castaway screensaver, reverse-engineered with REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>A local-first accounting app, modelled on QuickBooks for Mac</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/Berny23/slingshot-animals-recomp"><img src="images/Berny23-slingshot-animals-recomp-og.png" width="160" alt="Berny23/slingshot-animals-recomp"></a></td><td><a href="https://github.com/Berny23/slingshot-animals-recomp"><b>slingshot-animals-recomp</b></a><br><sub>Berny23</sub></td><td>Recompiles the classic Android Angry Birds games into versions that run natively on modern PCs, phones, and even Switch homebrew, without needing the original Android app each time.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/LilZeeCN/zee-rp"><img src="https://raw.githubusercontent.com/LilZeeCN/zee-rp/main/examples/screenshot/source.png" width="160" alt="LilZeeCN/zee-rp"></a></td><td><a href="https://github.com/LilZeeCN/zee-rp"><b>zee-rp</b></a><br><sub>LilZeeCN</sub></td><td>Read and write Axure RP prototype files from the CLI or MCP</td><td>❔ Unverified</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/laaielichter/Reverseport"><img src="https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif" width="160" alt="laaielichter/Reverseport"></a></td><td><a href="https://github.com/laaielichter/Reverseport"><b>Reverseport</b></a><br><sub>laaielichter</sub></td><td>Port reverse-engineering findings into Godot, Unity, Unreal or three.js</td><td>❔ Unverified</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>Stream your Linux desktop to Quest and Pico headsets</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
@@ -760,7 +767,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+113)</summary>
+<summary>Browse the complete category (+114)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -877,6 +884,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>A simple command-line tool that looks at Linux or Windows programs and quickly tells you what inputs they want and what they actually do, useful for malware analysis or CTF challenges.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>Free open-source Windows desktop app that gives AI agents a full reverse-engineering workbench for looking inside closed binaries, Android apps and native code.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>Open-source CLI and AI-agent tool that compares two closed-source Windows PE binaries and shows exactly which functions changed, useful for patch analysis.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>An agent-first decompiler written in Rust, originally ported from Ghidra, designed so AI agents can keep improving it automatically.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -902,7 +910,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 This evidence-tagged subset reuses entries from the platform and topic sections above. The atlas also covers independent tools and projects with no REA dependency.
 
 <details>
-<summary>Expand 59 REA-tagged entries</summary>
+<summary>Expand 60 REA-tagged entries</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -965,6 +973,7 @@ This evidence-tagged subset reuses entries from the platform and topic sections 
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>Recover Touhou 4&#x27;s bullet-ring angle maths from 16-bit DOS code</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>See exactly how the Aegis Android app generates your 2FA codes</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>Solve a DownUnderCTF 2023 reversing challenge step by step</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>An agent-first decompiler written in Rust, originally ported from Ghidra, designed so AI agents can keep improving it automatically.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>

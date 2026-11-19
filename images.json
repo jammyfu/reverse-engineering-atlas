@@ -1131,5 +1131,25 @@
     "card",
     "images/isle-portable-cover.jpg",
     "Cover image of isle-portable from Emulation King"
+  ],
+  "raulzrrs/swsh-recomp": [
+    "card",
+    "images/swsh-recomp-og.png",
+    "GitHub opengraph image for raulzrrs/swsh-recomp"
+  ],
+  "Dipshet/GracemeriaRecomp": [
+    "card",
+    "images/gracemeria-recomp-og.png",
+    "GitHub opengraph image for Dipshet/GracemeriaRecomp"
+  ],
+  "Okxmir/super-mario-3d-land-recompiled": [
+    "card",
+    "images/Okxmir-super-mario-3d-land-recompiled-og.png",
+    "GitHub opengraph image for Okxmir/super-mario-3d-land-recompiled"
+  ],
+  "Berny23/slingshot-animals-recomp": [
+    "card",
+    "images/Berny23-slingshot-animals-recomp-og.png",
+    "GitHub opengraph image for Berny23/slingshot-animals-recomp"
   ]
 }

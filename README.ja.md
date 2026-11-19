@@ -6,7 +6,7 @@
 
 逆解析プロジェクト、ツール、エージェントのワークフローを対象・プラットフォーム・技術別に整理したカタログです。ゲームの逆コンパイルと再コンパイル、アプリの再実装、Android・JavaScript 解析、プロトコル、ファームウェアの既存成果を探せます。
 
-**450 件の項目 · 444 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
+**459 件の項目 · 453 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
 
 Switch 2 は編集上の優先項目であり、人気の実測順位ではありません。各分類は既存の累計 Star スナップショット順で、リアルタイムのトレンドではありません。取得日時は未記録、件数不明の項目は末尾です。全項目を保持しています。
 
@@ -126,6 +126,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
 <tr><td>—</td><td><a href="https://github.com/jmars125/xcx-recomp"><b>xcx-recomp</b></a><br><sub>jmars125</sub></td><td>クローズドソースの『ゼノブレイドクロス ディフィニティブエディション』（Switch）を静的再コンパイルして、Windows でネイティブに動くプログラムにしたもの。自分で合法的にダンプしたファイルが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><img src="https://opengraph.githubassets.com/1/KevinBonnoron/xc2-decomp" width="160" alt="KevinBonnoron/xc2-decomp"></a></td><td><a href="https://github.com/KevinBonnoron/xc2-decomp"><b>xc2-decomp</b></a><br><sub>KevinBonnoron</sub></td><td>Nintendo Switch版『ゼノブレイド2』のマッチングデコンパイル：オリジナルのゲームバイナリを再現するソース。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/var-flotsam/dread-decomp"><b>dread-decomp</b></a><br><sub>var-flotsam</sub></td><td>任天堂Switch版『メトロイド ドレッド』のバイト単位で一致するデコンパイル。ネイティブPCポートを目指す。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
 #### リメイク / 移植
@@ -143,6 +144,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/linuxopt/mp4-recomp"><b>mp4-recomp</b></a><br><sub>linuxopt</sub></td><td>任天堂Switchのゲーム『メトロイドプライム4 ビヨンド』の無料オープンソースLinuxネイティブ版。自分のゲームダンプを使ってエミュレータなしで遊べる。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>Nintendo Switch 版『ポケットモンスター スカーレット』を、Vulkan レンダラ付きのネイティブ Windows プログラムに静的再コンパイルします。ダンプとキーは自分で用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>Nintendo Switch の『トモダチコレクション 夢の暮らし』を静的再コンパイルして PC でネイティブに動かせる初期の無料オープンソース移植（自分のダンプが必要）。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>Switch版『ポケモン ソード・シールド』のコードをあらかじめ翻訳して、エミュレーターなしでWindowsで動くネイティブ版にしたプロジェクト。自分で用意した正規のゲームデータが必要です。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 </table>
 
 ### ファミコン / NES
@@ -169,6 +171,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
 <tr><td><a href="https://github.com/snesrev/zelda3"><img src="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg" width="160" alt="snesrev/zelda3"></a></td><td><a href="https://github.com/snesrev/zelda3"><b>zelda3</b></a><br><sub>snesrev</sub></td><td>神々のトライフォースを C で再実装、ワイド対応（ROM は各自）</td><td>いいえ</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg">Wikipedia（© 権利者）</a></sub></td></tr>
 <tr><td><a href="https://github.com/snesrev/sm"><img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" width="160" alt="snesrev/sm"></a></td><td><a href="https://github.com/snesrev/sm"><b>sm</b></a><br><sub>snesrev</sub></td><td>スーパーメトロイドを C で再実装（ROM は各自）</td><td>いいえ</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg">Wikipedia（© 権利者）</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MaChInEgUn3/tg3000-decomp"><b>tg3000-decomp</b></a><br><sub>MaChInEgUn3</sub></td><td>SNESのレースゲーム『トップギア3000』の注釈付き逆アセンブリと、オリジナルとルーチン単位で検証された読みやすいCコード。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
 #### リメイク / 移植
@@ -381,6 +384,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
+<tr><td><a href="https://github.com/Okxmir/super-mario-3d-land-recompiled"><img src="images/Okxmir-super-mario-3d-land-recompiled-og.png" width="160" alt="Okxmir/super-mario-3d-land-recompiled"></a></td><td><a href="https://github.com/Okxmir/super-mario-3d-land-recompiled"><b>super-mario-3d-land-recompiled</b></a><br><sub>Okxmir</sub></td><td>3DSの『スーパーマリオ3Dランド』のコードを翻訳して、エミュレーターなしでWindowsとLinuxで動くようにしたプロジェクト。自分のROMが必要です。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Okxmir/chibi-robo-zip-lash-recompiled"><b>chibi-robo-zip-lash-recompiled</b></a><br><sub>Okxmir</sub></td><td>3DS のゲーム『ちびロボ！ジップラッシュ』を自分のカートリッジイメージで Windows や Linux 上でネイティブに動かす。コードは事前に翻訳済み。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
@@ -481,18 +485,19 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/MysteriousAeon/rayman3-hd-recompiled"><b>rayman3-hd-recompiled</b></a><br><sub>MysteriousAeon</sub></td><td>クローズドソースの Xbox 360『レイマン3 HD』を静的再コンパイルして Windows でネイティブに動くプログラムにしたもの。自分のゲームパッケージが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/ghostrecon2-recomp"><b>ghostrecon2-recomp</b></a><br><sub>ElKev118</sub></td><td>非公開ソースの初代Xbox版『ゴーストリコン2』を静的リコンパイルしてネイティブWindows移植。Vulkanレンダラーで動作。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/itsbybanshee/wwe2k14-pc"><b>wwe2k14-pc</b></a><br><sub>itsbybanshee</sub></td><td>Xbox 360のレスリングゲーム『WWE 2K14』をランチャー付きのネイティブPC版に。MOD対応、高解像度、現代的な操作。自分のゲームファイルが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/Dipshet/GracemeriaRecomp"><img src="images/gracemeria-recomp-og.png" width="160" alt="Dipshet/GracemeriaRecomp"></a></td><td><a href="https://github.com/Dipshet/GracemeriaRecomp"><b>GracemeriaRecomp</b></a><br><sub>Dipshet</sub></td><td>Xbox 360のフライトゲーム『エースコンバット6』のコードを自動翻訳して、現代のPCで直接動くようにしたプロジェクト。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MrPowerUp82/superman_returns_recomp"><b>superman_returns_recomp</b></a><br><sub>MrPowerUp82</sub></td><td>ReXGlue を使ってクローズドソースの Xbox 360 ゲーム『Superman Returns』をネイティブ PC に実験的に静的再コンパイル。ゲームファイルは含まれず自分で用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/sp00nznet/saintsrow"><b>saintsrow</b></a><br><sub>sp00nznet</sub></td><td>2006年のクローズドソース Xbox 360 ゲーム『セインツロウ』の PowerPC コードをネイティブ x86-64 C++ に静的再コンパイルし、エミュレータなしで現代の Windows 上で動かすプロジェクト。自分のゲームファイルが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/ElKev118/summitstrike-recomp"><b>summitstrike-recomp</b></a><br><sub>ElKev118</sub></td><td>非公開ソースのXbox拡張『ゴーストリコン2：サミットストライク』を静的リコンパイルしたネイティブWindows移植。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp"><b>Dawn-of-the-dragon-recomp</b></a><br><sub>Minuteworld94</sub></td><td>クローズドソースの『スパイロ：ドーン・オブ・ザ・ドラゴン』（Xbox 360）を自分のディスクでWindowsネイティブに</td><td>いいえ</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>Xbox 360の『ライトニング リターンズ ファイナルファンタジーXIII』を静的リコンパイルしてAndroid arm64でネイティブ実行。Vulkan。自分のコピーを用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+2)</summary>
+<summary>このカテゴリをすべて表示 (+3)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
+<tr><td>—</td><td><a href="https://github.com/Lazaer-YZY/ff13-lr-recomp"><b>ff13-lr-recomp</b></a><br><sub>Lazaer-YZY</sub></td><td>Xbox 360の『ライトニング リターンズ ファイナルファンタジーXIII』を静的リコンパイルしてAndroid arm64でネイティブ実行。Vulkan。自分のコピーを用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LomoXSoft/ZoidsAssaultRecomp"><b>ZoidsAssaultRecomp</b></a><br><sub>LomoXSoft</sub></td><td>クローズドソースのXbox 360ゲーム『ゾイドアサルト』をReXGlueで静的リコンパイルしネイティブWindows x64版に。ソースのみ、ディスクは自分で用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Gl1ch5555/f1-2012-android"><b>f1-2012-android</b></a><br><sub>Gl1ch5555</sub></td><td>非公開ソースのXbox 360レーシングゲーム『F1 2012』を静的再コンパイルでAndroidネイティブアプリにした移植版。自分のダンプを用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
@@ -531,7 +536,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+14)</summary>
+<summary>このカテゴリをすべて表示 (+15)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -549,6 +554,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/LostArtefacts/tr01"><img src="https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01" width="160" alt="LostArtefacts/tr01"></a></td><td><a href="https://github.com/LostArtefacts/tr01"><b>tr01</b></a><br><sub>LostArtefacts</sub></td><td>1996 年の DOS 版『トゥームレイダー』のマッチング逆コンパイル。C とアセンブリが元の TOMB.EXE とバイト単位で一致する</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>1996年のクローズドソースゲーム『Deadly Tide』のリバースエンジニアリングと、現代の WebAssembly による再実装。元のゲームデータは含まれない。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>PC アドベンチャー『Nancy Drew: Curse of Blackmoor Manor』の実行ファイルをマッチングするネイティブ C コードに再構築し、macOS ARM64 移植も提供するプロジェクト。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>『スカイリム スペシャルエディション』のマッチングデコンパイル。すべての関数をオリジナルと同じバイトのC++に再構築することを目指す。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -650,7 +656,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+26)</summary>
+<summary>このカテゴリをすべて表示 (+27)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -669,6 +675,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/michaelshimeles/sketch"><img src="https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png" width="160" alt="michaelshimeles/sketch"></a></td><td><a href="https://github.com/michaelshimeles/sketch"><b>sketch</b></a><br><sub>michaelshimeles</sub></td><td>Paper を研究して作った Rust 製の無限デザインキャンバス</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>REA で逆解析した 1992 年 Johnny Castaway スクリーンセーバーの Rust 再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>QuickBooks for Mac を参考にしたローカル優先の会計アプリ</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/Berny23/slingshot-animals-recomp"><img src="images/Berny23-slingshot-animals-recomp-og.png" width="160" alt="Berny23/slingshot-animals-recomp"></a></td><td><a href="https://github.com/Berny23/slingshot-animals-recomp"><b>slingshot-animals-recomp</b></a><br><sub>Berny23</sub></td><td>昔のAndroid版『アングリーバード』シリーズを、現代のPCやスマホ、Switchのホームブリューでも直接動くように再コンパイルしたプロジェクト。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/LilZeeCN/zee-rp"><img src="https://raw.githubusercontent.com/LilZeeCN/zee-rp/main/examples/screenshot/source.png" width="160" alt="LilZeeCN/zee-rp"></a></td><td><a href="https://github.com/LilZeeCN/zee-rp"><b>zee-rp</b></a><br><sub>LilZeeCN</sub></td><td>CLI や MCP から Axure RP のプロトタイプを読み書き</td><td>❔ 未確認</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/laaielichter/Reverseport"><img src="https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif" width="160" alt="laaielichter/Reverseport"></a></td><td><a href="https://github.com/laaielichter/Reverseport"><b>Reverseport</b></a><br><sub>laaielichter</sub></td><td>解析結果を Godot・Unity・Unreal・three.js へ移植</td><td>❔ 未確認</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>Linux デスクトップを Quest・Pico へストリーミング</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
@@ -760,7 +767,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+113)</summary>
+<summary>このカテゴリをすべて表示 (+114)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -877,6 +884,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/kadohack12/binscope"><b>binscope</b></a><br><sub>kadohack12</sub></td><td>Linux や Windows のプログラムを見て、どんな入力を期待していて実際に何をするのかを素早く教えてくれるコマンドラインツール。マルウェア解析や CTF 向け。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/PumLFxTH-Code/deeptrace"><b>deeptrace</b></a><br><sub>PumLFxTH-Code</sub></td><td>AIエージェントに閉源バイナリ・Androidアプリ・ネイティブコードを調べるための本格的なリバースエンジニアリング作業台を提供する無料オープンソースWindowsデスクトップアプリ。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/RivaExits0/patchlens"><img src="images/patchlens-og.png" width="160" alt="RivaExits0/patchlens"></a></td><td><a href="https://github.com/RivaExits0/patchlens"><b>patchlens</b></a><br><sub>RivaExits0</sub></td><td>2つの閉源Windows PEバイナリを比較し、どの関数が変わったかを正確に示すオープンソースCLI＋AIエージェント用ツール。パッチ解析向け。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>AIエージェント優先のデコンパイラ。元々GhidraからRustに移植され、AIエージェントが自動的に改善し続けられるように設計されている。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
@@ -902,7 +910,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 この根拠付きサブセットは上のプラットフォーム・分野別一覧の項目を再掲します。REA に依存しない独立したツールやプロジェクトも収録しています。
 
 <details>
-<summary>REA タグ付き 59 項目を展開</summary>
+<summary>REA タグ付き 60 項目を展開</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -965,6 +973,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>16 ビット DOS コードから東方幻想郷の弾幕角度計算を復元</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>Aegis（Android）が二段階認証コードを生成する仕組みを解明</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>DownUnderCTF 2023 のリバーシング問題を順に解く</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Noelo-Lab/kuna"><b>kuna</b></a><br><sub>Noelo-Lab</sub></td><td>AIエージェント優先のデコンパイラ。元々GhidraからRustに移植され、AIエージェントが自動的に改善し続けられるように設計されている。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>

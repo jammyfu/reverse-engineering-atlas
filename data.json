@@ -3598,5 +3598,77 @@
     "https://github.com/isledecomp/isle-portable",
     "No",
     "Portable, cross-platform version of the 1997 LEGO Island game based on its matching decompilation. Runs natively on modern systems."
+  ],
+  [
+    "switch",
+    "remake",
+    "raulzrrs/swsh-recomp",
+    "https://github.com/raulzrrs/swsh-recomp",
+    "No",
+    "Native Windows static recompilation of Pokémon Sword/Shield (Switch 1.3.2); needs your own dump. Built on Let's Go Recomp / LAS Recomp."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Dipshet/GracemeriaRecomp",
+    "https://github.com/Dipshet/GracemeriaRecomp",
+    "No",
+    "Native PC port of Ace Combat 6: Fires of Liberation (Xbox 360) via XenonRecomp static recompilation; bring your own disc."
+  ],
+  [
+    "3ds",
+    "remake",
+    "Okxmir/super-mario-3d-land-recompiled",
+    "https://github.com/Okxmir/super-mario-3d-land-recompiled",
+    "No",
+    "Native Windows/Linux static recompilation of Super Mario 3D Land (3DS); built from your own European ROM."
+  ],
+  [
+    "app",
+    "remake",
+    "Berny23/slingshot-animals-recomp",
+    "https://github.com/Berny23/slingshot-animals-recomp",
+    "No",
+    "Unofficial static recompilation of classic Angry Birds games (Android) for modern platforms including Switch homebrew; needs original assets."
+  ],
+  [
+    "switch",
+    "recomp",
+    "ILFforever/YW4Recomp",
+    "https://github.com/ILFforever/YW4Recomp",
+    "No",
+    "Yo-kai Watch 4++ (Switch) static recompilation to native Windows/Linux with custom Vulkan renderer."
+  ],
+  [
+    "switch",
+    "decomp",
+    "var-flotsam/dread-decomp",
+    "https://github.com/var-flotsam/dread-decomp",
+    "No",
+    "Matching decompilation of Metroid Dread (Switch) toward a native PC port."
+  ],
+  [
+    "snes",
+    "decomp",
+    "MaChInEgUn3/tg3000-decomp",
+    "https://github.com/MaChInEgUn3/tg3000-decomp",
+    "No",
+    "Top Gear 3000 (SNES) annotated disassembly + readable C verified routine by routine."
+  ],
+  [
+    "pc",
+    "decomp",
+    "awarebayes/skyrim_decomp",
+    "https://github.com/awarebayes/skyrim_decomp",
+    "No",
+    "Matching decompilation of Skyrim Special Edition (Steam 1.7.104) with AI-assisted contributions."
+  ],
+  [
+    "tooling",
+    "tools",
+    "Noelo-Lab/kuna",
+    "https://github.com/Noelo-Lab/kuna",
+    "Yes",
+    "Agent-first Rust decompiler ported from Ghidra, optimized for LLM refinement. Featured on Made with REA."
   ]
 ]

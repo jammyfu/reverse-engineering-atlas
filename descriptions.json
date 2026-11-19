@@ -3148,5 +3148,68 @@
     "zh-TW": "基於《樂高島》反編譯做出的現代可攜版本，讓這款 1997 年的遊戲能在 Windows、Mac、Linux 等系統上原生執行。",
     "ja": "1997年の LEGO Island を逆コンパイルから作った現代的なポータブル版。Windows、Mac、Linux などでネイティブに動きます。",
     "ko": "1997년 LEGO Island를 디컴파일에서 만든 현대적인 이식 버전. Windows, Mac, Linux 등에서 네이티브로 실행됩니다."
+  },
+  "raulzrrs/swsh-recomp": {
+    "en": "Turns the Switch Pokémon Sword and Shield game into a native Windows program by translating its code ahead of time, so it runs without an emulator. You still need your own legal copy of the game.",
+    "zh-CN": "把 Switch 上的《宝可梦 剑/盾》游戏代码提前翻译成电脑能直接跑的程序，不用模拟器就能在 Windows 上玩。你得自己准备正版游戏文件。",
+    "zh-TW": "把 Switch 上的《寶可夢 劍／盾》遊戲程式碼提前翻譯成電腦能直接跑的程式，不用模擬器就能在 Windows 上玩。你得自己準備正版遊戲檔案。",
+    "ja": "Switch版『ポケモン ソード・シールド』のコードをあらかじめ翻訳して、エミュレーターなしでWindowsで動くネイティブ版にしたプロジェクト。自分で用意した正規のゲームデータが必要です。",
+    "ko": "스위치 포켓몬 소드/실드 게임 코드를 미리 번역해서 에뮬레이터 없이 윈도우에서 바로 돌아가는 네이티브 버전으로 만든 프로젝트. 본인이 가진 정품 게임 파일이 필요합니다."
+  },
+  "Dipshet/GracemeriaRecomp": {
+    "en": "A native PC version of the Xbox 360 flight game Ace Combat 6, made by automatically translating its code so it runs directly on modern computers without the original console.",
+    "zh-CN": "把 Xbox 360 上的飞行游戏《皇牌空战6》代码自动翻译成现代电脑能直接运行的版本，不用原主机也能玩。",
+    "zh-TW": "把 Xbox 360 上的飛行遊戲《皇牌空戰6》程式碼自動翻譯成現代電腦能直接執行的版本，不用原主機也能玩。",
+    "ja": "Xbox 360のフライトゲーム『エースコンバット6』のコードを自動翻訳して、現代のPCで直接動くようにしたプロジェクト。",
+    "ko": "Xbox 360 비행 게임 에이스 컴뱃 6의 코드를 자동 번역해서 현대 PC에서 바로 돌아가게 만든 프로젝트."
+  },
+  "Okxmir/super-mario-3d-land-recompiled": {
+    "en": "Turns the 3DS game Super Mario 3D Land into a native Windows and Linux program by translating its code, so you can play it on PC from your own ROM without an emulator.",
+    "zh-CN": "把 3DS 上的《超级马里奥3D乐园》游戏代码翻译成 Windows 和 Linux 能直接运行的程序，用自己的 ROM 就能在电脑上玩，不用模拟器。",
+    "zh-TW": "把 3DS 上的《超級瑪利歐3D樂園》遊戲程式碼翻譯成 Windows 和 Linux 能直接執行的程式，用自己的 ROM 就能在電腦上玩，不用模擬器。",
+    "ja": "3DSの『スーパーマリオ3Dランド』のコードを翻訳して、エミュレーターなしでWindowsとLinuxで動くようにしたプロジェクト。自分のROMが必要です。",
+    "ko": "3DS 슈퍼 마리오 3D 랜드 게임 코드를 번역해서 에뮬레이터 없이 윈도우와 리눅스에서 바로 돌아가게 만든 프로젝트. 본인 ROM이 필요합니다."
+  },
+  "Berny23/slingshot-animals-recomp": {
+    "en": "Recompiles the classic Android Angry Birds games into versions that run natively on modern PCs, phones, and even Switch homebrew, without needing the original Android app each time.",
+    "zh-CN": "把经典的安卓《愤怒的小鸟》系列游戏重新编译成能在现代电脑、手机甚至 Switch 自制系统上直接运行的版本。",
+    "zh-TW": "把經典的 Android《憤怒的小鳥》系列遊戲重新編譯成能在現代電腦、手機甚至 Switch 自製系統上直接執行的版本。",
+    "ja": "昔のAndroid版『アングリーバード』シリーズを、現代のPCやスマホ、Switchのホームブリューでも直接動くように再コンパイルしたプロジェクト。",
+    "ko": "클래식 안드로이드 앵그리버드 시리즈를 현대 PC, 폰, 스위치 홈브루에서도 바로 돌아가게 재컴파일한 프로젝트."
+  },
+  "ILFforever/YW4Recomp": {
+    "en": "Turns the Nintendo Switch game Yo-kai Watch 4++ into a native Windows and Linux program with its own Vulkan renderer.",
+    "zh-CN": "把任天堂Switch上的《妖怪手表4++》静态重编译成原生Windows和Linux程序，自带Vulkan渲染器。",
+    "zh-TW": "把任天堂Switch上的《妖怪手錶4++》靜態重編譯成原生Windows和Linux程式，自帶Vulkan渲染器。",
+    "ja": "任天堂Switchの『妖怪ウォッチ4++』を、独自のVulkanレンダラー付きでWindowsとLinux向けのネイティブプログラムに静的再コンパイル。",
+    "ko": "닌텐도 스위치의 《요괴워치 4++》를 자체 Vulkan 렌더러를 가진 네이티브 Windows 및 Linux 프로그램으로 정적 재컴파일."
+  },
+  "var-flotsam/dread-decomp": {
+    "en": "A matching decompilation of Metroid Dread on Nintendo Switch, aiming for a true native PC port from the original source.",
+    "zh-CN": "对任天堂Switch上的《密特罗德 生存恐惧》做逐字节匹配的反编译，目标是做出真正的原生PC移植版。",
+    "zh-TW": "對任天堂Switch上的《密特羅德 生存恐懼》做逐位元組匹配的反編譯，目標是做出真正的原生PC移植版。",
+    "ja": "任天堂Switch版『メトロイド ドレッド』のバイト単位で一致するデコンパイル。ネイティブPCポートを目指す。",
+    "ko": "닌텐도 스위치 《메트로이드 드레드》의 바이트 단위 일치 디컴파일. 진짜 네이티브 PC 포트를 목표로 함."
+  },
+  "MaChInEgUn3/tg3000-decomp": {
+    "en": "Annotated disassembly and readable C rewrite of the SNES racing game Top Gear 3000, verified against the original ROM routine by routine.",
+    "zh-CN": "对SNES赛车游戏《最高速3000》做带注释的反汇编，并把游戏逻辑重写成可读的C代码，逐个函数对照原版验证正确性。",
+    "zh-TW": "對SNES賽車遊戲《最高速3000》做帶註解的反組譯，並把遊戲邏輯重寫成可讀的C程式碼，逐個函式對照原版驗證正確性。",
+    "ja": "SNESのレースゲーム『トップギア3000』の注釈付き逆アセンブリと、オリジナルとルーチン単位で検証された読みやすいCコード。",
+    "ko": "SNES 레이싱 게임 《탑 기어 3000》의 주석이 달린 디스어셈블리와 원본과 루틴 단위로 검증된 읽기 쉬운 C 코드."
+  },
+  "awarebayes/skyrim_decomp": {
+    "en": "Matching decompilation of Skyrim Special Edition that aims to reconstruct every function in C++ matching the original game bytes.",
+    "zh-CN": "对《上古卷轴5：天际》特别版做匹配反编译，目标是用C++把每一个函数都还原成和原游戏字节完全一致的代码。",
+    "zh-TW": "對《上古卷軸5：天際》特別版做匹配反編譯，目標是用C++把每一個函式都還原成和原遊戲位元組完全一致的程式碼。",
+    "ja": "『スカイリム スペシャルエディション』のマッチングデコンパイル。すべての関数をオリジナルと同じバイトのC++に再構築することを目指す。",
+    "ko": "《스카이림 스페셜 에디션》의 매칭 디컴파일. 모든 함수를 원본 게임 바이트와 동일한 C++로 재구성하는 것이 목표."
+  },
+  "Noelo-Lab/kuna": {
+    "en": "An agent-first decompiler written in Rust, originally ported from Ghidra, designed so AI agents can keep improving it automatically.",
+    "zh-CN": "一个面向AI智能体优先的反编译器，用Rust从Ghidra移植而来，专门设计成让AI代理能自动持续改进它。",
+    "zh-TW": "一個面向AI智能體優先的反編譯器，用Rust從Ghidra移植而來，專門設計成讓AI代理能自動持續改進它。",
+    "ja": "AIエージェント優先のデコンパイラ。元々GhidraからRustに移植され、AIエージェントが自動的に改善し続けられるように設計されている。",
+    "ko": "AI 에이전트 우선 디컴파일러. 원래 Ghidra에서 Rust로 포팅되었으며, AI 에이전트가 자동으로 계속 개선할 수 있도록 설계됨."
   }
 }
