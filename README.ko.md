@@ -6,7 +6,7 @@
 
 역공학 프로젝트, 도구와 에이전트 작업 흐름을 대상·플랫폼·기술별로 모은 목록입니다. 게임 디컴파일과 리컴파일, 앱 재구현, Android·JavaScript 분석, 프로토콜과 펌웨어 분야에서 기존 작업을 먼저 찾아보세요.
 
-**목록 472개 · GitHub 저장소 466개 · skill 작업 흐름 10종 · README 5개 언어**
+**목록 479개 · GitHub 저장소 473개 · skill 작업 흐름 10종 · README 5개 언어**
 
 Switch 2는 편집상 우선순위이며 실측 인기 순위가 아닙니다. 분류 내에서는 기존 누적 Star 스냅샷을 사용하며 실시간 추세가 아닙니다. 수집 시각은 기록되지 않았으며 수치가 없는 항목은 마지막에 표시합니다. 모든 항목은 유지됩니다.
 
@@ -145,6 +145,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>닌텐도 스위치 버전의 포켓몬 스칼렛을 Vulkan 렌더러가 있는 네이티브 Windows 프로그램으로 정적 재컴파일합니다. 덤프와 키는 직접 준비해야 합니다.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>닌텐도 스위치 게임 토모다치 라이프: 리빙 더 드림을 정적 재컴파일하여 PC에서 네이티브로 실행할 수 있게 하는 초기 무료 오픈소스 포트 (자신의 덤프 필요).</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>스위치 포켓몬 소드/실드 게임 코드를 미리 번역해서 에뮬레이터 없이 윈도우에서 바로 돌아가는 네이티브 버전으로 만든 프로젝트. 본인이 가진 정품 게임 파일이 필요합니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><img src="https://raw.githubusercontent.com/IamWilmar/xenoblade3-recomp/main/docs/icon.png" width="160" alt="IamWilmar/xenoblade3-recomp"></a></td><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><b>xenoblade3-recomp</b></a><br><sub>IamWilmar</sub></td><td>특정 핸드헬드용 폐쇄 소스 Xenoblade Chronicles 3의 무료 오픈소스 네이티브 Android 포트. 게임 자신의 ARM64 코드가 네이티브로 실행되며 SDK는 재구현. 자신의 추출 파일 필요.</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 </table>
 
 ### 패미컴 / NES
@@ -382,6 +383,14 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/zeldaret/ph"><img src="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg" width="160" alt="zeldaret/ph"></a></td><td><a href="https://github.com/zeldaret/ph"><b>ph</b></a><br><sub>zeldaret</sub></td><td>젤다의 전설 몽환의 모래시계를 C로 디컴파일</td><td>아니요</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg">위키백과(© 권리자)</a></sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fuddlesworth/pokebw2"><b>pokebw2</b></a><br><sub>fuddlesworth</sub></td><td>클로즈드 소스 닌텐도 DS 게임 포켓몬 블랙2 / 화이트2 디컴파일 프로젝트. 소스 복구로 이해와 보존을 돕는다.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/DQIX/dqix-decomp"><img src="images/dqix-decomp-og.png" width="160" alt="DQIX/dqix-decomp"></a></td><td><a href="https://github.com/DQIX/dqix-decomp"><b>dqix-decomp</b></a><br><sub>DQIX</sub></td><td>닌텐도 DS 게임 드래곤 퀘스트 IX를 매칭 디컴파일하여 원래 ROM을 바이트 단위로 재현하는 C++ 소스로 만들고 있습니다.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nextcode4u/jEnesisDS-Decomp-REA"><b>jEnesisDS-Decomp-REA</b></a><br><sub>nextcode4u</sub></td><td>REA와 Ghidra를 사용한 폐쇄 소스 jEnesisDS 0.7.4(닌텐도 DS의 세가 제네시스 에뮬레이터) 무료 오픈소스 정적 디컴파일. 바이트 단위 일치 ROM 재빌드 포함.</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+</table>
+
+#### 리메이크 / 포팅
+
+<table>
+<tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
+<tr><td><a href="https://github.com/tangosdev/sm64ds-pc-port"><img src="https://opengraph.githubassets.com/1/tangosdev/sm64ds-pc-port" width="160" alt="tangosdev/sm64ds-pc-port"></a></td><td><a href="https://github.com/tangosdev/sm64ds-pc-port"><b>sm64ds-pc-port</b></a><br><sub>tangosdev</sub></td><td>매칭 디컴파일을 기반으로 한 폐쇄 소스 Super Mario 64 DS의 무료 오픈소스 네이티브 Windows 포트. 자신의 유럽판 ROM 필요.</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 </table>
 
 ### 닌텐도 3DS
@@ -551,7 +560,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+16)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+17)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -570,6 +579,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/LostArtefacts/tr04"><b>tr04</b></a><br><sub>LostArtefacts</sub></td><td>폐쇄 소스 Windows 게임 Tomb Raider IV: The Last Revelation(1999)의 매칭 디컴파일. Linux에서 Wine과 원본 MSVC 6으로 빌드 및 검증. 자신의 게임 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>1996년 클로즈드 소스 게임 Deadly Tide의 역공학과 현대 WebAssembly 재구현. 원본 게임 데이터는 포함되지 않음.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>PC 어드벤처 게임 낸시 드류: 블랙무어 저택의 저주를 실행 파일에서 매칭되는 네이티브 C 코드로 재구성하고 macOS ARM64 포트도 제공하는 프로젝트.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/RangerXT/terminator-1991-decomp"><img src="https://opengraph.githubassets.com/1/RangerXT/terminator-1991-decomp" width="160" alt="RangerXT/terminator-1991-decomp"></a></td><td><a href="https://github.com/RangerXT/terminator-1991-decomp"><b>terminator-1991-decomp</b></a><br><sub>RangerXT</sub></td><td>폐쇄 소스 The Terminator(1991 DOS 게임)의 무료 오픈소스 완전 C 디컴파일. 모든 루틴을 에뮬레이터의 원본과 검증. 게임 파일 없음.</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>《스카이림 스페셜 에디션》의 매칭 디컴파일. 모든 함수를 원본 게임 바이트와 동일한 C++로 재구성하는 것이 목표.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
@@ -674,7 +684,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+27)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+28)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -703,6 +713,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td><a href="https://github.com/monatis/okur"><img src="images/okur-card.png" width="160" alt="monatis/okur"></a></td><td><a href="https://github.com/monatis/okur"><b>okur</b></a><br><sub>monatis</sub></td><td>JAWS처럼 동작하는 오픈소스 스크린 리더. JAWS의 음성을 관찰해 처음부터 다시 구현.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>Wispr Flow 음성 파이프라인 해부와 64줄 재구현</td><td>✅ 예</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">동영상 썸네일</a></sub></td></tr>
 <tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>WinDirStat처럼 Windows 11 디스크 사용량을 시각화</td><td>✅ 예</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td><a href="https://github.com/OpenMaker-Dev/openmaker"><img src="https://raw.githubusercontent.com/OpenMaker-Dev/openmaker/main/docs/assets/openmaker-logo.svg" width="160" alt="OpenMaker-Dev/openmaker"></a></td><td><a href="https://github.com/OpenMaker-Dev/openmaker"><b>openmaker</b></a><br><sub>OpenMaker-Dev</sub></td><td>폐쇄 소스 Claris FileMaker Pro 데이터베이스 앱의 무료 오픈소스 클린룸 Rust 재구현. .fmp12 파일을 열고 FileMaker Server와 작동.</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>Ghostty를 살펴보고 만든 미니멀 macOS 터미널</td><td>✅ 예</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA로 FM Season Hub 앱을 분석한 노트</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
@@ -930,7 +941,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 이 근거 표시 하위 목록은 위 플랫폼·주제별 항목을 다시 보여줍니다. REA에 의존하지 않는 독립 도구와 프로젝트도 수록합니다.
 
 <details>
-<summary>REA 태그 항목 60개 펼치기</summary>
+<summary>REA 태그 항목 61개 펼치기</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -988,6 +999,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>REA/Ghidra로 아키텍처를 복원한 SA-MP 0.3.DL-R1 클린룸 클라이언트 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea 슬래시 명령. 요청을 REA 스킬과 MCP 도구로 라우팅.</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/romangalaxys10-spec/zcode-rea"><b>zcode-rea</b></a><br><sub>romangalaxys10-spec</sub></td><td>공식 REA 툴킷을 감싼 ZCode 플러그인. AI 에이전트가 증거와 함께 비공개 바이너리, 앱, 웹사이트를 리버스 엔지니어링할 수 있게 함.</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nextcode4u/jEnesisDS-Decomp-REA"><b>jEnesisDS-Decomp-REA</b></a><br><sub>nextcode4u</sub></td><td>REA와 Ghidra를 사용한 폐쇄 소스 jEnesisDS 0.7.4(닌텐도 DS의 세가 제네시스 에뮬레이터) 무료 오픈소스 정적 디컴파일. 바이트 단위 일치 ROM 재빌드 포함.</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>REA가 DX-Ball 사운드 함수를 바이트 단위로 같은 C로 복원하는 과정</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>Notion 복사 동작을 페이지에서 IPC, 메인 프로세스까지 추적</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>16비트 DOS 코드에서 동방환상향 탄막 각도 계산을 복원</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>

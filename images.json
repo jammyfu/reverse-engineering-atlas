@@ -1175,5 +1175,35 @@
     "readme",
     "https://raw.githubusercontent.com/batinium/gta-stories-recompiled/main/docs/media/hero_portland_sunset.jpg",
     "Project hero screenshot of Liberty City Stories on PC"
+  ],
+  "ps4star/WhiteRecomp": [
+    "readme",
+    "https://opengraph.githubassets.com/1/ps4star/WhiteRecomp",
+    "GitHub opengraph card for WhiteRecomp"
+  ],
+  "tangosdev/sm64ds-pc-port": [
+    "readme",
+    "https://opengraph.githubassets.com/1/tangosdev/sm64ds-pc-port",
+    "GitHub opengraph card for sm64ds-pc-port"
+  ],
+  "RangerXT/terminator-1991-decomp": [
+    "readme",
+    "https://opengraph.githubassets.com/1/RangerXT/terminator-1991-decomp",
+    "GitHub opengraph card for terminator-1991-decomp"
+  ],
+  "MarquitoK/TTTRecomp": [
+    "readme",
+    "https://opengraph.githubassets.com/1/MarquitoK/TTTRecomp",
+    "GitHub opengraph card for TTTRecomp"
+  ],
+  "IamWilmar/xenoblade3-recomp": [
+    "readme",
+    "https://raw.githubusercontent.com/IamWilmar/xenoblade3-recomp/main/docs/icon.png",
+    "Project icon from README"
+  ],
+  "OpenMaker-Dev/openmaker": [
+    "readme",
+    "https://raw.githubusercontent.com/OpenMaker-Dev/openmaker/main/docs/assets/openmaker-logo.svg",
+    "OpenMaker logo from project docs"
   ]
 }

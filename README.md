@@ -6,7 +6,7 @@
 
 A curated map of reverse-engineering projects, tools and agent workflows. Find existing work before starting your own: game decompilations and recompilations, application reimplementations, Android and JavaScript analysis, protocols, firmware and supporting tools.
 
-**472 catalog entries · 466 GitHub repositories · 10 skill workflows · 5 README languages**
+**479 catalog entries · 473 GitHub repositories · 10 skill workflows · 5 README languages**
 
 Switch 2 is an editorial priority, not a measured popularity claim. Within each section, projects use the existing cumulative Star snapshot, not live trending data. The snapshot has no capture timestamp; missing counts sort last. All entries remain available below.
 
@@ -145,6 +145,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>Turns the Nintendo Switch version of Pokémon Scarlet into a native Windows program with a Vulkan renderer that runs without an emulator. You supply your own dump and keys.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>Early free open-source port that recompiles the Nintendo Switch game Tomodachi Life: Living the Dream into a native PC program (you need your own dump).</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>Turns the Switch Pokémon Sword and Shield game into a native Windows program by translating its code ahead of time, so it runs without an emulator. You still need your own legal copy of the game.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><img src="https://raw.githubusercontent.com/IamWilmar/xenoblade3-recomp/main/docs/icon.png" width="160" alt="IamWilmar/xenoblade3-recomp"></a></td><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><b>xenoblade3-recomp</b></a><br><sub>IamWilmar</sub></td><td>A free open-source native Android port of the closed-source Xenoblade Chronicles 3 for specific handhelds. The game&#x27;s own ARM64 code runs natively with a reimplemented SDK. Bring your own extracted files.</td><td>No</td><td><sub>Project README</sub></td></tr>
 </table>
 
 ### NES / Famicom
@@ -382,6 +383,14 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/zeldaret/ph"><img src="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg" width="160" alt="zeldaret/ph"></a></td><td><a href="https://github.com/zeldaret/ph"><b>ph</b></a><br><sub>zeldaret</sub></td><td>Zelda: Phantom Hourglass, decompiled to C</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg">Wikipedia (© owner)</a></sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fuddlesworth/pokebw2"><b>pokebw2</b></a><br><sub>fuddlesworth</sub></td><td>Decompilation project for the closed-source Nintendo DS games Pokémon Black 2 and White 2, recovering source to better understand and preserve them.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/DQIX/dqix-decomp"><img src="images/dqix-decomp-og.png" width="160" alt="DQIX/dqix-decomp"></a></td><td><a href="https://github.com/DQIX/dqix-decomp"><b>dqix-decomp</b></a><br><sub>DQIX</sub></td><td>A matching decompilation of the Nintendo DS game Dragon Quest IX, turning its machine code back into C++ that rebuilds the original ROM byte for byte.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nextcode4u/jEnesisDS-Decomp-REA"><b>jEnesisDS-Decomp-REA</b></a><br><sub>nextcode4u</sub></td><td>A free open-source static decompilation of the closed-source jEnesisDS 0.7.4 Nintendo DS Sega Genesis emulator, done with REA and Ghidra, including a byte-for-byte matching ROM rebuild.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+</table>
+
+#### Remake / Port
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
+<tr><td><a href="https://github.com/tangosdev/sm64ds-pc-port"><img src="https://opengraph.githubassets.com/1/tangosdev/sm64ds-pc-port" width="160" alt="tangosdev/sm64ds-pc-port"></a></td><td><a href="https://github.com/tangosdev/sm64ds-pc-port"><b>sm64ds-pc-port</b></a><br><sub>tangosdev</sub></td><td>A free open-source native Windows port of the closed-source Super Mario 64 DS, built from a matching decompilation. You need your own European ROM.</td><td>No</td><td><sub>Project README</sub></td></tr>
 </table>
 
 ### Nintendo 3DS
@@ -551,7 +560,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+16)</summary>
+<summary>Browse the complete category (+17)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -570,6 +579,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/LostArtefacts/tr04"><b>tr04</b></a><br><sub>LostArtefacts</sub></td><td>Matching decompilation of the closed-source Windows game Tomb Raider IV: The Last Revelation (1999). Builds and verifies under Wine with the original MSVC 6. Bring your own game.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>Reverse engineering and a modern WebAssembly reimplementation of the closed-source 1996 game Deadly Tide. No original game data is included.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>Reverse-engineering project that reconstructs the PC adventure game Nancy Drew: Curse of Blackmoor Manor from its executable into matching native C code, plus a macOS ARM64 port.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/RangerXT/terminator-1991-decomp"><img src="https://opengraph.githubassets.com/1/RangerXT/terminator-1991-decomp" width="160" alt="RangerXT/terminator-1991-decomp"></a></td><td><a href="https://github.com/RangerXT/terminator-1991-decomp"><b>terminator-1991-decomp</b></a><br><sub>RangerXT</sub></td><td>A free open-source complete C decompilation of the closed-source The Terminator (1991 DOS game). Every routine is verified against the original running in an emulator. No game files included.</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>Matching decompilation of Skyrim Special Edition that aims to reconstruct every function in C++ matching the original game bytes.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
@@ -674,7 +684,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+27)</summary>
+<summary>Browse the complete category (+28)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -703,6 +713,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td><a href="https://github.com/monatis/okur"><img src="images/okur-card.png" width="160" alt="monatis/okur"></a></td><td><a href="https://github.com/monatis/okur"><b>okur</b></a><br><sub>monatis</sub></td><td>Open-source screen reader that acts like JAWS, rebuilt from scratch by watching what JAWS says.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>Wispr Flow&#x27;s voice pipeline, taken apart, plus a 64-line rebuild</td><td>✅ Yes</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">Video thumbnail</a></sub></td></tr>
 <tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>See what fills your Windows 11 disk, WinDirStat-style</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/OpenMaker-Dev/openmaker"><img src="https://raw.githubusercontent.com/OpenMaker-Dev/openmaker/main/docs/assets/openmaker-logo.svg" width="160" alt="OpenMaker-Dev/openmaker"></a></td><td><a href="https://github.com/OpenMaker-Dev/openmaker"><b>openmaker</b></a><br><sub>OpenMaker-Dev</sub></td><td>A free open-source clean-room Rust rewrite of the closed-source Claris FileMaker Pro database application. It opens .fmp12 files and works with FileMaker Server.</td><td>No</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>A minimal macOS terminal, built by poking at Ghostty</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA teardown notes of the FM Season Hub app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
@@ -930,7 +941,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 This evidence-tagged subset reuses entries from the platform and topic sections above. The atlas also covers independent tools and projects with no REA dependency.
 
 <details>
-<summary>Expand 60 REA-tagged entries</summary>
+<summary>Expand 61 REA-tagged entries</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -988,6 +999,7 @@ This evidence-tagged subset reuses entries from the platform and topic sections 
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>Clean-room SA-MP 0.3.DL-R1 client reimplementation; architecture recovered with REA/Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea slash command that routes requests to the REA skill and MCP tools.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/romangalaxys10-spec/zcode-rea"><b>zcode-rea</b></a><br><sub>romangalaxys10-spec</sub></td><td>ZCode plugin that wraps the official REA toolkit so AI agents can reverse-engineer closed binaries, apps and websites with evidence attached.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nextcode4u/jEnesisDS-Decomp-REA"><b>jEnesisDS-Decomp-REA</b></a><br><sub>nextcode4u</sub></td><td>A free open-source static decompilation of the closed-source jEnesisDS 0.7.4 Nintendo DS Sega Genesis emulator, done with REA and Ghidra, including a byte-for-byte matching ROM rebuild.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>Watch REA turn one DX-Ball sound helper into byte-exact C</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>Follow a Notion copy from the page, through IPC, into the main process</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>Recover Touhou 4&#x27;s bullet-ring angle maths from 16-bit DOS code</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>

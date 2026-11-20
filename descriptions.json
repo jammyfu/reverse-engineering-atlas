@@ -3302,5 +3302,54 @@
     "zh-TW": "一個免費開源工具，專門給閉源遊戲的匹配反編譯提供針對性的C程式碼重寫建議：它會提出編譯器敏感的刻意改動，但從不自己判斷是否匹配。是隨機排列工具的補充。",
     "ja": "クローズドソースゲームのマッチング逆コンパイル向けに、ターゲットを絞ったCの書き換え案を提案する無料オープンソースツール。コンパイラが敏感な変更を意図的に提案するが、一致判定は行わない。ランダムなパーミューターを補完。",
     "ko": "폐쇄 소스 게임의 매칭 디컴파일을 위한 타겟 C 재작성 제안을 하는 무료 오픈소스 도구. 컴파일러에 민감한 의도적 변경을 제안하지만 매칭 여부는 판단하지 않음. 랜덤 퍼뮤터를 보완."
+  },
+  "ps4star/WhiteRecomp": {
+    "en": "A free open-source tool that turns your own Steam copy of the closed-source FINAL FANTASY XIII into a native modern Windows or Linux program by static recompilation. No game data is included.",
+    "zh-CN": "一个免费开源工具，通过静态重编译把你自己的Steam版闭源《最终幻想13》变成能在现代Windows或Linux上原生运行的程序。不含任何游戏数据。",
+    "zh-TW": "一個免費開源工具，透過靜態重編譯把你自己的Steam版閉源《最終幻想13》變成能在現代Windows或Linux上原生執行的程式。不含任何遊戲資料。",
+    "ja": "自分のSteam版クローズドソースFINAL FANTASY XIIIを静的再コンパイルで現代のWindows/Linuxネイティブプログラムにする無料オープンソースツール。ゲームデータは含まれない。",
+    "ko": "자신의 Steam 버전 폐쇄 소스 FINAL FANTASY XIII를 정적 재컴파일로 현대 Windows/Linux 네이티브 프로그램으로 만드는 무료 오픈소스 도구. 게임 데이터 없음."
+  },
+  "tangosdev/sm64ds-pc-port": {
+    "en": "A free open-source native Windows port of the closed-source Super Mario 64 DS, built from a matching decompilation. You need your own European ROM.",
+    "zh-CN": "一个免费开源的《超级马里奥64 DS》原生Windows移植，基于匹配反编译构建。需要你自己的欧版ROM。",
+    "zh-TW": "一個免費開源的《超級瑪利歐64 DS》原生Windows移植，基於匹配反編譯構建。需要你自己的歐版ROM。",
+    "ja": "マッチング逆コンパイルに基づくクローズドソーススーパーマリオ64 DSの無料オープンソースネイティブWindowsポート。自分の欧州版ROMが必要。",
+    "ko": "매칭 디컴파일을 기반으로 한 폐쇄 소스 Super Mario 64 DS의 무료 오픈소스 네이티브 Windows 포트. 자신의 유럽판 ROM 필요."
+  },
+  "nextcode4u/jEnesisDS-Decomp-REA": {
+    "en": "A free open-source static decompilation of the closed-source jEnesisDS 0.7.4 Nintendo DS Sega Genesis emulator, done with REA and Ghidra, including a byte-for-byte matching ROM rebuild.",
+    "zh-CN": "一个免费开源的闭源jEnesisDS 0.7.4（任天堂DS上的世嘉Genesis模拟器）静态反编译项目，使用REA和Ghidra完成，并包含逐字节匹配的ROM重建。",
+    "zh-TW": "一個免費開源的閉源jEnesisDS 0.7.4（任天堂DS上的Sega Genesis模擬器）靜態反編譯專案，使用REA和Ghidra完成，並包含逐位元組匹配的ROM重建。",
+    "ja": "REAとGhidraを使ったクローズドソースjEnesisDS 0.7.4（ニンテンドーDSのセガジェネシスエミュレータ）の無料オープンソース静的逆コンパイル。バイト単位で一致するROM再ビルド付き。",
+    "ko": "REA와 Ghidra를 사용한 폐쇄 소스 jEnesisDS 0.7.4(닌텐도 DS의 세가 제네시스 에뮬레이터) 무료 오픈소스 정적 디컴파일. 바이트 단위 일치 ROM 재빌드 포함."
+  },
+  "RangerXT/terminator-1991-decomp": {
+    "en": "A free open-source complete C decompilation of the closed-source The Terminator (1991 DOS game). Every routine is verified against the original running in an emulator. No game files included.",
+    "zh-CN": "一个免费开源的闭源《终结者》（1991年DOS游戏）完整C语言反编译。每个例程都在模拟器中对照原版验证过。不含游戏文件。",
+    "zh-TW": "一個免費開源的閉源《魔鬼終結者》（1991年DOS遊戲）完整C語言反編譯。每個例程都在模擬器中對照原版驗證過。不含遊戲檔案。",
+    "ja": "クローズドソースのThe Terminator（1991年DOSゲーム）の無料オープンソース完全C逆コンパイル。すべてのルーチンをエミュレータ上のオリジナルと検証。ゲームファイルなし。",
+    "ko": "폐쇄 소스 The Terminator(1991 DOS 게임)의 무료 오픈소스 완전 C 디컴파일. 모든 루틴을 에뮬레이터의 원본과 검증. 게임 파일 없음."
+  },
+  "MarquitoK/TTTRecomp": {
+    "en": "A free open-source native Windows static recompilation of the closed-source Dragon Ball Z: Tenkaichi Tag Team (PSP). Bring your own ISO; no game data included.",
+    "zh-CN": "一个免费开源的闭源《龙珠Z：天下第一武道会》（PSP）原生Windows静态重编译。需要你自己的ISO，不含游戏数据。",
+    "zh-TW": "一個免費開源的閉源《七龍珠Z：天下第一武道會》（PSP）原生Windows靜態重編譯。需要你自己的ISO，不含遊戲資料。",
+    "ja": "クローズドソースのDragon Ball Z: Tenkaichi Tag Team（PSP）の無料オープンソースネイティブWindows静的再コンパイル。自分のISOが必要。ゲームデータなし。",
+    "ko": "폐쇄 소스 Dragon Ball Z: Tenkaichi Tag Team(PSP)의 무료 오픈소스 네이티브 Windows 정적 재컴파일. 자신의 ISO 필요. 게임 데이터 없음."
+  },
+  "IamWilmar/xenoblade3-recomp": {
+    "en": "A free open-source native Android port of the closed-source Xenoblade Chronicles 3 for specific handhelds. The game's own ARM64 code runs natively with a reimplemented SDK. Bring your own extracted files.",
+    "zh-CN": "一个免费开源的闭源《异度神剑3》原生Android移植（针对特定掌机）。游戏自己的ARM64代码原生运行，SDK被重新实现。需要你自己提取的文件。",
+    "zh-TW": "一個免費開源的閉源《異度神劍3》原生Android移植（針對特定掌機）。遊戲自己的ARM64程式碼原生執行，SDK被重新實作。需要你自己提取的檔案。",
+    "ja": "特定ハンドヘルド向けクローズドソースXenoblade Chronicles 3の無料オープンソースネイティブAndroidポート。ゲーム自身のARM64コードがネイティブ実行され、SDKは再実装。自分の抽出ファイルが必要。",
+    "ko": "특정 핸드헬드용 폐쇄 소스 Xenoblade Chronicles 3의 무료 오픈소스 네이티브 Android 포트. 게임 자신의 ARM64 코드가 네이티브로 실행되며 SDK는 재구현. 자신의 추출 파일 필요."
+  },
+  "OpenMaker-Dev/openmaker": {
+    "en": "A free open-source clean-room Rust rewrite of the closed-source Claris FileMaker Pro database application. It opens .fmp12 files and works with FileMaker Server.",
+    "zh-CN": "一个免费开源的闭源Claris FileMaker Pro数据库应用的洁净室Rust重写。可以打开.fmp12文件并与FileMaker Server配合使用。",
+    "zh-TW": "一個免費開源的閉源Claris FileMaker Pro資料庫應用程式的潔淨室Rust重寫。可以開啟.fmp12檔案並與FileMaker Server配合使用。",
+    "ja": "クローズドソースのClaris FileMaker Proデータベースアプリの無料オープンソースクリーンルームRust再実装。.fmp12ファイルを開きFileMaker Serverと連携。",
+    "ko": "폐쇄 소스 Claris FileMaker Pro 데이터베이스 앱의 무료 오픈소스 클린룸 Rust 재구현. .fmp12 파일을 열고 FileMaker Server와 작동."
   }
 }

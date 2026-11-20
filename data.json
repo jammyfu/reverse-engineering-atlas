@@ -3774,5 +3774,61 @@
     "https://github.com/RetroReversing/decomp-repair",
     "No",
     "Targeted C rewrites for matching decompilation: proposes deliberate compiler-sensitive changes, never judges. Complements decomp-permuter. From decompdecomp."
+  ],
+  [
+    "pc",
+    "recomp",
+    "ps4star/WhiteRecomp",
+    "https://github.com/ps4star/WhiteRecomp",
+    "No",
+    "Native recompilation of FINAL FANTASY XIII from your own Steam copy into modern Windows/Linux binaries. No game data included."
+  ],
+  [
+    "ds",
+    "remake",
+    "tangosdev/sm64ds-pc-port",
+    "https://github.com/tangosdev/sm64ds-pc-port",
+    "No",
+    "Native Windows port of Super Mario 64 DS built from the matching decompilation. Bring your own EU ROM."
+  ],
+  [
+    "ds",
+    "decomp",
+    "nextcode4u/jEnesisDS-Decomp-REA",
+    "https://github.com/nextcode4u/jEnesisDS-Decomp-REA",
+    "Yes",
+    "Static decompilation of the jEnesisDS 0.7.4 Nintendo DS Genesis emulator using REA + Ghidra; byte-matching ROM rebuild included."
+  ],
+  [
+    "pc",
+    "decomp",
+    "RangerXT/terminator-1991-decomp",
+    "https://github.com/RangerXT/terminator-1991-decomp",
+    "No",
+    "Complete C decompilation of The Terminator (1991 DOS). Every routine verified against the original in an emulator. No game files."
+  ],
+  [
+    "pc",
+    "recomp",
+    "MarquitoK/TTTRecomp",
+    "https://github.com/MarquitoK/TTTRecomp",
+    "No",
+    "Native Windows static recompilation of Dragon Ball Z: Tenkaichi Tag Team (PSP). Bring your own ISO."
+  ],
+  [
+    "switch",
+    "remake",
+    "IamWilmar/xenoblade3-recomp",
+    "https://github.com/IamWilmar/xenoblade3-recomp",
+    "No",
+    "Native Android port of Xenoblade Chronicles 3 for Retroid Pocket 5 and Flip 2. Runs the game's own ARM64 code with a reimplemented SDK. Bring your own extracted files."
+  ],
+  [
+    "app",
+    "",
+    "OpenMaker-Dev/openmaker",
+    "https://github.com/OpenMaker-Dev/openmaker",
+    "No",
+    "Clean-room open-source Rust replacement for Claris FileMaker Pro. Compatible with .fmp12 files and FileMaker Server."
   ]
 ]

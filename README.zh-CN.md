@@ -6,7 +6,7 @@
 
 按目标、平台和技术整理逆向项目、工具与 Agent 工作流。开始自己动手前，先看看已有成果：游戏反编译与重编译、应用重实现、Android 与 JavaScript 分析、协议、固件及配套工具。
 
-**472 条目录记录 · 466 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
+**479 条目录记录 · 473 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
 
 Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累计 Star 快照排序，不是实时趋势；原快照未记录采集时间，缺失计数排在最后。所有条目均保留。
 
@@ -145,6 +145,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>把任天堂 Switch 上的《宝可梦 朱》静态重编译成带 Vulkan 渲染的原生 Windows 程序，不用模拟器就能玩。需要自己提供游戏转储和密钥。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>把任天堂 Switch 游戏《朋友收集：梦想生活》静态重编译成可在 PC 上原生运行的早期免费开源移植（需要自备 dump）。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>把 Switch 上的《宝可梦 剑/盾》游戏代码提前翻译成电脑能直接跑的程序，不用模拟器就能在 Windows 上玩。你得自己准备正版游戏文件。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
+<tr><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><img src="https://raw.githubusercontent.com/IamWilmar/xenoblade3-recomp/main/docs/icon.png" width="160" alt="IamWilmar/xenoblade3-recomp"></a></td><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><b>xenoblade3-recomp</b></a><br><sub>IamWilmar</sub></td><td>一个免费开源的闭源《异度神剑3》原生Android移植（针对特定掌机）。游戏自己的ARM64代码原生运行，SDK被重新实现。需要你自己提取的文件。</td><td>否</td><td><sub>项目 README</sub></td></tr>
 </table>
 
 ### NES / FC
@@ -382,6 +383,14 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://github.com/zeldaret/ph"><img src="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg" width="160" alt="zeldaret/ph"></a></td><td><a href="https://github.com/zeldaret/ph"><b>ph</b></a><br><sub>zeldaret</sub></td><td>塞尔达：幻影沙漏，反编译为 C</td><td>否</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg">维基百科（© 版权方）</a></sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fuddlesworth/pokebw2"><b>pokebw2</b></a><br><sub>fuddlesworth</sub></td><td>反编译闭源的任天堂 DS 游戏《宝可梦 黑2 / 白2》，恢复源码以便更好理解和保存。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/DQIX/dqix-decomp"><img src="images/dqix-decomp-og.png" width="160" alt="DQIX/dqix-decomp"></a></td><td><a href="https://github.com/DQIX/dqix-decomp"><b>dqix-decomp</b></a><br><sub>DQIX</sub></td><td>把任天堂 DS 游戏《勇者斗恶龙 IX》的机器码逆向成 C++，目标是逐字节还原出原来的 ROM。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nextcode4u/jEnesisDS-Decomp-REA"><b>jEnesisDS-Decomp-REA</b></a><br><sub>nextcode4u</sub></td><td>一个免费开源的闭源jEnesisDS 0.7.4（任天堂DS上的世嘉Genesis模拟器）静态反编译项目，使用REA和Ghidra完成，并包含逐字节匹配的ROM重建。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+</table>
+
+#### 重制 / 移植
+
+<table>
+<tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
+<tr><td><a href="https://github.com/tangosdev/sm64ds-pc-port"><img src="https://opengraph.githubassets.com/1/tangosdev/sm64ds-pc-port" width="160" alt="tangosdev/sm64ds-pc-port"></a></td><td><a href="https://github.com/tangosdev/sm64ds-pc-port"><b>sm64ds-pc-port</b></a><br><sub>tangosdev</sub></td><td>一个免费开源的《超级马里奥64 DS》原生Windows移植，基于匹配反编译构建。需要你自己的欧版ROM。</td><td>否</td><td><sub>项目 README</sub></td></tr>
 </table>
 
 ### 3DS
@@ -551,7 +560,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+16)</summary>
+<summary>查看该分类全部项目 (+17)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -570,6 +579,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/LostArtefacts/tr04"><b>tr04</b></a><br><sub>LostArtefacts</sub></td><td>对闭源Windows游戏《古墓丽影4：最后的启示》（1999）做匹配反编译。在Linux上用Wine和原版MSVC 6编译并验证。需要自备游戏。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>对 1996 年闭源游戏《致命潮汐》做的逆向工程，以及用现代 WebAssembly 重写的实现。不包含任何原版游戏数据。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>把 PC 冒险游戏《南希·德鲁：布莱克摩尔庄园的诅咒》的可执行文件反编译重建成匹配的原生 C 代码，并提供 macOS ARM64 移植。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/RangerXT/terminator-1991-decomp"><img src="https://opengraph.githubassets.com/1/RangerXT/terminator-1991-decomp" width="160" alt="RangerXT/terminator-1991-decomp"></a></td><td><a href="https://github.com/RangerXT/terminator-1991-decomp"><b>terminator-1991-decomp</b></a><br><sub>RangerXT</sub></td><td>一个免费开源的闭源《终结者》（1991年DOS游戏）完整C语言反编译。每个例程都在模拟器中对照原版验证过。不含游戏文件。</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>对《上古卷轴5：天际》特别版做匹配反编译，目标是用C++把每一个函数都还原成和原游戏字节完全一致的代码。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
@@ -674,7 +684,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+27)</summary>
+<summary>查看该分类全部项目 (+28)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -703,6 +713,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td><a href="https://github.com/monatis/okur"><img src="images/okur-card.png" width="160" alt="monatis/okur"></a></td><td><a href="https://github.com/monatis/okur"><b>okur</b></a><br><sub>monatis</sub></td><td>从零重写的开源屏幕阅读器，行为像 JAWS，通过观察 JAWS 的语音输出来实现。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>拆解 Wispr Flow 语音管线，附 64 行重写版</td><td>✅ 是</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">视频封面</a></sub></td></tr>
 <tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>像 WinDirStat 一样看清 Windows 11 磁盘被什么占满</td><td>✅ 是</td><td><sub>仓库卡片</sub></td></tr>
+<tr><td><a href="https://github.com/OpenMaker-Dev/openmaker"><img src="https://raw.githubusercontent.com/OpenMaker-Dev/openmaker/main/docs/assets/openmaker-logo.svg" width="160" alt="OpenMaker-Dev/openmaker"></a></td><td><a href="https://github.com/OpenMaker-Dev/openmaker"><b>openmaker</b></a><br><sub>OpenMaker-Dev</sub></td><td>一个免费开源的闭源Claris FileMaker Pro数据库应用的洁净室Rust重写。可以打开.fmp12文件并与FileMaker Server配合使用。</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>研究 Ghostty 后做出的极简 macOS 终端</td><td>✅ 是</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>用 REA 拆解 FM Season Hub 应用的分析笔记</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 </table>
@@ -930,7 +941,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 这个证据标记子集复用上方平台与主题目录中的条目。本地图同样收录不依赖 REA 的独立工具与项目。
 
 <details>
-<summary>展开 60 条 REA 标记记录</summary>
+<summary>展开 61 条 REA 标记记录</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -988,6 +999,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>用 REA/Ghidra 恢复架构的 SA-MP 0.3.DL-R1 clean-room 客户端重实现</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea 斜杠命令，将逆向分析请求路由到 REA 技能与 MCP 工具。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/romangalaxys10-spec/zcode-rea"><b>zcode-rea</b></a><br><sub>romangalaxys10-spec</sub></td><td>ZCode 插件，封装了官方 REA 工具包，让 AI 智能体能带证据地对闭源二进制、应用和网站做逆向。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nextcode4u/jEnesisDS-Decomp-REA"><b>jEnesisDS-Decomp-REA</b></a><br><sub>nextcode4u</sub></td><td>一个免费开源的闭源jEnesisDS 0.7.4（任天堂DS上的世嘉Genesis模拟器）静态反编译项目，使用REA和Ghidra完成，并包含逐字节匹配的ROM重建。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>看 REA 把 DX-Ball 的一个音效函数还原成逐字节一致的 C</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>跟着一次 Notion 复制操作，从页面一路追到 IPC 和主进程</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>从 16 位 DOS 代码里找回东方幻想乡的弹幕角度算法</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>

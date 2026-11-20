@@ -6,7 +6,7 @@
 
 逆解析プロジェクト、ツール、エージェントのワークフローを対象・プラットフォーム・技術別に整理したカタログです。ゲームの逆コンパイルと再コンパイル、アプリの再実装、Android・JavaScript 解析、プロトコル、ファームウェアの既存成果を探せます。
 
-**472 件の項目 · 466 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
+**479 件の項目 · 473 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
 
 Switch 2 は編集上の優先項目であり、人気の実測順位ではありません。各分類は既存の累計 Star スナップショット順で、リアルタイムのトレンドではありません。取得日時は未記録、件数不明の項目は末尾です。全項目を保持しています。
 
@@ -145,6 +145,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>Nintendo Switch 版『ポケットモンスター スカーレット』を、Vulkan レンダラ付きのネイティブ Windows プログラムに静的再コンパイルします。ダンプとキーは自分で用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>Nintendo Switch の『トモダチコレクション 夢の暮らし』を静的再コンパイルして PC でネイティブに動かせる初期の無料オープンソース移植（自分のダンプが必要）。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>Switch版『ポケモン ソード・シールド』のコードをあらかじめ翻訳して、エミュレーターなしでWindowsで動くネイティブ版にしたプロジェクト。自分で用意した正規のゲームデータが必要です。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><img src="https://raw.githubusercontent.com/IamWilmar/xenoblade3-recomp/main/docs/icon.png" width="160" alt="IamWilmar/xenoblade3-recomp"></a></td><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><b>xenoblade3-recomp</b></a><br><sub>IamWilmar</sub></td><td>特定ハンドヘルド向けクローズドソースXenoblade Chronicles 3の無料オープンソースネイティブAndroidポート。ゲーム自身のARM64コードがネイティブ実行され、SDKは再実装。自分の抽出ファイルが必要。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 </table>
 
 ### ファミコン / NES
@@ -382,6 +383,14 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/zeldaret/ph"><img src="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg" width="160" alt="zeldaret/ph"></a></td><td><a href="https://github.com/zeldaret/ph"><b>ph</b></a><br><sub>zeldaret</sub></td><td>ゼルダの伝説 夢幻の砂時計を C へ逆コンパイル</td><td>いいえ</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg">Wikipedia（© 権利者）</a></sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fuddlesworth/pokebw2"><b>pokebw2</b></a><br><sub>fuddlesworth</sub></td><td>クローズドソースのニンテンドーDSゲーム『ポケットモンスター ブラック2 / ホワイト2』のデコンパイルプロジェクト。ソースを復元して理解と保存を進める。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/DQIX/dqix-decomp"><img src="images/dqix-decomp-og.png" width="160" alt="DQIX/dqix-decomp"></a></td><td><a href="https://github.com/DQIX/dqix-decomp"><b>dqix-decomp</b></a><br><sub>DQIX</sub></td><td>ニンテンドーDSの『ドラゴンクエストIX』をマッチング逆コンパイルし、元のROMをバイト単位で再現できるC++ソースにしています。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nextcode4u/jEnesisDS-Decomp-REA"><b>jEnesisDS-Decomp-REA</b></a><br><sub>nextcode4u</sub></td><td>REAとGhidraを使ったクローズドソースjEnesisDS 0.7.4（ニンテンドーDSのセガジェネシスエミュレータ）の無料オープンソース静的逆コンパイル。バイト単位で一致するROM再ビルド付き。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+</table>
+
+#### リメイク / 移植
+
+<table>
+<tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
+<tr><td><a href="https://github.com/tangosdev/sm64ds-pc-port"><img src="https://opengraph.githubassets.com/1/tangosdev/sm64ds-pc-port" width="160" alt="tangosdev/sm64ds-pc-port"></a></td><td><a href="https://github.com/tangosdev/sm64ds-pc-port"><b>sm64ds-pc-port</b></a><br><sub>tangosdev</sub></td><td>マッチング逆コンパイルに基づくクローズドソーススーパーマリオ64 DSの無料オープンソースネイティブWindowsポート。自分の欧州版ROMが必要。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 </table>
 
 ### ニンテンドー3DS
@@ -551,7 +560,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+16)</summary>
+<summary>このカテゴリをすべて表示 (+17)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -570,6 +579,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/LostArtefacts/tr04"><b>tr04</b></a><br><sub>LostArtefacts</sub></td><td>クローズドソースのWindowsゲーム「トゥームレイダー4：ラスト・リベレーション」（1999）のマッチング逆コンパイル。Wine上でオリジナルのMSVC 6を使ってビルドと検証。自分のゲームが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awkto/deadly-tide-decomp"><b>deadly-tide-decomp</b></a><br><sub>awkto</sub></td><td>1996年のクローズドソースゲーム『Deadly Tide』のリバースエンジニアリングと、現代の WebAssembly による再実装。元のゲームデータは含まれない。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/albovsky/nd-blackmoor-decomp"><b>nd-blackmoor-decomp</b></a><br><sub>albovsky</sub></td><td>PC アドベンチャー『Nancy Drew: Curse of Blackmoor Manor』の実行ファイルをマッチングするネイティブ C コードに再構築し、macOS ARM64 移植も提供するプロジェクト。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/RangerXT/terminator-1991-decomp"><img src="https://opengraph.githubassets.com/1/RangerXT/terminator-1991-decomp" width="160" alt="RangerXT/terminator-1991-decomp"></a></td><td><a href="https://github.com/RangerXT/terminator-1991-decomp"><b>terminator-1991-decomp</b></a><br><sub>RangerXT</sub></td><td>クローズドソースのThe Terminator（1991年DOSゲーム）の無料オープンソース完全C逆コンパイル。すべてのルーチンをエミュレータ上のオリジナルと検証。ゲームファイルなし。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/awarebayes/skyrim_decomp"><b>skyrim_decomp</b></a><br><sub>awarebayes</sub></td><td>『スカイリム スペシャルエディション』のマッチングデコンパイル。すべての関数をオリジナルと同じバイトのC++に再構築することを目指す。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
@@ -674,7 +684,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+27)</summary>
+<summary>このカテゴリをすべて表示 (+28)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -703,6 +713,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td><a href="https://github.com/monatis/okur"><img src="images/okur-card.png" width="160" alt="monatis/okur"></a></td><td><a href="https://github.com/monatis/okur"><b>okur</b></a><br><sub>monatis</sub></td><td>JAWS のように動くオープンソースのスクリーンリーダー。JAWS の発話を観察してゼロから再実装。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>Wispr Flow の音声パイプラインを分解、64 行の再実装付き</td><td>✅ はい</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">動画サムネイル</a></sub></td></tr>
 <tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>WinDirStat 風に Windows 11 のディスク使用量を可視化</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/OpenMaker-Dev/openmaker"><img src="https://raw.githubusercontent.com/OpenMaker-Dev/openmaker/main/docs/assets/openmaker-logo.svg" width="160" alt="OpenMaker-Dev/openmaker"></a></td><td><a href="https://github.com/OpenMaker-Dev/openmaker"><b>openmaker</b></a><br><sub>OpenMaker-Dev</sub></td><td>クローズドソースのClaris FileMaker Proデータベースアプリの無料オープンソースクリーンルームRust再実装。.fmp12ファイルを開きFileMaker Serverと連携。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>Ghostty を調べて作ったミニマルな macOS ターミナル</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA で FM Season Hub アプリを解析したノート</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
@@ -930,7 +941,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 この根拠付きサブセットは上のプラットフォーム・分野別一覧の項目を再掲します。REA に依存しない独立したツールやプロジェクトも収録しています。
 
 <details>
-<summary>REA タグ付き 60 項目を展開</summary>
+<summary>REA タグ付き 61 項目を展開</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -988,6 +999,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>REA/Ghidra でアーキテクチャを復元した SA-MP 0.3.DL-R1 のクリーンルームクライアント再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH の /rea スラッシュコマンド。リクエストを REA スキルと MCP ツールにルーティング。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/romangalaxys10-spec/zcode-rea"><b>zcode-rea</b></a><br><sub>romangalaxys10-spec</sub></td><td>公式REAツールキットをラップしたZCodeプラグイン。AIエージェントが証拠付きでクローズドソースのバイナリやアプリ、サイトを逆解析できるようにする。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nextcode4u/jEnesisDS-Decomp-REA"><b>jEnesisDS-Decomp-REA</b></a><br><sub>nextcode4u</sub></td><td>REAとGhidraを使ったクローズドソースjEnesisDS 0.7.4（ニンテンドーDSのセガジェネシスエミュレータ）の無料オープンソース静的逆コンパイル。バイト単位で一致するROM再ビルド付き。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>REA が DX-Ball の音響関数をバイト単位で一致する C に戻す過程</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>Notion のコピー操作をページから IPC、メインプロセスまで追跡</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>16 ビット DOS コードから東方幻想郷の弾幕角度計算を復元</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
