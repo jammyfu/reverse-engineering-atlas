@@ -3351,5 +3351,54 @@
     "zh-TW": "一個免費開源的閉源Claris FileMaker Pro資料庫應用程式的潔淨室Rust重寫。可以開啟.fmp12檔案並與FileMaker Server配合使用。",
     "ja": "クローズドソースのClaris FileMaker Proデータベースアプリの無料オープンソースクリーンルームRust再実装。.fmp12ファイルを開きFileMaker Serverと連携。",
     "ko": "폐쇄 소스 Claris FileMaker Pro 데이터베이스 앱의 무료 오픈소스 클린룸 Rust 재구현. .fmp12 파일을 열고 FileMaker Server와 작동."
+  },
+  "Jstar269/Nakagawa-Recomp": {
+    "en": "Turns PSP games you own into native Windows programs by static recompilation. Bring your own disc image; no game data is included.",
+    "zh-CN": "把你自己拥有的 PSP 游戏通过静态重编译变成能在 Windows 上原生运行的程序。需要自己的光盘镜像，不包含任何游戏数据。",
+    "zh-TW": "把你自己擁有的 PSP 遊戲透過靜態重編譯變成能在 Windows 上原生執行的程式。需要自己的光碟映像，不包含任何遊戲資料。",
+    "ja": "自分の持っている PSP ゲームを静的再コンパイルで Windows のネイティブプログラムに変える。自分のディスクイメージが必要で、ゲームデータは含まれない。",
+    "ko": "본인이 소유한 PSP 게임을 정적 재컴파일로 Windows에서 네이티브로 실행되는 프로그램으로 바꿉니다. 본인 디스크 이미지가 필요하며 게임 데이터는 포함되지 않습니다."
+  },
+  "macielrecomp/triunit-recomp": {
+    "en": "Static recompiler for TMS34010 arcade boards (T-Unit, Wolf Unit). Turns the program of your own ROM into native C++ for Windows. No game files included.",
+    "zh-CN": "面向 TMS34010 街机板（T-Unit、Wolf Unit）的静态重编译器。把你自己 ROM 里的程序变成能在 Windows 上原生运行的 C++。不包含任何游戏文件。",
+    "zh-TW": "面向 TMS34010 街機板（T-Unit、Wolf Unit）的靜態重編譯器。把你自己 ROM 裡的程式變成能在 Windows 上原生執行的 C++。不包含任何遊戲檔案。",
+    "ja": "TMS34010 アーケード基板（T-Unit、Wolf Unit）向けの静的再コンパイラ。自分の ROM のプログラムを Windows 向けネイティブ C++ に変える。ゲームファイルは含まれない。",
+    "ko": "TMS34010 아케이드 보드(T-Unit, Wolf Unit)용 정적 재컴파일러. 본인 ROM의 프로그램을 Windows용 네이티브 C++로 바꿉니다. 게임 파일은 포함되지 않습니다."
+  },
+  "T4ctica1YT/UEWASM": {
+    "en": "Static recompiler that turns Windows x64 Unreal Engine 4/5 games into WebAssembly so they can run in the browser.",
+    "zh-CN": "把 Windows x64 的虚幻引擎 4/5 游戏静态重编译成 WebAssembly，方便在浏览器里运行。",
+    "zh-TW": "把 Windows x64 的虛幻引擎 4/5 遊戲靜態重編譯成 WebAssembly，方便在瀏覽器裡執行。",
+    "ja": "Windows x64 の Unreal Engine 4/5 ゲームを静的再コンパイルして WebAssembly にし、ブラウザで動かせるようにする。",
+    "ko": "Windows x64 Unreal Engine 4/5 게임을 정적 재컴파일로 WebAssembly로 바꿔 브라우저에서 실행할 수 있게 합니다."
+  },
+  "AlienTechSoftware/notecraft": {
+    "en": "Open-source clean-room reimplementation of Microsoft OneNote, written from scratch in pure Rust.",
+    "zh-CN": "从零重写的开源微软 OneNote 替代品，用纯 Rust 做的干净室重实现。",
+    "zh-TW": "從零重寫的開源微軟 OneNote 替代品，用純 Rust 做的乾淨室重實現。",
+    "ja": "Microsoft OneNote をゼロから書き直したオープンソースのクリーンルーム再実装。純正 Rust で作られている。",
+    "ko": "Microsoft OneNote를 처음부터 다시 작성한 오픈소스 클린룸 재구현. 순수 Rust로 만들었습니다."
+  },
+  "aliasfoxkde/FireCraft": {
+    "en": "Open-source clean-room reimplementation of Adobe Fireworks, written in pure Rust.",
+    "zh-CN": "从零重写的开源 Adobe Fireworks 替代品，用纯 Rust 做的干净室重实现。",
+    "zh-TW": "從零重寫的開源 Adobe Fireworks 替代品，用純 Rust 做的乾淨室重實現。",
+    "ja": "Adobe Fireworks をゼロから書き直したオープンソースのクリーンルーム再実装。純正 Rust で作られている。",
+    "ko": "Adobe Fireworks를 처음부터 다시 작성한 오픈소스 클린룸 재구현. 순수 Rust로 만들었습니다."
+  },
+  "oliverjessner/OpenEmperor": {
+    "en": "Clean-room reimplementation of the city-building game Emperor: Rise of the Middle Kingdom, written in C++20 and SDL3 for modern systems (starting with Apple Silicon macOS). Original game data required.",
+    "zh-CN": "从零重写的开源《皇帝：龙之崛起》城市建造游戏引擎，用 C++20 和 SDL3 写的干净室重实现，优先支持苹果芯片 macOS。需要自己的原版游戏数据。",
+    "zh-TW": "從零重寫的開源《皇帝：龍之崛起》城市建造遊戲引擎，用 C++20 和 SDL3 寫的乾淨室重實現，優先支援蘋果晶片 macOS。需要自己的原版遊戲資料。",
+    "ja": "都市建設ゲーム『Emperor: Rise of the Middle Kingdom』をゼロから書き直したクリーンルーム再実装。C++20 と SDL3 で作られ、Apple Silicon macOS から対応。オリジナルのゲームデータが必要。",
+    "ko": "도시 건설 게임 Emperor: Rise of the Middle Kingdom를 처음부터 다시 작성한 클린룸 재구현. C++20과 SDL3로 만들었으며 Apple Silicon macOS부터 지원. 원본 게임 데이터가 필요합니다."
+  },
+  "daijro/paint.rs": {
+    "en": "Open-source clean-room reimplementation of Paint.NET, written in Rust for Windows, macOS, Linux and the web.",
+    "zh-CN": "从零重写的开源 Paint.NET 替代品，用 Rust 做的干净室重实现，支持 Windows、macOS、Linux 和网页。",
+    "zh-TW": "從零重寫的開源 Paint.NET 替代品，用 Rust 做的乾淨室重實現，支援 Windows、macOS、Linux 和網頁。",
+    "ja": "Paint.NET をゼロから書き直したオープンソースのクリーンルーム再実装。Rust で作られ、Windows・macOS・Linux・ウェブに対応。",
+    "ko": "Paint.NET을 처음부터 다시 작성한 오픈소스 클린룸 재구현. Rust로 만들었으며 Windows, macOS, Linux, 웹을 지원합니다."
   }
 }

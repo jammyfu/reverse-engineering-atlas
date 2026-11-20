@@ -3830,5 +3830,61 @@
     "https://github.com/OpenMaker-Dev/openmaker",
     "No",
     "Clean-room open-source Rust replacement for Claris FileMaker Pro. Compatible with .fmp12 files and FileMaker Server."
+  ],
+  [
+    "pc",
+    "recomp",
+    "Jstar269/Nakagawa-Recomp",
+    "https://github.com/Jstar269/Nakagawa-Recomp",
+    "No",
+    "Static recompiler that turns PSP games you own into native Windows programs. Bring your own disc image; no game data included."
+  ],
+  [
+    "pc",
+    "recomp",
+    "macielrecomp/triunit-recomp",
+    "https://github.com/macielrecomp/triunit-recomp",
+    "No",
+    "Static recompiler for TMS34010 arcade boards (T-Unit, Wolf Unit). Turns the program of your own ROM into native C++ for Windows."
+  ],
+  [
+    "tooling",
+    "",
+    "T4ctica1YT/UEWASM",
+    "https://github.com/T4ctica1YT/UEWASM",
+    "No",
+    "Static recompiler that turns Windows x64 Unreal Engine 4/5 games into WebAssembly."
+  ],
+  [
+    "app",
+    "",
+    "AlienTechSoftware/notecraft",
+    "https://github.com/AlienTechSoftware/notecraft",
+    "No",
+    "Open-source clean-room reimplementation of Microsoft OneNote, written in pure Rust."
+  ],
+  [
+    "app",
+    "",
+    "aliasfoxkde/FireCraft",
+    "https://github.com/aliasfoxkde/FireCraft",
+    "No",
+    "Open-source clean-room reimplementation of Adobe Fireworks in pure Rust."
+  ],
+  [
+    "pc",
+    "remake",
+    "oliverjessner/OpenEmperor",
+    "https://github.com/oliverjessner/OpenEmperor",
+    "No",
+    "Clean-room reimplementation of Emperor: Rise of the Middle Kingdom in C++20 and SDL3, starting with Apple Silicon macOS. Original game data required."
+  ],
+  [
+    "app",
+    "",
+    "daijro/paint.rs",
+    "https://github.com/daijro/paint.rs",
+    "No",
+    "Open-source clean-room reimplementation of Paint.NET for Windows, macOS, Linux and the web."
   ]
 ]
