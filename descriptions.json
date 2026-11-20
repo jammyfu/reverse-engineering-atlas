@@ -3400,5 +3400,26 @@
     "zh-TW": "從零重寫的開源 Paint.NET 替代品，用 Rust 做的乾淨室重實現，支援 Windows、macOS、Linux 和網頁。",
     "ja": "Paint.NET をゼロから書き直したオープンソースのクリーンルーム再実装。Rust で作られ、Windows・macOS・Linux・ウェブに対応。",
     "ko": "Paint.NET을 처음부터 다시 작성한 오픈소스 클린룸 재구현. Rust로 만들었으며 Windows, macOS, Linux, 웹을 지원합니다."
+  },
+  "master4824/gta4-reversed": {
+    "en": "From scratch rewrite of Grand Theft Auto IV (PC version) as a C++20 plugin that injects into the real game and replaces functions one by one. Needs your own copy.",
+    "zh-CN": "从零重写《侠盗猎车手IV》（PC版）的C++20插件，注入真实游戏并逐个替换函数。需要自己拥有游戏副本。",
+    "zh-TW": "從零重寫《俠盜獵車手IV》（PC版）的C++20插件，注入真實遊戲並逐個替換函式。需要自己擁有遊戲副本。",
+    "ja": "グランド・セフト・オートIV（PC版）をゼロからC++20のプラグインとして書き直し、本物のゲームに注入して関数を一つずつ置き換える。自分のコピーが必要。",
+    "ko": "그랜드 세프트 오토 IV (PC 버전)를 C++20 플러그인으로 처음부터 다시 작성하여 실제 게임에 주입하고 함수를 하나씩 교체합니다. 자신의 게임 사본이 필요합니다."
+  },
+  "s-b-repo/nfsmw-2005-re": {
+    "en": "Reverse engineering notes and tools for Need for Speed: Most Wanted (2005 PC). Documents how the closed-source game works inside, cracks attribute hashes, and includes sample mods. No game files included.",
+    "zh-CN": "《极品飞车：最高通缉》（2005 PC版）的逆向工程笔记和工具。记录闭源游戏内部如何运作，破解属性哈希，并包含示例模组。不包含游戏文件。",
+    "zh-TW": "《極品飛車：最高通緝》（2005 PC版）的逆向工程筆記和工具。記錄閉源遊戲內部如何運作，破解屬性雜湊，並包含示例模組。不包含遊戲檔案。",
+    "ja": "ニード・フォー・スピード モスト・ウォンテッド（2005 PC版）のリバースエンジニアリングメモとツール。クローズドソースゲームの内部動作を記録し、属性ハッシュを解析し、サンプルMODを含む。ゲームファイルは含まない。",
+    "ko": "니드 포 스피드: 모스트 원티드 (2005 PC 버전)의 리버스 엔지니어링 노트와 도구. 클로즈드 소스 게임의 내부 작동 방식을 문서화하고 속성 해시를 크랙하며 샘플 모드를 포함합니다. 게임 파일은 포함되지 않습니다."
+  },
+  "willzmkv/gta-vcs-recomp": {
+    "en": "Enhanced native PC port of Grand Theft Auto: Vice City Stories (original PS2 game). Fork that adds better city detail, mod support and a nicer launcher on top of the static recompilation. Bring your own disc.",
+    "zh-CN": "《侠盗猎车手：罪恶城故事》（原PS2游戏）的增强版原生PC移植。在静态重编译基础上增加了更好的城市细节、模组支持和更好的启动器。需要自己的光盘。",
+    "zh-TW": "《俠盜獵車手：罪惡城故事》（原PS2遊戲）的增強版原生PC移植。在靜態重編譯基礎上增加了更好的城市細節、模組支援和更好的啟動器。需要自己的光碟。",
+    "ja": "グランド・セフト・オート・バイスシティ・ストーリーズ（元PS2ゲーム）の強化版ネイティブPCポート。静的再コンパイルの上に、より詳細な都市、MOD対応、改良されたランチャーを追加。自分のディスクが必要。",
+    "ko": "그랜드 세프트 오토: 바이스 시티 스토리 (원본 PS2 게임)의 향상된 네이티브 PC 포트. 정적 재컴파일 위에 더 나은 도시 디테일, 모드 지원 및 개선된 런처를 추가. 자신의 디스크가 필요합니다."
   }
 }

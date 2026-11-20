@@ -3886,5 +3886,29 @@
     "https://github.com/daijro/paint.rs",
     "No",
     "Open-source clean-room reimplementation of Paint.NET for Windows, macOS, Linux and the web."
+  ],
+  [
+    "pc",
+    "remake",
+    "master4824/gta4-reversed",
+    "https://github.com/master4824/gta4-reversed",
+    "No",
+    "Open-source C++20 runtime reimplementation of Grand Theft Auto IV (PC 1.0.7.0 x86) via ASI injection, inspired by gta-reversed. Requires own copy of the game."
+  ],
+  [
+    "pc",
+    "tools",
+    "s-b-repo/nfsmw-2005-re",
+    "https://github.com/s-b-repo/nfsmw-2005-re",
+    "No",
+    "Community reverse-engineering project for Need for Speed: Most Wanted (2005 PC): architecture docs, 85% attribute hash cracks, Ghidra renames, and ASI mod tools. No game assets."
+  ],
+  [
+    "ps2",
+    "recomp",
+    "willzmkv/gta-vcs-recomp",
+    "https://github.com/willzmkv/gta-vcs-recomp",
+    "No",
+    "Active fork of gothamor/gta-vcs-recomp adding HD World (detailed city distance), live mod loader, enhanced Vice City launcher and UI for the native PS2 Vice City Stories port. Bring your own disc."
   ]
 ]
