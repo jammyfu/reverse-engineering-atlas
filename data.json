@@ -3910,5 +3910,21 @@
     "https://github.com/willzmkv/gta-vcs-recomp",
     "No",
     "Active fork of gothamor/gta-vcs-recomp adding HD World (detailed city distance), live mod loader, enhanced Vice City launcher and UI for the native PS2 Vice City Stories port. Bring your own disc."
+  ],
+  [
+    "wii",
+    "remake",
+    "arelkair/wiiparty-recomp",
+    "https://github.com/arelkair/wiiparty-recomp",
+    "No",
+    "Static recompilation of Wii Party to native Windows/Linux PC. PowerPC code translated to C++, hardware reimplemented. Bring your own disc; no game files included."
+  ],
+  [
+    "pc",
+    "remake",
+    "bhuiyah/ff7-recomp-android",
+    "https://github.com/bhuiyah/ff7-recomp-android",
+    "No",
+    "FINAL FANTASY VII (Steam PC) statically recompiled to native ARM64 Android with FFNx renderer and 7th Heaven-style mod launcher. Build on-device from your own copy."
   ]
 ]

@@ -3421,5 +3421,19 @@
     "zh-TW": "《俠盜獵車手：罪惡城故事》（原PS2遊戲）的增強版原生PC移植。在靜態重編譯基礎上增加了更好的城市細節、模組支援和更好的啟動器。需要自己的光碟。",
     "ja": "グランド・セフト・オート・バイスシティ・ストーリーズ（元PS2ゲーム）の強化版ネイティブPCポート。静的再コンパイルの上に、より詳細な都市、MOD対応、改良されたランチャーを追加。自分のディスクが必要。",
     "ko": "그랜드 세프트 오토: 바이스 시티 스토리 (원본 PS2 게임)의 향상된 네이티브 PC 포트. 정적 재컴파일 위에 더 나은 도시 디테일, 모드 지원 및 개선된 런처를 추가. 자신의 디스크가 필요합니다."
+  },
+  "arelkair/wiiparty-recomp": {
+    "en": "Turns the closed-source Wii Party game into a native PC program by translating its code ahead of time, so you can play board games and minigames at high resolution with your own disc.",
+    "zh-CN": "把闭源的 Wii Party 游戏通过提前翻译代码，做成原生电脑程序，用自己的光盘就能在高分辨率下玩桌游和小游戏。",
+    "zh-TW": "把閉源的 Wii Party 遊戲透過提前翻譯程式碼，做成原生電腦程式，用自己的光碟就能在高解析度下玩桌遊和小遊戲。",
+    "ja": "クローズドソースの Wii Party を事前にコードを翻訳してネイティブ PC プログラムにし、自分のディスクで高解像度のボードゲームやミニゲームを遊べるようにする。",
+    "ko": "폐쇄 소스 Wii Party 게임을 코드를 미리 번역해 네이티브 PC 프로그램으로 만들어, 자신의 디스크로 고해상도 보드 게임과 미니게임을 즐길 수 있게 함."
+  },
+  "bhuiyah/ff7-recomp-android": {
+    "en": "Rebuilds the closed-source Final Fantasy VII Steam version as a native Android app by translating the PC executable on your device, with a modern renderer and mod support, using your own game files.",
+    "zh-CN": "把闭源的《最终幻想 VII》Steam 版通过在设备上翻译 PC 可执行文件，做成原生安卓应用，带现代渲染器和模组支持，用自己的游戏文件。",
+    "zh-TW": "把閉源的《最終幻想 VII》Steam 版透過在裝置上翻譯 PC 可執行檔，做成原生安卓應用，帶現代渲染器和模組支援，用自己的遊戲檔案。",
+    "ja": "クローズドソースのファイナルファンタジーVII Steam版をデバイス上でPC実行ファイルを翻訳してネイティブAndroidアプリにし、モダンなレンダラーとMOD対応で自分のゲームファイルを使う。",
+    "ko": "폐쇄 소스 파이널 판타지 VII Steam 버전을 기기에서 PC 실행 파일을 번역해 네이티브 안드로이드 앱으로 만들고, 현대적 렌더러와 모드 지원으로 자신의 게임 파일을 사용."
   }
 }

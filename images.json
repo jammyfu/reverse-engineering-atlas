@@ -1208,5 +1208,15 @@
   ],
   "master4824/gta4-reversed": [],
   "s-b-repo/nfsmw-2005-re": [],
-  "willzmkv/gta-vcs-recomp": []
+  "willzmkv/gta-vcs-recomp": [],
+  "arelkair/wiiparty-recomp": [
+    "shot",
+    "images/wiiparty-og.png",
+    "GitHub opengraph image for the Wii Party Recomp repository"
+  ],
+  "bhuiyah/ff7-recomp-android": [
+    "shot",
+    "images/ff7-android-og.png",
+    "GitHub opengraph image for the FF7Recomp Android repository"
+  ]
 }
