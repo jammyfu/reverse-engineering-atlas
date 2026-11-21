@@ -1218,5 +1218,45 @@
     "shot",
     "images/ff7-android-og.png",
     "GitHub opengraph image for the FF7Recomp Android repository"
+  ],
+  "Tokatta007/OpenTM2": [
+    "card",
+    "https://opengraph.githubassets.com/1/Tokatta007/OpenTM2",
+    "GitHub OpenGraph card"
+  ],
+  "Freminet/ScarlettX": [
+    "card",
+    "https://opengraph.githubassets.com/1/Freminet/ScarlettX",
+    "GitHub OpenGraph card"
+  ],
+  "lingbol088-spec/local-binary-index": [
+    "card",
+    "https://opengraph.githubassets.com/1/lingbol088-spec/local-binary-index",
+    "GitHub OpenGraph card"
+  ],
+  "momusdigital/f3_decomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/momusdigital/f3_decomp",
+    "GitHub OpenGraph card"
+  ],
+  "Artesiana/bridge-anything": [
+    "card",
+    "https://opengraph.githubassets.com/1/Artesiana/bridge-anything",
+    "GitHub OpenGraph card"
+  ],
+  "XDD0043/dotd-decomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/XDD0043/dotd-decomp",
+    "GitHub OpenGraph card"
+  ],
+  "GRAnimated/MinecraftLCE": [
+    "card",
+    "https://opengraph.githubassets.com/1/GRAnimated/MinecraftLCE",
+    "GitHub OpenGraph card"
+  ],
+  "GF007/game-rebuild-kit": [
+    "card",
+    "https://opengraph.githubassets.com/1/GF007/game-rebuild-kit",
+    "GitHub OpenGraph card"
   ]
 }

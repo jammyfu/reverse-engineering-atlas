@@ -3926,5 +3926,69 @@
     "https://github.com/bhuiyah/ff7-recomp-android",
     "No",
     "FINAL FANTASY VII (Steam PC) statically recompiled to native ARM64 Android with FFNx renderer and 7th Heaven-style mod launcher. Build on-device from your own copy."
+  ],
+  [
+    "ps1",
+    "recomp",
+    "Tokatta007/OpenTM2",
+    "https://github.com/Tokatta007/OpenTM2",
+    "No",
+    "PC port of Twisted Metal 2 (PlayStation 1996) via static recompilation of the original code, with online play and improvements. Bring your own disc."
+  ],
+  [
+    "xbox",
+    "",
+    "Freminet/ScarlettX",
+    "https://github.com/Freminet/ScarlettX",
+    "No",
+    "Experimental high-level emulator for Xbox Series X|S (Scarlett) that runs legally obtained GDK titles on Windows by emulating the OS and runtime."
+  ],
+  [
+    "tooling",
+    "",
+    "lingbol088-spec/local-binary-index",
+    "https://github.com/lingbol088-spec/local-binary-index",
+    "No",
+    "Offline PE inspection engine with MCP server: packer ID, OEP hunting, IAT rebuild, anti-debug patches, .NET fingerprints and dump repair. Zero runtime deps."
+  ],
+  [
+    "pc",
+    "decomp",
+    "momusdigital/f3_decomp",
+    "https://github.com/momusdigital/f3_decomp",
+    "No",
+    "Matching decompilation of Fallout 3 PC (1.7.0.3): C++ source that compiles to the same bytes as the original executable. Source only; own game required."
+  ],
+  [
+    "tooling",
+    "",
+    "Artesiana/bridge-anything",
+    "https://github.com/Artesiana/bridge-anything",
+    "Yes",
+    "Agent skill that uses REA to reverse-engineer software without an API and build a REST/MCP/CLI bridge to its data."
+  ],
+  [
+    "pc",
+    "remake",
+    "XDD0043/dotd-decomp",
+    "https://github.com/XDD0043/dotd-decomp",
+    "No",
+    "Behaviour-exact reimplementation of The Legend of Spyro: Dawn of the Dragon (PS3). Builds as native Windows or WebAssembly. Own game data required."
+  ],
+  [
+    "switch",
+    "decomp",
+    "GRAnimated/MinecraftLCE",
+    "https://github.com/GRAnimated/MinecraftLCE",
+    "No",
+    "Work-in-progress matching decompilation of Minecraft: Legacy Console Edition (Nintendo Switch Edition v1.0.17). Own dump required; no assets included."
+  ],
+  [
+    "tooling",
+    "",
+    "GF007/game-rebuild-kit",
+    "https://github.com/GF007/game-rebuild-kit",
+    "No",
+    "AI-assisted agent skill and toolkit for analyzing any game and reconstructing its logic, animation, physics and rendering from evidence."
   ]
 ]

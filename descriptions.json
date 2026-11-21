@@ -3435,5 +3435,61 @@
     "zh-TW": "把閉源的《最終幻想 VII》Steam 版透過在裝置上翻譯 PC 可執行檔，做成原生安卓應用，帶現代渲染器和模組支援，用自己的遊戲檔案。",
     "ja": "クローズドソースのファイナルファンタジーVII Steam版をデバイス上でPC実行ファイルを翻訳してネイティブAndroidアプリにし、モダンなレンダラーとMOD対応で自分のゲームファイルを使う。",
     "ko": "폐쇄 소스 파이널 판타지 VII Steam 버전을 기기에서 PC 실행 파일을 번역해 네이티브 안드로이드 앱으로 만들고, 현대적 렌더러와 모드 지원으로 자신의 게임 파일을 사용."
+  },
+  "Tokatta007/OpenTM2": {
+    "en": "A free PC version of the old PlayStation game Twisted Metal 2, made by translating the original game code so it runs natively on Windows.",
+    "zh-CN": "把 1996 年的 PlayStation 游戏《Twisted Metal 2》重编译成能在 Windows 上原生运行的免费 PC 版。",
+    "zh-TW": "把 1996 年的 PlayStation 遊戲《Twisted Metal 2》重編譯成能在 Windows 上原生執行的免費 PC 版。",
+    "ja": "1996年のPlayStationゲーム『Twisted Metal 2』を、元のコードを翻訳してWindowsでネイティブに動く無料PC版にしたもの。",
+    "ko": "1996년 PlayStation 게임 Twisted Metal 2의 원본 코드를 번역해 Windows에서 네이티브로 돌아가는 무료 PC 버전."
+  },
+  "Freminet/ScarlettX": {
+    "en": "An experimental free program that lets you run Xbox Series X|S games on a normal Windows PC by pretending to be the Xbox operating system.",
+    "zh-CN": "一个实验性的免费软件，通过模拟 Xbox 操作系统，让 Xbox Series X|S 的游戏能在普通 Windows 电脑上运行。",
+    "zh-TW": "一個實驗性的免費軟體，透過模擬 Xbox 作業系統，讓 Xbox Series X|S 的遊戲能在普通 Windows 電腦上執行。",
+    "ja": "XboxのOSを真似することで、Xbox Series X|Sのゲームを普通のWindows PCで動かせる実験的な無料ソフト。",
+    "ko": "Xbox 운영체제를 흉내 내어 Xbox Series X|S 게임을 일반 Windows PC에서 실행할 수 있게 하는 실험적 무료 프로그램."
+  },
+  "lingbol088-spec/local-binary-index": {
+    "en": "A free offline tool that looks inside Windows program files to find packers, original entry points, import tables and anti-debug tricks, and talks to AI agents via MCP.",
+    "zh-CN": "一个免费的离线工具，能检查 Windows 程序文件里的加壳、原始入口、导入表和反调试手段，并通过 MCP 跟 AI 代理对话。",
+    "zh-TW": "一個免費的離線工具，能檢查 Windows 程式檔案裡的加殼、原始入口、導入表和反除錯手段，並透過 MCP 跟 AI 代理對話。",
+    "ja": "Windowsプログラムファイルの中を調べてパッカーや元の入口、インポートテーブル、アンチデバッグを見つけ、MCPでAIエージェントと話せる無料オフラインツール。",
+    "ko": "Windows 프로그램 파일 안의 패커, 원래 진입점, 임포트 테이블, 안티디버그 기법을 찾아내고 MCP로 AI 에이전트와 대화할 수 있는 무료 오프라인 도구."
+  },
+  "momusdigital/f3_decomp": {
+    "en": "The original closed-source Fallout 3 game turned back into readable C++ source code that compiles to exactly the same machine code as the official PC version.",
+    "zh-CN": "把原本闭源的《辐射3》游戏还原成可读的 C++ 源码，编译出来和官方 PC 版完全一样的机器码。",
+    "zh-TW": "把原本閉源的《異塵餘生3》遊戲還原成可讀的 C++ 原始碼，編譯出來和官方 PC 版完全一樣的機器碼。",
+    "ja": "元のクローズドソースの『Fallout 3』を、公式PC版とまったく同じ機械語になる読みやすいC++ソースコードに戻したもの。",
+    "ko": "원래 폐쇄형 소스였던 Fallout 3를 공식 PC 버전과 완전히 같은 기계어로 컴파일되는 읽을 수 있는 C++ 소스 코드로 되돌린 것."
+  },
+  "Artesiana/bridge-anything": {
+    "en": "A skill for AI coding agents that uses the REA reverse-engineering tool to look inside old software that has no API, then builds a simple bridge so your app can talk to its data.",
+    "zh-CN": "给 AI 编程代理用的技能，借助 REA 逆向工具去看那些没有公开接口的老软件内部，然后建一个小桥让你的应用能读写它的数据。",
+    "zh-TW": "給 AI 程式代理用的技能，借助 REA 逆向工具去看那些沒有公開介面的老軟體內部，然後建一個小橋讓你的應用能讀寫它的資料。",
+    "ja": "APIのない古いソフトの中をREAという逆解析ツールで調べ、自分のアプリがそのデータと話せる小さな橋を作る、AIコーディングエージェント向けのスキル。",
+    "ko": "API가 없는 오래된 소프트웨어 내부를 REA 역공학 도구로 살펴보고, 내 앱이 그 데이터와 대화할 수 있는 작은 다리를 만들어 주는 AI 코딩 에이전트용 스킬."
+  },
+  "XDD0043/dotd-decomp": {
+    "en": "A free re-creation of the PS3 game The Legend of Spyro: Dawn of the Dragon that behaves the same as the original and can run on Windows or in a web browser.",
+    "zh-CN": "把 PS3 上的《神龙战士：黎明巨龙》从零重做成行为完全一样的免费版本，可以在 Windows 或网页浏览器里运行。",
+    "zh-TW": "把 PS3 上的《神龍戰士：黎明巨龍》從零重做成行為完全一樣的免費版本，可以在 Windows 或網頁瀏覽器裡執行。",
+    "ja": "PS3の『The Legend of Spyro: Dawn of the Dragon』を、元のゲームと同じ動きをする無料版にゼロから作り直し、Windowsやウェブブラウザで動かせるようにしたもの。",
+    "ko": "PS3 게임 The Legend of Spyro: Dawn of the Dragon을 원본과 똑같이 동작하는 무료 버전으로 처음부터 다시 만들어 Windows나 웹 브라우저에서 실행할 수 있게 한 것."
+  },
+  "GRAnimated/MinecraftLCE": {
+    "en": "People are carefully turning the closed-source Minecraft Legacy Console Edition (the Switch version) back into readable source code, one function at a time.",
+    "zh-CN": "大家正在一点一点地把闭源的《我的世界》主机版（任天堂 Switch 版）还原成可读的源代码。",
+    "zh-TW": "大家正在一點一點地把閉源的《Minecraft》主機版（任天堂 Switch 版）還原成可讀的原始碼。",
+    "ja": "クローズドソースのMinecraft Legacy Console Edition（Switch版）を、関数一つずつ丁寧に読みやすいソースコードに戻しているプロジェクト。",
+    "ko": "폐쇄형 소스인 Minecraft Legacy Console Edition(스위치 버전)을 함수 하나씩 차근차근 읽을 수 있는 소스 코드로 되돌리고 있는 프로젝트."
+  },
+  "GF007/game-rebuild-kit": {
+    "en": "A toolkit and skill that helps AI agents take any closed-source game apart, understand how its logic, animation and graphics work, and rebuild the interesting parts.",
+    "zh-CN": "一套工具和技能，帮助 AI 代理把任何闭源游戏拆开，弄懂它的逻辑、动画和画面是怎么工作的，然后把有意思的部分重新做出来。",
+    "zh-TW": "一套工具和技能，幫助 AI 代理把任何閉源遊戲拆開，弄懂它的邏輯、動畫和畫面是怎麼工作的，然後把有意思的部分重新做出來。",
+    "ja": "どんなクローズドソースのゲームでもAIエージェントが分解して、ロジックやアニメーション、グラフィックの仕組みを理解し、面白い部分を作り直せるようにするツールキットとスキル。",
+    "ko": "어떤 폐쇄형 소스 게임이든 AI 에이전트가 분해해서 로직, 애니메이션, 그래픽이 어떻게 작동하는지 이해하고 흥미로운 부분을 다시 만들 수 있게 도와주는 툴킷과 스킬."
   }
 }
