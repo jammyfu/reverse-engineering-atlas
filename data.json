@@ -3990,5 +3990,69 @@
     "https://github.com/GF007/game-rebuild-kit",
     "No",
     "AI-assisted agent skill and toolkit for analyzing any game and reconstructing its logic, animation, physics and rendering from evidence."
+  ],
+  [
+    "tooling",
+    "",
+    "DanimanX/Taitof3Decomp",
+    "https://github.com/DanimanX/Taitof3Decomp",
+    "No",
+    "Decompilation framework for Taito F3 arcade games (Darius Gaiden etc.) using Ghidra + MAME MCP."
+  ],
+  [
+    "tooling",
+    "",
+    "bwalsh321/dc-recomp",
+    "https://github.com/bwalsh321/dc-recomp",
+    "No",
+    "Static recompiler for Sega Dreamcast (SH-4) games to native C."
+  ],
+  [
+    "pc",
+    "decomp",
+    "OpenSCCT/scct-decomp",
+    "https://github.com/OpenSCCT/scct-decomp",
+    "No",
+    "Matching decompilation of Splinter Cell: Chaos Theory (PC and PS2)."
+  ],
+  [
+    "gba",
+    "decomp",
+    "wishofalifetime/re2gba-decomp",
+    "https://github.com/wishofalifetime/re2gba-decomp",
+    "No",
+    "Byte-matched decompilation of Resident Evil 2 (GBA)."
+  ],
+  [
+    "wii",
+    "recomp",
+    "VoltTMC/SonicColorsRecomp",
+    "https://github.com/VoltTMC/SonicColorsRecomp",
+    "No",
+    "Native PC recompilation of Sonic Colors (Wii)."
+  ],
+  [
+    "ps2",
+    "recomp",
+    "zanettevini/ProtectorOfEarth-Recomp",
+    "https://github.com/zanettevini/ProtectorOfEarth-Recomp",
+    "No",
+    "Static recompilation of Ben 10: Protector of Earth (PS2) to native PC."
+  ],
+  [
+    "tooling",
+    "tools",
+    "JidouGhost-TL/gbakit",
+    "https://github.com/JidouGhost-TL/gbakit",
+    "No",
+    "Clean-room Game Boy Advance format toolkit (ROM, save, graphics, sound)."
+  ],
+  [
+    "wii",
+    "decomp",
+    "persecom/fe10-decomp",
+    "https://github.com/persecom/fe10-decomp",
+    "No",
+    "Matching decompilation of Fire Emblem: Radiant Dawn (Wii)."
   ]
 ]

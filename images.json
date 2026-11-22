@@ -1258,5 +1258,15 @@
     "card",
     "https://opengraph.githubassets.com/1/GF007/game-rebuild-kit",
     "GitHub OpenGraph card"
+  ],
+  "DanimanX/Taitof3Decomp": [
+    "readme",
+    "images/taitof3-banner.png",
+    "Project banner from README (Darius Gaiden themed)"
+  ],
+  "zanettevini/ProtectorOfEarth-Recomp": [
+    "readme",
+    "images/protector-title.png",
+    "Title screen screenshot from the project's docs"
   ]
 }

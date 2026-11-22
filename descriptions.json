@@ -3491,5 +3491,61 @@
     "zh-TW": "一套工具和技能，幫助 AI 代理把任何閉源遊戲拆開，弄懂它的邏輯、動畫和畫面是怎麼工作的，然後把有意思的部分重新做出來。",
     "ja": "どんなクローズドソースのゲームでもAIエージェントが分解して、ロジックやアニメーション、グラフィックの仕組みを理解し、面白い部分を作り直せるようにするツールキットとスキル。",
     "ko": "어떤 폐쇄형 소스 게임이든 AI 에이전트가 분해해서 로직, 애니메이션, 그래픽이 어떻게 작동하는지 이해하고 흥미로운 부분을 다시 만들 수 있게 도와주는 툴킷과 스킬."
+  },
+  "DanimanX/Taitof3Decomp": {
+    "en": "A framework to turn Taito F3 arcade games (like Darius Gaiden) back into readable matching C code, using Ghidra and live MAME checks.",
+    "zh-CN": "把 Taito F3 街机游戏（比如 Darius Gaiden）还原成可读、能对上原版字节的 C 代码的框架，用 Ghidra 加实时 MAME 验证。",
+    "zh-TW": "把 Taito F3 街機遊戲（例如 Darius Gaiden）還原成可讀、能對上原版位元組的 C 程式碼的框架，用 Ghidra 加即時 MAME 驗證。",
+    "ja": "Taito F3 アーケードゲーム（Darius Gaiden など）を、元のバイトに一致する読みやすい C コードに戻すフレームワーク。Ghidra と MAME のリアルタイム検証付き。",
+    "ko": "Taito F3 아케이드 게임(Darius Gaiden 등)을 원본 바이트와 일치하는 읽기 쉬운 C 코드로 되돌리는 프레임워크. Ghidra와 실시간 MAME 검증 사용."
+  },
+  "bwalsh321/dc-recomp": {
+    "en": "A tool that turns Sega Dreamcast game machine code into native C programs you can run on PC, without an emulator.",
+    "zh-CN": "把世嘉 Dreamcast 游戏的机器码直接翻译成能在 PC 上原生运行的 C 程序的工具，不需要模拟器。",
+    "zh-TW": "把 SEGA Dreamcast 遊戲的機器碼直接翻譯成能在 PC 上原生執行的 C 程式的工具，不需要模擬器。",
+    "ja": "セガ・ドリームキャストのゲーム機械語を、エミュレータなしで PC 上でネイティブに動く C プログラムに変換するツール。",
+    "ko": "세가 드림캐스트 게임의 기계어를 에뮬레이터 없이 PC에서 네이티브로 실행되는 C 프로그램으로 바꾸는 도구."
+  },
+  "OpenSCCT/scct-decomp": {
+    "en": "Turning the closed-source Splinter Cell: Chaos Theory (PC and PS2) back into readable C/C++ that compiles to the exact same bytes as the original.",
+    "zh-CN": "把闭源的《细胞分裂：混沌理论》（PC 和 PS2 版）还原成可读的 C/C++，编译出来的字节和原版一模一样。",
+    "zh-TW": "把閉源的《细胞分裂：混沌理論》（PC 與 PS2 版）還原成可讀的 C/C++，編譯出來的位元組和原版一模一樣。",
+    "ja": "クローズドソースの『スプリンターセル：カオスセオリー』（PC・PS2）を、元のバイトと完全一致する読みやすい C/C++ に戻すプロジェクト。",
+    "ko": "클로즈드 소스인 《스플린터 셀: 카오스 시어리》(PC·PS2)를 원본과 바이트 단위로 같은 읽기 쉬운 C/C++로 되돌리는 프로젝트."
+  },
+  "wishofalifetime/re2gba-decomp": {
+    "en": "A matching decompilation of the closed-source Resident Evil 2 for Game Boy Advance, aiming for byte-perfect source.",
+    "zh-CN": "把闭源的 GBA 版《生化危机 2》还原成能对上原版字节的源代码。",
+    "zh-TW": "把閉源的 GBA 版《惡靈古堡 2》還原成能對上原版位元組的原始碼。",
+    "ja": "クローズドソースの GBA 版『バイオハザード 2』を、元のバイトに一致するソースに戻すデコンパイル。",
+    "ko": "클로즈드 소스인 GBA판 《바이오하자드 2》를 원본 바이트와 일치하는 소스 코드로 되돌리는 디컴파일."
+  },
+  "VoltTMC/SonicColorsRecomp": {
+    "en": "A native PC port of the closed-source Wii game Sonic Colors, made by statically recompiling its machine code.",
+    "zh-CN": "用静态重编译把闭源的 Wii 游戏《索尼克色彩》做成能在 PC 上原生运行的程序。",
+    "zh-TW": "用靜態重編譯把閉源的 Wii 遊戲《音速小子：色彩》做成能在 PC 上原生執行的程式。",
+    "ja": "クローズドソースの Wii ゲーム『ソニック カラーズ』を静的リコンパイルして PC ネイティブで動かせるようにしたもの。",
+    "ko": "클로즈드 소스인 Wii 게임 《소닉 컬러즈》를 정적 재컴파일로 PC에서 네이티브로 실행되게 만든 것."
+  },
+  "zanettevini/ProtectorOfEarth-Recomp": {
+    "en": "Turning the closed-source PS2 game Ben 10: Protector of Earth into a native PC program via static recompilation.",
+    "zh-CN": "用静态重编译把闭源的 PS2 游戏《Ben 10：地球保卫者》做成能在 PC 上原生运行的程序。",
+    "zh-TW": "用靜態重編譯把閉源的 PS2 遊戲《Ben 10：地球保衛者》做成能在 PC 上原生執行的程式。",
+    "ja": "クローズドソースの PS2 ゲーム『Ben 10: Protector of Earth』を静的リコンパイルして PC ネイティブで動かすプロジェクト。",
+    "ko": "클로즈드 소스인 PS2 게임 《Ben 10: Protector of Earth》를 정적 재컴파일로 PC 네이티브 프로그램으로 만드는 프로젝트."
+  },
+  "JidouGhost-TL/gbakit": {
+    "en": "A clean-room open-source toolkit to read and write Game Boy Advance ROM formats, saves, graphics and sound without using Nintendo's code.",
+    "zh-CN": "从零重写的开源工具包，用来读写 GBA 的 ROM、存档、图形和声音格式，完全不看任天堂的代码。",
+    "zh-TW": "從零重寫的開源工具包，用來讀寫 GBA 的 ROM、存檔、圖形和聲音格式，完全不看任天堂的程式碼。",
+    "ja": "任天堂のコードを一切使わずに、GBA の ROM・セーブ・グラフィック・サウンド形式を読み書きするクリーンルームのオープンソースツールキット。",
+    "ko": "닌텐도 코드를 전혀 보지 않고 GBA의 ROM, 세이브, 그래픽, 사운드 형식을 읽고 쓰는 클린룸 오픈소스 툴킷."
+  },
+  "persecom/fe10-decomp": {
+    "en": "Matching decompilation of the closed-source Wii game Fire Emblem: Radiant Dawn, rebuilding it byte-for-byte from your own dump.",
+    "zh-CN": "把闭源的 Wii 游戏《火焰纹章：晓之女神》还原成能对上原版字节的源代码，需要自己提供游戏 dump。",
+    "zh-TW": "把閉源的 Wii 遊戲《火焰之紋章：曉之女神》還原成能對上原版位元組的原始碼，需要自己提供遊戲 dump。",
+    "ja": "クローズドソースの Wii ゲーム『ファイアーエムブレム 暁の女神』を、自分のダンプからバイト単位で一致するソースに戻すデコンパイル。",
+    "ko": "클로즈드 소스인 Wii 게임 《파이어 엠블렘: 새벽의 여신》을 자신의 덤프에서 바이트 단위로 일치하는 소스로 되돌리는 디컴파일."
   }
 }
