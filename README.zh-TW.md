@@ -6,7 +6,7 @@
 
 依目標、平台與技術整理逆向專案、工具及 Agent 工作流程。開始實作前先查看既有成果：遊戲反編譯與重編譯、應用程式重新實作、Android 與 JavaScript 分析、協定、韌體及配套工具。
 
-**507 筆目錄記錄 · 501 個 GitHub 儲存庫 · 10 類 skill 工作流程 · 5 種 README 語言**
+**510 筆目錄記錄 · 504 個 GitHub 儲存庫 · 10 類 skill 工作流程 · 5 種 README 語言**
 
 Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內沿用累計 Star 快照排序，並非即時趨勢；原快照未記錄擷取時間，缺少數據者排在最後。所有項目皆保留。
 
@@ -146,6 +146,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>把任天堂 Switch 上的《寶可夢 朱》靜態重編譯成帶 Vulkan 渲染的原生 Windows 程式，不用模擬器就能玩。需要自己提供遊戲轉儲和金鑰。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>把 Switch 上的《寶可夢 劍／盾》遊戲程式碼提前翻譯成電腦能直接跑的程式，不用模擬器就能在 Windows 上玩。你得自己準備正版遊戲檔案。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>把任天堂 Switch 遊戲《朋友收集：夢想生活》靜態重編譯成可在 PC 上原生執行的早期免費開源移植（需要自備 dump）。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/jaigner-hub/metroid-prime-4-recomp"><b>metroid-prime-4-recomp</b></a><br><sub>jaigner-hub</sub></td><td>把任天堂 Switch 遊戲《密特羅德 Prime 4：超越》透過靜態重編譯做成能在 Windows 上原生執行的程式。需要自己的遊戲轉儲。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><img src="https://raw.githubusercontent.com/IamWilmar/xenoblade3-recomp/main/docs/icon.png" width="160" alt="IamWilmar/xenoblade3-recomp"></a></td><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><b>xenoblade3-recomp</b></a><br><sub>IamWilmar</sub></td><td>一個免費開源的閉源《異度神劍3》原生Android移植（針對特定掌機）。遊戲自己的ARM64程式碼原生執行，SDK被重新實作。需要你自己提取的檔案。</td><td>否</td><td><sub>專案 README</sub></td></tr>
 </table>
 
@@ -811,7 +812,7 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 </table>
 
 <details>
-<summary>查看此分類的所有專案 (+122)</summary>
+<summary>查看此分類的所有專案 (+124)</summary>
 
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
@@ -868,6 +869,8 @@ Switch 2 依編輯優先順序置頂，不代表實測熱門程度。分類內�
 <tr><td>—</td><td><a href="https://github.com/radareorg/r2ai"><b>r2ai</b></a><br><sub>radareorg</sub></td><td>radare2 的基於 LLM 的逆向工具與插件</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/dnakov/frida-mcp"><b>frida-mcp</b></a><br><sub>dnakov</sub></td><td>Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fosdickio/binary_ninja_mcp"><b>binary_ninja_mcp</b></a><br><sub>fosdickio</sub></td><td>讓 LLM Agent 驅動 Binary Ninja 的 MCP 伺服器（反編譯、交叉參照、重新命名、註解）。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/songshikang0111/awesome-REA-cases"><b>awesome-REA-cases</b></a><br><sub>songshikang0111</sub></td><td>經常更新的案例集，記錄 AI 代理和 REA 如何逆向或重寫閉源軟體和遊戲。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/maluramichael/awesome-reverse-engineer-anything"><b>awesome-reverse-engineer-anything</b></a><br><sub>maluramichael</sub></td><td>每天更新的列表，收錄那些把閉源應用、遊戲、主機和裝置逆向成開源專案的作品，以及他們用到的工具。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/lemonadesaltbagel/crab"><b>crab</b></a><br><sub>lemonadesaltbagel</sub></td><td>一個 MCP 工具，讓 AI 把任何軟體當成純黑盒來觀察（只看它做什麼，不看程式碼），然後做一個行為完全一樣的乾淨室版本。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/radareorg/radare2-mcp"><b>radare2-mcp</b></a><br><sub>radareorg</sub></td><td>radare2 官方 MCP stdio 伺服器</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/n-delic/decompdecomp"><b>decompdecomp</b></a><br><sub>n-delic</sub></td><td>讓 AI 代理把你擁有的遊戲反編譯成能逐位元組重建原版的 C/C++ 的桌面工具。</td><td>否</td><td><sub>—</sub></td></tr>

@@ -6,7 +6,7 @@
 
 按目标、平台和技术整理逆向项目、工具与 Agent 工作流。开始自己动手前，先看看已有成果：游戏反编译与重编译、应用重实现、Android 与 JavaScript 分析、协议、固件及配套工具。
 
-**507 条目录记录 · 501 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
+**510 条目录记录 · 504 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
 
 Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累计 Star 快照排序，不是实时趋势；原快照未记录采集时间，缺失计数排在最后。所有条目均保留。
 
@@ -146,6 +146,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>把任天堂 Switch 上的《宝可梦 朱》静态重编译成带 Vulkan 渲染的原生 Windows 程序，不用模拟器就能玩。需要自己提供游戏转储和密钥。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>把 Switch 上的《宝可梦 剑/盾》游戏代码提前翻译成电脑能直接跑的程序，不用模拟器就能在 Windows 上玩。你得自己准备正版游戏文件。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>把任天堂 Switch 游戏《朋友收集：梦想生活》静态重编译成可在 PC 上原生运行的早期免费开源移植（需要自备 dump）。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/jaigner-hub/metroid-prime-4-recomp"><b>metroid-prime-4-recomp</b></a><br><sub>jaigner-hub</sub></td><td>把任天堂 Switch 游戏《密特罗德 Prime 4：超越》通过静态重编译做成能在 Windows 上原生运行的程序。需要自己的游戏转储。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><img src="https://raw.githubusercontent.com/IamWilmar/xenoblade3-recomp/main/docs/icon.png" width="160" alt="IamWilmar/xenoblade3-recomp"></a></td><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><b>xenoblade3-recomp</b></a><br><sub>IamWilmar</sub></td><td>一个免费开源的闭源《异度神剑3》原生Android移植（针对特定掌机）。游戏自己的ARM64代码原生运行，SDK被重新实现。需要你自己提取的文件。</td><td>否</td><td><sub>项目 README</sub></td></tr>
 </table>
 
@@ -811,7 +812,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+122)</summary>
+<summary>查看该分类全部项目 (+124)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -868,6 +869,8 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/radareorg/r2ai"><b>r2ai</b></a><br><sub>radareorg</sub></td><td>radare2 的基于 LLM 的逆向工具与插件</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/dnakov/frida-mcp"><b>frida-mcp</b></a><br><sub>dnakov</sub></td><td>Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fosdickio/binary_ninja_mcp"><b>binary_ninja_mcp</b></a><br><sub>fosdickio</sub></td><td>让 LLM Agent 驱动 Binary Ninja 的 MCP 服务器（反编译、交叉引用、重命名、注释）。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/songshikang0111/awesome-REA-cases"><b>awesome-REA-cases</b></a><br><sub>songshikang0111</sub></td><td>经常更新的案例集，记录 AI 代理和 REA 如何逆向或重写闭源软件和游戏。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/maluramichael/awesome-reverse-engineer-anything"><b>awesome-reverse-engineer-anything</b></a><br><sub>maluramichael</sub></td><td>每天更新的列表，收录那些把闭源应用、游戏、主机和设备逆向成开源项目的作品，以及他们用到的工具。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/lemonadesaltbagel/crab"><b>crab</b></a><br><sub>lemonadesaltbagel</sub></td><td>一个 MCP 工具，让 AI 把任何软件当成纯黑盒来观察（只看它做什么，不看代码），然后做一个行为完全一样的干净室版本。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/radareorg/radare2-mcp"><b>radare2-mcp</b></a><br><sub>radareorg</sub></td><td>radare2 官方 MCP stdio 服务器</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/n-delic/decompdecomp"><b>decompdecomp</b></a><br><sub>n-delic</sub></td><td>让 AI 代理把你拥有的游戏反编译成能逐字节重建原版的 C/C++ 的桌面工具。</td><td>否</td><td><sub>—</sub></td></tr>

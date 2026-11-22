@@ -6,7 +6,7 @@
 
 逆解析プロジェクト、ツール、エージェントのワークフローを対象・プラットフォーム・技術別に整理したカタログです。ゲームの逆コンパイルと再コンパイル、アプリの再実装、Android・JavaScript 解析、プロトコル、ファームウェアの既存成果を探せます。
 
-**507 件の項目 · 501 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
+**510 件の項目 · 504 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
 
 Switch 2 は編集上の優先項目であり、人気の実測順位ではありません。各分類は既存の累計 Star スナップショット順で、リアルタイムのトレンドではありません。取得日時は未記録、件数不明の項目は末尾です。全項目を保持しています。
 
@@ -146,6 +146,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>Nintendo Switch 版『ポケットモンスター スカーレット』を、Vulkan レンダラ付きのネイティブ Windows プログラムに静的再コンパイルします。ダンプとキーは自分で用意。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>Switch版『ポケモン ソード・シールド』のコードをあらかじめ翻訳して、エミュレーターなしでWindowsで動くネイティブ版にしたプロジェクト。自分で用意した正規のゲームデータが必要です。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>Nintendo Switch の『トモダチコレクション 夢の暮らし』を静的再コンパイルして PC でネイティブに動かせる初期の無料オープンソース移植（自分のダンプが必要）。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/jaigner-hub/metroid-prime-4-recomp"><b>metroid-prime-4-recomp</b></a><br><sub>jaigner-hub</sub></td><td>Nintendo Switch のゲーム『メトロイドプライム4 ビヨンド』を静的再コンパイルでネイティブな Windows プログラムにする。自分のゲームダンプが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><img src="https://raw.githubusercontent.com/IamWilmar/xenoblade3-recomp/main/docs/icon.png" width="160" alt="IamWilmar/xenoblade3-recomp"></a></td><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><b>xenoblade3-recomp</b></a><br><sub>IamWilmar</sub></td><td>特定ハンドヘルド向けクローズドソースXenoblade Chronicles 3の無料オープンソースネイティブAndroidポート。ゲーム自身のARM64コードがネイティブ実行され、SDKは再実装。自分の抽出ファイルが必要。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 </table>
 
@@ -811,7 +812,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+122)</summary>
+<summary>このカテゴリをすべて表示 (+124)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -868,6 +869,8 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/radareorg/r2ai"><b>r2ai</b></a><br><sub>radareorg</sub></td><td>radare2 用の LLM ベースのリバースツールとプラグイン</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/dnakov/frida-mcp"><b>frida-mcp</b></a><br><sub>dnakov</sub></td><td>Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fosdickio/binary_ninja_mcp"><b>binary_ninja_mcp</b></a><br><sub>fosdickio</sub></td><td>LLM エージェントが Binary Ninja を操作できる MCP サーバー（デコンパイル、xref、リネームなど）。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/songshikang0111/awesome-REA-cases"><b>awesome-REA-cases</b></a><br><sub>songshikang0111</sub></td><td>AI エージェントと REA がクローズドなソフトウェアやゲームをリバースエンジニアリングまたは再構築した事例の頻繁に更新されるコレクション。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/maluramichael/awesome-reverse-engineer-anything"><b>awesome-reverse-engineer-anything</b></a><br><sub>maluramichael</sub></td><td>クローズドなアプリやゲーム、コンソール、デバイスをリバースエンジニアリングしたオープンプロジェクトと、使われたツールの毎日更新リスト。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/lemonadesaltbagel/crab"><b>crab</b></a><br><sub>lemonadesaltbagel</sub></td><td>どんなソフトウェアでもコードを見ずに純粋なブラックボックスとして観察し、動作が一致するクリーンルーム版をAIに作らせるMCPツール。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/radareorg/radare2-mcp"><b>radare2-mcp</b></a><br><sub>radareorg</sub></td><td>radare2 公式 MCP stdio サーバー</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/n-delic/decompdecomp"><b>decompdecomp</b></a><br><sub>n-delic</sub></td><td>自分が所有するゲームを、AIエージェントがバイト単位で一致するC/C++にデコンパイルするデスクトップアプリ。</td><td>いいえ</td><td><sub>—</sub></td></tr>

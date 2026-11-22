@@ -3547,5 +3547,26 @@
     "zh-TW": "把閉源的 Wii 遊戲《火焰之紋章：曉之女神》還原成能對上原版位元組的原始碼，需要自己提供遊戲 dump。",
     "ja": "クローズドソースの Wii ゲーム『ファイアーエムブレム 暁の女神』を、自分のダンプからバイト単位で一致するソースに戻すデコンパイル。",
     "ko": "클로즈드 소스인 Wii 게임 《파이어 엠블렘: 새벽의 여신》을 자신의 덤프에서 바이트 단위로 일치하는 소스로 되돌리는 디컴파일."
+  },
+  "jaigner-hub/metroid-prime-4-recomp": {
+    "en": "Turns the Nintendo Switch game Metroid Prime 4: Beyond into a native Windows program by static recompilation. You need your own game dump.",
+    "zh-CN": "把任天堂 Switch 游戏《密特罗德 Prime 4：超越》通过静态重编译做成能在 Windows 上原生运行的程序。需要自己的游戏转储。",
+    "zh-TW": "把任天堂 Switch 遊戲《密特羅德 Prime 4：超越》透過靜態重編譯做成能在 Windows 上原生執行的程式。需要自己的遊戲轉儲。",
+    "ja": "Nintendo Switch のゲーム『メトロイドプライム4 ビヨンド』を静的再コンパイルでネイティブな Windows プログラムにする。自分のゲームダンプが必要。",
+    "ko": "닌텐도 스위치 게임 메트로이드 프라임 4: 비욘드를 정적 재컴파일로 네이티브 Windows 프로그램으로 만든다. 자신의 게임 덤프가 필요하다."
+  },
+  "maluramichael/awesome-reverse-engineer-anything": {
+    "en": "A daily-updated list of open projects that reverse-engineered closed apps, games, consoles and devices, plus the tools they used.",
+    "zh-CN": "每天更新的列表，收录那些把闭源应用、游戏、主机和设备逆向成开源项目的作品，以及他们用到的工具。",
+    "zh-TW": "每天更新的列表，收錄那些把閉源應用、遊戲、主機和裝置逆向成開源專案的作品，以及他們用到的工具。",
+    "ja": "クローズドなアプリやゲーム、コンソール、デバイスをリバースエンジニアリングしたオープンプロジェクトと、使われたツールの毎日更新リスト。",
+    "ko": "폐쇄형 앱, 게임, 콘솔, 기기를 리버스 엔지니어링한 오픈 프로젝트와 사용된 도구의 매일 업데이트 목록."
+  },
+  "songshikang0111/awesome-REA-cases": {
+    "en": "A frequently updated collection of cases where AI agents and REA reverse-engineered or rebuilt closed software and games.",
+    "zh-CN": "经常更新的案例集，记录 AI 代理和 REA 如何逆向或重写闭源软件和游戏。",
+    "zh-TW": "經常更新的案例集，記錄 AI 代理和 REA 如何逆向或重寫閉源軟體和遊戲。",
+    "ja": "AI エージェントと REA がクローズドなソフトウェアやゲームをリバースエンジニアリングまたは再構築した事例の頻繁に更新されるコレクション。",
+    "ko": "AI 에이전트와 REA가 폐쇄형 소프트웨어와 게임을 리버스 엔지니어링하거나 재구축한 사례의 자주 업데이트되는 모음."
   }
 }

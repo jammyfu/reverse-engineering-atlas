@@ -4054,5 +4054,29 @@
     "https://github.com/persecom/fe10-decomp",
     "No",
     "Matching decompilation of Fire Emblem: Radiant Dawn (Wii)."
+  ],
+  [
+    "switch",
+    "remake",
+    "jaigner-hub/metroid-prime-4-recomp",
+    "https://github.com/jaigner-hub/metroid-prime-4-recomp",
+    "No",
+    "Static recompilation of Metroid Prime 4: Beyond (Switch) to native Windows with Vulkan. Needs your own dump and keys. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "maluramichael/awesome-reverse-engineer-anything",
+    "https://github.com/maluramichael/awesome-reverse-engineer-anything",
+    "No",
+    "Trending open projects that reverse-engineered apps, games, consoles, protocols and devices, plus the tools they used. Stars refreshed daily."
+  ],
+  [
+    "tooling",
+    "",
+    "songshikang0111/awesome-REA-cases",
+    "https://github.com/songshikang0111/awesome-REA-cases",
+    "No",
+    "Curated collection of REA and AI-assisted reverse-engineering cases, projects and ideas. Updated multiple times daily."
   ]
 ]

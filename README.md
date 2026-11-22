@@ -6,7 +6,7 @@
 
 A curated map of reverse-engineering projects, tools and agent workflows. Find existing work before starting your own: game decompilations and recompilations, application reimplementations, Android and JavaScript analysis, protocols, firmware and supporting tools.
 
-**507 catalog entries · 501 GitHub repositories · 10 skill workflows · 5 README languages**
+**510 catalog entries · 504 GitHub repositories · 10 skill workflows · 5 README languages**
 
 Switch 2 is an editorial priority, not a measured popularity claim. Within each section, projects use the existing cumulative Star snapshot, not live trending data. The snapshot has no capture timestamp; missing counts sort last. All entries remain available below.
 
@@ -146,6 +146,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/tukidev-lgtm/Tera-recomp"><b>Tera-recomp</b></a><br><sub>tukidev-lgtm</sub></td><td>Turns the Nintendo Switch version of Pokémon Scarlet into a native Windows program with a Vulkan renderer that runs without an emulator. You supply your own dump and keys.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/raulzrrs/swsh-recomp"><img src="images/swsh-recomp-og.png" width="160" alt="raulzrrs/swsh-recomp"></a></td><td><a href="https://github.com/raulzrrs/swsh-recomp"><b>swsh-recomp</b></a><br><sub>raulzrrs</sub></td><td>Turns the Switch Pokémon Sword and Shield game into a native Windows program by translating its code ahead of time, so it runs without an emulator. You still need your own legal copy of the game.</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/RussoPhone/tomodachi-ltd-recomp"><b>tomodachi-ltd-recomp</b></a><br><sub>RussoPhone</sub></td><td>Early free open-source port that recompiles the Nintendo Switch game Tomodachi Life: Living the Dream into a native PC program (you need your own dump).</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/jaigner-hub/metroid-prime-4-recomp"><b>metroid-prime-4-recomp</b></a><br><sub>jaigner-hub</sub></td><td>Turns the Nintendo Switch game Metroid Prime 4: Beyond into a native Windows program by static recompilation. You need your own game dump.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><img src="https://raw.githubusercontent.com/IamWilmar/xenoblade3-recomp/main/docs/icon.png" width="160" alt="IamWilmar/xenoblade3-recomp"></a></td><td><a href="https://github.com/IamWilmar/xenoblade3-recomp"><b>xenoblade3-recomp</b></a><br><sub>IamWilmar</sub></td><td>A free open-source native Android port of the closed-source Xenoblade Chronicles 3 for specific handhelds. The game&#x27;s own ARM64 code runs natively with a reimplemented SDK. Bring your own extracted files.</td><td>No</td><td><sub>Project README</sub></td></tr>
 </table>
 
@@ -811,7 +812,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+122)</summary>
+<summary>Browse the complete category (+124)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -868,6 +869,8 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/radareorg/r2ai"><b>r2ai</b></a><br><sub>radareorg</sub></td><td>LLM-based reversing tools and plugins for radare2</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/dnakov/frida-mcp"><b>frida-mcp</b></a><br><sub>dnakov</sub></td><td>Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/fosdickio/binary_ninja_mcp"><b>binary_ninja_mcp</b></a><br><sub>fosdickio</sub></td><td>MCP server that lets LLM agents drive Binary Ninja (decompile, xrefs, rename, annotate).</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/songshikang0111/awesome-REA-cases"><b>awesome-REA-cases</b></a><br><sub>songshikang0111</sub></td><td>A frequently updated collection of cases where AI agents and REA reverse-engineered or rebuilt closed software and games.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/maluramichael/awesome-reverse-engineer-anything"><b>awesome-reverse-engineer-anything</b></a><br><sub>maluramichael</sub></td><td>A daily-updated list of open projects that reverse-engineered closed apps, games, consoles and devices, plus the tools they used.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/lemonadesaltbagel/crab"><b>crab</b></a><br><sub>lemonadesaltbagel</sub></td><td>An MCP tool that lets an AI study any software as a pure black box (what it does, not its code), then build a clean-room version that matches the behavior.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/radareorg/radare2-mcp"><b>radare2-mcp</b></a><br><sub>radareorg</sub></td><td>Official MCP stdio server for radare2</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/n-delic/decompdecomp"><b>decompdecomp</b></a><br><sub>n-delic</sub></td><td>Desktop app that lets AI agents decompile games you own into C/C++ that rebuilds the original binary byte for byte.</td><td>No</td><td><sub>—</sub></td></tr>
