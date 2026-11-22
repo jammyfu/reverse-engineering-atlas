@@ -1268,5 +1268,20 @@
     "readme",
     "images/protector-title.png",
     "Title screen screenshot from the project's docs"
+  ],
+  "Mudcrab-Team/skyrim_decomp": [
+    "readme",
+    "https://opengraph.githubassets.com/7c08f77a5ca023a3be42e3d2ba363ed4534f202cf60645ad2b1b96328bcceb91/Mudcrab-Team/skyrim_decomp",
+    "GitHub OpenGraph image"
+  ],
+  "axx0/Civ2-clone": [
+    "readme",
+    "https://opengraph.githubassets.com/7dfdf9294fa6d4c34a64ff75b01b2dbc9c07f2d8e17ecc743a1aadd801d6ba99/axx0/Civ2-clone",
+    "GitHub OpenGraph image"
+  ],
+  "jaenster/redivivus": [
+    "readme",
+    "https://opengraph.githubassets.com/ce8ce2c0ac6db493b405cf772277fa6be2875329f6c748cb70fcf73124483364/jaenster/redivivus",
+    "GitHub OpenGraph image"
   ]
 }

@@ -3568,5 +3568,26 @@
     "zh-TW": "經常更新的案例集，記錄 AI 代理和 REA 如何逆向或重寫閉源軟體和遊戲。",
     "ja": "AI エージェントと REA がクローズドなソフトウェアやゲームをリバースエンジニアリングまたは再構築した事例の頻繁に更新されるコレクション。",
     "ko": "AI 에이전트와 REA가 폐쇄형 소프트웨어와 게임을 리버스 엔지니어링하거나 재구축한 사례의 자주 업데이트되는 모음."
+  },
+  "Mudcrab-Team/skyrim_decomp": {
+    "en": "AI agents are matching-decompiling Skyrim Special Edition function by function into byte-exact C++",
+    "zh-CN": "AI 代理正在把《上古卷轴5：天际》特别版一个函数一个函数地还原成逐字节一致的 C++",
+    "zh-TW": "AI 代理正在把《上古卷軸5：天際》特別版一個函式一個函式地還原成逐位元組一致的 C++",
+    "ja": "AIエージェントがスカイリム特別版を関数ごとにバイト単位で一致するC++へデコンパイル中",
+    "ko": "AI 에이전트가 스카이림 스페셜 에디션을 함수별로 바이트 단위 일치하는 C++로 디컴파일 중"
+  },
+  "axx0/Civ2-clone": {
+    "en": "A free open-source remake of the classic strategy game Civilization II, written from scratch in C#",
+    "zh-CN": "从零重写的免费开源《文明II》重制版，用 C# 写的策略游戏",
+    "zh-TW": "從零重寫的免費開源《文明II》重製版，用 C# 寫的策略遊戲",
+    "ja": "クラシック戦略ゲーム『シヴィライゼーションII』をゼロから書き直した無料オープンソースのリメイク",
+    "ko": "클래식 전략 게임 시드 마이어의 문명 II를 처음부터 다시 만든 무료 오픈소스 리메이크"
+  },
+  "jaenster/redivivus": {
+    "en": "Recovered the closed-source Diablo II 1.14d into C++ source that actually builds and runs, function by function",
+    "zh-CN": "把闭源的《暗黑破坏神II》1.14d 一个函数一个函数还原成能编译运行的 C++ 源码",
+    "zh-TW": "把閉源的《暗黑破壞神II》1.14d 一個函式一個函式還原成能編譯執行的 C++ 原始碼",
+    "ja": "クローズドソースのディアブロII 1.14dを関数ごとにビルドして動くC++ソースへ復元",
+    "ko": "클로즈드 소스인 디아블로 II 1.14d를 함수별로 빌드되어 실행되는 C++ 소스로 복원"
   }
 }

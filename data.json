@@ -4078,5 +4078,29 @@
     "https://github.com/songshikang0111/awesome-REA-cases",
     "No",
     "Curated collection of REA and AI-assisted reverse-engineering cases, projects and ideas. Updated multiple times daily."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Mudcrab-Team/skyrim_decomp",
+    "https://github.com/Mudcrab-Team/skyrim_decomp",
+    "No",
+    "Matching decompilation of Skyrim Special Edition (Steam 1.7.104); AI agents reconstruct functions to byte-exact C++. Active Nov 2026."
+  ],
+  [
+    "pc",
+    "remake",
+    "axx0/Civ2-clone",
+    "https://github.com/axx0/Civ2-clone",
+    "No",
+    "Open-source reimplementation of Civilization II (Gold & Test of Time) in C#/.NET with Raylib. Needs original assets."
+  ],
+  [
+    "pc",
+    "decomp",
+    "jaenster/redivivus",
+    "https://github.com/jaenster/redivivus",
+    "No",
+    "Diablo II 1.14d recovered as C++ source that builds and runs; function-by-function matching decompilation of the original Game.exe."
   ]
 ]
