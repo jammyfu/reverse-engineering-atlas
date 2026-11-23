@@ -1287,5 +1287,25 @@
   "ItsNotRexed/Leonida": [
     "readme",
     "https://opengraph.githubassets.com/e2ed14ff168386c7a825b3a6ca154fb10eace2f651af9d75b51c6f326f5a9646/ItsNotRexed/Leonida"
+  ],
+  "Crusader: No Regret DECOMP": [
+    "shot",
+    "images/crusader-no-regret-shot.jpg",
+    "Gameplay screenshot of the Crusader: No Regret decomp port"
+  ],
+  "Crusader: No Remorse DECOMP": [
+    "card",
+    "images/crusader-no-remorse-og.jpg",
+    "GitHub opengraph image for the Crusader: No Remorse decomp"
+  ],
+  "OpenToshi": [
+    "card",
+    "images/opentoshi-og.jpg",
+    "GitHub opengraph image for OpenToshi"
+  ],
+  "LBP-PSP-Decomp": [
+    "card",
+    "images/lbp-psp-decomp-og.jpg",
+    "GitHub opengraph image for LBP-PSP-Decomp"
   ]
 }

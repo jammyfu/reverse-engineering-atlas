@@ -3722,5 +3722,33 @@
     "zh-TW": "多架構反組譯框架，常被逆向工具作為底層引擎使用。",
     "ja": "リバースエンジニアリングツールの基盤として使われるマルチアーキテクチャ・ディスアセンブリフレームワーク。",
     "ko": "리버싱 도구의 기반 엔진으로 쓰이는 다중 아키텍처 디스어셈블리 프레임워크."
+  },
+  "Crusader: No Regret DECOMP": {
+    "en": "Open-source from-scratch reimplementation of the engine for the 1996 closed-source Origin game Crusader: No Regret, so you can play it natively on modern Windows and Linux using your own copy of the game.",
+    "zh-CN": "从零重写的开源引擎，对应 1996 年 Origin 出品的闭源等距射击游戏《Crusader: No Regret》，让你用自己的原版游戏数据在现代 Windows 和 Linux 上原生运行。",
+    "zh-TW": "從零重寫的開源引擎，對應 1996 年 Origin 出品的閉源等距射擊遊戲《Crusader: No Regret》，讓你用自己的原版遊戲資料在現代 Windows 和 Linux 上原生執行。",
+    "ja": "1996年のOrigin製クローズドソース等距シューター『Crusader: No Regret』のエンジンをゼロから書き直したオープンソース実装。自分のゲームデータを使って現代のWindowsとLinuxでネイティブに遊べる。",
+    "ko": "1996년 Origin의 클로즈드 소스 아이소메트릭 슈터 《Crusader: No Regret》 엔진을 처음부터 다시 작성한 오픈소스 구현. 자신의 게임 데이터로 최신 Windows와 Linux에서 네이티브로 실행할 수 있다."
+  },
+  "Crusader: No Remorse DECOMP": {
+    "en": "Open-source from-scratch reimplementation of the engine for the 1995 closed-source Origin game Crusader: No Remorse, fully playable on modern Windows and Linux with your own copy, plus modern features like 3D lighting and gamepad support.",
+    "zh-CN": "从零重写的开源引擎，对应 1995 年 Origin 出品的闭源等距射击游戏《Crusader: No Remorse》，用自己的原版数据就能在现代 Windows 和 Linux 上完整游玩，还加了 3D 光照和手柄支持等现代功能。",
+    "zh-TW": "從零重寫的開源引擎，對應 1995 年 Origin 出品的閉源等距射擊遊戲《Crusader: No Remorse》，用自己的原版資料就能在現代 Windows 和 Linux 上完整遊玩，還加了 3D 光照和手把支援等現代功能。",
+    "ja": "1995年のOrigin製クローズドソース等距シューター『Crusader: No Remorse』のエンジンをゼロから書き直したオープンソース実装。自分のゲームデータで現代のWindowsとLinuxで完全にプレイ可能、3Dライティングやゲームパッド対応などの現代機能も追加。",
+    "ko": "1995년 Origin의 클로즈드 소스 아이소메트릭 슈터 《Crusader: No Remorse》 엔진을 처음부터 다시 작성한 오픈소스 구현. 자신의 게임 데이터로 최신 Windows와 Linux에서 완전히 플레이 가능하며 3D 라이팅과 게임패드 지원 등 현대 기능이 추가되었다."
+  },
+  "OpenToshi": {
+    "en": "Ongoing decompilation of the closed-source Toshi game engine (used in de Blob and other Blue Tongue Entertainment titles), recovering the original code for study and potential ports.",
+    "zh-CN": "对闭源的 Toshi 游戏引擎（用于《de Blob》等 Blue Tongue Entertainment 游戏）的持续反编译，把原版代码还原出来供研究和可能的移植使用。",
+    "zh-TW": "對閉源的 Toshi 遊戲引擎（用於《de Blob》等 Blue Tongue Entertainment 遊戲）的持續反編譯，把原版程式碼還原出來供研究和可能的移植使用。",
+    "ja": "クローズドソースのToshiゲームエンジン（de BlobなどBlue Tongue Entertainment作品で使用）の進行中の逆コンパイル。研究や将来の移植のためにオリジナルコードを復元。",
+    "ko": "클로즈드 소스 Toshi 게임 엔진(de Blob 등 Blue Tongue Entertainment 타이틀에 사용)에 대한 진행 중인 디컴파일. 연구 및 잠재적 포팅을 위해 원본 코드를 복원한다."
+  },
+  "LBP-PSP-Decomp": {
+    "en": "Matching decompilation of the closed-source LittleBigPlanet for PlayStation Portable: rebuilds the game's code as C/C++ that compiles back to the exact original bytes. Source only — you need your own disc.",
+    "zh-CN": "对闭源的《小小大星球》PSP 版的匹配反编译：把游戏代码还原成能编译回原版逐字节一致的 C/C++。只有源码，需要你自己的光盘。",
+    "zh-TW": "對閉源的《小小大星球》PSP 版的匹配反編譯：把遊戲程式碼還原成能編譯回原版逐位元組一致的 C/C++。只有源碼，需要你自己的光碟。",
+    "ja": "クローズドソースの『LittleBigPlanet』PSP版のマッチング逆コンパイル。ゲームコードを元のバイトと完全一致するC/C++に復元。ソースのみ、自分のディスクが必要。",
+    "ko": "클로즈드 소스 《LittleBigPlanet》 PSP 버전의 매칭 디컴파일: 게임 코드를 원본 바이트와 정확히 일치하는 C/C++로 재구성. 소스만 제공되며 자신의 디스크가 필요하다."
   }
 }

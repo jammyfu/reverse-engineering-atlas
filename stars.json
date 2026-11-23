@@ -516,5 +516,9 @@
   "chipsec/chipsec": 3334,
   "LongSoft/UEFITool": 5805,
   "secdev/scapy": 12712,
-  "capstone-engine/capstone": 9205
+  "capstone-engine/capstone": 9205,
+  "sebsebseb1982/crusader-no-regret-decomp": 22,
+  "sebsebseb1982/crusader-no-remorse-decomp": 51,
+  "AdventureT/OpenToshi": 53,
+  "Jstar269/LBP-PSP-Decomp": 3
 }

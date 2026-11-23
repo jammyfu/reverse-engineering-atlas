@@ -4254,5 +4254,37 @@
     "https://github.com/capstone-engine/capstone",
     "No",
     "Multi-architecture disassembly framework used by reverse-engineering tools. BSD."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Crusader: No Regret DECOMP",
+    "https://github.com/sebsebseb1982/crusader-no-regret-decomp",
+    "No",
+    "C++20/SDL2 reimplementation of the 1996 Origin isometric shooter engine"
+  ],
+  [
+    "pc",
+    "decomp",
+    "Crusader: No Remorse DECOMP",
+    "https://github.com/sebsebseb1982/crusader-no-remorse-decomp",
+    "No",
+    "C++20/SDL2 reimplementation of the 1995 Origin isometric shooter engine, fully playable"
+  ],
+  [
+    "pc",
+    "decomp",
+    "OpenToshi",
+    "https://github.com/AdventureT/OpenToshi",
+    "No",
+    "Decompilation of the Toshi engine used in de Blob and other Blue Tongue games"
+  ],
+  [
+    "pc",
+    "decomp",
+    "LBP-PSP-Decomp",
+    "https://github.com/Jstar269/LBP-PSP-Decomp",
+    "No",
+    "Matching decompilation of LittleBigPlanet for PSP (source only, bring your own disc)"
   ]
 ]
