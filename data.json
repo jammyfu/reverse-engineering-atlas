@@ -2736,14 +2736,6 @@
     "Godot engine reimplementation of Interstate '76 (1997)."
   ],
   [
-    "app",
-    "remake",
-    "pingw33n/openrb-338",
-    "https://github.com/pingw33n/openrb-338",
-    "No",
-    "Bit-accurate reimplementation of ReBirth RB-338 software synthesizer."
-  ],
-  [
     "xbox",
     "remake",
     "NoRain211/doaxvb-re",
@@ -3521,7 +3513,7 @@
   ],
   [
     "xbox",
-    "recomp",
+    "decomp",
     "FoxWorkshop/ShadowRecomp",
     "https://github.com/FoxWorkshop/ShadowRecomp",
     "No",
@@ -3553,7 +3545,7 @@
   ],
   [
     "pc",
-    "recomp",
+    "decomp",
     "NightSightProductions/DOOM-Recomp",
     "https://github.com/NightSightProductions/DOOM-Recomp",
     "No",
@@ -3593,7 +3585,7 @@
   ],
   [
     "pc",
-    "recomp",
+    "decomp",
     "isledecomp/isle-portable",
     "https://github.com/isledecomp/isle-portable",
     "No",
@@ -3633,7 +3625,7 @@
   ],
   [
     "switch",
-    "recomp",
+    "decomp",
     "ILFforever/YW4Recomp",
     "https://github.com/ILFforever/YW4Recomp",
     "No",
@@ -3737,7 +3729,7 @@
   ],
   [
     "ps2",
-    "recomp",
+    "decomp",
     "batinium/gta-stories-recompiled",
     "https://github.com/batinium/gta-stories-recompiled",
     "No",
@@ -3753,7 +3745,7 @@
   ],
   [
     "gba",
-    "recomp",
+    "decomp",
     "SlickAmogus/GTAAdvanceRecomp",
     "https://github.com/SlickAmogus/GTAAdvanceRecomp",
     "No",
@@ -3761,7 +3753,7 @@
   ],
   [
     "xbox",
-    "recomp",
+    "decomp",
     "owmyback/backbreaker-recomp",
     "https://github.com/owmyback/backbreaker-recomp",
     "No",
@@ -3777,7 +3769,7 @@
   ],
   [
     "pc",
-    "recomp",
+    "decomp",
     "ps4star/WhiteRecomp",
     "https://github.com/ps4star/WhiteRecomp",
     "No",
@@ -3809,7 +3801,7 @@
   ],
   [
     "pc",
-    "recomp",
+    "decomp",
     "MarquitoK/TTTRecomp",
     "https://github.com/MarquitoK/TTTRecomp",
     "No",
@@ -3833,7 +3825,7 @@
   ],
   [
     "pc",
-    "recomp",
+    "decomp",
     "Jstar269/Nakagawa-Recomp",
     "https://github.com/Jstar269/Nakagawa-Recomp",
     "No",
@@ -3841,7 +3833,7 @@
   ],
   [
     "pc",
-    "recomp",
+    "decomp",
     "macielrecomp/triunit-recomp",
     "https://github.com/macielrecomp/triunit-recomp",
     "No",
@@ -3905,7 +3897,7 @@
   ],
   [
     "ps2",
-    "recomp",
+    "decomp",
     "willzmkv/gta-vcs-recomp",
     "https://github.com/willzmkv/gta-vcs-recomp",
     "No",
@@ -3929,7 +3921,7 @@
   ],
   [
     "ps1",
-    "recomp",
+    "decomp",
     "Tokatta007/OpenTM2",
     "https://github.com/Tokatta007/OpenTM2",
     "No",
@@ -3937,7 +3929,7 @@
   ],
   [
     "xbox",
-    "",
+    "tools",
     "Freminet/ScarlettX",
     "https://github.com/Freminet/ScarlettX",
     "No",
@@ -4025,7 +4017,7 @@
   ],
   [
     "wii",
-    "recomp",
+    "decomp",
     "VoltTMC/SonicColorsRecomp",
     "https://github.com/VoltTMC/SonicColorsRecomp",
     "No",
@@ -4033,7 +4025,7 @@
   ],
   [
     "ps2",
-    "recomp",
+    "decomp",
     "zanettevini/ProtectorOfEarth-Recomp",
     "https://github.com/zanettevini/ProtectorOfEarth-Recomp",
     "No",
@@ -4105,10 +4097,162 @@
   ],
   [
     "xbox",
-    "recomp",
+    "decomp",
     "ItsNotRexed/Leonida",
     "https://github.com/ItsNotRexed/Leonida",
     "No",
     "Static recompilation of Grand Theft Auto VI (Xbox Series) to native Windows. Game code runs natively; console software reimplemented; RDNA2 shaders translated to SPIR-V/Vulkan. Bring your own copy. Early stage (does not boot yet)."
+  ],
+  [
+    "nes",
+    "decomp",
+    "captainsouthbird/smb3",
+    "https://github.com/captainsouthbird/smb3",
+    "No",
+    "Byte-identical NESASM disassembly of Super Mario Bros. 3 (US NES PRG1). No SPDX license in the repository."
+  ],
+  [
+    "snes",
+    "decomp",
+    "Herringway/ebsrc",
+    "https://github.com/Herringway/ebsrc",
+    "No",
+    "WIP 65816 disassembly of EarthBound / Mother 2 aiming toward a C decompilation. Needs your own ROM. No SPDX license in the repository."
+  ],
+  [
+    "n64",
+    "decomp",
+    "n64decomp/banjo-kazooie",
+    "https://github.com/n64decomp/banjo-kazooie",
+    "No",
+    "Matching decompilation of Banjo-Kazooie (100%). GitHub mirror of the GitLab project. CC0-1.0. Needs your own ROM."
+  ],
+  [
+    "n64",
+    "decomp",
+    "Kirby64Ret/kirby64",
+    "https://github.com/Kirby64Ret/kirby64",
+    "No",
+    "WIP decompilation of Kirby 64: The Crystal Shards. Needs your own ROM. No SPDX license in the repository."
+  ],
+  [
+    "wii",
+    "decomp",
+    "snailspeed3/mkw",
+    "https://github.com/snailspeed3/mkw",
+    "No",
+    "WIP matching decompilation of Mario Kart Wii (PAL RMCP01). Formerly riidefi/mkw. CC0-1.0. Needs your own disc."
+  ],
+  [
+    "ds",
+    "decomp",
+    "pret/pokediamond",
+    "https://github.com/pret/pokediamond",
+    "No",
+    "WIP matching decompilation of Pokémon Diamond and Pearl (US). No SPDX license in the repository."
+  ],
+  [
+    "ds",
+    "decomp",
+    "zeldaret/st",
+    "https://github.com/zeldaret/st",
+    "No",
+    "WIP decompilation of The Legend of Zelda: Spirit Tracks. CC0-1.0."
+  ],
+  [
+    "ds",
+    "decomp",
+    "pret/pmd-sky",
+    "https://github.com/pret/pmd-sky",
+    "No",
+    "WIP disassembly of Pokémon Mystery Dungeon: Explorers of Sky. No SPDX license in the repository."
+  ],
+  [
+    "gc",
+    "decomp",
+    "doldecomp/ttyd",
+    "https://github.com/doldecomp/ttyd",
+    "No",
+    "WIP matching decompilation of Paper Mario: The Thousand-Year Door (JP G8MJ01). MIT. Needs your own disc."
+  ],
+  [
+    "gc",
+    "decomp",
+    "projectPiki/pikmin",
+    "https://github.com/projectPiki/pikmin",
+    "No",
+    "Matching decompilation of Pikmin (GameCube). CC0-1.0."
+  ],
+  [
+    "gba",
+    "decomp",
+    "FireEmblemUniverse/fireemblem8u",
+    "https://github.com/FireEmblemUniverse/fireemblem8u",
+    "No",
+    "Matching disassembly of Fire Emblem: The Sacred Stones (US). No SPDX license in the repository."
+  ],
+  [
+    "gba",
+    "decomp",
+    "SAT-R/sa2",
+    "https://github.com/SAT-R/sa2",
+    "No",
+    "Matching decompilation of Sonic Advance 1 and 2, with SDL and other ports. No SPDX license in the repository."
+  ],
+  [
+    "3ds",
+    "decomp",
+    "zeldaret/oot3d",
+    "https://github.com/zeldaret/oot3d",
+    "No",
+    "WIP decompilation of The Legend of Zelda: Ocarina of Time 3D (USA). CC0-1.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "CorsixTH/CorsixTH",
+    "https://github.com/CorsixTH/CorsixTH",
+    "No",
+    "Open-source reimplementation of Theme Hospital. Needs original game data. MIT-style terms with bundled third-party licenses."
+  ],
+  [
+    "pc",
+    "remake",
+    "dkfans/keeperfx",
+    "https://github.com/dkfans/keeperfx",
+    "No",
+    "Open-source remake and fan expansion of Dungeon Keeper, started from a decompilation. Needs original game files. GPL-2.0."
+  ],
+  [
+    "firmware",
+    "",
+    "chipsec/chipsec",
+    "https://github.com/chipsec/chipsec",
+    "No",
+    "Framework for analyzing platform firmware, BIOS and UEFI security on Intel/AMD systems. GPL-2.0."
+  ],
+  [
+    "firmware",
+    "",
+    "LongSoft/UEFITool",
+    "https://github.com/LongSoft/UEFITool",
+    "No",
+    "UEFI firmware image viewer and editor. New-engine editing is still incomplete. BSD-2-Clause."
+  ],
+  [
+    "protocol",
+    "",
+    "secdev/scapy",
+    "https://github.com/secdev/scapy",
+    "No",
+    "Python library for crafting, capturing and dissecting packets; used to reverse and test network protocols. GPL-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "capstone-engine/capstone",
+    "https://github.com/capstone-engine/capstone",
+    "No",
+    "Multi-architecture disassembly framework used by reverse-engineering tools. BSD."
   ]
 ]
