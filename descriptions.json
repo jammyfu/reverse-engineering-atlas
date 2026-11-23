@@ -2393,13 +2393,6 @@
     "ja": "1997年のカーコンバットゲーム『Interstate '76』をGodotで一から書き直した無料のオープンソース版。現代的なグラフィックとマルチプレイ対応。",
     "ko": "1997년 자동차 전투 게임 Interstate '76를 Godot으로 처음부터 다시 만든 무료 오픈소스 버전. 현대적인 그래픽과 멀티플레이 지원."
   },
-  "pingw33n/openrb-338": {
-    "en": "Free open-source reimplementation of the 1997 ReBirth RB-338 software synthesizer that sounds exactly like the original.",
-    "zh-CN": "从零重写的 1997 年 ReBirth RB-338 软件合成器，声音与原版逐字节一致。",
-    "zh-TW": "從零重寫的 1997 年 ReBirth RB-338 軟體合成器，聲音與原版逐位元組一致。",
-    "ja": "1997年のソフトウェアシンセ ReBirth RB-338 を一から書き直した無料版。音はオリジナルとバイト単位で一致。",
-    "ko": "1997년 소프트웨어 신시사이저 ReBirth RB-338을 처음부터 다시 만든 무료 버전. 소리는 원본과 바이트 단위로 동일."
-  },
   "NoRain211/doaxvb-re": {
     "en": "Native PC port of the Xbox game Dead or Alive Xtreme Beach Volleyball, made by static recompilation from your own disc.",
     "zh-CN": "用静态重编译把 Xbox 游戏《Dead or Alive Xtreme Beach Volleyball》做成原生 PC 版（需要自备光盘）。",
@@ -3596,5 +3589,138 @@
     "zh-TW": "早期靜態重編譯專案，目標是用你自己的 Xbox Series 版《俠盜獵車手 VI》在 Windows 上原生執行。遊戲程式碼直接執行，主機系統軟體被重新實作，GPU 著色器被翻譯成 Vulkan 用。",
     "ja": "自分の Xbox Series 版『グランド・セフト・オートVI』を Windows 上でネイティブ実行することを目指す早期の静的リコンパイルプロジェクト。ゲームコードはそのまま動き、コンソールのシステムソフトは再実装され、GPUシェーダーは Vulkan 用に翻訳される。",
     "ko": "자신의 Xbox Series 버전 Grand Theft Auto VI를 Windows에서 네이티브로 실행하려는 초기 정적 리컴파일 프로젝트. 게임 코드는 그대로 실행되고, 콘솔 시스템 소프트웨어는 재구현되며 GPU 셰이더는 Vulkan용으로 번역됩니다."
+  },
+  "captainsouthbird/smb3": {
+    "en": "Byte-identical NESASM disassembly of Super Mario Bros. 3 (US NES PRG1), covering the original 6502 bank layout.",
+    "zh-CN": "《超级马里奥兄弟3》美版 NES PRG1 的逐字节一致 NESASM 反汇编，还原原始 6502 分 bank 布局。",
+    "zh-TW": "《超級瑪利歐兄弟3》美版 NES PRG1 的逐位元組一致 NESASM 反組譯，還原原始 6502 分 bank 配置。",
+    "ja": "『スーパーマリオブラザーズ3』（北米 NES PRG1）のバイト一致 NESASM ディスアセンブリ。元の 6502 バンク構成を再現。",
+    "ko": "『슈퍼 마리오브라더스 3』(미국 NES PRG1)의 바이트 일치 NESASM 디스어셈블리. 원본 6502 뱅크 구성을 재현."
+  },
+  "Herringway/ebsrc": {
+    "en": "WIP 65816 disassembly of EarthBound / Mother 2, intended as a step toward a C decompilation. Bring your own ROM.",
+    "zh-CN": "《地球冒险 / Mother 2》的进行中 65816 反汇编，目标是进一步做成 C 反编译。需要自备 ROM。",
+    "zh-TW": "《地球冒險 / Mother 2》的進行中 65816 反組譯，目標是進一步做成 C 反編譯。需要自備 ROM。",
+    "ja": "『MOTHER2 / アースバウンド』の進行中 65816 ディスアセンブリ。C デコンパイルへの前段。自分の ROM が必要。",
+    "ko": "『MOTHER2 / 어스바운드』의 진행 중 65816 디스어셈블리. C 디컴파일을 향한 중간 단계. 자신의 ROM 필요."
+  },
+  "n64decomp/banjo-kazooie": {
+    "en": "Matching decompilation of Banjo-Kazooie that rebuilds the original N64 ROM from C. GitHub mirror of the GitLab project. CC0-1.0. Bring your own ROM.",
+    "zh-CN": "《班卓熊大冒险》的匹配反编译，可用 C 代码重建原版 N64 ROM。GitHub 镜像对应 GitLab 主仓。CC0-1.0。需要自备 ROM。",
+    "zh-TW": "《班卓熊大冒險》的匹配反編譯，可用 C 程式碼重建原版 N64 ROM。GitHub 鏡像對應 GitLab 主倉。CC0-1.0。需要自備 ROM。",
+    "ja": "『バンジョーとカズーイの大冒険』のマッチング逆コンパイル。C から元の N64 ROM を再構築。GitLab の GitHub ミラー。CC0-1.0。自分の ROM が必要。",
+    "ko": "『반조와 카주이의 대모험』 매칭 디컴파일. C로 원본 N64 ROM을 재구축. GitLab의 GitHub 미러. CC0-1.0. 자신의 ROM 필요."
+  },
+  "Kirby64Ret/kirby64": {
+    "en": "WIP decompilation of Kirby 64: The Crystal Shards. Bring your own ROM.",
+    "zh-CN": "《星之卡比64：水晶碎片》的进行中反编译。需要自备 ROM。",
+    "zh-TW": "《星之卡比64：水晶碎片》的進行中反編譯。需要自備 ROM。",
+    "ja": "『星のカービィ64』の進行中デコンパイル。自分の ROM が必要。",
+    "ko": "『별의 커비 64』의 진행 중 디컴파일. 자신의 ROM 필요."
+  },
+  "snailspeed3/mkw": {
+    "en": "WIP matching decompilation of Mario Kart Wii (PAL RMCP01). Formerly hosted as riidefi/mkw. CC0-1.0. Bring your own disc.",
+    "zh-CN": "《马里奥赛车Wii》（PAL RMCP01）的进行中匹配反编译。原仓库为 riidefi/mkw。CC0-1.0。需要自备光盘。",
+    "zh-TW": "《瑪利歐賽車Wii》（PAL RMCP01）的進行中匹配反編譯。原倉庫為 riidefi/mkw。CC0-1.0。需要自備光碟。",
+    "ja": "『マリオカートWii』（PAL RMCP01）の進行中マッチング逆コンパイル。旧リポジトリは riidefi/mkw。CC0-1.0。自分のディスクが必要。",
+    "ko": "『마리오 카트 Wii』(PAL RMCP01)의 진행 중 매칭 디컴파일. 이전 저장소는 riidefi/mkw. CC0-1.0. 자신의 디스크 필요."
+  },
+  "pret/pokediamond": {
+    "en": "WIP matching decompilation of Pokémon Diamond and Pearl (US). Bring your own ROM.",
+    "zh-CN": "《宝可梦 钻石／珍珠》（美版）的进行中匹配反编译。需要自备 ROM。",
+    "zh-TW": "《寶可夢 鑽石／珍珠》（美版）的進行中匹配反編譯。需要自備 ROM。",
+    "ja": "『ポケットモンスター ダイヤモンド・パール』（北米版）の進行中マッチング逆コンパイル。自分の ROM が必要。",
+    "ko": "『포켓몬스터 디아루가·펄』(미국판)의 진행 중 매칭 디컴파일. 자신의 ROM 필요."
+  },
+  "zeldaret/st": {
+    "en": "WIP decompilation of The Legend of Zelda: Spirit Tracks for Nintendo DS. CC0-1.0.",
+    "zh-CN": "任天堂 DS《塞尔达传说：大地汽笛》的进行中反编译。CC0-1.0。",
+    "zh-TW": "任天堂 DS《薩爾達傳說 大地汽笛》的進行中反編譯。CC0-1.0。",
+    "ja": "ニンテンドーDS『ゼルダの伝説 大地の汽笛』の進行中デコンパイル。CC0-1.0。",
+    "ko": "닌텐도 DS 『젤다의 전설 대지의 기적』의 진행 중 디컴파일. CC0-1.0."
+  },
+  "pret/pmd-sky": {
+    "en": "WIP disassembly of Pokémon Mystery Dungeon: Explorers of Sky. Bring your own ROM.",
+    "zh-CN": "《宝可梦不可思议迷宫：空之探险队》的进行中反汇编。需要自备 ROM。",
+    "zh-TW": "《寶可夢不可思議迷宮 空之探險隊》的進行中反組譯。需要自備 ROM。",
+    "ja": "『ポケモン不思議のダンジョン 空の探検隊』の進行中ディスアセンブリ。自分の ROM が必要。",
+    "ko": "『포켓몬 불가사의 던전 하늘의 탐험대』의 진행 중 디스어셈블리. 자신의 ROM 필요."
+  },
+  "doldecomp/ttyd": {
+    "en": "WIP matching decompilation of Paper Mario: The Thousand-Year Door (Japanese G8MJ01). MIT. Bring your own disc.",
+    "zh-CN": "《纸片马里奥：千年之门》（日版 G8MJ01）的进行中匹配反编译。MIT。需要自备光盘。",
+    "zh-TW": "《紙片瑪利歐 千年之門》（日版 G8MJ01）的進行中匹配反編譯。MIT。需要自備光碟。",
+    "ja": "『ペーパーマリオRPG』（日本版 G8MJ01）の進行中マッチング逆コンパイル。MIT。自分のディスクが必要。",
+    "ko": "『페이퍼 마리오 천년의 문』(일본판 G8MJ01)의 진행 중 매칭 디컴파일. MIT. 자신의 디스크 필요."
+  },
+  "projectPiki/pikmin": {
+    "en": "Matching decompilation of the original GameCube Pikmin. CC0-1.0.",
+    "zh-CN": "GameCube 原版《皮克敏》的匹配反编译。CC0-1.0。",
+    "zh-TW": "GameCube 原版《皮克敏》的匹配反編譯。CC0-1.0。",
+    "ja": "ゲームキューブ版『ピクミン』のマッチング逆コンパイル。CC0-1.0。",
+    "ko": "게임큐브 원작 『피크민』의 매칭 디컴파일. CC0-1.0."
+  },
+  "FireEmblemUniverse/fireemblem8u": {
+    "en": "Matching disassembly of Fire Emblem: The Sacred Stones (US GBA). Bring your own ROM.",
+    "zh-CN": "《火焰纹章：圣魔之光石》（美版 GBA）的匹配反汇编。需要自备 ROM。",
+    "zh-TW": "《聖火降魔錄 聖魔之光石》（美版 GBA）的匹配反組譯。需要自備 ROM。",
+    "ja": "『ファイアーエムブレム 聖魔の光石』（北米 GBA）のマッチングディスアセンブリ。自分の ROM が必要。",
+    "ko": "『파이어 엠블렘 성마의 빛돌』(미국 GBA)의 매칭 디스어셈블리. 자신의 ROM 필요."
+  },
+  "SAT-R/sa2": {
+    "en": "Matching decompilation of Sonic Advance 1 and 2, with SDL and other ports. Bring your own ROM.",
+    "zh-CN": "《索尼克冲刺》1 与 2 的匹配反编译，并带有 SDL 等移植。需要自备 ROM。",
+    "zh-TW": "《索尼克衝刺》1 與 2 的匹配反編譯，並帶有 SDL 等移植。需要自備 ROM。",
+    "ja": "『ソニックアドバンス』1 と 2 のマッチング逆コンパイル。SDL などの移植あり。自分の ROM が必要。",
+    "ko": "『소닉 어드밴스』1·2의 매칭 디컴파일. SDL 등 이식 포함. 자신의 ROM 필요."
+  },
+  "zeldaret/oot3d": {
+    "en": "WIP decompilation of The Legend of Zelda: Ocarina of Time 3D (USA). CC0-1.0.",
+    "zh-CN": "《塞尔达传说：时之笛 3D》（美版）的进行中反编译。CC0-1.0。",
+    "zh-TW": "《薩爾達傳說 時之笛 3D》（美版）的進行中反編譯。CC0-1.0。",
+    "ja": "『ゼルダの伝説 時のオカリナ 3D』（北米版）の進行中デコンパイル。CC0-1.0。",
+    "ko": "『젤다의 전설 시간의 오카리나 3D』(미국판)의 진행 중 디컴파일. CC0-1.0."
+  },
+  "CorsixTH/CorsixTH": {
+    "en": "Open-source reimplementation of Theme Hospital for modern systems. Needs original game data; does not ship copyrighted assets.",
+    "zh-CN": "《主题医院》的开源重实现，可在现代系统上运行。需要原版游戏数据，不附带受版权保护的资源。",
+    "zh-TW": "《主題醫院》的開源重實現，可在現代系統上執行。需要原版遊戲資料，不附帶受版權保護的資源。",
+    "ja": "『テーマホスピタル』のオープンソース再実装。現行 OS で動作。元のゲームデータが必要で、著作権のある資産は同梱しない。",
+    "ko": "『테마 병원』의 오픈소스 재구현. 최신 시스템에서 실행. 원본 게임 데이터가 필요하며 저작권 자산은 포함하지 않음."
+  },
+  "dkfans/keeperfx": {
+    "en": "Open-source remake and fan expansion of Dungeon Keeper, started from a decompilation. Needs original game files.",
+    "zh-CN": "《地下城守护者》的开源重制与粉丝扩展，起步于反编译。需要原版游戏文件。",
+    "zh-TW": "《地下城守護者》的開源重製與粉絲擴充，起步於反編譯。需要原版遊戲檔案。",
+    "ja": "『ダンジョンキーパー』のオープンソースリメイク／ファン拡張。デコンパイルから出発。元のゲームファイルが必要。",
+    "ko": "『던전 키퍼』의 오픈소스 리메이크·팬 확장. 디컴파일에서 출발. 원본 게임 파일 필요."
+  },
+  "chipsec/chipsec": {
+    "en": "Framework for assessing platform firmware, BIOS and UEFI security on Intel and AMD systems.",
+    "zh-CN": "用于评估 Intel/AMD 平台固件、BIOS 与 UEFI 安全性的分析框架。",
+    "zh-TW": "用於評估 Intel/AMD 平台韌體、BIOS 與 UEFI 安全性的分析框架。",
+    "ja": "Intel / AMD システムのプラットフォームファームウェア、BIOS、UEFI セキュリティを評価するフレームワーク。",
+    "ko": "Intel/AMD 시스템의 플랫폼 펌웨어, BIOS, UEFI 보안을 평가하는 프레임워크."
+  },
+  "LongSoft/UEFITool": {
+    "en": "Viewer and editor for UEFI firmware images. New-engine editing is still incomplete.",
+    "zh-CN": "UEFI 固件镜像查看与编辑工具。新引擎的编辑功能仍未完成。",
+    "zh-TW": "UEFI 韌體映像檢視與編輯工具。新引擎的編輯功能仍未完成。",
+    "ja": "UEFI ファームウェアイメージの閲覧・編集ツール。新エンジンの編集機能は未完成。",
+    "ko": "UEFI 펌웨어 이미지 보기·편집 도구. 새 엔진의 편집 기능은 아직 미완성."
+  },
+  "secdev/scapy": {
+    "en": "Python packet crafting and dissection library for reversing and testing network protocols.",
+    "zh-CN": "用 Python 构造、捕获和解析数据包的库，常用于网络协议逆向与测试。",
+    "zh-TW": "用 Python 構造、擷取和解析封包的函式庫，常用於網路協定逆向與測試。",
+    "ja": "パケットの生成・捕捉・解析を行う Python ライブラリ。ネットワークプロトコルの逆解析と検証に使う。",
+    "ko": "패킷을 생성·캡처·해부하는 Python 라이브러리. 네트워크 프로토콜 역분석과 테스트에 사용."
+  },
+  "capstone-engine/capstone": {
+    "en": "Multi-architecture disassembly framework used as a building block by reverse-engineering tools.",
+    "zh-CN": "多架构反汇编框架，常被逆向工具作为底层引擎使用。",
+    "zh-TW": "多架構反組譯框架，常被逆向工具作為底層引擎使用。",
+    "ja": "リバースエンジニアリングツールの基盤として使われるマルチアーキテクチャ・ディスアセンブリフレームワーク。",
+    "ko": "리버싱 도구의 기반 엔진으로 쓰이는 다중 아키텍처 디스어셈블리 프레임워크."
   }
 }
