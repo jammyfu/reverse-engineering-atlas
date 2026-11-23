@@ -4102,5 +4102,13 @@
     "https://github.com/jaenster/redivivus",
     "No",
     "Diablo II 1.14d recovered as C++ source that builds and runs; function-by-function matching decompilation of the original Game.exe."
+  ],
+  [
+    "xbox",
+    "recomp",
+    "ItsNotRexed/Leonida",
+    "https://github.com/ItsNotRexed/Leonida",
+    "No",
+    "Static recompilation of Grand Theft Auto VI (Xbox Series) to native Windows. Game code runs natively; console software reimplemented; RDNA2 shaders translated to SPIR-V/Vulkan. Bring your own copy. Early stage (does not boot yet)."
   ]
 ]

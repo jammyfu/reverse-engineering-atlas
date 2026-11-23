@@ -3589,5 +3589,12 @@
     "zh-TW": "把閉源的《暗黑破壞神II》1.14d 一個函式一個函式還原成能編譯執行的 C++ 原始碼",
     "ja": "クローズドソースのディアブロII 1.14dを関数ごとにビルドして動くC++ソースへ復元",
     "ko": "클로즈드 소스인 디아블로 II 1.14d를 함수별로 빌드되어 실행되는 C++ 소스로 복원"
+  },
+  "ItsNotRexed/Leonida": {
+    "en": "Early static recompilation that aims to run the Xbox Series version of Grand Theft Auto VI natively on Windows from your own game copy. The game's code runs as-is; the console system software is rebuilt around it and its GPU shaders are translated for Vulkan.",
+    "zh-CN": "早期静态重编译项目，目标是用你自己的 Xbox Series 版《侠盗猎车手 VI》在 Windows 上原生运行。游戏代码直接执行，主机系统软件被重新实现，GPU 着色器被翻译成 Vulkan 用。",
+    "zh-TW": "早期靜態重編譯專案，目標是用你自己的 Xbox Series 版《俠盜獵車手 VI》在 Windows 上原生執行。遊戲程式碼直接執行，主機系統軟體被重新實作，GPU 著色器被翻譯成 Vulkan 用。",
+    "ja": "自分の Xbox Series 版『グランド・セフト・オートVI』を Windows 上でネイティブ実行することを目指す早期の静的リコンパイルプロジェクト。ゲームコードはそのまま動き、コンソールのシステムソフトは再実装され、GPUシェーダーは Vulkan 用に翻訳される。",
+    "ko": "자신의 Xbox Series 버전 Grand Theft Auto VI를 Windows에서 네이티브로 실행하려는 초기 정적 리컴파일 프로젝트. 게임 코드는 그대로 실행되고, 콘솔 시스템 소프트웨어는 재구현되며 GPU 셰이더는 Vulkan용으로 번역됩니다."
   }
 }
