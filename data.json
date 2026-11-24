@@ -4286,5 +4286,45 @@
     "https://github.com/Jstar269/LBP-PSP-Decomp",
     "No",
     "Matching decompilation of LittleBigPlanet for PSP (source only, bring your own disc)"
+  ],
+  [
+    "nes",
+    "remake",
+    "formae-group/ducktales-recompiled",
+    "https://github.com/formae-group/ducktales-recompiled",
+    "No",
+    "Native PC port of DuckTales (NES) via static recompilation with NESRecomp."
+  ],
+  [
+    "ps2",
+    "remake",
+    "ptfpinho23/rule-of-rose-recomp",
+    "https://github.com/ptfpinho23/rule-of-rose-recomp",
+    "No",
+    "Native PC port of the PS2 survival horror Rule of Rose by static recompilation."
+  ],
+  [
+    "pc",
+    "decomp",
+    "otonomy/vampire-decomp",
+    "https://github.com/otonomy/vampire-decomp",
+    "No",
+    "Matching decompilation of Vampire: The Masquerade – Bloodlines."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Aghostinbloom/otogi2-recomp",
+    "https://github.com/Aghostinbloom/otogi2-recomp",
+    "No",
+    "Native Windows port of Otogi 2: Immortal Warriors (Xbox) by static recompilation."
+  ],
+  [
+    "wii",
+    "decomp",
+    "Cenzo239/radiant-dawn-decomp",
+    "https://github.com/Cenzo239/radiant-dawn-decomp",
+    "No",
+    "Matching decompilation of Fire Emblem: Radiant Dawn (Wii)."
   ]
 ]

@@ -3750,5 +3750,40 @@
     "zh-TW": "對閉源的《小小大星球》PSP 版的匹配反編譯：把遊戲程式碼還原成能編譯回原版逐位元組一致的 C/C++。只有源碼，需要你自己的光碟。",
     "ja": "クローズドソースの『LittleBigPlanet』PSP版のマッチング逆コンパイル。ゲームコードを元のバイトと完全一致するC/C++に復元。ソースのみ、自分のディスクが必要。",
     "ko": "클로즈드 소스 《LittleBigPlanet》 PSP 버전의 매칭 디컴파일: 게임 코드를 원본 바이트와 정확히 일치하는 C/C++로 재구성. 소스만 제공되며 자신의 디스크가 필요하다."
+  },
+  "formae-group/ducktales-recompiled": {
+    "en": "Free open-source native PC rebuild of the classic NES game DuckTales, made by translating its original binary with NESRecomp so you can play it without an emulator.",
+    "zh-CN": "把经典 NES 游戏《唐老鸭历险记》的原始二进制用 NESRecomp 翻译成原生 PC 程序的免费开源项目，不用模拟器就能玩。",
+    "zh-TW": "把經典 NES 遊戲《唐老鴨歷險記》的原始二進位用 NESRecomp 翻譯成原生 PC 程式的免費開源專案，不用模擬器就能玩。",
+    "ja": "クラシックNESゲーム『ダックテイルズ』の元のバイナリをNESRecompで翻訳し、エミュレータなしでPCで遊べるようにした無料オープンソースプロジェクト。",
+    "ko": "클래식 NES 게임 『덕테일즈』의 원본 바이너리를 NESRecomp으로 번역해 에뮬레이터 없이 PC에서 네이티브로 플레이할 수 있게 한 무료 오픈소스 프로젝트."
+  },
+  "ptfpinho23/rule-of-rose-recomp": {
+    "en": "Free open-source native PC port of the cult PS2 survival horror Rule of Rose, created by statically recompiling its original game binary.",
+    "zh-CN": "把 PS2 邪典生存恐怖游戏《蔷薇守则》的原始二进制静态重编译成原生 PC 版的免费开源项目。",
+    "zh-TW": "把 PS2 邪典生存恐怖遊戲《薔薇守則》的原始二進位靜態重編譯成原生 PC 版的免費開源專案。",
+    "ja": "カルト的PS2サバイバルホラー『ルール・オブ・ローズ』の元のバイナリを静的再コンパイルしてネイティブPC版にした無料オープンソースプロジェクト。",
+    "ko": "컬트 PS2 서바이벌 호러 게임 『룰 오브 로즈』의 원본 바이너리를 정적 재컴파일해 네이티브 PC 버전으로 만든 무료 오픈소스 프로젝트."
+  },
+  "otonomy/vampire-decomp": {
+    "en": "Community matching decompilation of the closed-source PC game Vampire: The Masquerade – Bloodlines, reconstructing its original source code from the retail binary.",
+    "zh-CN": "社区对闭源 PC 游戏《吸血鬼：避世血族》进行的匹配反编译，从零售二进制还原原始源代码。",
+    "zh-TW": "社群對閉源 PC 遊戲《吸血鬼：避世血族》進行的匹配反編譯，從零售二進位還原原始原始碼。",
+    "ja": "クローズドソースPCゲーム『ヴァンパイア：ザ・マスカレード – ブラッドラインズ』のリテールバイナリから元のソースコードを再構築するマッチング逆コンパイル。",
+    "ko": "클로즈드 소스 PC 게임 『뱀파이어: 더 마스커레이드 – 블러드라인즈』의 리테일 바이너리에서 원본 소스 코드를 복원하는 매칭 디컴파일 프로젝트."
+  },
+  "Aghostinbloom/otogi2-recomp": {
+    "en": "Free open-source native Windows port of the original Xbox game Otogi 2: Immortal Warriors, built by static recompilation of its binary (no game data included).",
+    "zh-CN": "把初代 Xbox 游戏《御伽 2：不朽的战士》的二进制静态重编译成原生 Windows 版的免费开源项目（不含游戏数据）。",
+    "zh-TW": "把初代 Xbox 遊戲《御伽 2：不朽的戰士》的二進位靜態重編譯成原生 Windows 版的免費開源專案（不含遊戲資料）。",
+    "ja": "初代Xboxゲーム『御伽 2：不朽の戦士』のバイナリを静的再コンパイルしてネイティブWindows版にした無料オープンソースプロジェクト（ゲームデータは含まず）。",
+    "ko": "오리지널 Xbox 게임 『오토기 2: 불멸의 전사』의 바이너리를 정적 재컴파일해 네이티브 Windows 버전으로 만든 무료 오픈소스 프로젝트(게임 데이터 미포함)."
+  },
+  "Cenzo239/radiant-dawn-decomp": {
+    "en": "Matching decompilation project for the closed-source Wii game Fire Emblem: Radiant Dawn, aiming to reconstruct its original source code byte-for-byte from the retail ROM.",
+    "zh-CN": "对闭源 Wii 游戏《火焰之纹章：晓之女神》进行的匹配反编译项目，目标是从零售 ROM 逐字节还原原始源代码。",
+    "zh-TW": "對閉源 Wii 遊戲《火焰之紋章：曉之女神》進行的匹配反編譯專案，目標是從零售 ROM 逐位元組還原原始原始碼。",
+    "ja": "クローズドソースWiiゲーム『ファイアーエムブレム 暁の女神』のリテールROMからバイト単位で元のソースコードを再構築するマッチング逆コンパイルプロジェクト。",
+    "ko": "클로즈드 소스 Wii 게임 『파이어 엠블렘: 새벽의 여신』의 리테일 ROM에서 바이트 단위로 원본 소스 코드를 복원하는 매칭 디컴파일 프로젝트."
   }
 }
