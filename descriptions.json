@@ -3785,5 +3785,26 @@
     "zh-TW": "對閉源 Wii 遊戲《火焰之紋章：曉之女神》進行的匹配反編譯專案，目標是從零售 ROM 逐位元組還原原始原始碼。",
     "ja": "クローズドソースWiiゲーム『ファイアーエムブレム 暁の女神』のリテールROMからバイト単位で元のソースコードを再構築するマッチング逆コンパイルプロジェクト。",
     "ko": "클로즈드 소스 Wii 게임 『파이어 엠블렘: 새벽의 여신』의 리테일 ROM에서 바이트 단위로 원본 소스 코드를 복원하는 매칭 디컴파일 프로젝트."
+  },
+  "Krilliac/OmegaStrain-Reimplementation": {
+    "en": "Clean-room pure-native reimplementation research for the PS2 game Syphon Filter: The Omega Strain. Uses PCSX2 as a behavioral oracle; requires your own retail game data. No original code or assets included.",
+    "zh-CN": "从零重写《虹吸战士：欧米茄行动》（PS2）的纯原生兼容研究项目。以 PCSX2 作为行为参考，需要自备正版游戏数据。不包含任何原版代码或资源。",
+    "zh-TW": "從零重寫《虹吸戰士：歐米茄行動》（PS2）的純原生相容研究專案。以 PCSX2 作為行為參考，需要自備正版遊戲資料。不包含任何原版程式碼或資源。",
+    "ja": "PS2 ゲーム『サイフォンフィルター：オメガストレイン』のクリーンルーム純ネイティブ再実装研究。PCSX2 を動作の参考にし、自分の正規ゲームデータが必要。オリジナルのコードやアセットは含まれない。",
+    "ko": "PS2 게임 《사이폰 필터: 오메가 스트레인》의 클린룸 순수 네이티브 재구현 연구. PCSX2를 행동 참조로 사용하며, 자신의 정품 게임 데이터가 필요. 원본 코드나 에셋 포함 안 함."
+  },
+  "Chiuauaa/oot-pc-recomp": {
+    "en": "Static recompilation of The Legend of Zelda: Ocarina of Time (Nintendo Switch 2) into a native PC program with Vulkan. Based on DKB Recomp / TotK Recomp. Requires your own game dump; no game files included.",
+    "zh-CN": "把《塞尔达传说：时之笛》（Switch 2）通过静态重编译做成原生 PC 程序（Vulkan 渲染）。基于 DKB Recomp / TotK Recomp。需要自备游戏 dump，不包含任何游戏文件。",
+    "zh-TW": "把《薩爾達傳說：時之笛》（Switch 2）透過靜態重編譯做成原生 PC 程式（Vulkan 渲染）。基於 DKB Recomp / TotK Recomp。需要自備遊戲 dump，不包含任何遊戲檔案。",
+    "ja": "『ゼルダの伝説 時のオカリナ』（Switch 2）を静的再コンパイルしてネイティブ PC プログラム（Vulkan）にする。DKB Recomp / TotK Recomp をベース。自分のゲームダンプが必要、ゲームファイルは含まれない。",
+    "ko": "《젤다의 전설: 시간의 오카리나》(Switch 2)를 정적 재컴파일하여 네이티브 PC 프로그램(Vulkan)으로 만듦. DKB Recomp / TotK Recomp 기반. 자신의 게임 덤프 필요, 게임 파일 포함 안 함."
+  },
+  "R0Y00/Xbox2Windows": {
+    "en": "Static recompilation research translating Xbox Series X|S (Scarlett) machine code to C++ and shaders to DXIL for native x64 Windows with D3D12. Includes source-built CPU and GPU tests. Full-game startup still unverified.",
+    "zh-CN": "Xbox Series X|S（Scarlett）静态重编译研究：把机器码译成 C++、着色器译成 DXIL，在 x64 Windows + D3D12 上原生运行。含源码构建的 CPU/GPU 测试。完整游戏启动尚未验证。",
+    "zh-TW": "Xbox Series X|S（Scarlett）靜態重編譯研究：把機器碼譯成 C++、著色器譯成 DXIL，在 x64 Windows + D3D12 上原生執行。含原始碼建置的 CPU/GPU 測試。完整遊戲啟動尚未驗證。",
+    "ja": "Xbox Series X|S（Scarlett）の静的再コンパイル研究。マシンコードを C++、シェーダーを DXIL に変換し、x64 Windows + D3D12 でネイティブ実行。ソースビルドの CPU/GPU テストあり。フルゲーム起動は未検証。",
+    "ko": "Xbox Series X|S(Scarlett) 정적 재컴파일 연구. 머신 코드를 C++로, 셰이더를 DXIL로 변환해 x64 Windows + D3D12에서 네이티브 실행. 소스 빌드 CPU/GPU 테스트 포함. 전체 게임 시작은 아직 검증 안 됨."
   }
 }

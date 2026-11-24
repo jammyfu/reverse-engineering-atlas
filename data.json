@@ -4326,5 +4326,29 @@
     "https://github.com/Cenzo239/radiant-dawn-decomp",
     "No",
     "Matching decompilation of Fire Emblem: Radiant Dawn (Wii)."
+  ],
+  [
+    "ps2",
+    "remake",
+    "Krilliac/OmegaStrain-Reimplementation",
+    "https://github.com/Krilliac/OmegaStrain-Reimplementation",
+    "No",
+    "Clean-room pure-native reimplementation research for Syphon Filter: The Omega Strain (PS2); PCSX2 used as behavioral oracle, user-supplied retail data only."
+  ],
+  [
+    "switch2",
+    "remake",
+    "Chiuauaa/oot-pc-recomp",
+    "https://github.com/Chiuauaa/oot-pc-recomp",
+    "No",
+    "Static recompilation of The Legend of Zelda: Ocarina of Time (Switch 2) into a native PC program with Vulkan, based on DKB Recomp / TotK Recomp; requires own dump."
+  ],
+  [
+    "tooling",
+    "",
+    "R0Y00/Xbox2Windows",
+    "https://github.com/R0Y00/Xbox2Windows",
+    "No",
+    "Static recompilation research for Xbox Series X|S (Scarlett) software on x64 Windows: translates machine code to C++ and shaders to DXIL, with source-built CPU/GPU tests."
   ]
 ]
