@@ -4350,5 +4350,77 @@
     "https://github.com/R0Y00/Xbox2Windows",
     "No",
     "Static recompilation research for Xbox Series X|S (Scarlett) software on x64 Windows: translates machine code to C++ and shaders to DXIL, with source-built CPU/GPU tests."
+  ],
+  [
+    "pc",
+    "decomp",
+    "gibbo101/ra2-decomp",
+    "https://github.com/gibbo101/ra2-decomp",
+    "No",
+    "Matching decompilation of Command & Conquer: Red Alert 2 Yuri's Revenge."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "kirklandsig/halo2-decompiled",
+    "https://github.com/kirklandsig/halo2-decompiled",
+    "No",
+    "Matching decompilation of Halo 2 for the original Xbox."
+  ],
+  [
+    "ps2",
+    "recomp",
+    "ADHD-TISM/Dave-Mirra-2-Recomp",
+    "https://github.com/ADHD-TISM/Dave-Mirra-2-Recomp",
+    "No",
+    "Static recompilation of Dave Mirra Freestyle BMX 2 (PS2) to native Windows."
+  ],
+  [
+    "3ds",
+    "recomp",
+    "Recoi1/RE-DEX",
+    "https://github.com/Recoi1/RE-DEX",
+    "No",
+    "Static recompilation of Pokémon X and Y (3DS) to native PC with cross-play."
+  ],
+  [
+    "pc",
+    "recomp",
+    "nynjardin/motorstorm-apocalypse-recomp",
+    "https://github.com/nynjardin/motorstorm-apocalypse-recomp",
+    "No",
+    "Static recompilation of MotorStorm: Apocalypse (PS3) to native Windows."
+  ],
+  [
+    "ps2",
+    "recomp",
+    "dea7hsmiless/Sakura-Wars-So-Long-My-Love-Rebloom",
+    "https://github.com/dea7hsmiless/Sakura-Wars-So-Long-My-Love-Rebloom",
+    "No",
+    "Static recompilation of Sakura Wars: So Long, My Love (PS2) to native multi-platform."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "ManoloEightBits/whirl-tour-ps2-decomp",
+    "https://github.com/ManoloEightBits/whirl-tour-ps2-decomp",
+    "No",
+    "Early-stage reverse engineering of Whirl Tour (PS2, SLUS_204.89); no game data. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "smurflabs/league_decomp",
+    "https://github.com/smurflabs/league_decomp",
+    "No",
+    "Decompilation of League of Legends client patch 4.20 into matching C/C++; CC0."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Syn34/openTIT",
+    "https://github.com/Syn34/openTIT",
+    "No",
+    "Decompilation of Sly Cooper: Thieves in Time (PS3) into readable C++; progress ~29%. No game data."
   ]
 ]

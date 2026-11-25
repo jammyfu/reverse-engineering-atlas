@@ -3806,5 +3806,68 @@
     "zh-TW": "Xbox Series X|S（Scarlett）靜態重編譯研究：把機器碼譯成 C++、著色器譯成 DXIL，在 x64 Windows + D3D12 上原生執行。含原始碼建置的 CPU/GPU 測試。完整遊戲啟動尚未驗證。",
     "ja": "Xbox Series X|S（Scarlett）の静的再コンパイル研究。マシンコードを C++、シェーダーを DXIL に変換し、x64 Windows + D3D12 でネイティブ実行。ソースビルドの CPU/GPU テストあり。フルゲーム起動は未検証。",
     "ko": "Xbox Series X|S(Scarlett) 정적 재컴파일 연구. 머신 코드를 C++로, 셰이더를 DXIL로 변환해 x64 Windows + D3D12에서 네이티브 실행. 소스 빌드 CPU/GPU 테스트 포함. 전체 게임 시작은 아직 검증 안 됨."
+  },
+  "gibbo101/ra2-decomp": {
+    "en": "Turns the closed-source Command & Conquer: Red Alert 2 – Yuri's Revenge into readable C++ that rebuilds to the exact same bytes as the original.",
+    "zh-CN": "把闭源的《命令与征服：红色警戒2 尤里的复仇》逆向还原成可读的 C++ 源码，编译后和原版逐字节一致。",
+    "zh-TW": "把閉源的《命令與征服：紅色警戒2 尤里的復仇》逆向還原成可讀的 C++ 原始碼，編譯後和原版逐位元組一致。",
+    "ja": "クローズドソースの『コマンド＆コンカー：レッドアラート2 ユーリの復讐』を、元のバイナリとバイト単位で一致する読みやすい C++ ソースに復元。",
+    "ko": "폐쇄 소스인 『커맨드 앤 컨커: 레드 얼럿 2 유리의 복수』를 원본과 바이트 단위로 동일한 읽기 쉬운 C++ 소스로 복원."
+  },
+  "kirklandsig/halo2-decompiled": {
+    "en": "A matching decompilation that turns the closed-source Halo 2 for original Xbox into readable C/C++ source that rebuilds byte-for-byte to the retail executable.",
+    "zh-CN": "把闭源的原版 Xbox《光环2》逆向还原成可读的 C/C++ 源码，编译后和零售版可执行文件逐字节一致。",
+    "zh-TW": "把閉源的原版 Xbox《光環2》逆向還原成可讀的 C/C++ 原始碼，編譯後和零售版執行檔逐位元組一致。",
+    "ja": "クローズドソースの初代 Xbox 版『Halo 2』を、小売版実行ファイルとバイト単位で一致する読みやすい C/C++ ソースに復元。",
+    "ko": "폐쇄 소스인 오리지널 Xbox용 『헤일로 2』를 소매판 실행 파일과 바이트 단위로 동일한 읽기 쉬운 C/C++ 소스로 복원."
+  },
+  "ADHD-TISM/Dave-Mirra-2-Recomp": {
+    "en": "Static recompilation that turns the closed-source Dave Mirra Freestyle BMX 2 (PS2) into a native Windows program you can run with your own disc.",
+    "zh-CN": "用静态重编译把闭源的 PS2 版《戴夫·米拉自由式 BMX 2》变成可以在 Windows 上原生运行的程序（需自备光盘）。",
+    "zh-TW": "用靜態重編譯把閉源的 PS2 版《戴夫·米拉自由式 BMX 2》變成可以在 Windows 上原生執行的程式（需自備光碟）。",
+    "ja": "クローズドソースの PS2 版『Dave Mirra Freestyle BMX 2』を静的再コンパイルして、自分のディスクで動くネイティブ Windows プログラムに。",
+    "ko": "폐쇄 소스인 PS2판 『데이브 미라 프리스타일 BMX 2』를 정적 재컴파일하여 자신의 디스크로 실행 가능한 네이티브 Windows 프로그램으로 만듦."
+  },
+  "Recoi1/RE-DEX": {
+    "en": "Static recompilation of the closed-source Pokémon X and Y (3DS) into a native PC game with a shared online world where X and Y players can play together.",
+    "zh-CN": "把闭源的 3DS 版《宝可梦 X/Y》静态重编译成原生 PC 游戏，并带有 X 和 Y 玩家可以一起玩的共享在线世界。",
+    "zh-TW": "把閉源的 3DS 版《寶可夢 X/Y》靜態重編譯成原生 PC 遊戲，並帶有 X 和 Y 玩家可以一起玩的共享線上世界。",
+    "ja": "クローズドソースの 3DS 版『ポケットモンスター X/Y』を静的再コンパイルして、X と Y のプレイヤーが一緒に遊べる共有オンライン世界付きのネイティブ PC ゲームに。",
+    "ko": "폐쇄 소스인 3DS판 『포켓몬스터 X/Y』를 정적 재컴파일하여 X와 Y 플레이어가 함께 놀 수 있는 공유 온라인 세계가 있는 네이티브 PC 게임으로 만듦."
+  },
+  "nynjardin/motorstorm-apocalypse-recomp": {
+    "en": "Static recompilation that turns the closed-source MotorStorm: Apocalypse (PS3) into a native Windows program using your own disc and firmware.",
+    "zh-CN": "用静态重编译把闭源的 PS3 版《摩托风暴：天启》变成可以在 Windows 上原生运行的程序（需自备光盘和固件）。",
+    "zh-TW": "用靜態重編譯把閉源的 PS3 版《摩托風暴：天啟》變成可以在 Windows 上原生執行的程式（需自備光碟和韌體）。",
+    "ja": "クローズドソースの PS3 版『MotorStorm: Apocalypse』を静的再コンパイルして、自分のディスクとファームウェアで動くネイティブ Windows プログラムに。",
+    "ko": "폐쇄 소스인 PS3판 『모터스톰: 아포칼립스』를 정적 재컴파일하여 자신의 디스크와 펌웨어로 실행 가능한 네이티브 Windows 프로그램으로 만듦."
+  },
+  "dea7hsmiless/Sakura-Wars-So-Long-My-Love-Rebloom": {
+    "en": "Static recompilation of the closed-source Sakura Wars: So Long, My Love (PS2) into native programs for Windows, Linux, Android and iOS.",
+    "zh-CN": "把闭源的 PS2 版《樱花大战：再见吾爱》静态重编译成可以在 Windows、Linux、Android 和 iOS 上原生运行的程序。",
+    "zh-TW": "把閉源的 PS2 版《櫻花大戰：再見吾愛》靜態重編譯成可以在 Windows、Linux、Android 和 iOS 上原生執行的程式。",
+    "ja": "クローズドソースの PS2 版『サクラ大戦 ～君あるがため～』を静的再コンパイルして、Windows・Linux・Android・iOS で動くネイティブプログラムに。",
+    "ko": "폐쇄 소스인 PS2판 『사쿠라 대전: 이별, 나의 사랑』을 정적 재컴파일하여 Windows, Linux, Android, iOS에서 실행 가능한 네이티브 프로그램으로 만듦."
+  },
+  "ManoloEightBits/whirl-tour-ps2-decomp": {
+    "en": "Early hobby project reverse-engineering the PS2 game Whirl Tour back into readable C++ source. Bring your own disc; no game files included.",
+    "zh-CN": "把 PS2 游戏《Whirl Tour》的二进制从零还原成可读 C++ 源码的早期爱好者项目。需要自备游戏盘，仓库里没有游戏文件。",
+    "zh-TW": "把 PS2 遊戲《Whirl Tour》的二進位從零還原成可讀 C++ 原始碼的早期愛好者專案。需要自備遊戲光碟，倉庫裡沒有遊戲檔案。",
+    "ja": "PS2 ゲーム『Whirl Tour』のバイナリを読みやすい C++ ソースに戻す初期段階の趣味プロジェクト。自分のディスクを用意してください。ゲームファイルは含まれていません。",
+    "ko": "PS2 게임 《Whirl Tour》의 바이너리를 읽기 쉬운 C++ 소스로 되돌리는 초기 취미 프로젝트. 자신의 디스크를 준비하세요. 게임 파일은 포함되지 않습니다."
+  },
+  "smurflabs/league_decomp": {
+    "en": "Decompilation of the old League of Legends client (patch 4.20) into matching C/C++ source that rebuilds byte-for-byte. CC0.",
+    "zh-CN": "把旧版《英雄联盟》客户端（4.20 补丁）的二进制还原成逐字节匹配的 C/C++ 源码。CC0 协议。",
+    "zh-TW": "把舊版《英雄聯盟》客戶端（4.20 補丁）的二進位還原成逐位元組匹配的 C/C++ 原始碼。CC0 協議。",
+    "ja": "旧バージョンの League of Legends クライアント（パッチ 4.20）をバイト単位で一致する C/C++ ソースに戻したデコンパイル。CC0。",
+    "ko": "구버전 리그 오브 레전드 클라이언트(패치 4.20)를 바이트 단위로 일치하는 C/C++ 소스로 되돌린 디컴파일. CC0."
+  },
+  "Syn34/openTIT": {
+    "en": "Decompilation of the PS3 game Sly Cooper: Thieves in Time into readable C++ that can build as a PC app. Progress around 29%. No game data.",
+    "zh-CN": "把 PS3 游戏《Sly Cooper: Thieves in Time》的代码还原成可读的 C++，目标是能在 PC 上编译运行。进度约 29%。没有游戏数据。",
+    "zh-TW": "把 PS3 遊戲《Sly Cooper: Thieves in Time》的程式碼還原成可讀的 C++，目標是能在 PC 上編譯執行。進度約 29%。沒有遊戲資料。",
+    "ja": "PS3 ゲーム『Sly Cooper: Thieves in Time』を読みやすい C++ に戻し、PC でビルドして動かせるようにするデコンパイル。進捗約 29%。ゲームデータなし。",
+    "ko": "PS3 게임 《Sly Cooper: Thieves in Time》를 읽기 쉬운 C++로 되돌리고 PC에서 빌드해 실행할 수 있게 하는 디컴파일. 진행률 약 29%. 게임 데이터 없음."
   }
 }
