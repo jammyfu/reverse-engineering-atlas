@@ -3869,5 +3869,40 @@
     "zh-TW": "把 PS3 遊戲《Sly Cooper: Thieves in Time》的程式碼還原成可讀的 C++，目標是能在 PC 上編譯執行。進度約 29%。沒有遊戲資料。",
     "ja": "PS3 ゲーム『Sly Cooper: Thieves in Time』を読みやすい C++ に戻し、PC でビルドして動かせるようにするデコンパイル。進捗約 29%。ゲームデータなし。",
     "ko": "PS3 게임 《Sly Cooper: Thieves in Time》를 읽기 쉬운 C++로 되돌리고 PC에서 빌드해 실행할 수 있게 하는 디컴파일. 진행률 약 29%. 게임 데이터 없음."
+  },
+  "andrewnakas/gtav-recomp": {
+    "en": "Turns the Xbox 360 version of Grand Theft Auto V into a native program for Windows, Mac, iPhone and Android by translating its code ahead of time. You supply your own discs.",
+    "zh-CN": "把 Xbox 360 上的《GTA V》用静态重编译做成能在电脑、Mac、iPhone 和安卓上原生运行的程序。需要自己的光盘。",
+    "zh-TW": "把 Xbox 360 上的《GTA V》用靜態重編譯做成能在電腦、Mac、iPhone 和安卓上原生執行的程式。需要自己的光碟。",
+    "ja": "Xbox 360版『グランド・セフト・オートV』を静的再コンパイルして、Windows・Mac・iPhone・Androidでネイティブに動くプログラムにしたもの。自分のディスクが必要。",
+    "ko": "Xbox 360의 Grand Theft Auto V를 정적 재컴파일하여 Windows, Mac, iPhone, Android에서 네이티브로 실행되게 한 프로젝트. 자신의 디스크가 필요합니다."
+  },
+  "PocketLucho/Virtua-Tennis---Recompilation": {
+    "en": "Native Windows and Linux version of the arcade games Virtua Tennis and Virtua Tennis 2 (Sega NAOMI) made by translating their code in advance. Bring your own ROMs.",
+    "zh-CN": "用静态重编译把街机《VR网球》和《VR网球2》（Sega NAOMI）做成能在 Windows 和 Linux 上原生运行的版本。需要自己的 ROM。",
+    "zh-TW": "用靜態重編譯把街機《VR網球》和《VR網球2》（Sega NAOMI）做成能在 Windows 和 Linux 上原生執行的版本。需要自己的 ROM。",
+    "ja": "アーケードゲーム『バーチャテニス』と『バーチャテニス2』（セガ NAOMI）を静的再コンパイルして Windows と Linux でネイティブに動くようにしたもの。自分の ROM が必要。",
+    "ko": "아케이드 게임 Virtua Tennis와 Virtua Tennis 2(Sega NAOMI)를 정적 재컴파일하여 Windows와 Linux에서 네이티브로 실행되게 한 것. 자신의 ROM이 필요합니다."
+  },
+  "Mikompilation/ReiPan": {
+    "en": "A PC version of the horror game Fatal Frame III: The Tormented (PlayStation 2), rebuilt with AI help from the original code. You need your own European disc.",
+    "zh-CN": "用 AI 辅助从零重写的《零：红蝶》（PS2，欧美名 Fatal Frame III）电脑移植版。需要自己的欧版光盘。",
+    "zh-TW": "用 AI 輔助從零重寫的《零：紅蝶》（PS2，歐美名 Fatal Frame III）電腦移植版。需要自己的歐版光碟。",
+    "ja": "AIを使ってゼロから書き直した『零〜紅い蝶〜』（PS2、海外名 Fatal Frame III）のPC移植版。自分の欧州版ディスクが必要。",
+    "ko": "AI를 사용해 원본 코드로부터 재구성한 Fatal Frame III: The Tormented (PS2) PC 버전. 자신의 유럽판 디스크가 필요합니다."
+  },
+  "Mikompilation/MioPan": {
+    "en": "An early native PC port of Fatal Frame II: Crimson Butterfly (PlayStation 2), reconstructing the code function by function with AI assistance from a prototype. Bring your own European disc.",
+    "zh-CN": "正在进行的《零：红蝶》（PS2）原生电脑移植，用 AI 辅助从原型逐函数重建代码。需要自己的欧版光盘。",
+    "zh-TW": "正在進行的《零：紅蝶》（PS2）原生電腦移植，用 AI 輔助從原型逐函式重建程式碼。需要自己的歐版光碟。",
+    "ja": "プロトタイプから関数ごとにAIを使ってコードを再構築した『零〜紅い蝶〜』（PS2）の初期ネイティブPC移植。自分の欧州版ディスクが必要。",
+    "ko": "프로토타입에서 함수별로 AI 도움을 받아 코드를 재구성한 Fatal Frame II: Crimson Butterfly (PS2) 초기 네이티브 PC 포트. 자신의 유럽판 디스크가 필요합니다."
+  },
+  "1llu50ry/Decompile": {
+    "en": "One MCP server that lets AI agents use dozens of reverse-engineering tools (Ghidra, IDA, radare2, Frida and more) plus a big library of skills and knowledge for analyzing binaries and games.",
+    "zh-CN": "一个 MCP 服务器，让 AI 智能体能调用几十种逆向工具（Ghidra、IDA、radare2、Frida 等），还带大量技能知识库，用来分析二进制和游戏。",
+    "zh-TW": "一個 MCP 伺服器，讓 AI 智能體能呼叫幾十種逆向工具（Ghidra、IDA、radare2、Frida 等），還帶大量技能知識庫，用來分析二進位和遊戲。",
+    "ja": "AIエージェントが Ghidra、IDA、radare2、Frida など多数のリバースエンジニアリングツールを使えるようにする MCP サーバー。スキル知識ベースも付属。",
+    "ko": "AI 에이전트가 Ghidra, IDA, radare2, Frida 등 수십 가지 리버스 엔지니어링 도구를 사용할 수 있게 하는 MCP 서버. 대규모 스킬 지식 베이스 포함."
   }
 }

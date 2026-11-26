@@ -1,1 +1,4466 @@
-PLACEHOLDER_WILL_FAIL
+[
+  [
+    "official",
+    "",
+    "DX-Ball: sound-pan function",
+    "https://rea.tools/showcase/dx-ball/",
+    "Yes",
+    "Official showcase; C reconstruction matching 3,205 x86 cases."
+  ],
+  [
+    "official",
+    "",
+    "Notion: Electron clipboard bridge",
+    "https://rea.tools/showcase/notion/",
+    "Yes",
+    "Official showcase; renderer → preload → IPC trace."
+  ],
+  [
+    "official",
+    "",
+    "TH04: PC-98 bullet-ring maths",
+    "https://rea.tools/showcase/th04/",
+    "Yes",
+    "Official showcase; 16-bit angle helpers."
+  ],
+  [
+    "official",
+    "",
+    "Aegis: TOTP code generation",
+    "https://rea.tools/showcase/aegis/",
+    "Yes",
+    "Official showcase; Android app."
+  ],
+  [
+    "official",
+    "",
+    "CTF: flag checker",
+    "https://rea.tools/showcase/ctf/",
+    "Yes",
+    "Official showcase; DownUnderCTF 2023 challenge."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/dx-ball",
+    "https://github.com/N0zoM1z0/dx-ball",
+    "Yes",
+    "DX-Ball 1.07 reconstruction; README states REA. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th04",
+    "https://github.com/N0zoM1z0/th04",
+    "Yes",
+    "Touhou 4 (PC-98) source reconstruction; REA via official showcase. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th08",
+    "https://github.com/N0zoM1z0/th08",
+    "Unverified",
+    "Touhou 8 reconstruction (agent + IDA/Ghidra); README does not mention REA. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th10",
+    "https://github.com/N0zoM1z0/th10",
+    "Unverified",
+    "Touhou 10 reconstruction; README does not mention REA. MIT."
+  ],
+  [
+    "pc",
+    "remake",
+    "ucodia/desktop-games-nostalgia",
+    "https://github.com/ucodia/desktop-games-nostalgia",
+    "Yes",
+    "Gemtree Desktop Games (2000) ported to macOS/browser; README cites REA + Ghidra."
+  ],
+  [
+    "pc",
+    "remake",
+    "tuunanet/rea-ski-or-die-reconstruction",
+    "https://github.com/tuunanet/rea-ski-or-die-reconstruction",
+    "Yes",
+    "Ski or Die (DOS) minigame rebuilt in Rust + SDL2; uses your own assets."
+  ],
+  [
+    "pc",
+    "remake",
+    "Moxnatiy/OpenBattlefield2",
+    "https://github.com/Moxnatiy/OpenBattlefield2",
+    "Yes",
+    "Clean-room Refractor 2 engine; REA documented in CLAUDE.md / tools/rea.sh. Needs your own copy."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenRsG/GunZRs",
+    "https://github.com/OpenRsG/GunZRs",
+    "Yes",
+    "GunZ: The Duel in Rust + Bevy; README mentions REA. Apache-2.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "a-barzanti/ai-rebuilds",
+    "https://github.com/a-barzanti/ai-rebuilds",
+    "Yes",
+    "Abandoned games rebuilt for the web from REA-written specs; no original files committed."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenRCT2/OpenRCT2",
+    "https://github.com/OpenRCT2/OpenRCT2",
+    "No",
+    "RollerCoaster Tycoon 2 re-implementation (pre-REA). GPL-3.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenMW/openmw",
+    "https://github.com/OpenMW/openmw",
+    "No",
+    "Morrowind engine re-implementation. GPL-3.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "zeldaret/oot",
+    "https://github.com/zeldaret/oot",
+    "No",
+    "Ocarina of Time decompilation; ROM not included."
+  ],
+  [
+    "n64",
+    "decomp",
+    "n64decomp/sm64",
+    "https://github.com/n64decomp/sm64",
+    "No",
+    "Super Mario 64 decompilation; ROM not included. CC0-1.0."
+  ],
+  [
+    "n64",
+    "remake",
+    "HarbourMasters/Shipwright",
+    "https://github.com/HarbourMasters/Shipwright",
+    "No",
+    "Ship of Harkinian PC port of OoT; requires your own ROM."
+  ],
+  [
+    "n64",
+    "tools",
+    "ethteck/splat",
+    "https://github.com/ethteck/splat",
+    "No",
+    "Binary splitting tool for N64/PSX decomp projects. MIT."
+  ],
+  [
+    "n64",
+    "tools",
+    "NEstelami/ZAPD",
+    "https://github.com/NEstelami/ZAPD",
+    "No",
+    "Zelda asset processor used by decomp projects. MIT."
+  ],
+  [
+    "md",
+    "decomp",
+    "sonicretro/s1disasm",
+    "https://github.com/sonicretro/s1disasm",
+    "No",
+    "Sonic the Hedgehog (Mega Drive) disassembly."
+  ],
+  [
+    "md",
+    "decomp",
+    "sonicretro/s2disasm",
+    "https://github.com/sonicretro/s2disasm",
+    "No",
+    "Sonic 2 (Mega Drive) disassembly."
+  ],
+  [
+    "snes",
+    "decomp",
+    "snesrev/zelda3",
+    "https://github.com/snesrev/zelda3",
+    "No",
+    "A Link to the Past C reimplementation; asset extraction from your own ROM."
+  ],
+  [
+    "snes",
+    "decomp",
+    "snesrev/sm",
+    "https://github.com/snesrev/sm",
+    "No",
+    "Super Metroid C reimplementation; needs your own ROM."
+  ],
+  [
+    "gba",
+    "decomp",
+    "pret/pokeemerald",
+    "https://github.com/pret/pokeemerald",
+    "No",
+    "Pokémon Emerald decompilation."
+  ],
+  [
+    "gba",
+    "decomp",
+    "pret/pokefirered",
+    "https://github.com/pret/pokefirered",
+    "No",
+    "Pokémon FireRed/LeafGreen decompilation."
+  ],
+  [
+    "gba",
+    "decomp",
+    "zeldaret/tmc",
+    "https://github.com/zeldaret/tmc",
+    "No",
+    "The Minish Cap decompilation."
+  ],
+  [
+    "gb",
+    "decomp",
+    "pret/pokered",
+    "https://github.com/pret/pokered",
+    "No",
+    "Pokémon Red/Blue disassembly."
+  ],
+  [
+    "gb",
+    "decomp",
+    "pret/pokegold",
+    "https://github.com/pret/pokegold",
+    "No",
+    "Pokémon Gold/Silver disassembly."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "Xeeynamo/sotn-decomp",
+    "https://github.com/Xeeynamo/sotn-decomp",
+    "No",
+    "Castlevania: Symphony of the Night decompilation. AGPL-3.0."
+  ],
+  [
+    "app",
+    "",
+    "michaelshimeles/sketch",
+    "https://github.com/michaelshimeles/sketch",
+    "Yes",
+    "Rust infinite-canvas design app, clean-room from Paper; README mentions REA (formerly paper-rs)."
+  ],
+  [
+    "app",
+    "",
+    "michaelshimeles/rec-rs",
+    "https://github.com/michaelshimeles/rec-rs",
+    "Yes",
+    "Rust macOS recorder modelled on OBS Studio; README mentions REA."
+  ],
+  [
+    "app",
+    "",
+    "iammukeshm/hexgrab",
+    "https://github.com/iammukeshm/hexgrab",
+    "Yes",
+    ".NET 10 colour picker from a REA study of PowerToys. MIT."
+  ],
+  [
+    "app",
+    "",
+    "AdamLinCodes/AdamTerm",
+    "https://github.com/AdamLinCodes/AdamTerm",
+    "Yes",
+    "Minimal macOS terminal after studying Ghostty with REA."
+  ],
+  [
+    "app",
+    "",
+    "az9713/wispr-flow-rea-teardown",
+    "https://github.com/az9713/wispr-flow-rea-teardown",
+    "Yes",
+    "Wispr Flow static teardown + 64-line local rebuild."
+  ],
+  [
+    "app",
+    "",
+    "cudanexus/vd-streamer-linux",
+    "https://github.com/cudanexus/vd-streamer-linux",
+    "Yes",
+    "Unofficial Linux port of Virtual Desktop Streamer; Claude Code + REA."
+  ],
+  [
+    "protocol",
+    "",
+    "a-funk/open-appleremote",
+    "https://github.com/a-funk/open-appleremote",
+    "Unverified",
+    "First-gen Siri Remote on Linux (Bluetooth protocol). MIT."
+  ],
+  [
+    "protocol",
+    "",
+    "Slyvan25/OpenGHub",
+    "https://github.com/Slyvan25/OpenGHub",
+    "No",
+    "Linux Logitech G HUB replacement over HID++ 2.0. MIT."
+  ],
+  [
+    "firmware",
+    "",
+    "grisuno/VSL-DSP",
+    "https://github.com/grisuno/VSL-DSP",
+    "Yes",
+    "PreSonus AudioBox VSL kernel module; REA used for part of the vendor-library findings. GPL-3.0."
+  ],
+  [
+    "firmware",
+    "",
+    "ReFirmLabs/binwalk",
+    "https://github.com/ReFirmLabs/binwalk",
+    "No",
+    "Firmware analysis/extraction tool. MIT."
+  ],
+  [
+    "security",
+    "",
+    "NullLabTests/OpenBSD_netcat_REA",
+    "https://github.com/NullLabTests/OpenBSD_netcat_REA",
+    "Yes",
+    "Static analysis of netcat-openbsd with REA + Ghidra. MIT."
+  ],
+  [
+    "security",
+    "",
+    "REA discussion #2254",
+    "https://github.com/morluto/rea/discussions/2254",
+    "Yes",
+    "Stripped bzip2 analysed and checked against an unstripped build."
+  ],
+  [
+    "tooling",
+    "",
+    "ShadowSwaps/REA-Reconstruction-Companion",
+    "https://github.com/ShadowSwaps/REA-Reconstruction-Companion",
+    "Yes",
+    "Agent skill for evidence-based reconstruction with REA. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "NationalSecurityAgency/ghidra",
+    "https://github.com/NationalSecurityAgency/ghidra",
+    "No",
+    "Decompiler REA can drive. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "skylot/jadx",
+    "https://github.com/skylot/jadx",
+    "No",
+    "Android DEX decompiler REA can drive. Apache-2.0."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "ran-j/PS2Recomp",
+    "https://github.com/ran-j/PS2Recomp",
+    "No",
+    "PS2 static recompiler. GPL-3.0."
+  ],
+  [
+    "snes",
+    "remake",
+    "snesrev/smw",
+    "https://github.com/snesrev/smw",
+    "No",
+    "Super Mario World C reimplementation; needs your own ROM."
+  ],
+  [
+    "tooling",
+    "",
+    "LaurieWired/GhidraMCP",
+    "https://github.com/LaurieWired/GhidraMCP",
+    "No",
+    "Bridge that lets AI assistants control the free reverse-engineering tool Ghidra so they can decompile and analyze programs."
+  ],
+  [
+    "tooling",
+    "",
+    "x64dbg/x64dbg",
+    "https://github.com/x64dbg/x64dbg",
+    "No",
+    "Windows debugger."
+  ],
+  [
+    "gc",
+    "tools",
+    "encounter/decomp-toolkit",
+    "https://github.com/encounter/decomp-toolkit",
+    "No",
+    "Toolkit for GameCube/Wii decompilation. Apache-2.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "HarbourMasters/Starship",
+    "https://github.com/HarbourMasters/Starship",
+    "No",
+    "Star Fox 64 PC port based on the sf64 decomp. CC0-1.0."
+  ],
+  [
+    "tooling",
+    "",
+    "iBotPeaches/Apktool",
+    "https://github.com/iBotPeaches/Apktool",
+    "No",
+    "Android APK reverse-engineering tool. Apache-2.0."
+  ],
+  [
+    "gc",
+    "decomp",
+    "zeldaret/tww",
+    "https://github.com/zeldaret/tww",
+    "No",
+    "The Wind Waker decompilation. CC0-1.0."
+  ],
+  [
+    "gba",
+    "decomp",
+    "pret/pokeruby",
+    "https://github.com/pret/pokeruby",
+    "No",
+    "Pokémon Ruby/Sapphire decompilation."
+  ],
+  [
+    "tooling",
+    "",
+    "angr/angr",
+    "https://github.com/angr/angr",
+    "No",
+    "Binary analysis platform. BSD-2-Clause."
+  ],
+  [
+    "wii",
+    "decomp",
+    "zeldaret/ss",
+    "https://github.com/zeldaret/ss",
+    "No",
+    "Skyward Sword decompilation. CC0-1.0."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "hedge-dev/XenonRecomp",
+    "https://github.com/hedge-dev/XenonRecomp",
+    "No",
+    "Xbox 360 PPC to C++ static recompiler. MIT."
+  ],
+  [
+    "ds",
+    "decomp",
+    "pret/pokeplatinum",
+    "https://github.com/pret/pokeplatinum",
+    "No",
+    "Pokémon Platinum decompilation."
+  ],
+  [
+    "n64",
+    "decomp",
+    "n64decomp/mk64",
+    "https://github.com/n64decomp/mk64",
+    "No",
+    "Mario Kart 64 decompilation."
+  ],
+  [
+    "tooling",
+    "",
+    "avast/retdec",
+    "https://github.com/avast/retdec",
+    "No",
+    "Retargetable machine-code decompiler. MIT."
+  ],
+  [
+    "gc",
+    "tools",
+    "encounter/objdiff",
+    "https://github.com/encounter/objdiff",
+    "No",
+    "Object-file diffing tool used across decomp projects. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "rizinorg/cutter",
+    "https://github.com/rizinorg/cutter",
+    "No",
+    "Qt GUI for Rizin. GPL-3.0."
+  ],
+  [
+    "pc",
+    "tools",
+    "ata4/disunity",
+    "https://github.com/ata4/disunity",
+    "No",
+    "Unity asset tools (archived). Unlicense."
+  ],
+  [
+    "3ds",
+    "tools",
+    "3DSGuy/Project_CTR",
+    "https://github.com/3DSGuy/Project_CTR",
+    "No",
+    "3DS file tools (ctrtool / makerom)."
+  ],
+  [
+    "pc",
+    "remake",
+    "julianxhokaxhiu/FFNx",
+    "https://github.com/julianxhokaxhiu/FFNx",
+    "No",
+    "FF7/FF8 PC driver. GPL-3.0."
+  ],
+  [
+    "wii",
+    "decomp",
+    "DarkRTA/rb3",
+    "https://github.com/DarkRTA/rb3",
+    "No",
+    "Rock Band 3 (Wii) decompilation."
+  ],
+  [
+    "gb",
+    "decomp",
+    "pret/pokeyellow",
+    "https://github.com/pret/pokeyellow",
+    "No",
+    "Pokémon Yellow disassembly."
+  ],
+  [
+    "nes",
+    "decomp",
+    "aldonunez/zelda1-disassembly",
+    "https://github.com/aldonunez/zelda1-disassembly",
+    "No",
+    "The Legend of Zelda (NES) disassembly."
+  ],
+  [
+    "protocol",
+    "",
+    "mitmproxy/mitmproxy",
+    "https://github.com/mitmproxy/mitmproxy",
+    "No",
+    "Interactive HTTPS proxy for protocol analysis. MIT."
+  ],
+  [
+    "n64",
+    "remake",
+    "Zelda64Recomp/Zelda64Recomp",
+    "https://github.com/Zelda64Recomp/Zelda64Recomp",
+    "No",
+    "Majora's Mask static recompilation PC port; needs your own ROM. GPL-3.0."
+  ],
+  [
+    "gb",
+    "decomp",
+    "pret/pokecrystal",
+    "https://github.com/pret/pokecrystal",
+    "No",
+    "Pokémon Crystal disassembly."
+  ],
+  [
+    "tooling",
+    "",
+    "ghidraninja/ghidra_scripts",
+    "https://github.com/ghidraninja/ghidra_scripts",
+    "No",
+    "Ghidra scripts. GPL-3.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "Interkarma/daggerfall-unity",
+    "https://github.com/Interkarma/daggerfall-unity",
+    "No",
+    "Daggerfall in Unity; needs your own data. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "radareorg/radare2",
+    "https://github.com/radareorg/radare2",
+    "No",
+    "Reverse-engineering framework."
+  ],
+  [
+    "tooling",
+    "",
+    "mandiant/flare-floss",
+    "https://github.com/mandiant/flare-floss",
+    "No",
+    "Obfuscated string extraction. Apache-2.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "zeldaret/mm",
+    "https://github.com/zeldaret/mm",
+    "No",
+    "Majora's Mask decompilation."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenXcom/OpenXcom",
+    "https://github.com/OpenXcom/OpenXcom",
+    "No",
+    "UFO / X-COM re-implementation. GPL-3.0."
+  ],
+  [
+    "tooling",
+    "",
+    "WerWolv/ImHex",
+    "https://github.com/WerWolv/ImHex",
+    "No",
+    "Hex editor for reverse engineers. GPL-2.0."
+  ],
+  [
+    "pc",
+    "tools",
+    "Perfare/AssetStudio",
+    "https://github.com/Perfare/AssetStudio",
+    "No",
+    "Unity asset explorer (archived). MIT."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "open-goal/jak-project",
+    "https://github.com/open-goal/jak-project",
+    "No",
+    "Jak and Daxter / Jak II PC port via GOAL decompiler; needs your own disc. ISC."
+  ],
+  [
+    "ds",
+    "decomp",
+    "zeldaret/ph",
+    "https://github.com/zeldaret/ph",
+    "No",
+    "Phantom Hourglass decompilation. CC0-1.0."
+  ],
+  [
+    "tooling",
+    "",
+    "mandiant/capa",
+    "https://github.com/mandiant/capa",
+    "No",
+    "Capability detection in executables. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "frida/frida",
+    "https://github.com/frida/frida",
+    "No",
+    "Dynamic instrumentation toolkit."
+  ],
+  [
+    "firmware",
+    "",
+    "qilingframework/qiling",
+    "https://github.com/qilingframework/qiling",
+    "No",
+    "Binary emulation framework. GPL-2.0."
+  ],
+  [
+    "nes",
+    "tools",
+    "SourMesen/Mesen2",
+    "https://github.com/SourMesen/Mesen2",
+    "No",
+    "Multi-system emulator with strong debugging tools (NES/SNES/GB/GBA/PCE) (archived). GPL-3.0."
+  ],
+  [
+    "tooling",
+    "",
+    "dnSpyEx/dnSpy",
+    "https://github.com/dnSpyEx/dnSpy",
+    "No",
+    ".NET debugger and assembly editor. GPL-3.0."
+  ],
+  [
+    "tooling",
+    "",
+    "decompme/decomp.me",
+    "https://github.com/decompme/decomp.me",
+    "No",
+    "Collaborative decompilation website. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "mrexodia/ida-pro-mcp",
+    "https://github.com/mrexodia/ida-pro-mcp",
+    "No",
+    "IDA Pro MCP bridge; upstream README recommends the official HexRaysSA/ida-mcp successor. IDA licensing is separate."
+  ],
+  [
+    "gc",
+    "decomp",
+    "doldecomp/sms",
+    "https://github.com/doldecomp/sms",
+    "No",
+    "Super Mario Sunshine decompilation. CC0-1.0."
+  ],
+  [
+    "pc",
+    "tools",
+    "AssetRipper/AssetRipper",
+    "https://github.com/AssetRipper/AssetRipper",
+    "No",
+    "Unity asset ripping tool for your own projects. GPL-3.0."
+  ],
+  [
+    "pc",
+    "tools",
+    "ladislav-zezula/CascLib",
+    "https://github.com/ladislav-zezula/CascLib",
+    "No",
+    "CASC storage library. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "isledecomp/isle",
+    "https://github.com/isledecomp/isle",
+    "No",
+    "LEGO Island decompilation. LGPL-3.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "pmret/papermario",
+    "https://github.com/pmret/papermario",
+    "No",
+    "Paper Mario decompilation."
+  ],
+  [
+    "protocol",
+    "",
+    "postlund/pyatv",
+    "https://github.com/postlund/pyatv",
+    "No",
+    "Apple TV protocol library. MIT."
+  ],
+  [
+    "xbox",
+    "remake",
+    "hedge-dev/UnleashedRecomp",
+    "https://github.com/hedge-dev/UnleashedRecomp",
+    "No",
+    "Sonic Unleashed (X360) recompilation PC port; needs your own copy. GPL-3.0."
+  ],
+  [
+    "firmware",
+    "",
+    "ghidraninja/game-and-watch-backup",
+    "https://github.com/ghidraninja/game-and-watch-backup",
+    "No",
+    "Game & Watch backup tool for your own device."
+  ],
+  [
+    "gba",
+    "decomp",
+    "jiangzhengwenjz/katam",
+    "https://github.com/jiangzhengwenjz/katam",
+    "No",
+    "Kirby & the Amazing Mirror decompilation."
+  ],
+  [
+    "pc",
+    "remake",
+    "scummvm/scummvm",
+    "https://github.com/scummvm/scummvm",
+    "No",
+    "Engine re-implementations for classic adventure games. GPL-3.0."
+  ],
+  [
+    "protocol",
+    "",
+    "wireshark/wireshark",
+    "https://github.com/wireshark/wireshark",
+    "No",
+    "Network protocol analyzer. GPL-2.0."
+  ],
+  [
+    "md",
+    "remake",
+    "RSDKModding/RSDKv5-Decompilation",
+    "https://github.com/RSDKModding/RSDKv5-Decompilation",
+    "No",
+    "Retro Engine v5 decompilation (Sonic Mania); needs your own data files."
+  ],
+  [
+    "gba",
+    "decomp",
+    "pret/pmd-red",
+    "https://github.com/pret/pmd-red",
+    "No",
+    "Pokémon Mystery Dungeon: Red Rescue Team decompilation."
+  ],
+  [
+    "firmware",
+    "",
+    "attify/firmware-analysis-toolkit",
+    "https://github.com/attify/firmware-analysis-toolkit",
+    "No",
+    "Firmware emulation toolkit for security research."
+  ],
+  [
+    "md",
+    "remake",
+    "RSDKModding/RSDKv4-Decompilation",
+    "https://github.com/RSDKModding/RSDKv4-Decompilation",
+    "No",
+    "Retro Engine v4 decompilation (Sonic 1/2 mobile remasters)."
+  ],
+  [
+    "firmware",
+    "",
+    "onekey-sec/unblob",
+    "https://github.com/onekey-sec/unblob",
+    "No",
+    "Extraction suite for firmware blobs. MIT."
+  ],
+  [
+    "gc",
+    "decomp",
+    "doldecomp/melee",
+    "https://github.com/doldecomp/melee",
+    "No",
+    "Super Smash Bros. Melee decompilation."
+  ],
+  [
+    "gc",
+    "decomp",
+    "zeldaret/tp",
+    "https://github.com/zeldaret/tp",
+    "No",
+    "Twilight Princess decompilation. CC0-1.0."
+  ],
+  [
+    "saturn",
+    "decomp",
+    "yaz0r/Azel",
+    "https://github.com/yaz0r/Azel",
+    "No",
+    "Panzer Dragoon Saga reimplementation. MIT."
+  ],
+  [
+    "app",
+    "",
+    "electron/asar",
+    "https://github.com/electron/asar",
+    "No",
+    "Electron ASAR archive tool. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "rizinorg/jsdec",
+    "https://github.com/rizinorg/jsdec",
+    "No",
+    "Simple decompiler for Rizin. It's capable of generating readable pseudo code even on handmade assembly."
+  ],
+  [
+    "pc",
+    "decomp",
+    "diasurgical/DevilutionX",
+    "https://github.com/diasurgical/DevilutionX",
+    "No",
+    "Diablo engine reconstruction; needs your own DIABDAT.MPQ."
+  ],
+  [
+    "pc",
+    "remake",
+    "fallout2-ce/fallout2-ce",
+    "https://github.com/fallout2-ce/fallout2-ce",
+    "No",
+    "Fallout 2 re-implementation; needs your own data."
+  ],
+  [
+    "tooling",
+    "",
+    "rizinorg/rizin",
+    "https://github.com/rizinorg/rizin",
+    "No",
+    "radare2 fork / RE framework. LGPL-3.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenTTD/OpenTTD",
+    "https://github.com/OpenTTD/OpenTTD",
+    "No",
+    "Transport Tycoon Deluxe open re-implementation."
+  ],
+  [
+    "gc",
+    "decomp",
+    "projectPiki/pikmin2",
+    "https://github.com/projectPiki/pikmin2",
+    "No",
+    "Pikmin 2 decompilation. CC0-1.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "N64Recomp/N64Recomp",
+    "https://github.com/N64Recomp/N64Recomp",
+    "No",
+    "Static recompiler from N64 binaries to C. MIT."
+  ],
+  [
+    "ds",
+    "decomp",
+    "pret/pokeheartgold",
+    "https://github.com/pret/pokeheartgold",
+    "No",
+    "Pokémon HeartGold/SoulSilver decompilation."
+  ],
+  [
+    "gb",
+    "decomp",
+    "zladx/LADX-Disassembly",
+    "https://github.com/zladx/LADX-Disassembly",
+    "No",
+    "Link's Awakening DX disassembly."
+  ],
+  [
+    "tooling",
+    "",
+    "icsharpcode/ILSpy",
+    "https://github.com/icsharpcode/ILSpy",
+    "No",
+    ".NET decompiler. MIT."
+  ],
+  [
+    "xbox",
+    "tools",
+    "xemu-project/xemu",
+    "https://github.com/xemu-project/xemu",
+    "No",
+    "Original Xbox emulator."
+  ],
+  [
+    "md",
+    "decomp",
+    "sonicretro/skdisasm",
+    "https://github.com/sonicretro/skdisasm",
+    "No",
+    "Sonic 3 & Knuckles disassembly."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenRA/OpenRA",
+    "https://github.com/OpenRA/OpenRA",
+    "No",
+    "Red Alert / C&C engine re-implementation. GPL-3.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "n64decomp/perfect_dark",
+    "https://github.com/n64decomp/perfect_dark",
+    "No",
+    "Perfect Dark decompilation. MIT."
+  ],
+  [
+    "firmware",
+    "",
+    "travisgoodspeed/md380tools",
+    "https://github.com/travisgoodspeed/md380tools",
+    "No",
+    "MD380 radio firmware patches."
+  ],
+  [
+    "tooling",
+    "",
+    "google/bindiff",
+    "https://github.com/google/bindiff",
+    "No",
+    "Binary diffing. Apache-2.0."
+  ],
+  [
+    "n64",
+    "remake",
+    "2ship2harkinian/2ship2harkinian",
+    "https://github.com/2ship2harkinian/2ship2harkinian",
+    "No",
+    "Majora's Mask PC port. CC0-1.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "perfect-dark-pc-port/perfect_dark",
+    "https://github.com/perfect-dark-pc-port/perfect_dark",
+    "No",
+    "Perfect Dark PC port from decomp. MIT."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "shdecompilations/silent-hill-decomp",
+    "https://github.com/shdecompilations/silent-hill-decomp",
+    "No",
+    "Silent Hill decompilation."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th09",
+    "https://github.com/N0zoM1z0/th09",
+    "Unverified",
+    "Touhou 9 source reconstruction (agent + IDA/Ghidra); README does not name REA. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th095",
+    "https://github.com/N0zoM1z0/th095",
+    "Unverified",
+    "Touhou 9.5 source reconstruction; README does not name REA. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th105",
+    "https://github.com/N0zoM1z0/th105",
+    "Unverified",
+    "Touhou 10.5 source reconstruction; README does not name REA. MIT."
+  ],
+  [
+    "pc",
+    "remake",
+    "N0zoM1z0/th08-web",
+    "https://github.com/N0zoM1z0/th08-web",
+    "Unverified",
+    "Browser port built on the th08 reconstruction. MIT."
+  ],
+  [
+    "pc",
+    "tools",
+    "N0zoM1z0/touhou-reconstruction-factory",
+    "https://github.com/N0zoM1z0/touhou-reconstruction-factory",
+    "Unverified",
+    "Agent pipeline used for the Touhou reconstructions."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/touhou-reverse-engineering",
+    "https://github.com/N0zoM1z0/touhou-reverse-engineering",
+    "No",
+    "Evidence-first IDA + Codex notes incl. runtime patch experiments; no REA mention. MIT."
+  ],
+  [
+    "pc",
+    "remake",
+    "AsyncFinn/rook",
+    "https://github.com/AsyncFinn/rook",
+    "No",
+    "Rust re-implementation of the Roblox engine, tested against Studio recordings; early. Apache-2.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "tallowmere/free-heroes4",
+    "https://github.com/tallowmere/free-heroes4",
+    "No",
+    "C++23 re-implementation of the Heroes of Might and Magic IV engine; needs your own GOG files. GPL-3.0."
+  ],
+  [
+    "app",
+    "",
+    "KarlssonChristoffer/DiskLens",
+    "https://github.com/KarlssonChristoffer/DiskLens",
+    "Yes",
+    "WinDirStat-style disk analyzer for Windows 11; REA used to study WinDirStat 2.5.0. GPL-3.0."
+  ],
+  [
+    "app",
+    "",
+    "LilZeeCN/zee-rp",
+    "https://github.com/LilZeeCN/zee-rp",
+    "Unverified",
+    "CLI + MCP for reading/writing Axure RP .rp files (author says REA was used; not in README). MIT."
+  ],
+  [
+    "app",
+    "",
+    "lxistired/ledger-reborn",
+    "https://github.com/lxistired/ledger-reborn",
+    "Yes",
+    "Local accounting app built after studying QuickBooks Desktop for Mac with REA. MIT."
+  ],
+  [
+    "app",
+    "",
+    "michaelshimeles/terminal-rs",
+    "https://github.com/michaelshimeles/terminal-rs",
+    "Yes",
+    "Bloomberg-style trading terminal in Rust; README mentions REA."
+  ],
+  [
+    "app",
+    "",
+    "GLinnik21/plx-native",
+    "https://github.com/GLinnik21/plx-native",
+    "No",
+    "Native Plex client for LG TVs (AI-assisted RE, no REA claim). GPL-3.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/photocraft",
+    "https://github.com/storytold/photocraft",
+    "No",
+    "People rebuilt Adobe Photoshop from scratch as free open-source software. Rust photo editor that tries to work like Photoshop without using Adobe’s code."
+  ],
+  [
+    "app",
+    "",
+    "sickpyramid/ReaFuse",
+    "https://github.com/sickpyramid/ReaFuse",
+    "Yes",
+    "Builds on REA to fuse two JS/TS source projects; alpha. MIT."
+  ],
+  [
+    "app",
+    "",
+    "laaielichter/Reverseport",
+    "https://github.com/laaielichter/Reverseport",
+    "Unverified",
+    "CLI + MCP that ports RE results to Godot/Unity/Unreal/three.js; says \"based on REA\". MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "0xshlomil/ida-free-mcp",
+    "https://github.com/0xshlomil/ida-free-mcp",
+    "Yes",
+    "Native IDA Free bridge referenced by REA's IDA provider. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "HexRaysSA/ida-mcp",
+    "https://github.com/HexRaysSA/ida-mcp",
+    "No",
+    "Official Hex-Rays MCP server for IDA. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "Nowng/rea-mcp",
+    "https://github.com/Nowng/rea-mcp",
+    "Yes",
+    "LM Studio plugin wrapping the REA MCP server for local models. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "alexmi256/rea-agent-docker",
+    "https://github.com/alexmi256/rea-agent-docker",
+    "Yes",
+    "Docker images for REA (Ghidra/Hopper/IDA variants; IDA not shipped). MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "cognixws/picode-rea",
+    "https://github.com/cognixws/picode-rea",
+    "Yes",
+    "PiCode extension exposing REA static-analysis tools. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "czcdr/dsh-plugin-rea",
+    "https://github.com/czcdr/dsh-plugin-rea",
+    "Yes",
+    "DeepSeek Harness adapter for the REA MCP server. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "sheilacraig/dsh-rea-mcp",
+    "https://github.com/sheilacraig/dsh-rea-mcp",
+    "Yes",
+    "Config-only DeepSeek Harness bundle that mounts REA. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "ya123-4/rea-dsh-plugin",
+    "https://github.com/ya123-4/rea-dsh-plugin",
+    "Yes",
+    "DeepSeek Harness plugin registering REA MCP tools."
+  ],
+  [
+    "tooling",
+    "",
+    "zhaofeng130/dsh-rea",
+    "https://github.com/zhaofeng130/dsh-rea",
+    "Yes",
+    "DeepSeek Harness adapter registering the REA Skill and tools."
+  ],
+  [
+    "tooling",
+    "",
+    "pablodiazjorge/rea-casebook",
+    "https://github.com/pablodiazjorge/rea-casebook",
+    "Yes",
+    "Claude Code mod logging REA evidence and requiring cited evidence_ids. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "jinshi666888/rea-playbook",
+    "https://github.com/jinshi666888/rea-playbook",
+    "Yes",
+    "Hands-on lab: minimal Electron target, evidence extraction, MCP probe. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "dav1dngy/era-agent",
+    "https://github.com/dav1dngy/era-agent",
+    "Unverified",
+    "Evidence-driven RE agent with a self-improvement lab; experimental. MIT."
+  ],
+  [
+    "security",
+    "",
+    "UnknownHacker1/rea-groundtruth",
+    "https://github.com/UnknownHacker1/rea-groundtruth",
+    "Yes",
+    "Compares REA reports with the actual code; one-command repros. MIT."
+  ],
+  [
+    "security",
+    "",
+    "az9713/REA-demo",
+    "https://github.com/az9713/REA-demo",
+    "Yes",
+    "REA analysing its own installed package with falsifiable predictions."
+  ],
+  [
+    "security",
+    "",
+    "pablodiazjorge/rea-lab",
+    "https://github.com/pablodiazjorge/rea-lab",
+    "Yes",
+    "Windows + Ghidra exercises and a pre-registered REA evaluation. MIT."
+  ],
+  [
+    "protocol",
+    "",
+    "EndLess728/MiTV-Remote",
+    "https://github.com/EndLess728/MiTV-Remote",
+    "Yes",
+    "README: MiLink protocol reverse engineered with REA from TV firmware."
+  ],
+  [
+    "protocol",
+    "",
+    "B-Howell/soundconnect-desktop",
+    "https://github.com/B-Howell/soundconnect-desktop",
+    "Yes",
+    "Repo description: built as a test drive of REA."
+  ],
+  [
+    "app",
+    "",
+    "Xiangyu-CAS/rea-capcut",
+    "https://github.com/Xiangyu-CAS/rea-capcut",
+    "Yes",
+    "README: video editor informed by REA-assisted research into CapCut/Jianying."
+  ],
+  [
+    "app",
+    "",
+    "chilliesdev/fmseasonhub-re",
+    "https://github.com/chilliesdev/fmseasonhub-re",
+    "Yes",
+    "README: analysis executed with rea-agents v6.7.0 (morluto/rea)."
+  ],
+  [
+    "pc",
+    "tools",
+    "rodneypantonial/sims3-modernization",
+    "https://github.com/rodneypantonial/sims3-modernization",
+    "Yes",
+    "README tool table lists REA (morluto/rea)."
+  ],
+  [
+    "firmware",
+    "",
+    "nicolvus/a6000-fw-decomp",
+    "https://github.com/nicolvus/a6000-fw-decomp",
+    "Yes",
+    "README: findings confirmed with REA/Ghidra traces."
+  ],
+  [
+    "tooling",
+    "",
+    "tanepiper/game-frame",
+    "https://github.com/tanepiper/game-frame",
+    "Yes",
+    "README: toolchain setup registers REA for the agent."
+  ],
+  [
+    "tooling",
+    "",
+    "agioracle/rea-unity-game",
+    "https://github.com/agioracle/rea-unity-game",
+    "Unverified",
+    "Description: \"Inspired by REA\"; no evidence it runs rea."
+  ],
+  [
+    "app",
+    "",
+    "Caho1/open-claude-ui",
+    "https://github.com/Caho1/open-claude-ui",
+    "Yes",
+    "High-fidelity Claude Desktop UI rebuild (30+ React components + interaction physics) via REA ASAR/AST analysis."
+  ],
+  [
+    "app",
+    "",
+    "glauberlima/open-scrantic",
+    "https://github.com/glauberlima/open-scrantic",
+    "Yes",
+    "Rust reimplementation of 1992 Johnny Castaway screensaver, reverse-engineered with REA + Claude Code."
+  ],
+  [
+    "tooling",
+    "",
+    "aicodeking/leanrea",
+    "https://github.com/aicodeking/leanrea",
+    "No",
+    "CLI-only alternative to REA; REA is used as a benchmark comparator, not as its analysis runtime."
+  ],
+  [
+    "tooling",
+    "",
+    "cranebeaker/coop-anything",
+    "https://github.com/cranebeaker/coop-anything",
+    "Yes",
+    "MCP server and skills to add co-op to single-player games by investigating entry points with REA."
+  ],
+  [
+    "tooling",
+    "",
+    "MiaAI-Lab/sparkDash",
+    "https://github.com/MiaAI-Lab/sparkDash",
+    "Yes",
+    "Multi-device dashboard that integrates REA analysis jobs and on-demand result loading."
+  ],
+  [
+    "pc",
+    "remake",
+    "carlhako/keen-clone",
+    "https://github.com/carlhako/keen-clone",
+    "Yes",
+    "Native Linux/SDL2 reimplementation of Commander Keen 1, function-level from KEEN1.EXE via REA + Ghidra."
+  ],
+  [
+    "pc",
+    "remake",
+    "NathanKanaeru/samp-client-re",
+    "https://github.com/NathanKanaeru/samp-client-re",
+    "Yes",
+    "Clean-room SA-MP 0.3.DL-R1 client reimplementation, architecture recovered with REA/Ghidra."
+  ],
+  [
+    "tooling",
+    "",
+    "orikami048/gea",
+    "https://github.com/orikami048/gea",
+    "No",
+    "MCP & CLI for game reverse engineering, asset extraction and Cocos/Three.js recreation; inspired by morluto/rea. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "Stijnus/dsh-rev-eng",
+    "https://github.com/Stijnus/dsh-rev-eng",
+    "Yes",
+    "DSH plugin packaging REA agent skills and optional MCP server for reverse engineering and Mac app building."
+  ],
+  [
+    "tooling",
+    "",
+    "CurLeaf/dsh-command-rea",
+    "https://github.com/CurLeaf/dsh-command-rea",
+    "Yes",
+    "DSH slash command /rea that routes reverse-engineering requests to the REA skill and MCP tools."
+  ],
+  [
+    "app",
+    "",
+    "storytold/vectorcraft",
+    "https://github.com/storytold/vectorcraft",
+    "No",
+    "Open-source vector drawing tool rebuilt from scratch to be like Adobe Illustrator. Pure Rust, no Adobe code."
+  ],
+  [
+    "app",
+    "",
+    "storytold/filmcraft",
+    "https://github.com/storytold/filmcraft",
+    "No",
+    "Free video editor rebuilt from scratch to work like Adobe Premiere Pro. Written in Rust, no Adobe code."
+  ],
+  [
+    "app",
+    "",
+    "storytold/lightcraft",
+    "https://github.com/storytold/lightcraft",
+    "No",
+    "Open-source photo manager and RAW developer rebuilt to be like Adobe Lightroom. Pure Rust."
+  ],
+  [
+    "app",
+    "",
+    "storytold/wordcraft",
+    "https://github.com/storytold/wordcraft",
+    "No",
+    "Clean-room Microsoft Word-style word processor in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/pdfcraft",
+    "https://github.com/storytold/pdfcraft",
+    "No",
+    "Clean-room PDF reader and editor in pure Rust. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "alexgaoth/awesome-reverse-engineered",
+    "https://github.com/alexgaoth/awesome-reverse-engineered",
+    "No",
+    "Big searchable catalog of 17,000+ open-source projects that exist because someone reverse-engineered a closed app, game, API or device. Has search site + MCP."
+  ],
+  [
+    "tooling",
+    "",
+    "SubmitGame/awesome-decomp-games",
+    "https://github.com/SubmitGame/awesome-decomp-games",
+    "No",
+    "Rated, auto-refreshed list of game decomps, static recomps, source ports and engine remakes. CC0/MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "wtsxDev/reverse-engineering",
+    "https://github.com/wtsxdev/reverse-engineering",
+    "No",
+    "Classic curated list of reverse engineering resources, tools and learning materials. ~10k stars."
+  ],
+  [
+    "tooling",
+    "",
+    "cyberkaida/reverse-engineering-assistant",
+    "https://github.com/cyberkaida/reverse-engineering-assistant",
+    "No",
+    "Another way to let AI control Ghidra (the free NSA reverse-engineering tool). Gives the AI small focused tools."
+  ],
+  [
+    "tooling",
+    "",
+    "radareorg/radare2-mcp",
+    "https://github.com/radareorg/radare2-mcp",
+    "No",
+    "Official MCP stdio server for radare2. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "radareorg/r2ai",
+    "https://github.com/radareorg/r2ai",
+    "No",
+    "LLM-based reversing plugin and tools for radare2. MIT."
+  ],
+  [
+    "pc",
+    "remake",
+    "openage/openage",
+    "https://github.com/openage/openage",
+    "No",
+    "Open-source engine reimplementation for Age of Empires II and other RTS. GPL-3.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/effectcraft",
+    "https://github.com/storytold/effectcraft",
+    "No",
+    "Motion graphics and visual effects tool rebuilt from scratch in the style of Adobe After Effects. Pure Rust."
+  ],
+  [
+    "app",
+    "",
+    "storytold/cadcraft",
+    "https://github.com/storytold/cadcraft",
+    "No",
+    "Open-source CAD and drafting program rebuilt from scratch to be like AutoCAD. Pure Rust."
+  ],
+  [
+    "app",
+    "",
+    "storytold/figcraft",
+    "https://github.com/storytold/figcraft",
+    "No",
+    "Free interface design and prototyping tool rebuilt from scratch to work like Figma. Pure Rust."
+  ],
+  [
+    "app",
+    "",
+    "storytold/designcraft",
+    "https://github.com/storytold/designcraft",
+    "No",
+    "Page layout and publishing editor rebuilt from scratch to be like Adobe InDesign. Pure Rust."
+  ],
+  [
+    "app",
+    "",
+    "storytold/deckcraft",
+    "https://github.com/storytold/deckcraft",
+    "No",
+    "Presentation software rebuilt from scratch to work like PowerPoint. Pure Rust."
+  ],
+  [
+    "app",
+    "",
+    "storytold/soundcraft",
+    "https://github.com/storytold/soundcraft",
+    "No",
+    "Digital audio workstation rebuilt from scratch to be like Pro Tools. Pure Rust."
+  ],
+  [
+    "app",
+    "",
+    "storytold/gridcraft",
+    "https://github.com/storytold/gridcraft",
+    "No",
+    "Spreadsheet rebuilt from scratch to work like Excel. Pure Rust."
+  ],
+  [
+    "tooling",
+    "",
+    "fosdickio/binary_ninja_mcp",
+    "https://github.com/fosdickio/binary_ninja_mcp",
+    "No",
+    "MCP server plugin that exposes Binary Ninja analysis (decompile, xrefs, rename, etc.) to LLM agents. GPL-3.0."
+  ],
+  [
+    "tooling",
+    "",
+    "zinja-coder/jadx-ai-mcp",
+    "https://github.com/zinja-coder/jadx-ai-mcp",
+    "No",
+    "MCP plugin for JADX that lets AI agents decompile, navigate and annotate Android APKs / DEX. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "JusticeRage/Gepetto",
+    "https://github.com/JusticeRage/Gepetto",
+    "No",
+    "IDA Pro plugin that queries language models to explain, rename and comment functions during reverse engineering. GPL-3.0."
+  ],
+  [
+    "tooling",
+    "",
+    "symgraph/GhidrAssist",
+    "https://github.com/symgraph/GhidrAssist",
+    "No",
+    "LLM extension for Ghidra that assists with renaming, explaining and analyzing decompiled code. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "albertan017/LLM4Decompile",
+    "https://github.com/albertan017/LLM4Decompile",
+    "No",
+    "Research models and tooling for LLM-based binary decompilation (open weights). MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "alphaSeclab/awesome-reverse-engineering",
+    "https://github.com/alphaSeclab/awesome-reverse-engineering",
+    "No",
+    "Large curated list of reverse-engineering resources and tools across Windows, Linux, macOS, Android, iOS and IoT (3500+ tools)."
+  ],
+  [
+    "tooling",
+    "",
+    "morluto/awesome-reverse-engineering",
+    "https://github.com/morluto/awesome-reverse-engineering",
+    "No",
+    "Curated starting point for RE tools and learning resources (binaries, apps, firmware, formats, protocols). Maintained by REA authors."
+  ],
+  [
+    "tooling",
+    "",
+    "nforest/awesome-decompilation",
+    "https://github.com/nforest/awesome-decompilation",
+    "No",
+    "Curated list of decompilation resources, papers, intermediate representations and related projects."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "SlickAmogus/silent-hill-decomp",
+    "https://github.com/SlickAmogus/silent-hill-decomp",
+    "No",
+    "Multiplatform port of Silent Hill 1 based on PSX decompilation."
+  ],
+  [
+    "ds",
+    "decomp",
+    "tangosdev/sm64ds-decomp",
+    "https://github.com/tangosdev/sm64ds-decomp",
+    "No",
+    "Byte-matching decompilation of Super Mario 64 DS."
+  ],
+  [
+    "pc",
+    "decomp",
+    "openblack/bw1-decomp",
+    "https://github.com/openblack/bw1-decomp",
+    "No",
+    "Decompilation of the PC game Black & White 1."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "TheRealestNwah/sotc-decomp",
+    "https://github.com/TheRealestNwah/sotc-decomp",
+    "No",
+    "Matching decompilation of Shadow of the Colossus (PS2 NTSC-U)."
+  ],
+  [
+    "ps2",
+    "remake",
+    "thiagordsfx/urban-reign-recomp",
+    "https://github.com/thiagordsfx/urban-reign-recomp",
+    "No",
+    "Static recompilation native PC port of Urban Reign (PS2) with 60 FPS and HD textures."
+  ],
+  [
+    "pc",
+    "remake",
+    "tmcleroy/cps2recomp",
+    "https://github.com/tmcleroy/cps2recomp",
+    "No",
+    "Native PC ports of Capcom CPS-2 arcade games via static recompilation."
+  ],
+  [
+    "xbox",
+    "remake",
+    "MysteriousAeon/rayman3-hd-recompiled",
+    "https://github.com/MysteriousAeon/rayman3-hd-recompiled",
+    "No",
+    "Native Windows static recompilation of Rayman 3 HD (Xbox 360); needs your own package."
+  ],
+  [
+    "switch",
+    "remake",
+    "smm2recomp/smm2recomp",
+    "https://github.com/smm2recomp/smm2recomp",
+    "No",
+    "Native multi-platform static recompilation of Super Mario Maker 2 (Switch v3.0.3); needs your own dump."
+  ],
+  [
+    "tooling",
+    "",
+    "giveen/decomp.anything",
+    "https://github.com/giveen/decomp.anything",
+    "Yes",
+    "Active fork of decomp.wtf with byte-matching decompiler and REA MCP bridge for PC binaries."
+  ],
+  [
+    "app",
+    "remake",
+    "monatis/okur",
+    "https://github.com/monatis/okur",
+    "No",
+    "Clean-room reimplementation of the JAWS screen reader, built by AI agents matching recorded speech."
+  ],
+  [
+    "n64",
+    "decomp",
+    "bryantmh/rush2recompiled",
+    "https://github.com/bryantmh/rush2recompiled",
+    "No",
+    "Static recompilation of Rush 2: Extreme Racing USA (N64) for native PC with widescreen and high FPS."
+  ],
+  [
+    "gc",
+    "remake",
+    "Hero88go/melee-unlocked",
+    "https://github.com/Hero88go/melee-unlocked",
+    "No",
+    "Native PC port of Super Smash Bros. Melee from its decompilation, with unlocked FPS and Slippi online."
+  ],
+  [
+    "n64",
+    "decomp",
+    "DinosaurPlanetRecomp/dino-recomp",
+    "https://github.com/DinosaurPlanetRecomp/dino-recomp",
+    "No",
+    "Static recompilation of the Dinosaur Planet N64 prototype into a native port with RT64 enhancements."
+  ],
+  [
+    "tooling",
+    "",
+    "DatanoiseTV/revenant",
+    "https://github.com/DatanoiseTV/revenant",
+    "No",
+    "LLM-powered automated reverse-engineering engine for abandoned firmware and software."
+  ],
+  [
+    "tooling",
+    "",
+    "Sage-is/CleanRoom",
+    "https://github.com/Sage-is/CleanRoom",
+    "No",
+    "Local Python reimplementation of REA: a DRY MCP server and CLI with pageable Evidence."
+  ],
+  [
+    "switch",
+    "remake",
+    "valentderah/totk-pc-recomp",
+    "https://github.com/valentderah/totk-pc-recomp",
+    "No",
+    "Static recompilation of The Legend of Zelda: Tears of the Kingdom (Switch) to native Windows x86-64 with Vulkan. Bring your own dump."
+  ],
+  [
+    "ps2",
+    "remake",
+    "gothamor/gta-vcs-recomp",
+    "https://github.com/gothamor/gta-vcs-recomp",
+    "No",
+    "Native Windows/Linux port of Grand Theft Auto: Vice City Stories (PS2) via static recompilation of the executable. Bring your own disc."
+  ],
+  [
+    "pc",
+    "decomp",
+    "yamahuser/mhfz-decomp",
+    "https://github.com/yamahuser/mhfz-decomp",
+    "No",
+    "Monster Hunter Frontier Z client reverse-engineering: function names, specs and tools. No Capcom code."
+  ],
+  [
+    "pc",
+    "remake",
+    "cheviman/outrunners-port",
+    "https://github.com/cheviman/outrunners-port",
+    "No",
+    "Native port of OutRunners (Sega arcade 1992) for PC and consoles, built on the matching C decompilation. Bring your own ROM."
+  ],
+  [
+    "tooling",
+    "",
+    "LostArtefacts/decomp-tools",
+    "https://github.com/LostArtefacts/decomp-tools",
+    "No",
+    "Tooling for matching decompilations of the Windows Tomb Raider games (TR2–TR5) using MSVC 5/6 under Wine."
+  ],
+  [
+    "ps2",
+    "remake",
+    "AsobiCodes/rac-rs",
+    "https://github.com/AsobiCodes/rac-rs",
+    "No",
+    "Native Windows/Linux port of Ratchet & Clank (PS2 2002) via static recompilation of the executable into Rust. Bring your own disc."
+  ],
+  [
+    "wii",
+    "remake",
+    "josiahg2502-glitch/BrawlRecompiled",
+    "https://github.com/josiahg2502-glitch/BrawlRecompiled",
+    "No",
+    "Native PC port of Super Smash Bros. Brawl (Wii) via static recompilation of PowerPC code with WiiCompiled. 4K, high FPS, mods support. Bring your own disc."
+  ],
+  [
+    "md",
+    "decomp",
+    "crabsmack/xmen2-pc",
+    "https://github.com/crabsmack/xmen2-pc",
+    "No",
+    "Native Windows/Linux port of X-Men 2: Clone Wars (Genesis 1995) from a full decompilation. Widescreen, high frame rate, up to 4P local/online. Bring your own ROM."
+  ],
+  [
+    "xbox",
+    "remake",
+    "i2kiselev/fm4-static-recomp",
+    "https://github.com/i2kiselev/fm4-static-recomp",
+    "No",
+    "Native Windows static recompilation of Forza Motorsport 4 (Xbox 360) using ShiftGlue. High FPS, DLSS/FSR, up to 4K. Bring your own disc."
+  ],
+  [
+    "md",
+    "remake",
+    "YuutaTsubasa/ChaotixRecompiled",
+    "https://github.com/YuutaTsubasa/ChaotixRecompiled",
+    "No",
+    "Native multi-platform static recompilation of Knuckles' Chaotix (Sega 32X 1995). True widescreen. Bring your own ROM."
+  ],
+  [
+    "switch",
+    "decomp",
+    "jmars125/xcx-recomp",
+    "https://github.com/jmars125/xcx-recomp",
+    "No",
+    "Native Windows static recompilation of Xenoblade Chronicles X: Definitive Edition (Switch). Bring your own dump."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "Yaz-Myst/ZOE-Recompiled",
+    "https://github.com/Yaz-Myst/ZOE-Recompiled",
+    "No",
+    "Native Windows port of Zone of the Enders (PS2) via static recompilation. Bring your own disc."
+  ],
+  [
+    "tooling",
+    "tools",
+    "MistblastClear/UEBulkExport-rpocket",
+    "https://github.com/MistblastClear/UEBulkExport-rpocket",
+    "No",
+    "Command-line bulk exporter for entire Unreal Engine .pak/.utoc/.ucas containers into textures, meshes, audio, etc."
+  ],
+  [
+    "tooling",
+    "tools",
+    "FurkanAnc/totk-launcher",
+    "https://github.com/FurkanAnc/totk-launcher",
+    "No",
+    "Launcher for the Tears of the Kingdom PC recompilation: settings, rebinding, achievements, save backups."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "C-GBL/P3FES-Decompilation",
+    "https://github.com/C-GBL/P3FES-Decompilation",
+    "No",
+    "Native Windows port of Persona 3 FES (PS2) built by statically recompiling the executable into C++."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "TekRantGaming/cartoon-network-racing-recompiled",
+    "https://github.com/TekRantGaming/cartoon-network-racing-recompiled",
+    "No",
+    "Native PC port of Cartoon Network Racing (PS2) via static recompilation. Widescreen, high FPS. Bring your own disc."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "cdetv/conker-live-recompiled",
+    "https://github.com/cdetv/conker-live-recompiled",
+    "No",
+    "Native Windows PC version of Conker: Live & Reloaded (Xbox) made by statically recompiling the original game."
+  ],
+  [
+    "pc",
+    "decomp",
+    "0xd34db8/LF2-decomp",
+    "https://github.com/0xd34db8/LF2-decomp",
+    "No",
+    "True 1:1 C++20 source decompilation and modernization of the original Little Fighter 2 (x86-32 MSVC)."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "TekRantGaming/muppet-racemania-recompiled",
+    "https://github.com/TekRantGaming/muppet-racemania-recompiled",
+    "No",
+    "Native PC port of Muppet RaceMania (PlayStation) via static recompilation. 16:9, 60 FPS."
+  ],
+  [
+    "pc",
+    "decomp",
+    "kazuyette/senjin-recomped",
+    "https://github.com/kazuyette/senjin-recomped",
+    "No",
+    "Static recompilation of Senjin Aleste (arcade APM3) to native Linux x86-64, plus Windows DLL replacement."
+  ],
+  [
+    "pc",
+    "decomp",
+    "timboat/demons-souls-recomp",
+    "https://github.com/timboat/demons-souls-recomp",
+    "No",
+    "Native Windows port of Demon's Souls (PS3) via ps3recomp static recompilation. Bring your own disc image."
+  ],
+  [
+    "tooling",
+    "",
+    "jaenster/setup-msvc",
+    "https://github.com/jaenster/setup-msvc",
+    "No",
+    "GitHub Action / CI helper to set up historical MSVC toolchains (6.0–2010) for byte-matching decomp and recomp work."
+  ],
+  [
+    "tooling",
+    "",
+    "yefan911/automated-recompilers",
+    "https://github.com/yefan911/automated-recompilers",
+    "No",
+    "Automated framework that translates console ROM executables into native PC applications via static recompilation."
+  ],
+  [
+    "pc",
+    "decomp",
+    "phys-winner/pc_decomp_ut3",
+    "https://github.com/phys-winner/pc_decomp_ut3",
+    "No",
+    "Unreal Tournament 3 statically recompiled to native Android ARM64 with a Win32/Direct3D 9 host layer."
+  ],
+  [
+    "pc",
+    "remake",
+    "thepoprock/mudbrick",
+    "https://github.com/thepoprock/mudbrick",
+    "No",
+    "Clean-room, open-source browser re-creation of Sid Meier's Civilization II (1996). MIT, written from scratch in TypeScript."
+  ],
+  [
+    "tooling",
+    "",
+    "zarvox32/vb-native-decompiler",
+    "https://github.com/zarvox32/vb-native-decompiler",
+    "No",
+    "Decompiles Visual Basic 5 and 6 native-code programs into VB source and verifies every procedure against the machine code."
+  ],
+  [
+    "pc",
+    "decomp",
+    "awkto/deadly-tide-decomp",
+    "https://github.com/awkto/deadly-tide-decomp",
+    "No",
+    "Reverse engineering and modern/WASM reimplementation of Deadly Tide (1996). No game data included."
+  ],
+  [
+    "pc",
+    "remake",
+    "NostalgiaRealm/A2-Racer-4",
+    "https://github.com/NostalgiaRealm/A2-Racer-4",
+    "No",
+    "Browser and desktop port of A2 Racer 4 (Davilex, 2000) with x86 code recompiled to WebAssembly and hand-rewritten menu."
+  ],
+  [
+    "n64",
+    "decomp",
+    "alemigav/re2-64-decomp",
+    "https://github.com/alemigav/re2-64-decomp",
+    "Yes",
+    "Black-box decomp of Resident Evil 2 (N64) with REA/Ghidra; 3638 functions and verification suite. No ROM."
+  ],
+  [
+    "xbox",
+    "remake",
+    "hk21x/pgr2-recomp",
+    "https://github.com/hk21x/pgr2-recomp",
+    "No",
+    "Native PC port of Project Gotham Racing 2 (Xbox) via static recompilation. Bring your own disc."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "OpenRAC/rac1-decomp",
+    "https://github.com/OpenRAC/rac1-decomp",
+    "No",
+    "Matching decompilation of Ratchet & Clank (PS2). Byte-identical C/C++ reconstruction."
+  ],
+  [
+    "switch",
+    "decomp",
+    "KevinBonnoron/xc2-decomp",
+    "https://github.com/KevinBonnoron/xc2-decomp",
+    "No",
+    "Matching decompilation of Xenoblade Chronicles 2 (Switch)."
+  ],
+  [
+    "n64",
+    "remake",
+    "RetroPulse03/WinBackRecomp",
+    "https://github.com/RetroPulse03/WinBackRecomp",
+    "No",
+    "Native PC port of WinBack: Covert Operations (N64) via static recompilation. ROM not included."
+  ],
+  [
+    "tooling",
+    "tools",
+    "BurnoutDecomp/BP-Decomp_Workflow",
+    "https://github.com/BurnoutDecomp/BP-Decomp_Workflow",
+    "No",
+    "Orchestration tools and workflow for the Burnout Paradise decompilation."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Shagg88/COGBox",
+    "https://github.com/Shagg88/COGBox",
+    "No",
+    "All-in-one static recompilation project for Xbox 360 Gears of War 2, 3 and Judgment to native Windows PC with custom renderer, high FPS, upscaling. Bring your own copy."
+  ],
+  [
+    "switch",
+    "remake",
+    "RussoPhone/tomodachi-ltd-recomp",
+    "https://github.com/RussoPhone/tomodachi-ltd-recomp",
+    "No",
+    "Unofficial alpha native PC port of Tomodachi Life: Living the Dream (Nintendo Switch) via static recompilation. Bring your own copy. Linux first."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "OpenRAC/rac5-sm-decomp",
+    "https://github.com/OpenRAC/rac5-sm-decomp",
+    "No",
+    "Matching decompilation workspace for Ratchet & Clank: Size Matters (PS2, USA SCUS-97615)."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "Megami-Decomps/smt3-decomp",
+    "https://github.com/Megami-Decomps/smt3-decomp",
+    "No",
+    "Matching decompilation of Shin Megami Tensei III: Nocturne (PS2)."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "NextrixVFX/Hydro-Recomp",
+    "https://github.com/NextrixVFX/Hydro-Recomp",
+    "No",
+    "WIP matching decompilation of Hydro Thunder Hurricane (Xbox 360 / XBLA) written in C++."
+  ],
+  [
+    "ps2",
+    "remake",
+    "TheBozos/ChampionsOfNorrath_Recomp",
+    "https://github.com/TheBozos/ChampionsOfNorrath_Recomp",
+    "No",
+    "Static recompilation of Champions of Norrath (PS2, USA SLUS-20565) to native PC code. Bring your own disc."
+  ],
+  [
+    "ps2",
+    "remake",
+    "Ptraaah/godhand-recompiled-android",
+    "https://github.com/Ptraaah/godhand-recompiled-android",
+    "No",
+    "God Hand (PS2) rebuilt to run natively on Android via static recompilation of game code to ARM. Bring your own copy."
+  ],
+  [
+    "pc",
+    "decomp",
+    "albovsky/nd-blackmoor-decomp",
+    "https://github.com/albovsky/nd-blackmoor-decomp",
+    "No",
+    "Source reconstruction of Nancy Drew: Curse of Blackmoor Manor (PC GAME.EXE): matching native C, x86 validated, with ARM64 macOS port. Game files not included."
+  ],
+  [
+    "app",
+    "remake",
+    "fabox-os/Pro-Wave",
+    "https://github.com/fabox-os/Pro-Wave",
+    "No",
+    "Open-source Rust DAW modelled on Logic Pro workflow; pure Rust + egui, clean-room."
+  ],
+  [
+    "tooling",
+    "",
+    "crowdere/Awesome-RE-MCP",
+    "https://github.com/crowdere/Awesome-RE-MCP",
+    "No",
+    "Curated list of reverse-engineering tools with MCP servers for AI-assisted analysis."
+  ],
+  [
+    "tooling",
+    "",
+    "gryszzz/reverse-engineer-everything",
+    "https://github.com/gryszzz/reverse-engineer-everything",
+    "Yes",
+    "Local investigation studio built on the REA engine for evidence-backed software analysis."
+  ],
+  [
+    "pc",
+    "decomp",
+    "isledecomp/racers",
+    "https://github.com/isledecomp/racers",
+    "No",
+    "Matching decompilation of LEGO Racers (1999 PC); almost fully decompiled, playable recompile. LGPL-3.0."
+  ],
+  [
+    "xbox",
+    "remake",
+    "sp00nznet/saintsrow",
+    "https://github.com/sp00nznet/saintsrow",
+    "No",
+    "Static recompilation of Saints Row (Xbox 360, 2006) to native x86-64 C++ via ReXGlue; boots to city. MIT."
+  ],
+  [
+    "pc",
+    "remake",
+    "mr-finster/vf3-recomp",
+    "https://github.com/mr-finster/vf3-recomp",
+    "No",
+    "Static recompilation of Virtua Fighter 3 (Sega Model 3, 1996) PowerPC to native PC; up to 6x, 120fps. Bring your own ROM."
+  ],
+  [
+    "pc",
+    "remake",
+    "pablocpas/OpenCMR2",
+    "https://github.com/pablocpas/OpenCMR2",
+    "No",
+    "Native multi-platform port of Colin McRae Rally 2.0 (PC, 2000) built on matching decompilation; SDL3, no game data included."
+  ],
+  [
+    "ps1",
+    "remake",
+    "AndrewAltimit/legend-of-legaia-re",
+    "https://github.com/AndrewAltimit/legend-of-legaia-re",
+    "No",
+    "From-scratch Rust reimplementation of Legend of Legaia (PS1, 1999) with Ghidra-traced assets and format docs; BYO disc."
+  ],
+  [
+    "md",
+    "remake",
+    "RuiNelson/StreetsOfRageProject",
+    "https://github.com/RuiNelson/StreetsOfRageProject",
+    "No",
+    "Streets of Rage (Mega Drive) recompilation project; needs your own ROM."
+  ],
+  [
+    "tooling",
+    "",
+    "sp00nznet/pcrecomp",
+    "https://github.com/sp00nznet/pcrecomp",
+    "No",
+    "Unified toolbox for static recompilation of old PC software (DOS, Win16/32/64 etc.) to modern native code."
+  ],
+  [
+    "tooling",
+    "",
+    "veritr1x/recomp-kit",
+    "https://github.com/veritr1x/recomp-kit",
+    "No",
+    "Static recompilation kit that turns 32-bit x86 Windows games into native apps for macOS/iOS/Android/Linux/Windows without emulator."
+  ],
+  [
+    "pc",
+    "remake",
+    "ectrc/dishonoredrecompiled",
+    "https://github.com/ectrc/dishonoredrecompiled",
+    "No",
+    "Functional (non-matching) rebuild of Dishonored PC (2012) Win32 executable with Claude agents; needs your own game files."
+  ],
+  [
+    "n64",
+    "decomp",
+    "RetroReversing/v-rally-decomp",
+    "https://github.com/RetroReversing/v-rally-decomp",
+    "No",
+    "Matching decompilation of V-Rally Edition 99 (N64 Europe); AI-assisted and verified against the original ROM."
+  ],
+  [
+    "n64",
+    "decomp",
+    "RetroReversing/turok-decomp",
+    "https://github.com/RetroReversing/turok-decomp",
+    "No",
+    "Partial matching decompilation of Turok: Dinosaur Hunter (N64 Europe); AI-assisted. Bring your own ROM."
+  ],
+  [
+    "switch",
+    "remake",
+    "linuxopt/mp4-recomp",
+    "https://github.com/linuxopt/mp4-recomp",
+    "No",
+    "Native Linux recompilation of Metroid Prime 4: Beyond from your own Switch dump."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "andrewnakas/thug-decomp",
+    "https://github.com/andrewnakas/thug-decomp",
+    "No",
+    "Matching decompilation of Tony Hawk's Underground (PS2)."
+  ],
+  [
+    "pc",
+    "remake",
+    "AksharDP/xc2-recomp",
+    "https://github.com/AksharDP/xc2-recomp",
+    "No",
+    "Static recompilation of Xenoblade Chronicles 2 to native Windows."
+  ],
+  [
+    "tooling",
+    "tools",
+    "MarkMcCaskey/dolphin-decomp-mcp",
+    "https://github.com/MarkMcCaskey/dolphin-decomp-mcp",
+    "No",
+    "MCP server and CLI for live debugging GameCube/Wii titles in Dolphin during decompilation."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "WeAreTommyBruh/Legaia2-Decomp",
+    "https://github.com/WeAreTommyBruh/Legaia2-Decomp",
+    "No",
+    "Matching decompilation of the closed-source PS2 game Legaia 2: Duel Saga (PAL)."
+  ],
+  [
+    "pc",
+    "remake",
+    "YuutaTsubasa/MarbleKnightsRecompiled",
+    "https://github.com/YuutaTsubasa/MarbleKnightsRecompiled",
+    "No",
+    "Static recompilation of the closed-source Apple Arcade game Marble Knights to native Windows."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "jkoehler11/stargate-alliance-decomp",
+    "https://github.com/jkoehler11/stargate-alliance-decomp",
+    "No",
+    "Decompilation of the closed-source Xbox prototype Stargate SG-1: The Alliance."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "OpenRAC/rac2-decomp",
+    "https://github.com/OpenRAC/rac2-decomp",
+    "No",
+    "Byte-exact reconstruction of the closed-source PS2 game Ratchet & Clank: Going Commando."
+  ],
+  [
+    "xbox",
+    "remake",
+    "MrPowerUp82/superman_returns_recomp",
+    "https://github.com/MrPowerUp82/superman_returns_recomp",
+    "No",
+    "Experimental static recompilation of the closed-source Xbox 360 game Superman Returns to PC."
+  ],
+  [
+    "ds",
+    "decomp",
+    "fuddlesworth/pokebw2",
+    "https://github.com/fuddlesworth/pokebw2",
+    "No",
+    "Decompilation of the closed-source Nintendo DS games Pokémon Black 2 and White 2."
+  ],
+  [
+    "pc",
+    "remake",
+    "Karlos-fr/fun-tracks-recomp-releases",
+    "https://github.com/Karlos-fr/fun-tracks-recomp-releases",
+    "No",
+    "Multi-platform releases of the decompilation/recompilation of the closed-source 1997 game Fun Tracks."
+  ],
+  [
+    "tooling",
+    "tools",
+    "storytold/craft-anything",
+    "https://github.com/storytold/craft-anything",
+    "No",
+    "Early-alpha Rust reverse-engineering and AI reconstruction workbench for websites, applications and games, with CLI/MCP and optional Ghidra/agent integration. MIT OR Apache-2.0; some runtime and agent integrations remain unvalidated."
+  ],
+  [
+    "pc",
+    "remake",
+    "BLSNCVS/Castlevania-Grimoire-of-Souls-Recomp",
+    "https://github.com/BLSNCVS/Castlevania-Grimoire-of-Souls-Recomp",
+    "No",
+    "Static recompilation of Castlevania: Grimoire of Souls (Apple Arcade / macOS) to run natively on Windows."
+  ],
+  [
+    "pc",
+    "remake",
+    "ccbury/MGSPOStaticRecomp",
+    "https://github.com/ccbury/MGSPOStaticRecomp",
+    "No",
+    "Static recompilation of Metal Gear Solid: Portable Ops (PSP) to native Windows, currently reaching in-game."
+  ],
+  [
+    "xbox",
+    "remake",
+    "itsbybanshee/wwe2k14-pc",
+    "https://github.com/itsbybanshee/wwe2k14-pc",
+    "No",
+    "Static recomp of WWE 2K14 (Xbox 360) for PC with launcher, mods, higher resolutions and modern controls."
+  ],
+  [
+    "tooling",
+    "tools",
+    "lemonadesaltbagel/crab",
+    "https://github.com/lemonadesaltbagel/crab",
+    "No",
+    "MCP-powered toolkit for black-box observation and clean-room reimplementation of software from behavior only, never from code."
+  ],
+  [
+    "tooling",
+    "tools",
+    "ValveResourceFormat/Source2Mcp",
+    "https://github.com/ValveResourceFormat/Source2Mcp",
+    "No",
+    "MCP server that drives Source 2 games (CS2, Deadlock, Dota 2) over VConsole2: launch, console commands, camera and screenshots."
+  ],
+  [
+    "app",
+    "remake",
+    "Dicklesworthstone/frankentorch",
+    "https://github.com/Dicklesworthstone/frankentorch",
+    "No",
+    "Memory-safe clean-room Rust reimplementation of PyTorch aiming for full behavioral parity with deterministic autograd."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Open-BFME/Open-BFME-1",
+    "https://github.com/Open-BFME/Open-BFME-1",
+    "No",
+    "Matching decompilation of The Lord of the Rings: The Battle for Middle-earth 1 (PC, 2004); C++ that rebuilds the retail EXE byte-for-byte."
+  ],
+  [
+    "pc",
+    "decomp",
+    "LostArtefacts/tr01",
+    "https://github.com/LostArtefacts/tr01",
+    "No",
+    "Matching decompilation of Tomb Raider (1996) DOS version; C/assembly that compiles to the original TOMB.EXE bytes."
+  ],
+  [
+    "tooling",
+    "tools",
+    "exoteric33/ps2-native-recomp",
+    "https://github.com/exoteric33/ps2-native-recomp",
+    "No",
+    "PS2 static recompiler: turns a disc image you own into a native Windows/Linux program (builds on ps2-web-recomp). 21 games tested so far."
+  ],
+  [
+    "pc",
+    "remake",
+    "Mava-b/folklore-decomp",
+    "https://github.com/Mava-b/folklore-decomp",
+    "No",
+    "Native Windows port of Folklore (PS3, 2007) via static recompilation with ps3recomp. 60 FPS, ultrawide, higher resolution. Bring your own disc."
+  ],
+  [
+    "gc",
+    "decomp",
+    "karamzov123/fzero-gx-decomp",
+    "https://github.com/karamzov123/fzero-gx-decomp",
+    "No",
+    "Matching decompilation of F-Zero GX (GameCube NTSC-U, GFZE01). Bring your own copy; no assets included."
+  ],
+  [
+    "saturn",
+    "remake",
+    "mattkuhnQAAI/sfiii-native",
+    "https://github.com/mattkuhnQAAI/sfiii-native",
+    "No",
+    "Experimental native PC static recompilation of Shining Force III (Sega Saturn) Scenarios 1–3. Widescreen preview; needs your own discs."
+  ],
+  [
+    "tooling",
+    "",
+    "1llu50ry/mcp-reverse",
+    "https://github.com/1llu50ry/mcp-reverse",
+    "No",
+    "MCP server that aggregates reverse-engineering tools (Ghidra, IDA, etc.) and a large skill knowledge base for AI agents."
+  ],
+  [
+    "gc",
+    "remake",
+    "Trick230/DualizeRecomp",
+    "https://github.com/Trick230/DualizeRecomp",
+    "No",
+    "Native static recompilation of NiGHTS: Journey of Dreams (Wii). Bring your own dump."
+  ],
+  [
+    "switch2",
+    "remake",
+    "NotRexed/Hookshot",
+    "https://github.com/NotRexed/Hookshot",
+    "No",
+    "Static recompilation of the Nintendo Switch 2 Ocarina of Time remake to native Windows with Vulkan. Bring your own dump."
+  ],
+  [
+    "switch",
+    "remake",
+    "peiikai/LASRecomp",
+    "https://github.com/peiikai/LASRecomp",
+    "No",
+    "Static recompilation of The Legend of Zelda: Link's Awakening (Switch 2019) to native Windows/macOS/Linux. Bring your own dump."
+  ],
+  [
+    "switch2",
+    "remake",
+    "drakolordx7/switch2-recomp",
+    "https://github.com/drakolordx7/switch2-recomp",
+    "No",
+    "Static recompilation of Pokémon Pokopia (Switch 2) to native Windows with Vulkan. Bring your own dump."
+  ],
+  [
+    "tooling",
+    "tools",
+    "jaenster/ghidra-reconstruct",
+    "https://github.com/jaenster/ghidra-reconstruct",
+    "No",
+    "Turns Ghidra decompiler output into clean, namespaced, recompilable C++ source with transform passes."
+  ],
+  [
+    "switch2",
+    "remake",
+    "Lucas-blip-png/dkb-pc-recomp",
+    "https://github.com/Lucas-blip-png/dkb-pc-recomp",
+    "No",
+    "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Tutorial renders; bring your own dump."
+  ],
+  [
+    "ps2",
+    "remake",
+    "TheBozos/VP2S_Recomp",
+    "https://github.com/TheBozos/VP2S_Recomp",
+    "No",
+    "Native PC port of Valkyrie Profile 2: Silmeria (PS2) via static recompilation with PS2Recomp. Bring your own disc."
+  ],
+  [
+    "snes",
+    "remake",
+    "MrJackSpade/SuperMetroidDecomp",
+    "https://github.com/MrJackSpade/SuperMetroidDecomp",
+    "No",
+    "C# source port / reimplementation of Super Metroid (SNES) with extracted assets. Bring your own ROM."
+  ],
+  [
+    "gc",
+    "decomp",
+    "dev-camo/shadow-decomp",
+    "https://github.com/dev-camo/shadow-decomp",
+    "No",
+    "Work-in-progress matching decompilation of Shadow the Hedgehog (GameCube). Bring your own copy."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "raulcorreia7/bof3-decomp",
+    "https://github.com/raulcorreia7/bof3-decomp",
+    "No",
+    "Matching decompilation of Breath of Fire III (US, PlayStation)."
+  ],
+  [
+    "pc",
+    "decomp",
+    "LuckyLuke00/sadx-decomp",
+    "https://github.com/LuckyLuke00/sadx-decomp",
+    "No",
+    "Matching decompilation of the 2014 Steam release of Sonic Adventure DX."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "cdlewis/snowboardkidsplus-decomp",
+    "https://github.com/cdlewis/snowboardkidsplus-decomp",
+    "No",
+    "Matching decompilation of Snowboard Kids Plus (PSX)."
+  ],
+  [
+    "tooling",
+    "",
+    "morluto/rea",
+    "https://github.com/morluto/rea",
+    "Unverified",
+    "REA toolkit itself, not an independent project claiming to use REA. Evidence-oriented CLI/MCP; third-party engines and licenses are separate."
+  ],
+  [
+    "tooling",
+    "",
+    "zhaoxuya520/reverse-skill",
+    "https://github.com/zhaoxuya520/reverse-skill",
+    "Unverified",
+    "Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows."
+  ],
+  [
+    "tooling",
+    "",
+    "SimoneAvogadro/android-reverse-engineering-skill",
+    "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+    "Unverified",
+    "Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation."
+  ],
+  [
+    "security",
+    "",
+    "ljagiello/ctf-skills",
+    "https://github.com/ljagiello/ctf-skills",
+    "Unverified",
+    "CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups."
+  ],
+  [
+    "tooling",
+    "",
+    "P4nda0s/reverse-skills",
+    "https://github.com/P4nda0s/reverse-skills",
+    "Unverified",
+    "Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README."
+  ],
+  [
+    "tooling",
+    "",
+    "LING71671/open-reverselab",
+    "https://github.com/LING71671/open-reverselab",
+    "Unverified",
+    "Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer."
+  ],
+  [
+    "tooling",
+    "",
+    "androguard/androguard",
+    "https://github.com/androguard/androguard",
+    "Unverified",
+    "Python framework for APK/DEX structure and cross-reference analysis; development-branch capabilities may differ from PyPI releases."
+  ],
+  [
+    "tooling",
+    "",
+    "sensepost/objection",
+    "https://github.com/sensepost/objection",
+    "Unverified",
+    "Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications."
+  ],
+  [
+    "tooling",
+    "",
+    "unicorn-engine/unicorn",
+    "https://github.com/unicorn-engine/unicorn",
+    "Unverified",
+    "Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments."
+  ],
+  [
+    "tooling",
+    "",
+    "pwndbg/pwndbg",
+    "https://github.com/pwndbg/pwndbg",
+    "Unverified",
+    "GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage."
+  ],
+  [
+    "tooling",
+    "",
+    "Gallopsled/pwntools",
+    "https://github.com/Gallopsled/pwntools",
+    "Unverified",
+    "Python framework for CTF experiments and binary-analysis automation; component licenses vary."
+  ],
+  [
+    "tooling",
+    "",
+    "zinja-coder/jadx-mcp-server",
+    "https://github.com/zinja-coder/jadx-mcp-server",
+    "Unverified",
+    "MCP server that exposes Android decompilation context through the companion JADX-AI-MCP plugin."
+  ],
+  [
+    "tooling",
+    "",
+    "dnakov/frida-mcp",
+    "https://github.com/dnakov/frida-mcp",
+    "Unverified",
+    "Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility."
+  ],
+  [
+    "tooling",
+    "",
+    "P4nda0s/IDA-NO-MCP",
+    "https://github.com/P4nda0s/IDA-NO-MCP",
+    "Unverified",
+    "Exports IDA decompilation and call relationships into agent-readable files; no explicit root license file was found."
+  ],
+  [
+    "security",
+    "",
+    "MobSF/Mobile-Security-Framework-MobSF",
+    "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+    "Unverified",
+    "Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine."
+  ],
+  [
+    "tooling",
+    "",
+    "Jakeschincariol/replica-skill",
+    "https://github.com/Jakeschincariol/replica-skill",
+    "Unverified",
+    "A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity."
+  ],
+  [
+    "tooling",
+    "",
+    "WhiteNightShadow/hello_js_reverse_skill",
+    "https://github.com/WhiteNightShadow/hello_js_reverse_skill",
+    "Unverified",
+    "A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence."
+  ],
+  [
+    "tooling",
+    "",
+    "Fausto-404/js-reverse-automation--skill",
+    "https://github.com/Fausto-404/js-reverse-automation--skill",
+    "Unverified",
+    "An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation."
+  ],
+  [
+    "tooling",
+    "",
+    "ChromeDevTools/chrome-devtools-mcp",
+    "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "Unverified",
+    "Official Chrome DevTools integration for agent-driven browser inspection, network debugging, performance traces and automation."
+  ],
+  [
+    "tooling",
+    "",
+    "microsoft/playwright-mcp",
+    "https://github.com/microsoft/playwright-mcp",
+    "Unverified",
+    "Official Playwright MCP server for structured accessibility-based browser interaction and exploratory testing."
+  ],
+  [
+    "tooling",
+    "",
+    "microsoft/playwright-cli",
+    "https://github.com/microsoft/playwright-cli",
+    "Unverified",
+    "Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing."
+  ],
+  [
+    "tooling",
+    "",
+    "j4k0xb/webcrack",
+    "https://github.com/j4k0xb/webcrack",
+    "Unverified",
+    "JavaScript deobfuscation and bundle-unpacking tool for supported obfuscator.io, webpack and Browserify patterns."
+  ],
+  [
+    "tooling",
+    "",
+    "pionxzh/wakaru",
+    "https://github.com/pionxzh/wakaru",
+    "Unverified",
+    "JavaScript decompiler and bundle unpacker that recovers readable modules and modern syntax from minified or transpiled production builds."
+  ],
+  [
+    "tooling",
+    "",
+    "WhiteNightShadow/camoufox-reverse-mcp",
+    "https://github.com/WhiteNightShadow/camoufox-reverse-mcp",
+    "Unverified",
+    "Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification."
+  ],
+  [
+    "tooling",
+    "",
+    "WebAssembly/wabt",
+    "https://github.com/WebAssembly/wabt",
+    "Unverified",
+    "WebAssembly toolkit for binary/text conversion, validation, disassembly, interpretation and C translation."
+  ],
+  [
+    "tooling",
+    "",
+    "webrecorder/browsertrix-crawler",
+    "https://github.com/webrecorder/browsertrix-crawler",
+    "Unverified",
+    "High-fidelity browser-based crawler that captures web content through CDP inside a standalone container."
+  ],
+  [
+    "security",
+    "",
+    "RyanDFIR/hindsight",
+    "https://github.com/RyanDFIR/hindsight",
+    "Unverified",
+    "Browser-forensics parser that correlates Chromium and Firefox profile artifacts into timelines and exportable reports."
+  ],
+  [
+    "security",
+    "",
+    "doyensec/electronegativity",
+    "https://github.com/doyensec/electronegativity",
+    "Unverified",
+    "Archived Electron static-analysis scanner for security misconfigurations and anti-patterns."
+  ],
+  [
+    "security",
+    "",
+    "doyensec/ElectroNG",
+    "https://github.com/doyensec/ElectroNG",
+    "Unverified",
+    "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns."
+  ],
+  [
+    "pc",
+    "remake",
+    "vahokif/I26",
+    "https://github.com/vahokif/I26",
+    "No",
+    "Godot engine reimplementation of Interstate '76 (1997)."
+  ],
+  [
+    "xbox",
+    "remake",
+    "NoRain211/doaxvb-re",
+    "https://github.com/NoRain211/doaxvb-re",
+    "No",
+    "Static recompilation of Dead or Alive Xtreme Beach Volleyball (Xbox) to native Windows/macOS/Linux."
+  ],
+  [
+    "tooling",
+    "",
+    "n-delic/decompdecomp",
+    "https://github.com/n-delic/decompdecomp",
+    "No",
+    "Desktop app where AI agents perform matching decompilations of games you own into byte-identical C/C++."
+  ],
+  [
+    "switch2",
+    "remake",
+    "sostenesfreitas/ocarina-recomp",
+    "https://github.com/sostenesfreitas/ocarina-recomp",
+    "No",
+    "Static recompilation of the Nintendo Switch 2 Ocarina of Time remake into a native Windows program with Vulkan. Bring your own dump."
+  ],
+  [
+    "tooling",
+    "",
+    "qybaihe/bla",
+    "https://github.com/qybaihe/bla",
+    "No",
+    "Open-source MCP and CLI that hardens build artifacts with decoys and exhaustion payloads against AI reverse-engineering agents like REA, while preserving full runtime behavior."
+  ],
+  [
+    "gc",
+    "remake",
+    "Odrannnn/MetroidPrime2Port",
+    "https://github.com/Odrannnn/MetroidPrime2Port",
+    "No",
+    "Native multi-platform port of Metroid Prime 2: Echoes (GameCube) built from the PrimeDecomp decompilation; uses Aurora/SDL3/WebGPU. Bring your own disc image; no game assets included."
+  ],
+  [
+    "gc",
+    "remake",
+    "Odrannnn/MetroidPrimePort",
+    "https://github.com/Odrannnn/MetroidPrimePort",
+    "No",
+    "Native multi-platform port of Metroid Prime (GameCube) built from the PrimeDecomp decompilation; uses Aurora. Bring your own disc; supports remastered model import."
+  ],
+  [
+    "xbox",
+    "remake",
+    "ElKev118/ghostrecon2-recomp",
+    "https://github.com/ElKev118/ghostrecon2-recomp",
+    "No",
+    "Native Windows port of Tom Clancy's Ghost Recon 2 (original Xbox) via static recompilation with xboxrecomp; Vulkan renderer. Bring your own disc."
+  ],
+  [
+    "xbox",
+    "remake",
+    "ElKev118/summitstrike-recomp",
+    "https://github.com/ElKev118/summitstrike-recomp",
+    "No",
+    "Native Windows port of Tom Clancy's Ghost Recon 2: Summit Strike (Xbox) via static recompilation. Bring your own disc."
+  ],
+  [
+    "n64",
+    "remake",
+    "TK22-26/JetForceGemini-Recomp",
+    "https://github.com/TK22-26/JetForceGemini-Recomp",
+    "No",
+    "Native Windows recompilation of Jet Force Gemini (N64 1999). Supports USA/PAL/Japan ROMs; requires your own dump."
+  ],
+  [
+    "tooling",
+    "",
+    "seifhassine/REasy",
+    "https://github.com/seifhassine/REasy",
+    "No",
+    "Modding toolkit for Capcom RE Engine games (RE2/RE4/MH Wilds etc.). Edit scenes, meshes, materials, PAK files."
+  ],
+  [
+    "tooling",
+    "",
+    "andrewnakas/recompsoftware",
+    "https://github.com/andrewnakas/recompsoftware",
+    "No",
+    "Live tracker for decompilation, static recompilation, clean-room and preservation projects (recompsoftware.com)."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "Destinity13/TimeSplitters-2-Native-Linux-Recomp",
+    "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
+    "No",
+    "Static recompilation of TimeSplitters 2 (PS2 NTSC-U) into a native Linux/Steam Deck executable with PCSX2 GS/SPU2 bridge, 60 FPS, true 16:9, verified against PCSX2."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "phobos665/split2-recomp",
+    "https://github.com/phobos665/split2-recomp",
+    "No",
+    "Static recompilation of TimeSplitters 2 (original Xbox) into native Windows/macOS/Linux builds using DirectXbox-Recomp; bring your own disc."
+  ],
+  [
+    "n64",
+    "decomp",
+    "RetroReversing/penny-racers-decomp",
+    "https://github.com/RetroReversing/penny-racers-decomp",
+    "No",
+    "Saved decompdecomp project for Penny Racers (N64): AI agents matched 222/1111 functions byte-for-byte with the original KMC GCC 2.7.2 compiler."
+  ],
+  [
+    "switch2",
+    "decomp",
+    "RealZotto/oot2-native",
+    "https://github.com/RealZotto/oot2-native",
+    "No",
+    "Native Windows recompilation of The Legend of Zelda: Ocarina of Time Remake (Nintendo Switch 2). Bring your own dump."
+  ],
+  [
+    "switch2",
+    "decomp",
+    "Dittobyte/Recompia",
+    "https://github.com/Dittobyte/Recompia",
+    "No",
+    "Native Windows/Linux recompilation of Pokémon Pokopia (Nintendo Switch 2) with multiplayer, modding and higher resolutions. Bring your own game files."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "RenanQueiroz/mcla-recomp",
+    "https://github.com/RenanQueiroz/mcla-recomp",
+    "No",
+    "Static recompilation of Midnight Club: Los Angeles Complete Edition (Xbox 360) into native PC and PS5 builds. Build from your own disc image."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "comoria08/defjam_recomp",
+    "https://github.com/comoria08/defjam_recomp",
+    "No",
+    "Static recompilation of Def Jam: Fight for NY (original Xbox) into a native Windows executable. Build from your own disc."
+  ],
+  [
+    "n64",
+    "decomp",
+    "fliperama86/cvlod_recomp",
+    "https://github.com/fliperama86/cvlod_recomp",
+    "No",
+    "N64Recomp-based native recompilation of Castlevania: Legacy of Darkness (Nintendo 64). Bring your own ROM."
+  ],
+  [
+    "n64",
+    "remake",
+    "HarvestMoon64Recomp/HarvestMoon64Recomp",
+    "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp",
+    "No",
+    "Native PC port of Harvest Moon 64 (N64, 1999) via N64Recomp static recompilation; RT64 renderer, widescreen, mod support. Needs your own ROM."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenReliant/openreliant",
+    "https://github.com/OpenReliant/openreliant",
+    "No",
+    "Open-source engine reimplementation of StarLancer (2000) in Zig + SDL3. Needs your own game files. Adds modern resolutions, lighting, mods."
+  ],
+  [
+    "tooling",
+    "",
+    "sp00nznet/snesrecomp",
+    "https://github.com/sp00nznet/snesrecomp",
+    "No",
+    "Drop-in SNES hardware runtime (PPU, APU, DMA) for static recompilation projects. Based on LakeSnes. Alpha."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "Megami-Decomps/raidou-decomp",
+    "https://github.com/Megami-Decomps/raidou-decomp",
+    "No",
+    "Matching decompilation of Shin Megami Tensei: Devil Summoner Raidou Kuzunoha vs. the Soulless Army and Raidou Kuzunoha vs. King Abaddon (PS2). Builds byte-identical to retail; needs your own discs."
+  ],
+  [
+    "pc",
+    "decomp",
+    "bmbelo87/decomp-it-up-Perfect-Collection",
+    "https://github.com/bmbelo87/decomp-it-up-Perfect-Collection",
+    "No",
+    "C recompilation of Pump It Up Perfect Collection (DOS PIU.EXE from Dec 18 2000). Functional rebuild with modern ports; needs your own game data."
+  ],
+  [
+    "ps2",
+    "remake",
+    "Renzo-MGRR/Tenkaichi3Decomp",
+    "https://github.com/Renzo-MGRR/Tenkaichi3Decomp",
+    "No",
+    "PS3 port of Dragon Ball Z: Budokai Tenkaichi 3 based on an existing decompilation. Needs your own game files."
+  ],
+  [
+    "saturn",
+    "decomp",
+    "indieindie7/congo-decomp",
+    "https://github.com/indieindie7/congo-decomp",
+    "No",
+    "Names-only decompilation of Congo The Movie: The Lost City of Zinj (Sega Saturn). Ghidra function names and funcinfo; no game data included."
+  ],
+  [
+    "wii",
+    "decomp",
+    "frootloops-1/SlopSportsResort",
+    "https://github.com/frootloops-1/SlopSportsResort",
+    "No",
+    "AI-assisted decompilation of Wii Sports Resort. Work in progress; bring your own ROM."
+  ],
+  [
+    "tooling",
+    "",
+    "austinkregel/corpus_mcp",
+    "https://github.com/austinkregel/corpus_mcp",
+    "No",
+    "MCP server for semantic search over Ghidra decompilations, Lua corpora, docs and project memory to speed up reverse engineering."
+  ],
+  [
+    "protocol",
+    "",
+    "ethanntann/massage-chair-mcp",
+    "https://github.com/ethanntann/massage-chair-mcp",
+    "No",
+    "MCP server that lets an AI agent control an OSIM uDiva3 massage chair via a reverse-engineered Bluetooth LE protocol from the official app."
+  ],
+  [
+    "tooling",
+    "",
+    "romangalaxys10-spec/zcode-rea",
+    "https://github.com/romangalaxys10-spec/zcode-rea",
+    "Yes",
+    "ZCode plugin wrapping the official REA MCP so agents can reverse-engineer binaries, JS, .NET and websites with evidence."
+  ],
+  [
+    "tooling",
+    "",
+    "sosiman/re-code-mode",
+    "https://github.com/sosiman/re-code-mode",
+    "No",
+    "Layered reverse-engineering toolbox (radare2, binwalk etc.) for AI agents via UTCP Code Mode, filtering large outputs locally."
+  ],
+  [
+    "tooling",
+    "",
+    "SwitchRECOMP-Dev/Switch2RECOMP",
+    "https://github.com/SwitchRECOMP-Dev/Switch2RECOMP",
+    "No",
+    "Static recompiler for Nintendo Switch and Switch 2 games by MZ Labs; translates ARM64 code to native C for Windows/Linux."
+  ],
+  [
+    "switch2",
+    "remake",
+    "SerenityG4K/SpaceAnimalsRecomp",
+    "https://github.com/SerenityG4K/SpaceAnimalsRecomp",
+    "No",
+    "Static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app from your own copy."
+  ],
+  [
+    "pc",
+    "remake",
+    "gminustwo/RondoRecomp",
+    "https://github.com/gminustwo/RondoRecomp",
+    "No",
+    "Static recompilation of Castlevania: Rondo of Blood (PC Engine Super CD-ROM²) into a native PC application."
+  ],
+  [
+    "gc",
+    "decomp",
+    "octavioCuatrochio/nfsu2-gcpc",
+    "https://github.com/octavioCuatrochio/nfsu2-gcpc",
+    "No",
+    "Behavior-equivalent rewrite of Need for Speed: Underground 2 using GameCube debug symbols and the PC executable."
+  ],
+  [
+    "xbox",
+    "remake",
+    "YuutaTsubasa/Free-Riders-Recompiled",
+    "https://github.com/YuutaTsubasa/Free-Riders-Recompiled",
+    "No",
+    "Unofficial static recompilation of Sonic Free Riders (Xbox 360) for Windows, Linux and Android; needs your own disc. GPL-3.0."
+  ],
+  [
+    "firmware",
+    "",
+    "mwdmwd/sc26re",
+    "https://github.com/mwdmwd/sc26re",
+    "No",
+    "Experimental open-source firmware reimplementation and RE tools for the 2026 Steam Controller."
+  ],
+  [
+    "tooling",
+    "tools",
+    "itsgrimetime/decomp-me-mcp",
+    "https://github.com/itsgrimetime/decomp-me-mcp",
+    "No",
+    "MCP server letting AI agents fetch, compile and improve matching decompilation scratches on decomp.me."
+  ],
+  [
+    "pc",
+    "decomp",
+    "LemonHaze420/shenmue",
+    "https://github.com/LemonHaze420/shenmue",
+    "No",
+    "C/C++ reimplementation of Shenmue I & II (Dreamcast, Xbox, PC) derived from a completed decompilation project."
+  ],
+  [
+    "switch",
+    "remake",
+    "Zexyen/Witch-Time",
+    "https://github.com/Zexyen/Witch-Time",
+    "No",
+    "Unofficial static recompilation of Bayonetta 3 (Nintendo Switch) to native Windows/Linux. Bring your own dump."
+  ],
+  [
+    "switch",
+    "remake",
+    "Revivedx/SavageWindRecomp",
+    "https://github.com/Revivedx/SavageWindRecomp",
+    "No",
+    "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch v1.9.0) to native Windows/Linux. Bring your own dump."
+  ],
+  [
+    "switch",
+    "remake",
+    "captainj-sparrow/astral-chain-pc-recomp",
+    "https://github.com/captainj-sparrow/astral-chain-pc-recomp",
+    "No",
+    "Static recompilation of Astral Chain (Nintendo Switch) to native Windows with Vulkan renderer. Bring your own dump."
+  ],
+  [
+    "switch",
+    "remake",
+    "yozander2009-stack/Metroid-Dread-Recomp",
+    "https://github.com/yozander2009-stack/Metroid-Dread-Recomp",
+    "No",
+    "Static recompilation of Metroid Dread (Switch 2.1.0) to native Windows/Linux. Bring your own dump."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Minuteworld94/Dawn-of-the-dragon-recomp",
+    "https://github.com/Minuteworld94/Dawn-of-the-dragon-recomp",
+    "No",
+    "Static recompilation of The Legend of Spyro: Dawn of the Dragon (Xbox 360) to native Windows. Bring your own disc."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Subarasheese/pwrstn-decomp",
+    "https://github.com/Subarasheese/pwrstn-decomp",
+    "No",
+    "Decompilation of Power Stone (Dreamcast). Rebuilds the executable byte for byte; no game data included."
+  ],
+  [
+    "pc",
+    "decomp",
+    "dudhasch/ff7-pc-decomp",
+    "https://github.com/dudhasch/ff7-pc-decomp",
+    "No",
+    "Final Fantasy VII (PC, 1998): C/C++ source that rebuilds a byte-identical retail ff7.exe with the original 1997 toolchain."
+  ],
+  [
+    "tooling",
+    "",
+    "abedegno/borland-reborn",
+    "https://github.com/abedegno/borland-reborn",
+    "No",
+    "Borland's DOS compilers recovered as source that rebuilds the original binaries byte for byte. First: Borland C++ 2.0 BCC.EXE."
+  ],
+  [
+    "ps1",
+    "remake",
+    "carlhako/puchicarat-recomp",
+    "https://github.com/carlhako/puchicarat-recomp",
+    "No",
+    "Puchi Carat (PSX) statically recompiled to native Linux. MIPS-to-C recompiler + PSX hardware runtime; no game data included."
+  ],
+  [
+    "xbox",
+    "remake",
+    "LomoXSoft/ZoidsAssaultRecomp",
+    "https://github.com/LomoXSoft/ZoidsAssaultRecomp",
+    "No",
+    "Unofficial static recompilation of Zoids Assault (Xbox 360) to native Windows x64 with ReXGlue. Bring your own disc."
+  ],
+  [
+    "wii",
+    "remake",
+    "darkuni/resident-evil-darkside-chronicles-recomp",
+    "https://github.com/darkuni/resident-evil-darkside-chronicles-recomp",
+    "No",
+    "Static recompilation of Resident Evil: The Darkside Chronicles (Wii) to native Windows/Linux. Playable; bring your own disc image."
+  ],
+  [
+    "tooling",
+    "tools",
+    "Producdevity/gc-recomp",
+    "https://github.com/Producdevity/gc-recomp",
+    "No",
+    "Static recompiler and runtime for GameCube games on Linux AArch64 handhelds. Translates the player's own disc at first launch."
+  ],
+  [
+    "3ds",
+    "decomp",
+    "Tsukimi-Labs/Solstice",
+    "https://github.com/Tsukimi-Labs/Solstice",
+    "No",
+    "Matching decompilation of Pokémon Ultra Sun and Ultra Moon (3DS). C++ that armcc turns into the game's bytes; no game files included."
+  ],
+  [
+    "snes",
+    "remake",
+    "rac08241988/MegaMan7-Recomp",
+    "https://github.com/rac08241988/MegaMan7-Recomp",
+    "No",
+    "Unofficial Mega Man 7 (SNES) PC port via static recompilation. You supply your own ROM."
+  ],
+  [
+    "ps2",
+    "remake",
+    "Wifly413/ape-escape-3-recomp",
+    "https://github.com/Wifly413/ape-escape-3-recomp",
+    "No",
+    "Native PC launcher for Ape Escape 3 (PS2 PAL) via static recompilation. No emulator; bring your own disc image."
+  ],
+  [
+    "app",
+    "",
+    "pingw33n/OpenRB-338",
+    "https://github.com/pingw33n/OpenRB-338",
+    "No",
+    "Open-source reimplementation of Propellerhead ReBirth RB-338 (1997 TB-303/TR-808/TR-909 software synth) in Rust. Byte-accurate audio engine; no original files needed for the standard kit."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "Legend-of-Dragoon-Modding/Severed-Chains",
+    "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains",
+    "No",
+    "Full decompilation and PC port of Legend of Dragoon (PS1) to high-level Java. Fully playable, with bug fixes and a modding API. Bring your own disc image."
+  ],
+  [
+    "xbox",
+    "remake",
+    "arcanite24/pinyon-shift",
+    "https://github.com/arcanite24/pinyon-shift",
+    "No",
+    "Native Windows/Linux/macOS (and Android alpha) port of Forza Horizon (Xbox 360) via static recompilation of the PowerPC code. You supply your own disc; no game files included."
+  ],
+  [
+    "switch2",
+    "remake",
+    "Goldoire/fefw-recomp",
+    "https://github.com/Goldoire/fefw-recomp",
+    "No",
+    "Native PC port of Fire Emblem: Fortune's Weave (Switch 2) via static recompilation. Bring your own dump; no game files included."
+  ],
+  [
+    "switch2",
+    "remake",
+    "adriadam10/mkw-recomp",
+    "https://github.com/adriadam10/mkw-recomp",
+    "No",
+    "Static recompilation of Mario Kart World (Nintendo Switch 2) to native Windows/Linux; needs your own dump."
+  ],
+  [
+    "switch",
+    "remake",
+    "Simon3Sarkis/super-odyssey-pc-recomp",
+    "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp",
+    "No",
+    "Static recompilation of Super Mario Odyssey (Switch) to native Windows/Linux PC port; bring your own game files."
+  ],
+  [
+    "switch",
+    "remake",
+    "tukidev-lgtm/Tera-recomp",
+    "https://github.com/tukidev-lgtm/Tera-recomp",
+    "No",
+    "Static recompilation of Pokémon Scarlet (Switch) to native Windows x86-64 with Vulkan; needs your own dump and keys."
+  ],
+  [
+    "tooling",
+    "",
+    "LexLuthorPrimero/rxre-cleanroom",
+    "https://github.com/LexLuthorPrimero/rxre-cleanroom",
+    "No",
+    "Clean-room reconstruction of GNU coreutils filenvercmp, wc and other functions from stripped binaries, with sealed verification corpora and differential testing."
+  ],
+  [
+    "app",
+    "",
+    "calfonso/rusternetes",
+    "https://github.com/calfonso/rusternetes",
+    "No",
+    "Ground-up reimplementation of Kubernetes in Rust: API server, scheduler, controller manager, kubelet and kube-proxy written from scratch, passing ~94% of official conformance tests."
+  ],
+  [
+    "pc",
+    "remake",
+    "bhuiyah/infamous2-recomp",
+    "https://github.com/bhuiyah/infamous2-recomp",
+    "No",
+    "Static recompilation of inFamous 2 (PS3) to native Windows PC; launcher builds from your own disc and title update. No game files included."
+  ],
+  [
+    "pc",
+    "decomp",
+    "cheviman/simpsons-decomp",
+    "https://github.com/cheviman/simpsons-decomp",
+    "No",
+    "Full decompilation of Konami's 1991 arcade The Simpsons into readable C, verified frame-by-frame against MAME. Bring your own ROM."
+  ],
+  [
+    "pc",
+    "remake",
+    "sunkpoet-lang/SUNSET-RIDERS-RECOMP",
+    "https://github.com/sunkpoet-lang/SUNSET-RIDERS-RECOMP",
+    "No",
+    "Experimental PC port and recompilation research for Konami's 1991 arcade Sunset Riders. Four-player local play; no ROMs included."
+  ],
+  [
+    "switch2",
+    "remake",
+    "MIXIDtheSilly/kart-recomp",
+    "https://github.com/MIXIDtheSilly/kart-recomp",
+    "No",
+    "Static recompilation of Kart World (Nintendo Switch 2) to native Windows with Vulkan. Bring your own dump."
+  ],
+  [
+    "wii",
+    "remake",
+    "RivierGrullon/kirby-epic-yarn-recomp",
+    "https://github.com/RivierGrullon/kirby-epic-yarn-recomp",
+    "No",
+    "Static recompilation prototype of Kirby's Epic Yarn (Wii) to native Linux with Vulkan. Bring your own disc image."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Lazaer-YZY/ff13-lr-recomp",
+    "https://github.com/Lazaer-YZY/ff13-lr-recomp",
+    "No",
+    "Static recompilation of Lightning Returns: Final Fantasy XIII (Xbox 360) to native Android (arm64) with Vulkan. Bring your own copy."
+  ],
+  [
+    "tooling",
+    "",
+    "bio-colab/bintra",
+    "https://github.com/bio-colab/bintra",
+    "No",
+    "Autonomous continuous semantic reverse engineering framework for Windows PE binaries, with Ghidra integration and AI-assisted analysis."
+  ],
+  [
+    "3ds",
+    "remake",
+    "Okxmir/chibi-robo-zip-lash-recompiled",
+    "https://github.com/Okxmir/chibi-robo-zip-lash-recompiled",
+    "No",
+    "Native Windows x64 and Linux x86-64 port of the European 3DS release of Chibi-Robo! Zip Lash, built by statically translating the original ARM/Thumb code. Bring your own cartridge image."
+  ],
+  [
+    "gc",
+    "remake",
+    "Producdevity/sms-linux-arm-port",
+    "https://github.com/Producdevity/sms-linux-arm-port",
+    "No",
+    "Native Linux AArch64 port of Super Mario Sunshine for PortMaster handhelds, built from the sms-english decompilation plus sms-pc-port platform code and the Starlet GameCube compatibility layer."
+  ],
+  [
+    "tooling",
+    "",
+    "AnvitDevadiga/ree",
+    "https://github.com/AnvitDevadiga/ree",
+    "No",
+    "CLI and MCP server that strips decoys, context bombs and planted instructions from Electron apps, JS, WASM and binaries before an AI agent reads them."
+  ],
+  [
+    "tooling",
+    "",
+    "kadohack12/binscope",
+    "https://github.com/kadohack12/binscope",
+    "No",
+    "One-command triage for Linux ELF and Windows PE binaries: multi-pass strace/ltrace or Speakeasy emulation to reveal expected inputs and real behaviour without raw syscall dumps."
+  ],
+  [
+    "n64",
+    "remake",
+    "Dimi42FR/OcaDim",
+    "https://github.com/Dimi42FR/OcaDim",
+    "No",
+    "Personal fork of Longshot (itself a Hookshot fork) that adds AMD FSR frame generation inside the Ocarina of Time PC recompilation, plus >60 fps fixes and a local compile setup. Bring your own .nup."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "gekoii/grandia_xtreme",
+    "https://github.com/gekoii/grandia_xtreme",
+    "No",
+    "Decompilation of Grandia Xtreme (PS2 USA) that builds back byte-for-byte (~92% C) plus a native Windows port with OpenGL. Bring your own disc."
+  ],
+  [
+    "tooling",
+    "",
+    "MisterAlex95/Xrecomp",
+    "https://github.com/MisterAlex95/Xrecomp",
+    "No",
+    "Static recompiler that turns dumped Xbox/N64/PS1/GBA game code into native C then Android or PC executables. Runs the whole toolchain on the phone."
+  ],
+  [
+    "tooling",
+    "",
+    "PumLFxTH-Code/deeptrace",
+    "https://github.com/PumLFxTH-Code/deeptrace",
+    "No",
+    "Standalone Windows desktop AI reverse-engineering workbench (Tauri + React + Monaco + Python MCP host) for analyzing binaries, Smali, native code and Frida traces."
+  ],
+  [
+    "tooling",
+    "",
+    "RivaExits0/patchlens",
+    "https://github.com/RivaExits0/patchlens",
+    "No",
+    "CLI and MCP server that diffs two PE64 Windows binaries at function level, scores confidence, and migrates signatures for reverse engineering."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Gl1ch5555/f1-2012-android",
+    "https://github.com/Gl1ch5555/f1-2012-android",
+    "No",
+    "Native Android ARM64 port of F1 2012 (Xbox 360) built via ReXGlue static recompilation. Bring your own dump."
+  ],
+  [
+    "tooling",
+    "",
+    "jindrapetrik/jpexs-decompiler",
+    "https://github.com/jindrapetrik/jpexs-decompiler",
+    "No",
+    "Open-source decompiler and editor for Adobe Flash SWF files."
+  ],
+  [
+    "app",
+    "remake",
+    "ruffle-rs/ruffle",
+    "https://github.com/ruffle-rs/ruffle",
+    "No",
+    "Open-source Flash Player emulator written in Rust."
+  ],
+  [
+    "app",
+    "remake",
+    "dail8859/NotepadNext",
+    "https://github.com/dail8859/NotepadNext",
+    "No",
+    "Cross-platform reimplementation of Notepad++."
+  ],
+  [
+    "app",
+    "remake",
+    "captbaritone/webamp",
+    "https://github.com/captbaritone/webamp",
+    "No",
+    "Web-based reimplementation of Winamp 2."
+  ],
+  [
+    "pc",
+    "remake",
+    "Try/OpenGothic",
+    "https://github.com/Try/OpenGothic",
+    "No",
+    "Open-source reimplementation of the Gothic 2 engine."
+  ],
+  [
+    "pc",
+    "remake",
+    "ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+    "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+    "No",
+    "Static recompilation of Zelda: The Wind Waker HD for PC."
+  ],
+  [
+    "gb",
+    "remake",
+    "bryanthaboi/gen1recomp",
+    "https://github.com/bryanthaboi/gen1recomp",
+    "No",
+    "Native Lua/LÖVE2D recreation of Pokémon Gen 1, 2 and 3."
+  ],
+  [
+    "tooling",
+    "",
+    "Laupetin/OpenAssetTools",
+    "https://github.com/Laupetin/OpenAssetTools",
+    "No",
+    "Open-source modding tools for older Call of Duty games."
+  ],
+  [
+    "tooling",
+    "",
+    "bethington/ghidra-mcp",
+    "https://github.com/bethington/ghidra-mcp",
+    "No",
+    "MCP server with 200+ tools for AI-assisted reverse engineering in Ghidra."
+  ],
+  [
+    "app",
+    "",
+    "ruvnet/open-claude-code",
+    "https://github.com/ruvnet/open-claude-code",
+    "No",
+    "Nightly reverse-engineered open rebuild of Anthropic Claude Code CLI."
+  ],
+  [
+    "tooling",
+    "",
+    "venshine/decompile-apk",
+    "https://github.com/venshine/decompile-apk",
+    "No",
+    "Automated tool to decompile Android APKs into Java source and resources."
+  ],
+  [
+    "tooling",
+    "",
+    "ratman-bit/Rewind-IL2CPP-Decompiler",
+    "https://github.com/ratman-bit/Rewind-IL2CPP-Decompiler",
+    "No",
+    "Unity IL2CPP decompiler that recovers real method bodies and C# from standard builds."
+  ],
+  [
+    "wii",
+    "decomp",
+    "lemiur/shsm-decomp",
+    "https://github.com/lemiur/shsm-decomp",
+    "No",
+    "Matching decompilation of Silent Hill: Shattered Memories (Wii). ROM not included."
+  ],
+  [
+    "tooling",
+    "",
+    "RetroReversing/decompdecomp",
+    "https://github.com/RetroReversing/decompdecomp",
+    "No",
+    "Desktop app where AI agents decompile games you own into byte-matching C/C++."
+  ],
+  [
+    "gba",
+    "decomp",
+    "dexedrne/txra-decomp",
+    "https://github.com/dexedrne/txra-decomp",
+    "No",
+    "Complete matching decompilation of Tokyo Xtreme Racer Advance (GBA), plus native PC recompiler. ROM not included."
+  ],
+  [
+    "pc",
+    "decomp",
+    "deoka31/gp4-decomp",
+    "https://github.com/deoka31/gp4-decomp",
+    "No",
+    "Documented byte-identical assembly disassembly of Grand Prix 4 (PC). C++ not started."
+  ],
+  [
+    "ps1",
+    "remake",
+    "sal063/AC3-decomp",
+    "https://github.com/sal063/AC3-decomp",
+    "No",
+    "Native Windows port of Ace Combat 3: Electrosphere (PS1) with rewritten C++ and Vulkan."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "FoxWorkshop/ShadowRecomp",
+    "https://github.com/FoxWorkshop/ShadowRecomp",
+    "No",
+    "Unofficial PC port of the Xbox version of Shadow the Hedgehog (2005) via static recompilation with XboxRecomp2. Requires your own game dump. No REA."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenIGI/OpenIGI",
+    "https://github.com/OpenIGI/OpenIGI",
+    "No",
+    "Clean-room C#/.NET 10 reimplementation of the Project I.G.I. and I.G.I. 2 engines. Runs original missions, scripts and AI from your retail install with modern renderer. No REA."
+  ],
+  [
+    "pc",
+    "remake",
+    "horizon-rust/horizon",
+    "https://github.com/horizon-rust/horizon",
+    "Yes",
+    "Minecraft: Java Edition 26.3 rewritten from scratch in Rust with differential harnesses. Uses REA (tools/rea_vanilla.py with JADX) for bytecode inspection. LGPL-3.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "open-conche/OpenConche",
+    "https://github.com/open-conche/OpenConche",
+    "No",
+    "Modern C++20/SDL3 engine that runs the closed-source Chocolatier games (1, 2, 3 and spin-off) on modern platforms. You supply your own game assets."
+  ],
+  [
+    "pc",
+    "decomp",
+    "NightSightProductions/DOOM-Recomp",
+    "https://github.com/NightSightProductions/DOOM-Recomp",
+    "No",
+    "Native Apple Silicon port of the closed-source DOOM (2016) Windows version by static recompilation. Bring your own copy; no game files included."
+  ],
+  [
+    "tooling",
+    "",
+    "NightSightProductions/Recomp-Framework",
+    "https://github.com/NightSightProductions/Recomp-Framework",
+    "No",
+    "Static recompiler framework that turns Windows x86-64 and old 32-bit Intel Mac games into native Apple Silicon apps. Used by DOOM-Recomp and others."
+  ],
+  [
+    "pc",
+    "decomp",
+    "sirgwain/stars-decompile",
+    "https://github.com/sirgwain/stars-decompile",
+    "No",
+    "Decompilation and reimplementation of the classic Win16 4X strategy game Stars! using debug symbols and modern C."
+  ],
+  [
+    "ds",
+    "decomp",
+    "DQIX/dqix-decomp",
+    "https://github.com/DQIX/dqix-decomp",
+    "No",
+    "Matching decompilation of Dragon Quest IX: Sentinels of the Starry Skies for Nintendo DS, aiming for byte-identical rebuilds."
+  ],
+  [
+    "tooling",
+    "tools",
+    "isledecomp/reccmp",
+    "https://github.com/isledecomp/reccmp",
+    "No",
+    "Collection of tools for verifying matching decompilations, born from the LEGO Island project. Supports function and data matching."
+  ],
+  [
+    "pc",
+    "decomp",
+    "isledecomp/isle-portable",
+    "https://github.com/isledecomp/isle-portable",
+    "No",
+    "Portable, cross-platform version of the 1997 LEGO Island game based on its matching decompilation. Runs natively on modern systems."
+  ],
+  [
+    "switch",
+    "remake",
+    "raulzrrs/swsh-recomp",
+    "https://github.com/raulzrrs/swsh-recomp",
+    "No",
+    "Native Windows static recompilation of Pokémon Sword/Shield (Switch 1.3.2); needs your own dump. Built on Let's Go Recomp / LAS Recomp."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Dipshet/GracemeriaRecomp",
+    "https://github.com/Dipshet/GracemeriaRecomp",
+    "No",
+    "Native PC port of Ace Combat 6: Fires of Liberation (Xbox 360) via XenonRecomp static recompilation; bring your own disc."
+  ],
+  [
+    "3ds",
+    "remake",
+    "Okxmir/super-mario-3d-land-recompiled",
+    "https://github.com/Okxmir/super-mario-3d-land-recompiled",
+    "No",
+    "Native Windows/Linux static recompilation of Super Mario 3D Land (3DS); built from your own European ROM."
+  ],
+  [
+    "app",
+    "remake",
+    "Berny23/slingshot-animals-recomp",
+    "https://github.com/Berny23/slingshot-animals-recomp",
+    "No",
+    "Unofficial static recompilation of classic Angry Birds games (Android) for modern platforms including Switch homebrew; needs original assets."
+  ],
+  [
+    "switch",
+    "decomp",
+    "ILFforever/YW4Recomp",
+    "https://github.com/ILFforever/YW4Recomp",
+    "No",
+    "Yo-kai Watch 4++ (Switch) static recompilation to native Windows/Linux with custom Vulkan renderer."
+  ],
+  [
+    "switch",
+    "decomp",
+    "var-flotsam/dread-decomp",
+    "https://github.com/var-flotsam/dread-decomp",
+    "No",
+    "Matching decompilation of Metroid Dread (Switch) toward a native PC port."
+  ],
+  [
+    "snes",
+    "decomp",
+    "MaChInEgUn3/tg3000-decomp",
+    "https://github.com/MaChInEgUn3/tg3000-decomp",
+    "No",
+    "Top Gear 3000 (SNES) annotated disassembly + readable C verified routine by routine."
+  ],
+  [
+    "pc",
+    "decomp",
+    "awarebayes/skyrim_decomp",
+    "https://github.com/awarebayes/skyrim_decomp",
+    "No",
+    "Matching decompilation of Skyrim Special Edition (Steam 1.7.104) with AI-assisted contributions."
+  ],
+  [
+    "tooling",
+    "tools",
+    "Noelo-Lab/kuna",
+    "https://github.com/Noelo-Lab/kuna",
+    "Yes",
+    "Agent-first Rust decompiler ported from Ghidra, optimized for LLM refinement. Featured on Made with REA."
+  ],
+  [
+    "n64",
+    "decomp",
+    "djsaunde/1080-decomp",
+    "https://github.com/djsaunde/1080-decomp",
+    "No",
+    "Matching decompilation of 1080 Snowboarding (N64 USA); 100% matched, builds byte-identical ROM."
+  ],
+  [
+    "pc",
+    "remake",
+    "egeozcan/glasnost",
+    "https://github.com/egeozcan/glasnost",
+    "No",
+    "Clean-room open-source engine remake of Command & Conquer: Yuri's Revenge; plays from your own game files."
+  ],
+  [
+    "protocol",
+    "",
+    "squirelworks/Graal_analysis",
+    "https://github.com/squirelworks/Graal_analysis",
+    "No",
+    "Field notes and reverse engineering of Graal Online: protocol, file formats, NPC scripting and client internals."
+  ],
+  [
+    "xbox",
+    "remake",
+    "ChupathingyCE/chupathingyce",
+    "https://github.com/ChupathingyCE/chupathingyce",
+    "No",
+    "Cross-platform port of Halo: Combat Evolved (original Xbox) to PC, Mac, Linux, Android and more; bring your own disc."
+  ],
+  [
+    "gba",
+    "decomp",
+    "SAT-R/sa3",
+    "https://github.com/SAT-R/sa3",
+    "No",
+    "Matching decompilation of Sonic Advance 3 (GBA); builds the Europe ROM byte-for-byte from C. Strict no-AI policy."
+  ],
+  [
+    "n64",
+    "decomp",
+    "RetroReversing/twine-n64-decomp",
+    "https://github.com/RetroReversing/twine-n64-decomp",
+    "No",
+    "Matching decompilation of 007: The World Is Not Enough (N64); 550 of 1897 functions rebuilt as C that matches the original bytes. Started with decompdecomp. Bring your own ROM."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "TheSaltsmith69/chronocross_decomp",
+    "https://github.com/TheSaltsmith69/chronocross_decomp",
+    "No",
+    "Work-in-progress byte-matching decompilation of Chrono Cross (USA, PS1). Main EXE rebuilds identically; 5 functions matched so far. Bring your own disc."
+  ],
+  [
+    "pc",
+    "remake",
+    "pedryvo/comanche3-decomp",
+    "https://github.com/pedryvo/comanche3-decomp",
+    "No",
+    "Reverse engineering and modern Rust reimplementation of Comanche 3 (DOS). Playable MVP loads original terrain and flies a training mission. Bring your own game data."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "batinium/gta-stories-recompiled",
+    "https://github.com/batinium/gta-stories-recompiled",
+    "No",
+    "Static recompilation of GTA Liberty City Stories and Vice City Stories (PS2) to PC and Android, with both cities joined into one world and a mod loader. Bring your own discs."
+  ],
+  [
+    "pc",
+    "decomp",
+    "LostArtefacts/tr04",
+    "https://github.com/LostArtefacts/tr04",
+    "No",
+    "Matching decompilation of Tomb Raider IV: The Last Revelation (1999 Windows). Builds and verifies under Wine with the original MSVC 6. Bring your own game."
+  ],
+  [
+    "gba",
+    "decomp",
+    "SlickAmogus/GTAAdvanceRecomp",
+    "https://github.com/SlickAmogus/GTAAdvanceRecomp",
+    "No",
+    "Static recompilation of Grand Theft Auto Advance (GBA) to PC using gbarecomp, with modern controls. Bring your own ROM and BIOS."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "owmyback/backbreaker-recomp",
+    "https://github.com/owmyback/backbreaker-recomp",
+    "No",
+    "Static recompilation of Backbreaker (Xbox 360) to native Linux via XenonRecomp. Bring your own game files."
+  ],
+  [
+    "tooling",
+    "tools",
+    "RetroReversing/decomp-repair",
+    "https://github.com/RetroReversing/decomp-repair",
+    "No",
+    "Targeted C rewrites for matching decompilation: proposes deliberate compiler-sensitive changes, never judges. Complements decomp-permuter. From decompdecomp."
+  ],
+  [
+    "pc",
+    "decomp",
+    "ps4star/WhiteRecomp",
+    "https://github.com/ps4star/WhiteRecomp",
+    "No",
+    "Native recompilation of FINAL FANTASY XIII from your own Steam copy into modern Windows/Linux binaries. No game data included."
+  ],
+  [
+    "ds",
+    "remake",
+    "tangosdev/sm64ds-pc-port",
+    "https://github.com/tangosdev/sm64ds-pc-port",
+    "No",
+    "Native Windows port of Super Mario 64 DS built from the matching decompilation. Bring your own EU ROM."
+  ],
+  [
+    "ds",
+    "decomp",
+    "nextcode4u/jEnesisDS-Decomp-REA",
+    "https://github.com/nextcode4u/jEnesisDS-Decomp-REA",
+    "Yes",
+    "Static decompilation of the jEnesisDS 0.7.4 Nintendo DS Genesis emulator using REA + Ghidra; byte-matching ROM rebuild included."
+  ],
+  [
+    "pc",
+    "decomp",
+    "RangerXT/terminator-1991-decomp",
+    "https://github.com/RangerXT/terminator-1991-decomp",
+    "No",
+    "Complete C decompilation of The Terminator (1991 DOS). Every routine verified against the original in an emulator. No game files."
+  ],
+  [
+    "pc",
+    "decomp",
+    "MarquitoK/TTTRecomp",
+    "https://github.com/MarquitoK/TTTRecomp",
+    "No",
+    "Native Windows static recompilation of Dragon Ball Z: Tenkaichi Tag Team (PSP). Bring your own ISO."
+  ],
+  [
+    "switch",
+    "remake",
+    "IamWilmar/xenoblade3-recomp",
+    "https://github.com/IamWilmar/xenoblade3-recomp",
+    "No",
+    "Native Android port of Xenoblade Chronicles 3 for Retroid Pocket 5 and Flip 2. Runs the game's own ARM64 code with a reimplemented SDK. Bring your own extracted files."
+  ],
+  [
+    "app",
+    "",
+    "OpenMaker-Dev/openmaker",
+    "https://github.com/OpenMaker-Dev/openmaker",
+    "No",
+    "Clean-room open-source Rust replacement for Claris FileMaker Pro. Compatible with .fmp12 files and FileMaker Server."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Jstar269/Nakagawa-Recomp",
+    "https://github.com/Jstar269/Nakagawa-Recomp",
+    "No",
+    "Static recompiler that turns PSP games you own into native Windows programs. Bring your own disc image; no game data included."
+  ],
+  [
+    "pc",
+    "decomp",
+    "macielrecomp/triunit-recomp",
+    "https://github.com/macielrecomp/triunit-recomp",
+    "No",
+    "Static recompiler for TMS34010 arcade boards (T-Unit, Wolf Unit). Turns the program of your own ROM into native C++ for Windows."
+  ],
+  [
+    "tooling",
+    "",
+    "T4ctica1YT/UEWASM",
+    "https://github.com/T4ctica1YT/UEWASM",
+    "No",
+    "Static recompiler that turns Windows x64 Unreal Engine 4/5 games into WebAssembly."
+  ],
+  [
+    "app",
+    "",
+    "AlienTechSoftware/notecraft",
+    "https://github.com/AlienTechSoftware/notecraft",
+    "No",
+    "Open-source clean-room reimplementation of Microsoft OneNote, written in pure Rust."
+  ],
+  [
+    "app",
+    "",
+    "aliasfoxkde/FireCraft",
+    "https://github.com/aliasfoxkde/FireCraft",
+    "No",
+    "Open-source clean-room reimplementation of Adobe Fireworks in pure Rust."
+  ],
+  [
+    "pc",
+    "remake",
+    "oliverjessner/OpenEmperor",
+    "https://github.com/oliverjessner/OpenEmperor",
+    "No",
+    "Clean-room reimplementation of Emperor: Rise of the Middle Kingdom in C++20 and SDL3, starting with Apple Silicon macOS. Original game data required."
+  ],
+  [
+    "app",
+    "",
+    "daijro/paint.rs",
+    "https://github.com/daijro/paint.rs",
+    "No",
+    "Open-source clean-room reimplementation of Paint.NET for Windows, macOS, Linux and the web."
+  ],
+  [
+    "pc",
+    "remake",
+    "master4824/gta4-reversed",
+    "https://github.com/master4824/gta4-reversed",
+    "No",
+    "Open-source C++20 runtime reimplementation of Grand Theft Auto IV (PC 1.0.7.0 x86) via ASI injection, inspired by gta-reversed. Requires own copy of the game."
+  ],
+  [
+    "pc",
+    "tools",
+    "s-b-repo/nfsmw-2005-re",
+    "https://github.com/s-b-repo/nfsmw-2005-re",
+    "No",
+    "Community reverse-engineering project for Need for Speed: Most Wanted (2005 PC): architecture docs, 85% attribute hash cracks, Ghidra renames, and ASI mod tools. No game assets."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "willzmkv/gta-vcs-recomp",
+    "https://github.com/willzmkv/gta-vcs-recomp",
+    "No",
+    "Active fork of gothamor/gta-vcs-recomp adding HD World (detailed city distance), live mod loader, enhanced Vice City launcher and UI for the native PS2 Vice City Stories port. Bring your own disc."
+  ],
+  [
+    "wii",
+    "remake",
+    "arelkair/wiiparty-recomp",
+    "https://github.com/arelkair/wiiparty-recomp",
+    "No",
+    "Static recompilation of Wii Party to native Windows/Linux PC. PowerPC code translated to C++, hardware reimplemented. Bring your own disc; no game files included."
+  ],
+  [
+    "pc",
+    "remake",
+    "bhuiyah/ff7-recomp-android",
+    "https://github.com/bhuiyah/ff7-recomp-android",
+    "No",
+    "FINAL FANTASY VII (Steam PC) statically recompiled to native ARM64 Android with FFNx renderer and 7th Heaven-style mod launcher. Build on-device from your own copy."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "Tokatta007/OpenTM2",
+    "https://github.com/Tokatta007/OpenTM2",
+    "No",
+    "PC port of Twisted Metal 2 (PlayStation 1996) via static recompilation of the original code, with online play and improvements. Bring your own disc."
+  ],
+  [
+    "xbox",
+    "tools",
+    "Freminet/ScarlettX",
+    "https://github.com/Freminet/ScarlettX",
+    "No",
+    "Experimental high-level emulator for Xbox Series X|S (Scarlett) that runs legally obtained GDK titles on Windows by emulating the OS and runtime."
+  ],
+  [
+    "tooling",
+    "",
+    "lingbol088-spec/local-binary-index",
+    "https://github.com/lingbol088-spec/local-binary-index",
+    "No",
+    "Offline PE inspection engine with MCP server: packer ID, OEP hunting, IAT rebuild, anti-debug patches, .NET fingerprints and dump repair. Zero runtime deps."
+  ],
+  [
+    "pc",
+    "decomp",
+    "momusdigital/f3_decomp",
+    "https://github.com/momusdigital/f3_decomp",
+    "No",
+    "Matching decompilation of Fallout 3 PC (1.7.0.3): C++ source that compiles to the same bytes as the original executable. Source only; own game required."
+  ],
+  [
+    "tooling",
+    "",
+    "Artesiana/bridge-anything",
+    "https://github.com/Artesiana/bridge-anything",
+    "Yes",
+    "Agent skill that uses REA to reverse-engineer software without an API and build a REST/MCP/CLI bridge to its data."
+  ],
+  [
+    "pc",
+    "remake",
+    "XDD0043/dotd-decomp",
+    "https://github.com/XDD0043/dotd-decomp",
+    "No",
+    "Behaviour-exact reimplementation of The Legend of Spyro: Dawn of the Dragon (PS3). Builds as native Windows or WebAssembly. Own game data required."
+  ],
+  [
+    "switch",
+    "decomp",
+    "GRAnimated/MinecraftLCE",
+    "https://github.com/GRAnimated/MinecraftLCE",
+    "No",
+    "Work-in-progress matching decompilation of Minecraft: Legacy Console Edition (Nintendo Switch Edition v1.0.17). Own dump required; no assets included."
+  ],
+  [
+    "tooling",
+    "",
+    "GF007/game-rebuild-kit",
+    "https://github.com/GF007/game-rebuild-kit",
+    "No",
+    "AI-assisted agent skill and toolkit for analyzing any game and reconstructing its logic, animation, physics and rendering from evidence."
+  ],
+  [
+    "tooling",
+    "",
+    "DanimanX/Taitof3Decomp",
+    "https://github.com/DanimanX/Taitof3Decomp",
+    "No",
+    "Decompilation framework for Taito F3 arcade games (Darius Gaiden etc.) using Ghidra + MAME MCP."
+  ],
+  [
+    "tooling",
+    "",
+    "bwalsh321/dc-recomp",
+    "https://github.com/bwalsh321/dc-recomp",
+    "No",
+    "Static recompiler for Sega Dreamcast (SH-4) games to native C."
+  ],
+  [
+    "pc",
+    "decomp",
+    "OpenSCCT/scct-decomp",
+    "https://github.com/OpenSCCT/scct-decomp",
+    "No",
+    "Matching decompilation of Splinter Cell: Chaos Theory (PC and PS2)."
+  ],
+  [
+    "gba",
+    "decomp",
+    "wishofalifetime/re2gba-decomp",
+    "https://github.com/wishofalifetime/re2gba-decomp",
+    "No",
+    "Byte-matched decompilation of Resident Evil 2 (GBA)."
+  ],
+  [
+    "wii",
+    "decomp",
+    "VoltTMC/SonicColorsRecomp",
+    "https://github.com/VoltTMC/SonicColorsRecomp",
+    "No",
+    "Native PC recompilation of Sonic Colors (Wii)."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "zanettevini/ProtectorOfEarth-Recomp",
+    "https://github.com/zanettevini/ProtectorOfEarth-Recomp",
+    "No",
+    "Static recompilation of Ben 10: Protector of Earth (PS2) to native PC."
+  ],
+  [
+    "tooling",
+    "tools",
+    "JidouGhost-TL/gbakit",
+    "https://github.com/JidouGhost-TL/gbakit",
+    "No",
+    "Clean-room Game Boy Advance format toolkit (ROM, save, graphics, sound)."
+  ],
+  [
+    "wii",
+    "decomp",
+    "persecom/fe10-decomp",
+    "https://github.com/persecom/fe10-decomp",
+    "No",
+    "Matching decompilation of Fire Emblem: Radiant Dawn (Wii)."
+  ],
+  [
+    "switch",
+    "remake",
+    "jaigner-hub/metroid-prime-4-recomp",
+    "https://github.com/jaigner-hub/metroid-prime-4-recomp",
+    "No",
+    "Static recompilation of Metroid Prime 4: Beyond (Switch) to native Windows with Vulkan. Needs your own dump and keys. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "maluramichael/awesome-reverse-engineer-anything",
+    "https://github.com/maluramichael/awesome-reverse-engineer-anything",
+    "No",
+    "Trending open projects that reverse-engineered apps, games, consoles, protocols and devices, plus the tools they used. Stars refreshed daily."
+  ],
+  [
+    "tooling",
+    "",
+    "songshikang0111/awesome-REA-cases",
+    "https://github.com/songshikang0111/awesome-REA-cases",
+    "No",
+    "Curated collection of REA and AI-assisted reverse-engineering cases, projects and ideas. Updated multiple times daily."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Mudcrab-Team/skyrim_decomp",
+    "https://github.com/Mudcrab-Team/skyrim_decomp",
+    "No",
+    "Matching decompilation of Skyrim Special Edition (Steam 1.7.104); AI agents reconstruct functions to byte-exact C++. Active Nov 2026."
+  ],
+  [
+    "pc",
+    "remake",
+    "axx0/Civ2-clone",
+    "https://github.com/axx0/Civ2-clone",
+    "No",
+    "Open-source reimplementation of Civilization II (Gold & Test of Time) in C#/.NET with Raylib. Needs original assets."
+  ],
+  [
+    "pc",
+    "decomp",
+    "jaenster/redivivus",
+    "https://github.com/jaenster/redivivus",
+    "No",
+    "Diablo II 1.14d recovered as C++ source that builds and runs; function-by-function matching decompilation of the original Game.exe."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "ItsNotRexed/Leonida",
+    "https://github.com/ItsNotRexed/Leonida",
+    "No",
+    "Static recompilation of Grand Theft Auto VI (Xbox Series) to native Windows. Game code runs natively; console software reimplemented; RDNA2 shaders translated to SPIR-V/Vulkan. Bring your own copy. Early stage (does not boot yet)."
+  ],
+  [
+    "nes",
+    "decomp",
+    "captainsouthbird/smb3",
+    "https://github.com/captainsouthbird/smb3",
+    "No",
+    "Byte-identical NESASM disassembly of Super Mario Bros. 3 (US NES PRG1). No SPDX license in the repository."
+  ],
+  [
+    "snes",
+    "decomp",
+    "Herringway/ebsrc",
+    "https://github.com/Herringway/ebsrc",
+    "No",
+    "WIP 65816 disassembly of EarthBound / Mother 2 aiming toward a C decompilation. Needs your own ROM. No SPDX license in the repository."
+  ],
+  [
+    "n64",
+    "decomp",
+    "n64decomp/banjo-kazooie",
+    "https://github.com/n64decomp/banjo-kazooie",
+    "No",
+    "Matching decompilation of Banjo-Kazooie (100%). GitHub mirror of the GitLab project. CC0-1.0. Needs your own ROM."
+  ],
+  [
+    "n64",
+    "decomp",
+    "Kirby64Ret/kirby64",
+    "https://github.com/Kirby64Ret/kirby64",
+    "No",
+    "WIP decompilation of Kirby 64: The Crystal Shards. Needs your own ROM. No SPDX license in the repository."
+  ],
+  [
+    "wii",
+    "decomp",
+    "snailspeed3/mkw",
+    "https://github.com/snailspeed3/mkw",
+    "No",
+    "WIP matching decompilation of Mario Kart Wii (PAL RMCP01). Formerly riidefi/mkw. CC0-1.0. Needs your own disc."
+  ],
+  [
+    "ds",
+    "decomp",
+    "pret/pokediamond",
+    "https://github.com/pret/pokediamond",
+    "No",
+    "WIP matching decompilation of Pokémon Diamond and Pearl (US). No SPDX license in the repository."
+  ],
+  [
+    "ds",
+    "decomp",
+    "zeldaret/st",
+    "https://github.com/zeldaret/st",
+    "No",
+    "WIP decompilation of The Legend of Zelda: Spirit Tracks. CC0-1.0."
+  ],
+  [
+    "ds",
+    "decomp",
+    "pret/pmd-sky",
+    "https://github.com/pret/pmd-sky",
+    "No",
+    "WIP disassembly of Pokémon Mystery Dungeon: Explorers of Sky. No SPDX license in the repository."
+  ],
+  [
+    "gc",
+    "decomp",
+    "doldecomp/ttyd",
+    "https://github.com/doldecomp/ttyd",
+    "No",
+    "WIP matching decompilation of Paper Mario: The Thousand-Year Door (JP G8MJ01). MIT. Needs your own disc."
+  ],
+  [
+    "gc",
+    "decomp",
+    "projectPiki/pikmin",
+    "https://github.com/projectPiki/pikmin",
+    "No",
+    "Matching decompilation of Pikmin (GameCube). CC0-1.0."
+  ],
+  [
+    "gba",
+    "decomp",
+    "FireEmblemUniverse/fireemblem8u",
+    "https://github.com/FireEmblemUniverse/fireemblem8u",
+    "No",
+    "Matching disassembly of Fire Emblem: The Sacred Stones (US). No SPDX license in the repository."
+  ],
+  [
+    "gba",
+    "decomp",
+    "SAT-R/sa2",
+    "https://github.com/SAT-R/sa2",
+    "No",
+    "Matching decompilation of Sonic Advance 1 and 2, with SDL and other ports. No SPDX license in the repository."
+  ],
+  [
+    "3ds",
+    "decomp",
+    "zeldaret/oot3d",
+    "https://github.com/zeldaret/oot3d",
+    "No",
+    "WIP decompilation of The Legend of Zelda: Ocarina of Time 3D (USA). CC0-1.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "CorsixTH/CorsixTH",
+    "https://github.com/CorsixTH/CorsixTH",
+    "No",
+    "Open-source reimplementation of Theme Hospital. Needs original game data. MIT-style terms with bundled third-party licenses."
+  ],
+  [
+    "pc",
+    "remake",
+    "dkfans/keeperfx",
+    "https://github.com/dkfans/keeperfx",
+    "No",
+    "Open-source remake and fan expansion of Dungeon Keeper, started from a decompilation. Needs original game files. GPL-2.0."
+  ],
+  [
+    "firmware",
+    "",
+    "chipsec/chipsec",
+    "https://github.com/chipsec/chipsec",
+    "No",
+    "Framework for analyzing platform firmware, BIOS and UEFI security on Intel/AMD systems. GPL-2.0."
+  ],
+  [
+    "firmware",
+    "",
+    "LongSoft/UEFITool",
+    "https://github.com/LongSoft/UEFITool",
+    "No",
+    "UEFI firmware image viewer and editor. New-engine editing is still incomplete. BSD-2-Clause."
+  ],
+  [
+    "protocol",
+    "",
+    "secdev/scapy",
+    "https://github.com/secdev/scapy",
+    "No",
+    "Python library for crafting, capturing and dissecting packets; used to reverse and test network protocols. GPL-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "capstone-engine/capstone",
+    "https://github.com/capstone-engine/capstone",
+    "No",
+    "Multi-architecture disassembly framework used by reverse-engineering tools. BSD."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Crusader: No Regret DECOMP",
+    "https://github.com/sebsebseb1982/crusader-no-regret-decomp",
+    "No",
+    "C++20/SDL2 reimplementation of the 1996 Origin isometric shooter engine"
+  ],
+  [
+    "pc",
+    "decomp",
+    "Crusader: No Remorse DECOMP",
+    "https://github.com/sebsebseb1982/crusader-no-remorse-decomp",
+    "No",
+    "C++20/SDL2 reimplementation of the 1995 Origin isometric shooter engine, fully playable"
+  ],
+  [
+    "pc",
+    "decomp",
+    "OpenToshi",
+    "https://github.com/AdventureT/OpenToshi",
+    "No",
+    "Decompilation of the Toshi engine used in de Blob and other Blue Tongue games"
+  ],
+  [
+    "pc",
+    "decomp",
+    "LBP-PSP-Decomp",
+    "https://github.com/Jstar269/LBP-PSP-Decomp",
+    "No",
+    "Matching decompilation of LittleBigPlanet for PSP (source only, bring your own disc)"
+  ],
+  [
+    "nes",
+    "remake",
+    "formae-group/ducktales-recompiled",
+    "https://github.com/formae-group/ducktales-recompiled",
+    "No",
+    "Native PC port of DuckTales (NES) via static recompilation with NESRecomp."
+  ],
+  [
+    "ps2",
+    "remake",
+    "ptfpinho23/rule-of-rose-recomp",
+    "https://github.com/ptfpinho23/rule-of-rose-recomp",
+    "No",
+    "Native PC port of the PS2 survival horror Rule of Rose by static recompilation."
+  ],
+  [
+    "pc",
+    "decomp",
+    "otonomy/vampire-decomp",
+    "https://github.com/otonomy/vampire-decomp",
+    "No",
+    "Matching decompilation of Vampire: The Masquerade – Bloodlines."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Aghostinbloom/otogi2-recomp",
+    "https://github.com/Aghostinbloom/otogi2-recomp",
+    "No",
+    "Native Windows port of Otogi 2: Immortal Warriors (Xbox) by static recompilation."
+  ],
+  [
+    "wii",
+    "decomp",
+    "Cenzo239/radiant-dawn-decomp",
+    "https://github.com/Cenzo239/radiant-dawn-decomp",
+    "No",
+    "Matching decompilation of Fire Emblem: Radiant Dawn (Wii)."
+  ],
+  [
+    "ps2",
+    "remake",
+    "Krilliac/OmegaStrain-Reimplementation",
+    "https://github.com/Krilliac/OmegaStrain-Reimplementation",
+    "No",
+    "Clean-room pure-native reimplementation research for Syphon Filter: The Omega Strain (PS2); PCSX2 used as behavioral oracle, user-supplied retail data only."
+  ],
+  [
+    "switch2",
+    "remake",
+    "Chiuauaa/oot-pc-recomp",
+    "https://github.com/Chiuauaa/oot-pc-recomp",
+    "No",
+    "Static recompilation of The Legend of Zelda: Ocarina of Time (Switch 2) into a native PC program with Vulkan, based on DKB Recomp / TotK Recomp; requires own dump."
+  ],
+  [
+    "tooling",
+    "",
+    "R0Y00/Xbox2Windows",
+    "https://github.com/R0Y00/Xbox2Windows",
+    "No",
+    "Static recompilation research for Xbox Series X|S (Scarlett) software on x64 Windows: translates machine code to C++ and shaders to DXIL, with source-built CPU/GPU tests."
+  ],
+  [
+    "pc",
+    "decomp",
+    "gibbo101/ra2-decomp",
+    "https://github.com/gibbo101/ra2-decomp",
+    "No",
+    "Matching decompilation of Command & Conquer: Red Alert 2 Yuri's Revenge."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "kirklandsig/halo2-decompiled",
+    "https://github.com/kirklandsig/halo2-decompiled",
+    "No",
+    "Matching decompilation of Halo 2 for the original Xbox."
+  ],
+  [
+    "ps2",
+    "recomp",
+    "ADHD-TISM/Dave-Mirra-2-Recomp",
+    "https://github.com/ADHD-TISM/Dave-Mirra-2-Recomp",
+    "No",
+    "Static recompilation of Dave Mirra Freestyle BMX 2 (PS2) to native Windows."
+  ],
+  [
+    "3ds",
+    "recomp",
+    "Recoi1/RE-DEX",
+    "https://github.com/Recoi1/RE-DEX",
+    "No",
+    "Static recompilation of Pokémon X and Y (3DS) to native PC with cross-play."
+  ],
+  [
+    "pc",
+    "recomp",
+    "nynjardin/motorstorm-apocalypse-recomp",
+    "https://github.com/nynjardin/motorstorm-apocalypse-recomp",
+    "No",
+    "Static recompilation of MotorStorm: Apocalypse (PS3) to native Windows."
+  ],
+  [
+    "ps2",
+    "recomp",
+    "dea7hsmiless/Sakura-Wars-So-Long-My-Love-Rebloom",
+    "https://github.com/dea7hsmiless/Sakura-Wars-So-Long-My-Love-Rebloom",
+    "No",
+    "Static recompilation of Sakura Wars: So Long, My Love (PS2) to native multi-platform."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "ManoloEightBits/whirl-tour-ps2-decomp",
+    "https://github.com/ManoloEightBits/whirl-tour-ps2-decomp",
+    "No",
+    "Early-stage reverse engineering of Whirl Tour (PS2, SLUS_204.89); no game data. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "smurflabs/league_decomp",
+    "https://github.com/smurflabs/league_decomp",
+    "No",
+    "Decompilation of League of Legends client patch 4.20 into matching C/C++; CC0."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Syn34/openTIT",
+    "https://github.com/Syn34/openTIT",
+    "No",
+    "Decompilation of Sly Cooper: Thieves in Time (PS3) into readable C++; progress ~29%. No game data."
+  ],
+  [
+    "xbox",
+    "recomp",
+    "andrewnakas/gtav-recomp",
+    "https://github.com/andrewnakas/gtav-recomp",
+    "No",
+    "Static recompilation of Grand Theft Auto V (Xbox 360 Title Update 27) to native builds for PC, Mac, iPhone and Android using ReXGlue. Bring your own discs."
+  ],
+  [
+    "pc",
+    "recomp",
+    "PocketLucho/Virtua-Tennis---Recompilation",
+    "https://github.com/PocketLucho/Virtua-Tennis---Recompilation",
+    "No",
+    "Static recompilation of Virtua Tennis and Virtua Tennis 2 (Sega NAOMI) to native Windows and Linux. Bring your own ROMs and BIOS."
+  ],
+  [
+    "ps2",
+    "remake",
+    "Mikompilation/ReiPan",
+    "https://github.com/Mikompilation/ReiPan",
+    "No",
+    "PC port of Fatal Frame III: The Tormented (PS2, Project Zero 3) based on AI-assisted code recreation. Bring your own European disc."
+  ],
+  [
+    "ps2",
+    "remake",
+    "Mikompilation/MioPan",
+    "https://github.com/Mikompilation/MioPan",
+    "No",
+    "In-progress native PC port of Fatal Frame II: Crimson Butterfly (PS2) using AI-assisted function-by-function reconstruction from a prototype build. Bring your own European disc."
+  ],
+  [
+    "tooling",
+    "tools",
+    "1llu50ry/Decompile",
+    "https://github.com/1llu50ry/Decompile",
+    "No",
+    "MCP server and CLI that aggregates over 230 reverse-engineering tools and 60+ backends (Ghidra, IDA, radare2, Frida, etc.) plus a large skill knowledge base for AI agents."
+  ]
+]
