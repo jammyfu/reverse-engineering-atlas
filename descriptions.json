@@ -3904,5 +3904,89 @@
     "zh-TW": "一個 MCP 伺服器，讓 AI 智能體能呼叫幾十種逆向工具（Ghidra、IDA、radare2、Frida 等），還帶大量技能知識庫，用來分析二進位和遊戲。",
     "ja": "AIエージェントが Ghidra、IDA、radare2、Frida など多数のリバースエンジニアリングツールを使えるようにする MCP サーバー。スキル知識ベースも付属。",
     "ko": "AI 에이전트가 Ghidra, IDA, radare2, Frida 등 수십 가지 리버스 엔지니어링 도구를 사용할 수 있게 하는 MCP 서버. 대규모 스킬 지식 베이스 포함."
+  },
+  "Peggle2Recomp": {
+    "en": "Turns the closed-source Xbox 360 version of Peggle 2 into a native Windows program by statically recompiling its code.",
+    "zh-CN": "把闭源的 Xbox 360 版 Peggle 2 通过静态重编译做成能在 Windows 上原生运行的程序。",
+    "zh-TW": "把閉源的 Xbox 360 版 Peggle 2 透過靜態重編譯做成能在 Windows 上原生執行的程式。",
+    "ja": "クローズドソースの Xbox 360 版 Peggle 2 を静的再コンパイルして Windows でネイティブに動くプログラムにする。",
+    "ko": "폐쇄 소스 Xbox 360 버전 Peggle 2를 정적 재컴파일로 Windows에서 네이티브로 실행되게 만든다."
+  },
+  "islands-of-wakfu-recomp": {
+    "en": "Static recompilation of the closed-source Xbox 360 game Islands of Wakfu into a native PC program with Vulkan.",
+    "zh-CN": "把闭源的 Xbox 360 游戏 Islands of Wakfu 静态重编译成带 Vulkan 的原生 PC 程序。",
+    "zh-TW": "把閉源的 Xbox 360 遊戲 Islands of Wakfu 靜態重編譯成帶 Vulkan 的原生 PC 程式。",
+    "ja": "クローズドソースの Xbox 360 ゲーム Islands of Wakfu を静的再コンパイルして Vulkan 付きのネイティブ PC プログラムにする。",
+    "ko": "폐쇄 소스 Xbox 360 게임 Islands of Wakfu를 정적 재컴파일로 Vulkan이 있는 네이티브 PC 프로그램으로 만든다."
+  },
+  "Grand-Theft-Auto-2-Recompiled": {
+    "en": "Statically recompiles the closed-source PC version of Grand Theft Auto 2 into native Linux/Windows/Android builds with a Vulkan renderer.",
+    "zh-CN": "把闭源的 PC 版侠盗猎车手 2 静态重编译成带 Vulkan 渲染的原生 Linux/Windows/Android 版本。",
+    "zh-TW": "把閉源的 PC 版俠盜獵車手 2 靜態重編譯成帶 Vulkan 渲染的原生 Linux/Windows/Android 版本。",
+    "ja": "クローズドソースの PC 版 Grand Theft Auto 2 を静的再コンパイルして Vulkan レンダラー付きのネイティブ Linux/Windows/Android ビルドにする。",
+    "ko": "폐쇄 소스 PC 버전 Grand Theft Auto 2를 정적 재컴파일로 Vulkan 렌더러가 있는 네이티브 Linux/Windows/Android 빌드로 만든다."
+  },
+  "aw-recomp": {
+    "en": "Native Android port of the closed-source Xbox 360 game Call of Duty: Advanced Warfare made by static recompilation.",
+    "zh-CN": "用静态重编译把闭源的 Xbox 360 版使命召唤：高级战争做成能在 Android 上原生运行的版本。",
+    "zh-TW": "用靜態重編譯把閉源的 Xbox 360 版使命召喚：先進戰爭做成能在 Android 上原生執行的版本。",
+    "ja": "クローズドソースの Xbox 360 版 Call of Duty: Advanced Warfare を静的再コンパイルして Android でネイティブに動くポートにする。",
+    "ko": "폐쇄 소스 Xbox 360 버전 Call of Duty: Advanced Warfare를 정적 재컴파일로 Android에서 네이티브로 실행되게 만든다."
+  },
+  "sta-decomp": {
+    "en": "Matching decompilation of the closed-source PlayStation 2 game Shadow Tower Abyss by FromSoftware.",
+    "zh-CN": "FromSoftware 闭源 PS2 游戏《暗塔深渊》的匹配反编译项目。",
+    "zh-TW": "FromSoftware 閉源 PS2 遊戲《暗塔深淵》的匹配反編譯專案。",
+    "ja": "FromSoftware のクローズドソース PS2 ゲーム Shadow Tower Abyss のマッチング・デコンパイル。",
+    "ko": "FromSoftware의 폐쇄 소스 PS2 게임 Shadow Tower Abyss의 매칭 디컴파일 프로젝트."
+  },
+  "darksector-recomp": {
+    "en": "Static recompilation of the closed-source Xbox 360 game Dark Sector.",
+    "zh-CN": "闭源 Xbox 360 游戏 Dark Sector 的静态重编译项目。",
+    "zh-TW": "閉源 Xbox 360 遊戲 Dark Sector 的靜態重編譯專案。",
+    "ja": "クローズドソースの Xbox 360 ゲーム Dark Sector の静的再コンパイル。",
+    "ko": "폐쇄 소스 Xbox 360 게임 Dark Sector의 정적 재컴파일."
+  },
+  "Wolfenstein-TOB-Recomp": {
+    "en": "Native Apple Silicon port of the closed-source game Wolfenstein: The Old Blood made by static recompilation.",
+    "zh-CN": "用静态重编译把闭源游戏《德军总部：旧血脉》做成能在 Apple Silicon 上原生运行的版本。",
+    "zh-TW": "用靜態重編譯把閉源遊戲《德軍總部：舊血脈》做成能在 Apple Silicon 上原生執行的版本。",
+    "ja": "クローズドソースの Wolfenstein: The Old Blood を静的再コンパイルして Apple Silicon でネイティブに動くポートにする。",
+    "ko": "폐쇄 소스 게임 Wolfenstein: The Old Blood를 정적 재컴파일로 Apple Silicon에서 네이티브로 실행되게 만든다."
+  },
+  "OrbitalsPCRecomp": {
+    "en": "Native PC port of the closed-source Nintendo Switch game Orbitals made by static recompilation.",
+    "zh-CN": "用静态重编译把闭源的任天堂 Switch 游戏 Orbitals 做成原生 PC 版本。",
+    "zh-TW": "用靜態重編譯把閉源的任天堂 Switch 遊戲 Orbitals 做成原生 PC 版本。",
+    "ja": "クローズドソースの Nintendo Switch ゲーム Orbitals を静的再コンパイルしてネイティブ PC ポートにする。",
+    "ko": "폐쇄 소스 닌텐도 스위치 게임 Orbitals를 정적 재컴파일로 네이티브 PC 포트로 만든다."
+  },
+  "ProjectReCity": {
+    "en": "Static recompilation project that turns a closed-source Xbox Series copy of Grand Theft Auto VI into a native Windows program.",
+    "zh-CN": "把闭源的 Xbox Series 版《侠盗猎车手 VI》静态重编译成原生 Windows 程序的项目。",
+    "zh-TW": "把閉源的 Xbox Series 版《俠盜獵車手 VI》靜態重編譯成原生 Windows 程式的專案。",
+    "ja": "クローズドソースの Xbox Series 版 Grand Theft Auto VI を静的再コンパイルしてネイティブ Windows プログラムにするプロジェクト。",
+    "ko": "폐쇄 소스 Xbox Series 버전 Grand Theft Auto VI를 정적 재컴파일로 네이티브 Windows 프로그램으로 만드는 프로젝트."
+  },
+  "opencode-rea": {
+    "en": "A launcher that starts OpenCode with abliterated models and attaches the REA reverse-engineering MCP server.",
+    "zh-CN": "一键启动 OpenCode 并挂上 REA 逆向工程 MCP 服务器的启动器。",
+    "zh-TW": "一鍵啟動 OpenCode 並掛上 REA 逆向工程 MCP 伺服器的啟動器。",
+    "ja": "OpenCode をアブレーション済みモデルで起動し、REA リバースエンジニアリング MCP サーバーを接続するランチャー。",
+    "ko": "OpenCode를 제거된 모델로 시작하고 REA 역공학 MCP 서버를 연결하는 런처."
+  },
+  "Rested-RE": {
+    "en": "Clean-room reconstruction notes for the closed-source macOS REST client Rested 2.7.1.",
+    "zh-CN": "闭源 macOS REST 客户端 Rested 2.7.1 的清洁室重构笔记。",
+    "zh-TW": "閉源 macOS REST 客戶端 Rested 2.7.1 的清潔室重構筆記。",
+    "ja": "クローズドソースの macOS REST クライアント Rested 2.7.1 のクリーンルーム再構築ノート。",
+    "ko": "폐쇄 소스 macOS REST 클라이언트 Rested 2.7.1의 클린룸 재구성 노트."
+  },
+  "pokeblack2-pc": {
+    "en": "Native PC port of the closed-source DS game Pokémon Black 2 made by statically recompiling its decompilation.",
+    "zh-CN": "把闭源的 DS 游戏《宝可梦 黑2》的反编译结果静态重编译成原生 PC 版本。",
+    "zh-TW": "把閉源的 DS 遊戲《寶可夢 黑2》的反編譯結果靜態重編譯成原生 PC 版本。",
+    "ja": "クローズドソースの DS ゲーム ポケモン ブラック2 のデコンパイル結果を静的再コンパイルしてネイティブ PC ポートにする。",
+    "ko": "폐쇄 소스 DS 게임 포켓몬 블랙2의 디컴파일 결과를 정적 재컴파일로 네이티브 PC 포트로 만든다."
   }
 }

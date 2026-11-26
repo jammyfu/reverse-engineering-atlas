@@ -4462,5 +4462,101 @@
     "https://github.com/1llu50ry/Decompile",
     "No",
     "MCP server and CLI that aggregates over 230 reverse-engineering tools and 60+ backends (Ghidra, IDA, radare2, Frida, etc.) plus a large skill knowledge base for AI agents."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "Peggle2Recomp",
+    "https://github.com/Tacitts/Peggle2Recomp",
+    "No",
+    "Native Windows port of Peggle 2 (Xbox 360) via static recompilation with XenonRecomp."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "islands-of-wakfu-recomp",
+    "https://github.com/ShawnGengar/islands-of-wakfu-recomp",
+    "No",
+    "Static PC recompilation of Islands of Wakfu (Xbox 360 XBLA) with Vulkan."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Grand-Theft-Auto-2-Recompiled",
+    "https://github.com/almost-drowned-rat/Grand-Theft-Auto-2-Recompiled",
+    "No",
+    "GTA 2 (PC freeware) statically recompiled for Linux/Windows/Android with Vulkan."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "aw-recomp",
+    "https://github.com/yassinsolim/aw-recomp",
+    "No",
+    "Call of Duty: Advanced Warfare (Xbox 360) natively on Android via static recompilation."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "sta-decomp",
+    "https://github.com/Voicedrew11/sta-decomp",
+    "No",
+    "Matching decompilation of Shadow Tower Abyss (PS2, FromSoftware)."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "darksector-recomp",
+    "https://github.com/zonehammer/darksector-recomp",
+    "No",
+    "Static recompilation of Dark Sector (Xbox 360)."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Wolfenstein-TOB-Recomp",
+    "https://github.com/NightSightProductions/Wolfenstein-TOB-Recomp",
+    "No",
+    "Native Apple Silicon port of Wolfenstein: The Old Blood by static recompilation."
+  ],
+  [
+    "switch",
+    "decomp",
+    "OrbitalsPCRecomp",
+    "https://github.com/Dimi-Sama/OrbitalsPCRecomp",
+    "No",
+    "Native PC port of Orbitals (Switch) by static recompilation on SwitchRecomp."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "ProjectReCity",
+    "https://github.com/pixl27/ProjectReCity",
+    "No",
+    "Static recompilation of GTA VI (Xbox Series) for Windows. No game files included."
+  ],
+  [
+    "tooling",
+    "",
+    "opencode-rea",
+    "https://github.com/protonspy/opencode-rea",
+    "Yes",
+    "Launcher for OpenCode with abliterated models and the REA reverse-engineering MCP server."
+  ],
+  [
+    "app",
+    "",
+    "Rested-RE",
+    "https://github.com/AgentJim26/Rested-RE",
+    "No",
+    "Clean-room reconstruction notes for Rested 2.7.1 (macOS REST client)."
+  ],
+  [
+    "ds",
+    "decomp",
+    "pokeblack2-pc",
+    "https://github.com/Pokemon-PC/pokeblack2-pc",
+    "No",
+    "Native PC port of Pokémon Black 2 (DS) by static recompilation of the decomp."
   ]
 ]
