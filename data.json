@@ -4606,5 +4606,13 @@
     "https://github.com/saintiron82/macross30-recomp",
     "No",
     "Windows port of Macross 30: Voices across the Galaxy (PS3) via static recompilation. Bring your own ISO."
+  ],
+  [
+    "pc",
+    "remake",
+    "PipeKnight/drig-race-driver",
+    "https://github.com/PipeKnight/drig-race-driver",
+    "No",
+    "Rust/Bevy reimplementation of Race Driver: GRID (2008), with playable races and ongoing fidelity work. Requires the original PC game files."
   ]
 ]

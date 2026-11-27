@@ -6,7 +6,7 @@
 
 按目标、平台和技术整理逆向项目、工具与 Agent 工作流。开始自己动手前，先看看已有成果：游戏反编译与重编译、应用重实现、Android 与 JavaScript 分析、协议、固件及配套工具。
 
-**576 条目录记录 · 570 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
+**577 条目录记录 · 571 个 GitHub 仓库 · 10 类 skill 工作流 · 5 种 README 语言**
 
 Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累计 Star 快照排序，不是实时趋势；原快照未记录采集时间，缺失计数排在最后。所有条目均保留。
 
@@ -714,7 +714,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 </table>
 
 <details>
-<summary>查看该分类全部项目 (+41)</summary>
+<summary>查看该分类全部项目 (+42)</summary>
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
@@ -759,6 +759,7 @@ Switch 2 按编辑优先级置顶，不代表实测热度。分类内沿用累�
 <tr><td>—</td><td><a href="https://github.com/thepoprock/mudbrick"><b>mudbrick</b></a><br><sub>thepoprock</sub></td><td>从零开始、清洁室方式重写的免费开源浏览器版《文明2》（1996 年闭源经典）。用 TypeScript 写，MIT 协议。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/horizon-rust/horizon"><img src="images/horizon-cover.jpg" width="160" alt="horizon-rust/horizon"></a></td><td><a href="https://github.com/horizon-rust/horizon"><b>horizon</b></a><br><sub>horizon-rust</sub></td><td>用 Rust 从零重写的 Minecraft Java 版 26.3 免费开源版。能打开你已有的世界并遵循相同规则，用数百个测试与原版对比验证。使用 REA 工具检查 Java 字节码。</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pedryvo/comanche3-decomp"><b>comanche3-decomp</b></a><br><sub>pedryvo</sub></td><td>对闭源DOS游戏《科曼奇3》做逆向工程，并用现代免费Rust从零重写了一个可玩的引擎。MVP已经能加载原版地形并飞行训练任务。需要自备游戏数据。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/PipeKnight/drig-race-driver"><b>drig-race-driver</b></a><br><sub>PipeKnight</sub></td><td>Rust/Bevy reimplementation of Race Driver: GRID (2008), with playable races and ongoing fidelity work. Requires the original PC game files.</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
