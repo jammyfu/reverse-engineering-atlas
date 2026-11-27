@@ -3988,5 +3988,47 @@
     "zh-TW": "把閉源的 DS 遊戲《寶可夢 黑2》的反編譯結果靜態重編譯成原生 PC 版本。",
     "ja": "クローズドソースの DS ゲーム ポケモン ブラック2 のデコンパイル結果を静的再コンパイルしてネイティブ PC ポートにする。",
     "ko": "폐쇄 소스 DS 게임 포켓몬 블랙2의 디컴파일 결과를 정적 재컴파일로 네이티브 PC 포트로 만든다."
+  },
+  "PQMarine/UnderworldRevisited": {
+    "en": "Unity rewrite of the 1992 dungeon RPG Ultima Underworld: The Stygian Abyss, fully playable with your own game data.",
+    "zh-CN": "用 Unity 从零重写了 1992 年的经典地牢 RPG《Ultima Underworld: The Stygian Abyss》，可以用你自己的游戏数据完整游玩。",
+    "zh-TW": "用 Unity 從零重寫了 1992 年的經典地牢 RPG《Ultima Underworld: The Stygian Abyss》，可以用你自己的遊戲資料完整遊玩。",
+    "ja": "1992年のダンジョンRPG『Ultima Underworld: The Stygian Abyss』をUnityでゼロから書き直したもの。自分のゲームデータで完全に遊べます。",
+    "ko": "1992년 던전 RPG 《Ultima Underworld: The Stygian Abyss》를 Unity로 처음부터 다시 만든 것. 자신의 게임 데이터로 완전히 플레이 가능."
+  },
+  "JonathanDC64/Soulbrandt": {
+    "en": "Native PC port of the 2009 PS3 action RPG Demon's Souls, made by static recompilation so it runs without an emulator. Bring your own copy.",
+    "zh-CN": "把 2009 年 PS3 上的动作 RPG《Demon's Souls》通过静态重编译做成原生 PC 版，不用模拟器就能跑。需要自备游戏。",
+    "zh-TW": "把 2009 年 PS3 上的動作 RPG《Demon's Souls》透過靜態重編譯做成原生 PC 版，不用模擬器就能跑。需要自備遊戲。",
+    "ja": "2009年のPS3アクションRPG『Demon's Souls』を静的再コンパイルでネイティブPC版にした。エミュレーターなしで動作。自分のコピーが必要。",
+    "ko": "2009년 PS3 액션 RPG 《Demon's Souls》를 정적 재컴파일로 네이티브 PC 버전으로 만든 것. 에뮬레이터 없이 실행. 자신의 복사본 필요."
+  },
+  "aoxzh/bayo3-recomp": {
+    "en": "Static recompilation of Bayonetta 3 from Nintendo Switch into a native Windows/Linux/Android program with Vulkan graphics. Bring your own dump.",
+    "zh-CN": "把任天堂 Switch 上的《Bayonetta 3》通过静态重编译做成原生 Windows/Linux/Android 程序，用 Vulkan 渲染。需要自备转储。",
+    "zh-TW": "把任天堂 Switch 上的《Bayonetta 3》透過靜態重編譯做成原生 Windows/Linux/Android 程式，用 Vulkan 渲染。需要自備轉儲。",
+    "ja": "Nintendo Switchの『Bayonetta 3』を静的再コンパイルしてVulkan対応のネイティブWindows/Linux/Android版に。自分のダンプが必要。",
+    "ko": "Nintendo Switch의 《Bayonetta 3》를 정적 재컴파일로 Vulkan 그래픽의 네이티브 Windows/Linux/Android 프로그램으로 만든 것. 자신의 덤프 필요."
+  },
+  "OpenSmash-Ultimate/OpenSmash-Ultimate": {
+    "en": "Merged static recompilation of Super Smash Bros. Ultimate (Nintendo Switch) into a native PC program. Bring your own dump and keys.",
+    "zh-CN": "把任天堂 Switch 上的《Super Smash Bros. Ultimate》通过静态重编译合并做成原生 PC 版。需要自备转储和密钥。",
+    "zh-TW": "把任天堂 Switch 上的《Super Smash Bros. Ultimate》透過靜態重編譯合併做成原生 PC 版。需要自備轉儲和金鑰。",
+    "ja": "Nintendo Switchの『大乱闘スマッシュブラザーズ SPECIAL』を静的再コンパイルでネイティブPC版に統合。自分のダンプとキーが必要。",
+    "ko": "Nintendo Switch의 《Super Smash Bros. Ultimate》를 정적 재컴파일로 네이티브 PC 프로그램으로 병합한 것. 자신의 덤프와 키 필요."
+  },
+  "santiquiroz/gears-of-war-2-pc-port": {
+    "en": "Unofficial native PC port of the 2008 Xbox 360 shooter Gears of War 2, made by static recompilation. Bring your own retail copy.",
+    "zh-CN": "把 2008 年 Xbox 360 上的射击游戏《Gears of War 2》通过静态重编译做成非官方原生 PC 版。需要自备零售版。",
+    "zh-TW": "把 2008 年 Xbox 360 上的射擊遊戲《Gears of War 2》透過靜態重編譯做成非官方原生 PC 版。需要自備零售版。",
+    "ja": "2008年のXbox 360シューター『Gears of War 2』を静的再コンパイルで非公式ネイティブPC版に。自分の小売版が必要。",
+    "ko": "2008년 Xbox 360 슈터 《Gears of War 2》를 정적 재컴파일로 비공식 네이티브 PC 포트로 만든 것. 자신의 소매 복사본 필요."
+  },
+  "saintiron82/macross30-recomp": {
+    "en": "Windows port of the 2013 PS3 game Macross 30: Voices across the Galaxy via static recompilation. Bring your own ISO.",
+    "zh-CN": "把 2013 年 PS3 上的《Macross 30: Voices across the Galaxy》通过静态重编译做成 Windows 版。需要自备 ISO。",
+    "zh-TW": "把 2013 年 PS3 上的《Macross 30: Voices across the Galaxy》透過靜態重編譯做成 Windows 版。需要自備 ISO。",
+    "ja": "2013年のPS3ゲーム『マクロス30 銀河を繋ぐ歌声』を静的再コンパイルでWindows版に。自分のISOが必要。",
+    "ko": "2013년 PS3 게임 《Macross 30: Voices across the Galaxy》를 정적 재컴파일로 Windows 포트로 만든 것. 자신의 ISO 필요."
   }
 }
