@@ -4030,5 +4030,12 @@
     "zh-TW": "把 2013 年 PS3 上的《Macross 30: Voices across the Galaxy》透過靜態重編譯做成 Windows 版。需要自備 ISO。",
     "ja": "2013年のPS3ゲーム『マクロス30 銀河を繋ぐ歌声』を静的再コンパイルでWindows版に。自分のISOが必要。",
     "ko": "2013년 PS3 게임 《Macross 30: Voices across the Galaxy》를 정적 재컴파일로 Windows 포트로 만든 것. 자신의 ISO 필요."
+  },
+  "PipeKnight/drig-race-driver": {
+    "en": "Rust/Bevy reimplementation of Race Driver: GRID (2008), with playable races and ongoing fidelity work. Requires the original PC game files.",
+    "zh-CN": "Rust/Bevy reimplementation of Race Driver: GRID (2008), with playable races and ongoing fidelity work. Requires the original PC game files.",
+    "zh-TW": "Rust/Bevy reimplementation of Race Driver: GRID (2008), with playable races and ongoing fidelity work. Requires the original PC game files.",
+    "ja": "Rust/Bevy reimplementation of Race Driver: GRID (2008), with playable races and ongoing fidelity work. Requires the original PC game files.",
+    "ko": "Rust/Bevy reimplementation of Race Driver: GRID (2008), with playable races and ongoing fidelity work. Requires the original PC game files."
   }
 }

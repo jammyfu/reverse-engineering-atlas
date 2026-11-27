@@ -6,7 +6,7 @@
 
 逆解析プロジェクト、ツール、エージェントのワークフローを対象・プラットフォーム・技術別に整理したカタログです。ゲームの逆コンパイルと再コンパイル、アプリの再実装、Android・JavaScript 解析、プロトコル、ファームウェアの既存成果を探せます。
 
-**576 件の項目 · 570 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
+**577 件の項目 · 571 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
 
 Switch 2 は編集上の優先項目であり、人気の実測順位ではありません。各分類は既存の累計 Star スナップショット順で、リアルタイムのトレンドではありません。取得日時は未記録、件数不明の項目は末尾です。全項目を保持しています。
 
@@ -714,7 +714,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 </table>
 
 <details>
-<summary>このカテゴリをすべて表示 (+41)</summary>
+<summary>このカテゴリをすべて表示 (+42)</summary>
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
@@ -759,6 +759,7 @@ Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォー�
 <tr><td>—</td><td><a href="https://github.com/thepoprock/mudbrick"><b>mudbrick</b></a><br><sub>thepoprock</sub></td><td>クローズドソースの『シド・マイヤーのシヴィライゼーション II』（1996年）を、クリーンルーム方式でゼロから TypeScript で書き直した無料オープンソースのブラウザ版。MIT ライセンス。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/horizon-rust/horizon"><img src="images/horizon-cover.jpg" width="160" alt="horizon-rust/horizon"></a></td><td><a href="https://github.com/horizon-rust/horizon"><b>horizon</b></a><br><sub>horizon-rust</sub></td><td>Rustでゼロから書き直したMinecraft Java版26.3の無料オープンソース版。既存のワールドを開けて同じルールで動き、数百のテストで原版と照合。REAツールでJavaバイトコードを検査。</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pedryvo/comanche3-decomp"><b>comanche3-decomp</b></a><br><sub>pedryvo</sub></td><td>クローズドソースのDOSゲーム「Comanche 3」のリバースエンジニアリングと、現代の無料Rustによる再実装。プレイ可能なMVPはオリジナル地形を読み込んで訓練ミッションを飛行可能。自分のゲームデータが必要。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/PipeKnight/drig-race-driver"><b>drig-race-driver</b></a><br><sub>PipeKnight</sub></td><td>Rust/Bevy reimplementation of Race Driver: GRID (2008), with playable races and ongoing fidelity work. Requires the original PC game files.</td><td>いいえ</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>

@@ -6,7 +6,7 @@
 
 역공학 프로젝트, 도구와 에이전트 작업 흐름을 대상·플랫폼·기술별로 모은 목록입니다. 게임 디컴파일과 리컴파일, 앱 재구현, Android·JavaScript 분석, 프로토콜과 펌웨어 분야에서 기존 작업을 먼저 찾아보세요.
 
-**목록 576개 · GitHub 저장소 570개 · skill 작업 흐름 10종 · README 5개 언어**
+**목록 577개 · GitHub 저장소 571개 · skill 작업 흐름 10종 · README 5개 언어**
 
 Switch 2는 편집상 우선순위이며 실측 인기 순위가 아닙니다. 분류 내에서는 기존 누적 Star 스냅샷을 사용하며 실시간 추세가 아닙니다. 수집 시각은 기록되지 않았으며 수치가 없는 항목은 마지막에 표시합니다. 모든 항목은 유지됩니다.
 
@@ -714,7 +714,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 </table>
 
 <details>
-<summary>이 분류의 모든 프로젝트 보기 (+41)</summary>
+<summary>이 분류의 모든 프로젝트 보기 (+42)</summary>
 
 <table>
 <tr><th width="170">이미지</th><th>프로젝트</th><th>소개</th><th>rea 사용</th><th>이미지 출처</th></tr>
@@ -759,6 +759,7 @@ Ctrl+F / Cmd+F로 대상명, 소유자/저장소, 플랫폼 또는 APK, DEX, Ele
 <tr><td>—</td><td><a href="https://github.com/thepoprock/mudbrick"><b>mudbrick</b></a><br><sub>thepoprock</sub></td><td>클로즈드 소스인 시드 마이어의 문명 II(1996)를 클린룸 방식으로 처음부터 TypeScript로 다시 쓴 무료 오픈소스 브라우저 재구현. MIT 라이선스.</td><td>아니요</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/horizon-rust/horizon"><img src="images/horizon-cover.jpg" width="160" alt="horizon-rust/horizon"></a></td><td><a href="https://github.com/horizon-rust/horizon"><b>horizon</b></a><br><sub>horizon-rust</sub></td><td>Rust로 처음부터 다시 쓴 Minecraft Java Edition 26.3의 무료 오픈소스 버전. 기존 월드를 열고 같은 규칙을 따르며 수백 개의 테스트로 원본과 비교 검증. REA 도구로 Java 바이트코드를 검사.</td><td>✅ 예</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pedryvo/comanche3-decomp"><b>comanche3-decomp</b></a><br><sub>pedryvo</sub></td><td>폐쇄 소스 DOS 게임 Comanche 3의 리버스 엔지니어링과 현대적인 무료 Rust 재구현. 플레이 가능한 MVP는 원본 지형을 로드하고 훈련 미션을 비행. 자신의 게임 데이터 필요.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/PipeKnight/drig-race-driver"><b>drig-race-driver</b></a><br><sub>PipeKnight</sub></td><td>Rust/Bevy reimplementation of Race Driver: GRID (2008), with playable races and ongoing fidelity work. Requires the original PC game files.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>

@@ -6,7 +6,7 @@
 
 A curated map of reverse-engineering projects, tools and agent workflows. Find existing work before starting your own: game decompilations and recompilations, application reimplementations, Android and JavaScript analysis, protocols, firmware and supporting tools.
 
-**576 catalog entries · 570 GitHub repositories · 10 skill workflows · 5 README languages**
+**577 catalog entries · 571 GitHub repositories · 10 skill workflows · 5 README languages**
 
 Switch 2 is an editorial priority, not a measured popularity claim. Within each section, projects use the existing cumulative Star snapshot, not live trending data. The snapshot has no capture timestamp; missing counts sort last. All entries remain available below.
 
@@ -714,7 +714,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 </table>
 
 <details>
-<summary>Browse the complete category (+41)</summary>
+<summary>Browse the complete category (+42)</summary>
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
@@ -759,6 +759,7 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 <tr><td>—</td><td><a href="https://github.com/thepoprock/mudbrick"><b>mudbrick</b></a><br><sub>thepoprock</sub></td><td>A clean-room, from-scratch open-source browser re-creation of the closed-source Sid Meier&#x27;s Civilization II (1996), written in TypeScript. MIT licensed.</td><td>No</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/horizon-rust/horizon"><img src="images/horizon-cover.jpg" width="160" alt="horizon-rust/horizon"></a></td><td><a href="https://github.com/horizon-rust/horizon"><b>horizon</b></a><br><sub>horizon-rust</sub></td><td>A free open-source rewrite of Minecraft: Java Edition 26.3 in Rust. It opens your existing worlds and follows the same rules, checked against the original with hundreds of tests. Uses REA tools for inspecting the Java bytecode.</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/pedryvo/comanche3-decomp"><b>comanche3-decomp</b></a><br><sub>pedryvo</sub></td><td>Reverse engineering and a modern free Rust reimplementation of the closed-source DOS game Comanche 3. Playable MVP loads original terrain and lets you fly a training mission. Bring your own game data.</td><td>No</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/PipeKnight/drig-race-driver"><b>drig-race-driver</b></a><br><sub>PipeKnight</sub></td><td>Rust/Bevy reimplementation of Race Driver: GRID (2008), with playable races and ongoing fidelity work. Requires the original PC game files.</td><td>No</td><td><sub>—</sub></td></tr>
 </table>
 
 </details>
