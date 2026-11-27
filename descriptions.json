@@ -4030,5 +4030,47 @@
     "zh-TW": "把 2013 年 PS3 上的《Macross 30: Voices across the Galaxy》透過靜態重編譯做成 Windows 版。需要自備 ISO。",
     "ja": "2013年のPS3ゲーム『マクロス30 銀河を繋ぐ歌声』を静的再コンパイルでWindows版に。自分のISOが必要。",
     "ko": "2013년 PS3 게임 《Macross 30: Voices across the Galaxy》를 정적 재컴파일로 Windows 포트로 만든 것. 자신의 ISO 필요."
+  },
+  "ripleyXLR8/basecraft": {
+    "en": "Free open-source Rust rewrite of the closed-source FileMaker Pro 26 database app that can open, edit and save real .fmp12 files.",
+    "zh-CN": "用纯 Rust 从零重写了一个类似闭源软件 FileMaker Pro 26 的免费开源数据库工具，能读写真正的 .fmp12 文件。",
+    "zh-TW": "用純 Rust 從零重寫了一個類似閉源軟體 FileMaker Pro 26 的免費開源資料庫工具，能讀寫真正的 .fmp12 檔案。",
+    "ja": "クローズドソースの FileMaker Pro 26 に似た、無料のオープンソースデータベースアプリを純粋な Rust でゼロから作り直し、本物の .fmp12 ファイルを読み書きできる。",
+    "ko": "폐쇄형 FileMaker Pro 26과 비슷한 무료 오픈소스 데이터베이스 앱을 순수 Rust로 처음부터 다시 만들었고, 실제 .fmp12 파일을 읽고 쓸 수 있다."
+  },
+  "sholdee/conker-decomp": {
+    "en": "Byte-for-byte matching decompilation of the closed-source N64 game Conker's Bad Fur Day (US version).",
+    "zh-CN": "把闭源的任天堂 64 游戏《Conker's Bad Fur Day》美国版逐字节匹配地反编译成可编译的源代码。",
+    "zh-TW": "把閉源的任天堂 64 遊戲《Conker's Bad Fur Day》美國版逐位元組匹配地反編譯成可編譯的原始碼。",
+    "ja": "クローズドソースの N64 ゲーム Conker's Bad Fur Day（US 版）をバイト単位で一致するソースコードに逆コンパイルした。",
+    "ko": "폐쇄형 N64 게임 Conker's Bad Fur Day(미국판)을 바이트 단위로 일치하는 소스 코드로 디컴파일했다."
+  },
+  "Buyukcaglar/worms-united": {
+    "en": "Turned the closed-source 1996 DOS game Worms United into a native 64-bit Windows program by static recompilation. Bring your own copy.",
+    "zh-CN": "把 1996 年闭源 DOS 游戏《Worms United》通过静态重编译做成原生 64 位 Windows 程序。需要自备游戏。",
+    "zh-TW": "把 1996 年閉源 DOS 遊戲《Worms United》透過靜態重編譯做成原生 64 位元 Windows 程式。需要自備遊戲。",
+    "ja": "1996 年のクローズドソース DOS ゲーム Worms United を静的再コンパイルでネイティブ 64 ビット Windows プログラムにした。自分のコピーが必要。",
+    "ko": "1996년 폐쇄형 DOS 게임 Worms United를 정적 재컴파일로 네이티브 64비트 Windows 프로그램으로 만들었다. 본인 복사본이 필요하다."
+  },
+  "verdite-project/sta-decomp": {
+    "en": "Matching decompilation of the closed-source PS2 game Shadow Tower Abyss (FromSoftware, 2003). Covered parts rebuild byte-for-byte to the original ROM.",
+    "zh-CN": "把闭源的 PS2 游戏《Shadow Tower Abyss》（FromSoftware，2003）做匹配反编译，覆盖部分能逐字节还原成原版 ROM。",
+    "zh-TW": "把閉源的 PS2 遊戲《Shadow Tower Abyss》（FromSoftware，2003）做匹配反編譯，覆蓋部分能逐位元組還原成原版 ROM。",
+    "ja": "クローズドソースの PS2 ゲーム Shadow Tower Abyss（FromSoftware、2003）のマッチング逆コンパイル。カバー部分は元の ROM とバイト単位で一致する。",
+    "ko": "폐쇄형 PS2 게임 Shadow Tower Abyss(FromSoftware, 2003)의 매칭 디컴파일. 다룬 부분은 원본 ROM과 바이트 단위로 일치한다."
+  },
+  "ComfyShorts/Carnage-Heart-EXA-Decomp": {
+    "en": "Decompilation of the closed-source PSP game Carnage Heart EXA. Bring your own dump.",
+    "zh-CN": "把闭源的 PSP 游戏《Carnage Heart EXA》反编译成源代码。需要自备转储。",
+    "zh-TW": "把閉源的 PSP 遊戲《Carnage Heart EXA》反編譯成原始碼。需要自備轉儲。",
+    "ja": "クローズドソースの PSP ゲーム Carnage Heart EXA をソースコードに逆コンパイルした。自分のダンプが必要。",
+    "ko": "폐쇄형 PSP 게임 Carnage Heart EXA를 소스 코드로 디컴파일했다. 본인 덤프가 필요하다."
+  },
+  "demerest/boogerman-pc": {
+    "en": "Native PC and Steam Deck port of the closed-source Mega Drive game Boogerman via static recompilation. Bring your own dump.",
+    "zh-CN": "把闭源的 Mega Drive 游戏《Boogerman》通过静态重编译做成原生 PC / Steam Deck 版。需要自备转储。",
+    "zh-TW": "把閉源的 Mega Drive 遊戲《Boogerman》透過靜態重編譯做成原生 PC / Steam Deck 版。需要自備轉儲。",
+    "ja": "クローズドソースの Mega Drive ゲーム Boogerman を静的再コンパイルでネイティブ PC / Steam Deck 版にした。自分のダンプが必要。",
+    "ko": "폐쇄형 Mega Drive 게임 Boogerman를 정적 재컴파일로 네이티브 PC / Steam Deck 버전으로 만들었다. 본인 덤프가 필요하다."
   }
 }

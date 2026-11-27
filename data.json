@@ -4606,5 +4606,53 @@
     "https://github.com/saintiron82/macross30-recomp",
     "No",
     "Windows port of Macross 30: Voices across the Galaxy (PS3) via static recompilation. Bring your own ISO."
+  ],
+  [
+    "app",
+    "",
+    "ripleyXLR8/basecraft",
+    "https://github.com/ripleyXLR8/basecraft",
+    "No",
+    "Clean-room reimplementation of FileMaker Pro 26 in pure Rust that reads and writes .fmp12 files. Not affiliated with Claris."
+  ],
+  [
+    "n64",
+    "decomp",
+    "sholdee/conker-decomp",
+    "https://github.com/sholdee/conker-decomp",
+    "No",
+    "Byte-matching decompilation of Conker's Bad Fur Day (N64, US release). CPU code fully matched."
+  ],
+  [
+    "pc",
+    "remake",
+    "Buyukcaglar/worms-united",
+    "https://github.com/Buyukcaglar/worms-united",
+    "No",
+    "Static recompilation of Worms United (1996 DOS) to native 64-bit Windows. Bring your own copy."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "verdite-project/sta-decomp",
+    "https://github.com/verdite-project/sta-decomp",
+    "No",
+    "Matching decompilation of Shadow Tower Abyss (PS2, FromSoftware 2003). Build reproduces retail ROM byte-for-byte for covered parts."
+  ],
+  [
+    "pc",
+    "decomp",
+    "ComfyShorts/Carnage-Heart-EXA-Decomp",
+    "https://github.com/ComfyShorts/Carnage-Heart-EXA-Decomp",
+    "No",
+    "Decompilation of Carnage Heart EXA for PSP. Bring your own dump."
+  ],
+  [
+    "pc",
+    "remake",
+    "demerest/boogerman-pc",
+    "https://github.com/demerest/boogerman-pc",
+    "No",
+    "Native PC / Steam Deck port of Boogerman (Mega Drive) via static recompilation. Bring your own dump."
   ]
 ]
