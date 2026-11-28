@@ -4654,5 +4654,29 @@
     "https://github.com/demerest/boogerman-pc",
     "No",
     "Native PC / Steam Deck port of Boogerman (Mega Drive) via static recompilation. Bring your own dump."
+  ],
+  [
+    "tooling",
+    "tools",
+    "psxrecomp-decomp-bridge",
+    "https://github.com/sirebacon/psxrecomp-decomp-bridge",
+    "No",
+    "Tool that feeds function names and boundaries from a PlayStation decompilation into a psxrecomp-based static recompilation so the recompiled code has readable names."
+  ],
+  [
+    "tooling",
+    "",
+    "Open Decomp",
+    "https://github.com/DimitriFourny/open-decomp",
+    "No",
+    "A pure TypeScript decompiler and disassembler for native binaries (Mach-O, PE, ELF) with MCP support, built so AI agents can analyze code without a JVM."
+  ],
+  [
+    "pc",
+    "decomp",
+    "SegaSonic The Hedgehog decomp",
+    "https://github.com/cheviman/segasonic-decomp",
+    "No",
+    "Decompilation of the 1993 Sega System 32 arcade game SegaSonic The Hedgehog into readable C, with a native port that runs without emulation; bring your own ROM."
   ]
 ]

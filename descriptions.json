@@ -4072,5 +4072,26 @@
     "zh-TW": "把閉源的 Mega Drive 遊戲《Boogerman》透過靜態重編譯做成原生 PC / Steam Deck 版。需要自備轉儲。",
     "ja": "クローズドソースの Mega Drive ゲーム Boogerman を静的再コンパイルでネイティブ PC / Steam Deck 版にした。自分のダンプが必要。",
     "ko": "폐쇄형 Mega Drive 게임 Boogerman를 정적 재컴파일로 네이티브 PC / Steam Deck 버전으로 만들었다. 본인 덤프가 필요하다."
+  },
+  "psxrecomp-decomp-bridge": {
+    "en": "A tool that takes function names from a PlayStation game decompilation and puts them into a psxrecomp recompilation so the generated code has real names instead of func_80191B94.",
+    "zh-CN": "把 PlayStation 游戏反编译里的函数名和边界喂给 psxrecomp 静态重编译，让生成的代码有可读名字而不是 func_80191B94。",
+    "zh-TW": "把 PlayStation 遊戲反編譯裡的函式名稱和邊界餵給 psxrecomp 靜態重編譯，讓產生的程式碼有可讀名稱而不是 func_80191B94。",
+    "ja": "PlayStation ゲームのデコンパイルから関数名と境界を psxrecomp の静的リコンパイルに渡して、生成コードに func_80191B94 ではなく意味のある名前をつけるツール。",
+    "ko": "PlayStation 게임 디컴파일의 함수 이름과 경계를 psxrecomp 정적 리컴파일에 넣어 생성된 코드가 func_80191B94 대신 실제 이름을 갖도록 하는 도구."
+  },
+  "Open Decomp": {
+    "en": "A pure TypeScript decompiler for native binaries (Mac, Windows, Linux) that gives AI agents readable pseudocode without needing a JVM or heavy plugins.",
+    "zh-CN": "纯 TypeScript 写的原生二进制反编译器，支持 Mac、Windows、Linux，给 AI 智能体提供可读伪代码，不需要 JVM。",
+    "zh-TW": "純 TypeScript 寫的原生二進位反編譯器，支援 Mac、Windows、Linux，給 AI 代理提供可讀偽程式碼，不需要 JVM。",
+    "ja": "ネイティブバイナリ（Mac、Windows、Linux）向けの純粋 TypeScript デコンパイラ。JVM なしで AI エージェントに読みやすい擬似コードを提供。",
+    "ko": "네이티브 바이너리(Mac, Windows, Linux)용 순수 TypeScript 디컴파일러. JVM 없이 AI 에이전트에 읽기 쉬운 의사코드를 제공."
+  },
+  "SegaSonic The Hedgehog decomp": {
+    "en": "From-scratch decompilation of the 1993 Sega System 32 arcade game SegaSonic The Hedgehog into readable C, plus a native port that runs without an emulator (bring your own ROM).",
+    "zh-CN": "把 1993 年世嘉 System 32 街机游戏《世嘉索尼克》从零反编译成可读 C 代码，并做了不需要模拟器的原生移植（需自备 ROM）。",
+    "zh-TW": "把 1993 年世嘉 System 32 街機遊戲《世嘉索尼克》從零反編譯成可讀 C 程式碼，並做了不需要模擬器的原生移植（需自備 ROM）。",
+    "ja": "1993 年のセガ System 32 アーケードゲーム『セガソニック・ザ・ヘッジホッグ』をゼロから可読な C にデコンパイルし、エミュレータなしのネイティブポートも用意（ROM は自分で用意）。",
+    "ko": "1993년 세가 System 32 아케이드 게임 『세가소닉 더 헤지혹』을 처음부터 읽기 쉬운 C로 디컴파일하고, 에뮬레이터 없이 네이티브 포트도 제공(ROM은 직접 준비)."
   }
 }
